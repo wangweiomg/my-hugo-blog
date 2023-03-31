@@ -1,15 +1,14 @@
 ---
 title: "Week1013_tip"
-date: 2023-03-31T11:59:07Z
+date: 2023-03-31T15:45:35Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## ARTS - Tip

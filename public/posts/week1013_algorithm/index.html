@@ -21,7 +21,7 @@ public int mySqrt(int x) { if (x &amp;lt;= 0) { return 0; } for (int i = 0; i &a
 
     <title>
         
-            Week1013_algorithm :: Hello Friend NG  — A simple theme for Hugo
+            Week1013_algorithm :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -53,8 +53,8 @@ public int mySqrt(int x) { if (x &amp;lt;= 0) { return 0; } for (int i = 0; i &a
 输入: 4 输出: 2 示例 2:
 输入: 8 输出: 2 说明: 8 的平方根是 2.82842&hellip;, 由于返回类型是整数，小数部分将被舍去。
 分析 这个是求开方的结果，很容易想到按顺序i找，如果存在 i 就去找 i*i &lt;= x &amp;&amp; （i&#43;1）*(i&#43;1)&gt;x的情况，这个i就是要的结果，于是代码就如下了；
-public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x; i&#43;&#43;) { boolean flag = i*i &lt;= x &amp;&amp; (i &#43; 1) * (i &#43; 1) &gt; x; if (flag) { return i; } } return 0; } 然后提交后就失败了，因为存在 int 越界的情况，如果 i*i 大于 int最大值，那么就得不到正确的答案了，于是就把 int转为long型来处理："><meta itemprop="datePublished" content="2023-03-31T11:59:07+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:59:07+00:00" />
+public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x; i&#43;&#43;) { boolean flag = i*i &lt;= x &amp;&amp; (i &#43; 1) * (i &#43; 1) &gt; x; if (flag) { return i; } } return 0; } 然后提交后就失败了，因为存在 int 越界的情况，如果 i*i 大于 int最大值，那么就得不到正确的答案了，于是就把 int转为long型来处理："><meta itemprop="datePublished" content="2023-03-31T15:45:35+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:35+00:00" />
 <meta itemprop="wordCount" content="217"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -83,9 +83,8 @@ public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x
 public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x; i&#43;&#43;) { boolean flag = i*i &lt;= x &amp;&amp; (i &#43; 1) * (i &#43; 1) &gt; x; if (flag) { return i; } } return 0; } 然后提交后就失败了，因为存在 int 越界的情况，如果 i*i 大于 int最大值，那么就得不到正确的答案了，于是就把 int转为long型来处理：" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1013_algorithm/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:59:07+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:59:07+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:35+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:35+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -93,7 +92,7 @@ public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:59:07 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:35 &#43;0000 UTC" />
 
 
 
@@ -118,7 +117,7 @@ public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -272,7 +271,7 @@ public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:59
+          2023-03-31 15:45
         
 
          
@@ -386,17 +385,17 @@ public int mySqrt(int x) { if (x &lt;= 0) { return 0; } for (int i = 0; i &lt; x
         <div class="pagination__buttons">
             
             <span class="button previous">
-                <a href="https://ifaa.top/posts/week1007_tip/">
+                <a href="https://ifaa.top/posts/week1012_tip/">
                     <span class="button__icon">←</span>
-                    <span class="button__text">Week1007_tip</span>
+                    <span class="button__text">Week1012_tip</span>
                 </a>
             </span>
             
 
             
             <span class="button next">
-                <a href="https://ifaa.top/posts/week1013_review/">
-                    <span class="button__text">Week1013_review</span>
+                <a href="https://ifaa.top/posts/week1013_tip/">
+                    <span class="button__text">Week1013_tip</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>

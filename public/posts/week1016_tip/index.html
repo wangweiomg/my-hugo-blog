@@ -21,7 +21,7 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
 
     <title>
         
-            Week1016_tip :: Hello Friend NG  — A simple theme for Hugo
+            Week1016_tip :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -53,8 +53,8 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
 SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u.id = ur.user_id AND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &#39;xxx&#39;) 问题分析 根据上面SQL，做的事情是
 查找所有的用户表， 关联上 用户角色表， 这个用户角色表数据只有角色ID 是 role_type = xxx 的数据。连接用的是LEFT JOIN，这样的话，左边的数据是 &gt;= 右边的数据，左边会出现一些无用数据。
 出现使用LEFT JOIN 是对连接的范围理解的有误。 关于各种连接，下面一张图就能看明白：
-问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。"><meta itemprop="datePublished" content="2023-03-31T11:58:51+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:58:51+00:00" />
+问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。"><meta itemprop="datePublished" content="2023-03-31T15:45:37+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:37+00:00" />
 <meta itemprop="wordCount" content="107"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -83,9 +83,8 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
 问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1016_tip/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:58:51+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:58:51+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:37+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:37+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -93,7 +92,7 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:58:51 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:37 &#43;0000 UTC" />
 
 
 
@@ -118,7 +117,7 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -246,7 +245,7 @@ where u.id In (
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:58
+          2023-03-31 15:45
         
 
          
@@ -369,8 +368,8 @@ where u.id In (
 
             
             <span class="button next">
-                <a href="https://ifaa.top/posts/week1018_algorithm/">
-                    <span class="button__text">Week1018_algorithm</span>
+                <a href="https://ifaa.top/posts/week1017_algorithm/">
+                    <span class="button__text">Week1017_algorithm</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>

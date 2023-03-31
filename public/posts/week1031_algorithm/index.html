@@ -20,7 +20,7 @@ Prev -&amp;gt; node -&amp;gt; node.next -&amp;gt; node.next.next
 
     <title>
         
-            Week1031_algorithm :: Hello Friend NG  — A simple theme for Hugo
+            Week1031_algorithm :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -51,8 +51,8 @@ Prev -&amp;gt; node -&amp;gt; node.next -&amp;gt; node.next.next
 给定 1-&gt;2-&gt;3-&gt;4, 你应该返回 2-&gt;1-&gt;4-&gt;3. 分析 这道题要两两交换，且是节点实际交换，那么就是操作指针了。交换节点操作指针时候的重点是不能丢了指向，就是 1、2交换不能丢失他们后继 3，而且，交换后也不能忘了3 的前驱是1，因此我们要保留四个节点：
 Prev -&gt; node -&gt; node.next -&gt; node.next.next
 可以给开头一个假的节点，作为第一个前驱。所以操作步骤如下：
-建立假头部指向链表，这个假头部当做prev。 建立三个指针指向当前、当前的后继、当前的后继的后继 操作指向 前驱指向第二个节点 第一个节点指向第三个节点 第二个节点指向第一个节点 当前指针向前推进 代码 public static ListNode swapPairs(ListNode head) { ListNode prev = new ListNode(0); prev.next = head; head = prev; ListNode node = prev.next; while (node != null &amp;&amp; node.next != null) { // 保存三个 ListNode first = node; ListNode second = node."><meta itemprop="datePublished" content="2023-03-31T11:58:55+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:58:55+00:00" />
+建立假头部指向链表，这个假头部当做prev。 建立三个指针指向当前、当前的后继、当前的后继的后继 操作指向 前驱指向第二个节点 第一个节点指向第三个节点 第二个节点指向第一个节点 当前指针向前推进 代码 public static ListNode swapPairs(ListNode head) { ListNode prev = new ListNode(0); prev.next = head; head = prev; ListNode node = prev.next; while (node != null &amp;&amp; node.next != null) { // 保存三个 ListNode first = node; ListNode second = node."><meta itemprop="datePublished" content="2023-03-31T15:45:44+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:44+00:00" />
 <meta itemprop="wordCount" content="102"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -79,9 +79,8 @@ Prev -&gt; node -&gt; node.next -&gt; node.next.next
 建立假头部指向链表，这个假头部当做prev。 建立三个指针指向当前、当前的后继、当前的后继的后继 操作指向 前驱指向第二个节点 第一个节点指向第三个节点 第二个节点指向第一个节点 当前指针向前推进 代码 public static ListNode swapPairs(ListNode head) { ListNode prev = new ListNode(0); prev.next = head; head = prev; ListNode node = prev.next; while (node != null &amp;&amp; node.next != null) { // 保存三个 ListNode first = node; ListNode second = node." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1031_algorithm/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:58:55+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:58:55+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:44+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:44+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -89,7 +88,7 @@ Prev -&gt; node -&gt; node.next -&gt; node.next.next
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:58:55 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:44 &#43;0000 UTC" />
 
 
 
@@ -114,7 +113,7 @@ Prev -&gt; node -&gt; node.next -&gt; node.next.next
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -259,7 +258,7 @@ Prev -&gt; node -&gt; node.next -&gt; node.next.next
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:58
+          2023-03-31 15:45
         
 
          
@@ -373,9 +372,9 @@ Prev -&gt; node -&gt; node.next -&gt; node.next.next
         <div class="pagination__buttons">
             
             <span class="button previous">
-                <a href="https://ifaa.top/posts/week1009_tip/">
+                <a href="https://ifaa.top/posts/week1035_algorithm/">
                     <span class="button__icon">←</span>
-                    <span class="button__text">Week1009_tip</span>
+                    <span class="button__text">Week1035_algorithm</span>
                 </a>
             </span>
             

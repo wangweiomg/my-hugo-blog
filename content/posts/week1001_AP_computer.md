@@ -1,15 +1,14 @@
 ---
 title: "Week1001_AP_computer"
-date: 2023-03-31T11:59:01Z
+date: 2023-03-31T15:45:30Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## ARTS

@@ -1,15 +1,14 @@
 ---
 title: "Week1011_algorithm"
-date: 2023-03-31T11:58:57Z
+date: 2023-03-31T15:45:34Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## ARTS - Algorithm

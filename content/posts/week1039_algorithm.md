@@ -1,15 +1,14 @@
 ---
 title: "Week1039_algorithm"
-date: 2023-03-31T11:58:53Z
+date: 2023-03-31T15:45:47Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## Algorithm - [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/description/)

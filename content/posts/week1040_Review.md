@@ -1,15 +1,14 @@
 ---
 title: "Week1040_Review"
-date: 2023-03-31T11:59:05Z
+date: 2023-03-31T15:45:48Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## Review - [Java类加载机制](https://www.baeldung.com/java-classloaders)

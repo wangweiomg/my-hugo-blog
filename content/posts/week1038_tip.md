@@ -1,15 +1,14 @@
 ---
 title: "Week1038_tip"
-date: 2023-03-31T11:59:06Z
+date: 2023-03-31T15:45:47Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## Tip - Aiflow注解生成Task的易错点

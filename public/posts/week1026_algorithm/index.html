@@ -19,7 +19,7 @@ MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStac
 
     <title>
         
-            Week1026_algorithm :: Hello Friend NG  — A simple theme for Hugo
+            Week1026_algorithm :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -49,8 +49,8 @@ push(x) &ndash; 将元素 x 推入栈中。 pop() &ndash; 删除栈顶的元素�
 MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStack.push(-3); minStack.getMin(); --&gt; 返回 -3. minStack.pop(); minStack.top(); --&gt; 返回 0. minStack.getMin(); --&gt; 返回 -2. 分析 两个要求，一是设计一个栈的数据结构，第二是要求取得最小元素时间复杂度为常数。
 对于一，我们可以根据栈的先进后出的特点，使用数组来实现，维护一个移动指针，指向栈顶，也就是数组尾巴， 要考虑数组扩容问题。
 对于二，要常数时间获得最小元素，就要提前保存下这个最小元素，最初想法就是把最小的单独保存起来，遇到更小的元素就刷新最小的值，但是在做pop操作时候，无法获得倒数第二小的元素，于是就需要用数组维护起来。比如维护一个有序的队列，但是这个明显不需要保存那么多元素，只保存小的就行，这时候就有保存最小元素还是保存索引的问题，如果保存最小元素，可能会出现重复现象，保存索引就不存在，于是最后选定使用保存索引方式。 代码如下。
-代码 class MinStack { private int[] stack; private int[] mins; private int index; private int minIndex; private int capacity; /** initialize your data structure here."><meta itemprop="datePublished" content="2023-03-31T11:58:56+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:58:56+00:00" />
+代码 class MinStack { private int[] stack; private int[] mins; private int index; private int minIndex; private int capacity; /** initialize your data structure here."><meta itemprop="datePublished" content="2023-03-31T15:45:41+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:41+00:00" />
 <meta itemprop="wordCount" content="251"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -75,9 +75,8 @@ MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStac
 代码 class MinStack { private int[] stack; private int[] mins; private int index; private int minIndex; private int capacity; /** initialize your data structure here." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1026_algorithm/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:58:56+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:58:56+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:41+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:41+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -85,7 +84,7 @@ MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStac
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:58:56 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:41 &#43;0000 UTC" />
 
 
 
@@ -110,7 +109,7 @@ MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStac
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -321,7 +320,7 @@ minStack.getMin();   --&gt; 返回 -2.
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:58
+          2023-03-31 15:45
         
 
          
@@ -435,17 +434,17 @@ minStack.getMin();   --&gt; 返回 -2.
         <div class="pagination__buttons">
             
             <span class="button previous">
-                <a href="https://ifaa.top/posts/week1021_tip/">
+                <a href="https://ifaa.top/posts/week1025_tip/">
                     <span class="button__icon">←</span>
-                    <span class="button__text">Week1021_tip</span>
+                    <span class="button__text">Week1025_tip</span>
                 </a>
             </span>
             
 
             
             <span class="button next">
-                <a href="https://ifaa.top/posts/week1041_review/">
-                    <span class="button__text">Week1041_review</span>
+                <a href="https://ifaa.top/posts/week1026_review/">
+                    <span class="button__text">Week1026_review</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>

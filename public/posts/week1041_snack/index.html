@@ -26,7 +26,7 @@
 
     <title>
         
-            Week1041_snack :: Hello Friend NG  — A simple theme for Hugo
+            Week1041_snack :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -63,8 +63,8 @@
 存在缺点：
 同一数据两份存储。一份用于实时流计算，一份用于离线批处理，耗资源、难保一致性 同一计算逻辑两套代码。指标计算，Lambda需要流处理、批处理各实现一次 需要集成多种组件支持不同类型应用。比如集成ES支持即席查询，postgresql支持复杂统计分析，导致架构和技术栈复杂 随着Flink引擎日趋完善，尤其在2020年发布Flink-1.12.0之后，逐渐出现了能切实解决上述问题的流批一体架构（Lambda plus，图1下半部分），采用该架构的数仓可称流批一体式数仓，即把Lambda架构的两条数据通道合并为一条，数据统一存储到一种介质中，且同一数据只需要存储一遍。流批一体式数仓主要体现在两方面：
 数据积累（存储与处理）过程是流式的 数据积累后，支持批处理方式即席查询、统计分析等传统数仓支持的OLAP操作 从实现上看，Lambda plus架构利用Flink流表的相互转化实现了同一计算逻辑只需一套代码即可在流处理与批处理两种模式下得到一致结果。通用使用Flink cdc\状态计算等特性实现了历史数据&#43;增量流水的连续处理。比如系统启动时利用Flink CDC 装载历史数据，再通过监听binlog将数据变动流水接入Flink; 或者利用Flink state&amp;checkpoint特性从指定checkpoint恢复，以便在流水上接续计算，这样即可实现基于历史数据增量计算的目的。
-总结 目前基于Flink的流批一体架构主要还是体现在计算引擎上的一体化，即流处理与批处理共同一套开发范式，一套代码，而存储的一体化上推出的Table store,虽然已经可以小规模使用，但是功能仍需健全 具有分布式计算、窗口计算、状态计算、流批一体计算等特性的Flink正逐渐成为实时流计算应用的主要引擎 流批一体式数仓是未来大数据架构发展趋势之一 "><meta itemprop="datePublished" content="2023-03-31T11:58:56+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:58:56+00:00" />
+总结 目前基于Flink的流批一体架构主要还是体现在计算引擎上的一体化，即流处理与批处理共同一套开发范式，一套代码，而存储的一体化上推出的Table store,虽然已经可以小规模使用，但是功能仍需健全 具有分布式计算、窗口计算、状态计算、流批一体计算等特性的Flink正逐渐成为实时流计算应用的主要引擎 流批一体式数仓是未来大数据架构发展趋势之一 "><meta itemprop="datePublished" content="2023-03-31T15:45:49+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:49+00:00" />
 <meta itemprop="wordCount" content="38"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -103,9 +103,8 @@
 总结 目前基于Flink的流批一体架构主要还是体现在计算引擎上的一体化，即流处理与批处理共同一套开发范式，一套代码，而存储的一体化上推出的Table store,虽然已经可以小规模使用，但是功能仍需健全 具有分布式计算、窗口计算、状态计算、流批一体计算等特性的Flink正逐渐成为实时流计算应用的主要引擎 流批一体式数仓是未来大数据架构发展趋势之一 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1041_snack/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:58:56+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:58:56+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:49+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:49+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -113,7 +112,7 @@
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:58:56 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:49 &#43;0000 UTC" />
 
 
 
@@ -138,7 +137,7 @@
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -267,7 +266,7 @@
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:58
+          2023-03-31 15:45
         
 
          
@@ -390,8 +389,8 @@
 
             
             <span class="button next">
-                <a href="https://ifaa.top/posts/week1041_tip/">
-                    <span class="button__text">Week1041_tip</span>
+                <a href="https://ifaa.top/posts/week1042_algorithm/">
+                    <span class="button__text">Week1042_algorithm</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>

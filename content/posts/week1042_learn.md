@@ -1,15 +1,14 @@
 ---
 title: "Week1042_learn"
-date: 2023-03-31T11:59:02Z
+date: 2023-03-31T15:45:49Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## [AC自动机](https://www.cnblogs.com/nullzx/p/7499397.html)

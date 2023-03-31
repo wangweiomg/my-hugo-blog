@@ -22,7 +22,7 @@ private Object readResolve() throws ObjectsStreamException { return INSTANCE; } 
 
     <title>
         
-            Week1036_share :: Hello Friend NG  — A simple theme for Hugo
+            Week1036_share :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -55,8 +55,8 @@ public class Elvis { private static final Elvis INSTANCE = new Elvis(); private 
 第一种方法的主要好处在于组内类的成员声明很清楚的表名了这个类是一个singleton,公有的静态域是final的，所以该域将总是包含相同的对象引用，第一中方法可能在性能上稍微领先，但是第二种方法中，一个优秀的JVM实现应该能够通过将静态工厂方法的调用内联化（inlining）， 来消除这种差别。
 第二种方法的主要好处在于，它提供了灵活性：在不改变API的前提下，允许我们改变想法，把该类做成singleton，或者不做成singleton, singleton静态工厂方法返回该类的唯一实例，但是，它也很容易被修改，比如说为每一个调用该方法的线程返回一个唯一的实例。
 为了使一个singleton类编程可序列话的，仅仅声明 implements Serializable 是不够的，为了维护singleton性，必须也要提供一个 readResolve 方法，否则的话，一个序列话的实例在每次反序列化时候，都会导致创建一个新的实例。
-private Object readResolve() throws ObjectsStreamException { return INSTANCE; } "><meta itemprop="datePublished" content="2023-03-31T11:58:57+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:58:57+00:00" />
+private Object readResolve() throws ObjectsStreamException { return INSTANCE; } "><meta itemprop="datePublished" content="2023-03-31T15:45:46+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:46+00:00" />
 <meta itemprop="wordCount" content="72"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -87,9 +87,8 @@ public class Elvis { private static final Elvis INSTANCE = new Elvis(); private 
 private Object readResolve() throws ObjectsStreamException { return INSTANCE; } " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1036_share/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:58:57+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:58:57+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:46+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:46+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -97,7 +96,7 @@ private Object readResolve() throws ObjectsStreamException { return INSTANCE; } 
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:58:57 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:46 &#43;0000 UTC" />
 
 
 
@@ -122,7 +121,7 @@ private Object readResolve() throws ObjectsStreamException { return INSTANCE; } 
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -239,7 +238,7 @@ private Object readResolve() throws ObjectsStreamException { return INSTANCE; } 
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:58
+          2023-03-31 15:45
         
 
          

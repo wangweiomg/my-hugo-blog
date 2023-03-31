@@ -1,15 +1,14 @@
 ---
 title: "Week1039_tip"
-date: 2023-03-31T11:58:53Z
+date: 2023-03-31T15:45:48Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## Tip - Airflow DAG多少的思考

@@ -22,7 +22,7 @@ public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值�
 
     <title>
         
-            Week1017_algorithm :: Hello Friend NG  — A simple theme for Hugo
+            Week1017_algorithm :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -55,8 +55,8 @@ public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值�
 初始的想法是，首先把遇到的和next相等的元素，把next 删掉，把当前的标记，第二次把标记过的删除，但是这样存在问题，
 标记的方式，如果设置当前元素的值为某一个数，如果元素中存在这个，就造成不准确； 如果存在连续重复的，标记了一个就无法删除掉全部的重复数据。 所以这种方法是不可行的， 还有一个方法，是双向循环链表结构，这样的话可以让前驱直接指向后继的后继，就一次删除了当前的和当前的后继， 但是存在连续重复的问题，需要把重复元素保存起来。
 代码如下：
-public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值， 2.删除重复值， 3.从第二个开始 ListNode node = head; ListNode prev = new ListNode(head.val - 1); ListNode first = prev; int duplicate = prev.val; prev.next = node; while (node !"><meta itemprop="datePublished" content="2023-03-31T11:59:00+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:59:00+00:00" />
+public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值， 2.删除重复值， 3.从第二个开始 ListNode node = head; ListNode prev = new ListNode(head.val - 1); ListNode first = prev; int duplicate = prev.val; prev.next = node; while (node !"><meta itemprop="datePublished" content="2023-03-31T15:45:37+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:37+00:00" />
 <meta itemprop="wordCount" content="220"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -87,9 +87,8 @@ public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值�
 public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值， 2.删除重复值， 3.从第二个开始 ListNode node = head; ListNode prev = new ListNode(head.val - 1); ListNode first = prev; int duplicate = prev.val; prev.next = node; while (node !" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1017_algorithm/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:59:00+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:59:00+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:37+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:37+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -97,7 +96,7 @@ public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值�
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:59:00 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:37 &#43;0000 UTC" />
 
 
 
@@ -122,7 +121,7 @@ public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值�
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -317,7 +316,7 @@ public static ListNode deleteDuplicates(ListNode head) {
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:59
+          2023-03-31 15:45
         
 
          
@@ -431,9 +430,9 @@ public static ListNode deleteDuplicates(ListNode head) {
         <div class="pagination__buttons">
             
             <span class="button previous">
-                <a href="https://ifaa.top/posts/week1017_share/">
+                <a href="https://ifaa.top/posts/week1016_tip/">
                     <span class="button__icon">←</span>
-                    <span class="button__text">Week1017_share</span>
+                    <span class="button__text">Week1016_tip</span>
                 </a>
             </span>
             

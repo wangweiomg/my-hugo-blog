@@ -1,15 +1,14 @@
 ---
 title: "Week1041_algorithm"
-date: 2023-03-31T11:58:55Z
+date: 2023-03-31T15:45:48Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## ARTS - Algorithm - [杨辉三角](https://leetcode.cn/problems/pascals-triangle/)

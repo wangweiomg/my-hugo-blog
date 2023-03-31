@@ -17,7 +17,7 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
 
     <title>
         
-            Week1031_tip :: Hello Friend NG  — A simple theme for Hugo
+            Week1031_tip :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -45,8 +45,8 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
 <meta itemprop="description" content="ARTS - Tip 补 2019.2.6 线程池的getTask()方法 线程池持有线程不退出的思路 学线程池，都知道它的好处就是减少了频繁创建、销毁线程的开销，从而提高效率的，那么到底是怎么实现这个机制的呢？
 我们自己设想下，线程的声明周期就是创建、就绪、运行、销毁。如果线程一直在运行状态并且可以接收其他任务，那么其实就相当于是避开了频繁创建、销毁的开销。那么，线程池也是这么个思路。
 先看代码 runWorker, 我们知道runWorker其实就是相当于线程的run方法， 同理addWorker 可以看做是创建线程。
-runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); Runnable task = w.firstTask; w.firstTask = null; w.unlock(); // allow interrupts boolean completedAbruptly = true; try { /** 注意这个while循环， task为空时候就调用了getTask()方法， * 这个getTask()方法其实就充当了获取待执行任务的功能 * 还有个重要点是看这个while循环里的最后，重置 task = null, * 这时候就相当于调用getTask()获取任务了,接下来我们看getTask() */ while (task != null || (task = getTask()) != null) { w.lock(); // If pool is stopping, ensure thread is interrupted; // if not, ensure thread is not interrupted."><meta itemprop="datePublished" content="2023-03-31T11:58:55+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:58:55+00:00" />
+runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); Runnable task = w.firstTask; w.firstTask = null; w.unlock(); // allow interrupts boolean completedAbruptly = true; try { /** 注意这个while循环， task为空时候就调用了getTask()方法， * 这个getTask()方法其实就充当了获取待执行任务的功能 * 还有个重要点是看这个while循环里的最后，重置 task = null, * 这时候就相当于调用getTask()获取任务了,接下来我们看getTask() */ while (task != null || (task = getTask()) != null) { w.lock(); // If pool is stopping, ensure thread is interrupted; // if not, ensure thread is not interrupted."><meta itemprop="datePublished" content="2023-03-31T15:45:44+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:44+00:00" />
 <meta itemprop="wordCount" content="591"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -67,9 +67,8 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
 runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); Runnable task = w.firstTask; w.firstTask = null; w.unlock(); // allow interrupts boolean completedAbruptly = true; try { /** 注意这个while循环， task为空时候就调用了getTask()方法， * 这个getTask()方法其实就充当了获取待执行任务的功能 * 还有个重要点是看这个while循环里的最后，重置 task = null, * 这时候就相当于调用getTask()获取任务了,接下来我们看getTask() */ while (task != null || (task = getTask()) != null) { w.lock(); // If pool is stopping, ensure thread is interrupted; // if not, ensure thread is not interrupted." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1031_tip/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:58:55+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:58:55+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:44+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:44+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -77,7 +76,7 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:58:55 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:44 &#43;0000 UTC" />
 
 
 
@@ -102,7 +101,7 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -399,7 +398,7 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:58
+          2023-03-31 15:45
         
 
          
@@ -522,8 +521,8 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
 
             
             <span class="button next">
-                <a href="https://ifaa.top/posts/week1041_algorithm/">
-                    <span class="button__text">Week1041_algorithm</span>
+                <a href="https://ifaa.top/posts/week1032_algorithm/">
+                    <span class="button__text">Week1032_algorithm</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>

@@ -21,7 +21,7 @@ snowflake生成的ID整体上按照时间自增排序，并且整个分布式系
 
     <title>
         
-            Week1033_share :: Hello Friend NG  — A simple theme for Hugo
+            Week1033_share :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -53,8 +53,8 @@ snowflake生成的ID整体上按照时间自增排序，并且整个分布式系
 第一位为未使用，接下来的41位为毫秒级时间(41位的长度可以使用69年)，然后是5位datacenterId和5位workerId(10位的长度最多支持部署1024个节点） ，最后12位是毫秒内的计数（12位的计数顺序号支持每个节点每毫秒产生4096个ID序号）
 一共加起来刚好64位，为一个Long型。(转换成字符串后长度最多19)
 snowflake生成的ID整体上按照时间自增排序，并且整个分布式系统内不会产生ID碰撞（由datacenter和workerId作区分），并且效率较高。经测试snowflake每秒能够产生26万个ID。
-源码 public class SnowFlakeIdWorker { /** * 开始时间截(2015-01-01) */ private final long twepoch = 1420041600000L; /** * 机器ID所占位数 */ private final long workerIdBits = 5L; /** * 数据标识id所占位数 */ private final long datacenterIdBits = 5L; /** * 支持的最大机器ID，结果是31， */ private final long maxWorkerId = -1L ^ (-1L &lt;&lt; workerIdBits); /** * 支持的最大数据标识id，结果是31 */ private final long maxDatacenterId = -1L ^ (-1L &lt;&lt; datacenterIdBits); /** * 序列在id中占的位数 */ private final long sequenceBits = 12L; /** * 机器ID向左移12位 */ private final long workerIdShift = sequenceBits; /** * 数据标识id向左移17位(12&#43;5) */ private final long datacenterIdShift = sequenceBits &#43; workerIdBits; /** * 时间截向左移22位(5&#43;5&#43;12) */ private final long timestampLeftShift = sequenceBits &#43; workerIdBits &#43; datacenterIdBits; /** * 生成序列的掩码，这里为4095 (0b111111111111=0xfff=4095) */ private final long sequenceMask = -1L ^ (-1L &lt;&lt; sequenceBits); /** * 工作机器ID(0~31) */ private long workerId; /** * 数据中心ID(0~31) */ private long datacenterId; /** * 毫秒内序列(0~4095) */ private long sequence = 0L; /** * 上次生成ID的时间截 */ private long lastTimestamp = -1L; //==============================Constructors===================================== public SnowFlakeIdWorker(long workerId, long datacenterId) { if (workerId &gt; maxWorkerId || workerId &lt; 0) { throw new IllegalArgumentException(String."><meta itemprop="datePublished" content="2023-03-31T11:59:00+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:59:00+00:00" />
+源码 public class SnowFlakeIdWorker { /** * 开始时间截(2015-01-01) */ private final long twepoch = 1420041600000L; /** * 机器ID所占位数 */ private final long workerIdBits = 5L; /** * 数据标识id所占位数 */ private final long datacenterIdBits = 5L; /** * 支持的最大机器ID，结果是31， */ private final long maxWorkerId = -1L ^ (-1L &lt;&lt; workerIdBits); /** * 支持的最大数据标识id，结果是31 */ private final long maxDatacenterId = -1L ^ (-1L &lt;&lt; datacenterIdBits); /** * 序列在id中占的位数 */ private final long sequenceBits = 12L; /** * 机器ID向左移12位 */ private final long workerIdShift = sequenceBits; /** * 数据标识id向左移17位(12&#43;5) */ private final long datacenterIdShift = sequenceBits &#43; workerIdBits; /** * 时间截向左移22位(5&#43;5&#43;12) */ private final long timestampLeftShift = sequenceBits &#43; workerIdBits &#43; datacenterIdBits; /** * 生成序列的掩码，这里为4095 (0b111111111111=0xfff=4095) */ private final long sequenceMask = -1L ^ (-1L &lt;&lt; sequenceBits); /** * 工作机器ID(0~31) */ private long workerId; /** * 数据中心ID(0~31) */ private long datacenterId; /** * 毫秒内序列(0~4095) */ private long sequence = 0L; /** * 上次生成ID的时间截 */ private long lastTimestamp = -1L; //==============================Constructors===================================== public SnowFlakeIdWorker(long workerId, long datacenterId) { if (workerId &gt; maxWorkerId || workerId &lt; 0) { throw new IllegalArgumentException(String."><meta itemprop="datePublished" content="2023-03-31T15:45:45+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:45+00:00" />
 <meta itemprop="wordCount" content="423"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -83,9 +83,8 @@ snowflake生成的ID整体上按照时间自增排序，并且整个分布式系
 源码 public class SnowFlakeIdWorker { /** * 开始时间截(2015-01-01) */ private final long twepoch = 1420041600000L; /** * 机器ID所占位数 */ private final long workerIdBits = 5L; /** * 数据标识id所占位数 */ private final long datacenterIdBits = 5L; /** * 支持的最大机器ID，结果是31， */ private final long maxWorkerId = -1L ^ (-1L &lt;&lt; workerIdBits); /** * 支持的最大数据标识id，结果是31 */ private final long maxDatacenterId = -1L ^ (-1L &lt;&lt; datacenterIdBits); /** * 序列在id中占的位数 */ private final long sequenceBits = 12L; /** * 机器ID向左移12位 */ private final long workerIdShift = sequenceBits; /** * 数据标识id向左移17位(12&#43;5) */ private final long datacenterIdShift = sequenceBits &#43; workerIdBits; /** * 时间截向左移22位(5&#43;5&#43;12) */ private final long timestampLeftShift = sequenceBits &#43; workerIdBits &#43; datacenterIdBits; /** * 生成序列的掩码，这里为4095 (0b111111111111=0xfff=4095) */ private final long sequenceMask = -1L ^ (-1L &lt;&lt; sequenceBits); /** * 工作机器ID(0~31) */ private long workerId; /** * 数据中心ID(0~31) */ private long datacenterId; /** * 毫秒内序列(0~4095) */ private long sequence = 0L; /** * 上次生成ID的时间截 */ private long lastTimestamp = -1L; //==============================Constructors===================================== public SnowFlakeIdWorker(long workerId, long datacenterId) { if (workerId &gt; maxWorkerId || workerId &lt; 0) { throw new IllegalArgumentException(String." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1033_share/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:59:00+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:59:00+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:45+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:45+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -93,7 +92,7 @@ snowflake生成的ID整体上按照时间自增排序，并且整个分布式系
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:59:00 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:45 &#43;0000 UTC" />
 
 
 
@@ -118,7 +117,7 @@ snowflake生成的ID整体上按照时间自增排序，并且整个分布式系
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -396,7 +395,7 @@ snowflake生成的ID整体上按照时间自增排序，并且整个分布式系
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:59
+          2023-03-31 15:45
         
 
          

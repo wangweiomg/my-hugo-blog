@@ -1,15 +1,14 @@
 ---
 title: "Week1025_algorithm"
-date: 2023-03-31T11:59:06Z
+date: 2023-03-31T15:45:41Z
 draft: false 
 toc: false
 images:
+categorys:
+  - 每周学习
+series:
 tags:
   - arts 
-series:
-  - arts 
-categorys:
-  - learn 
 ---
 
 ## ARTS - Algorithm 补12.24

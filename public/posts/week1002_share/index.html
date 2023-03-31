@@ -27,7 +27,7 @@ a. 若内存规整，指针碰撞法分配内存。 意思是所有已用内存�
 
     <title>
         
-            Week1002_share :: Hello Friend NG  — A simple theme for Hugo
+            Week1002_share :: Hello Friend   — A coder&#39;s Homepage
         
     </title>
 
@@ -65,8 +65,8 @@ a. 若内存规整，指针碰撞法分配内存。 意思是所有已用内存�
 a. 若内存规整，指针碰撞法分配内存。 意思是所有已用内存在一边，空闲在另一边，中间放着一个指针作为分界点的指示器，分配内存就仅仅是把指针向空闲那边挪动一段与对象大小相等的距离罢了。如果垃圾收集器选择的是Serial、ParNew这种基于压缩算法的，虚拟机采用这种分配方式 b. 如果内存不规整，虚拟机使用空闲列表法来分配内存。意思是虚拟机维护了一个列表，记录上哪些内存块是可用的，再分配的时候从列表中找到一块足够大的空间划分给对象实例，并更新列表上的内容。如果垃圾收集器选择的是CMS这种基于标记-清除算法的，虚拟机采用这种分配方式。 另外一个问题及时保证new对象时候的线程安全性。因为可能出现虚拟机正在给对象A分配内存，指针还没有来得及修改，对象B又同时使用了原来的指针来分配内存的情况。虚拟机采用了CAS配上失败重试的方式保证更新更新操作的原子性和TLAB两种方式来解决这个问题。
 内存分配结束，虚拟机将分配到的内存空间都初始化为零值（不包括对象头）。这一步保证了对象的实例字段在Java代码中可以不用赋初始值就可以直接使用，程序能访问到这些字段的数据类型所对应的零值。
 对对象进行必要的设置，例如这个对象是哪个类的实例、如何才能找到类的元数据信息、对象的哈希码、对象的GC分代年龄等信息，这些信息存放在对象的对象头中。
-执行init方法，把对象按照程序员的意愿进行初始化，这样一个真正可用的对象才算完全产生出来。"><meta itemprop="datePublished" content="2023-03-31T11:59:07+00:00" />
-<meta itemprop="dateModified" content="2023-03-31T11:59:07+00:00" />
+执行init方法，把对象按照程序员的意愿进行初始化，这样一个真正可用的对象才算完全产生出来。"><meta itemprop="datePublished" content="2023-03-31T15:45:31+00:00" />
+<meta itemprop="dateModified" content="2023-03-31T15:45:31+00:00" />
 <meta itemprop="wordCount" content="89"><meta itemprop="image" content="https://ifaa.top"/>
 <meta itemprop="keywords" content="arts," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -107,9 +107,8 @@ a. 若内存规整，指针碰撞法分配内存。 意思是所有已用内存�
 执行init方法，把对象按照程序员的意愿进行初始化，这样一个真正可用的对象才算完全产生出来。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ifaa.top/posts/week1002_share/" /><meta property="og:image" content="https://ifaa.top"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-31T11:59:07+00:00" />
-<meta property="article:modified_time" content="2023-03-31T11:59:07+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
-<meta property="og:see_also" content="https://ifaa.top/posts/week1035_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_review/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1007_share/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_algorithm/" /><meta property="og:see_also" content="https://ifaa.top/posts/week1035_tip/" />
+<meta property="article:published_time" content="2023-03-31T15:45:31+00:00" />
+<meta property="article:modified_time" content="2023-03-31T15:45:31+00:00" /><meta property="og:site_name" content="Hello Friend " />
 
 
 
@@ -117,7 +116,7 @@ a. 若内存规整，指针碰撞法分配内存。 意思是所有已用内存�
 
 
 
-    <meta property="article:published_time" content="2023-03-31 11:59:07 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2023-03-31 15:45:31 &#43;0000 UTC" />
 
 
 
@@ -142,7 +141,7 @@ a. 若内存规整，指针碰撞法分配内存。 意思是所有已用内存�
         
             <span class="logo__mark">></span>
             <span class="logo__text ">
-                hello friend ng</span>
+                hello world...</span>
             <span class="logo__cursor" style=
                   "
                    
@@ -317,7 +316,7 @@ c. Runtime Constant Pool 运行时常量池
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 11:59
+          2023-03-31 15:45
         
 
          
@@ -431,17 +430,17 @@ c. Runtime Constant Pool 运行时常量池
         <div class="pagination__buttons">
             
             <span class="button previous">
-                <a href="https://ifaa.top/posts/week1002_review/">
+                <a href="https://ifaa.top/posts/week1006_tip/">
                     <span class="button__icon">←</span>
-                    <span class="button__text">Week1002_review</span>
+                    <span class="button__text">Week1006_tip</span>
                 </a>
             </span>
             
 
             
             <span class="button next">
-                <a href="https://ifaa.top/posts/week1002_tip/">
-                    <span class="button__text">Week1002_tip</span>
+                <a href="https://ifaa.top/posts/week1003_algorthm/">
+                    <span class="button__text">Week1003_algorthm</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>
