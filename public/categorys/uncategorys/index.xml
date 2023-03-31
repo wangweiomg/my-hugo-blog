@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>untagged on Hello Friend NG</title>
-    <link>https://ifaa.top/tags/untagged/</link>
-    <description>Recent content in untagged on Hello Friend NG</description>
+    <title>uncategorys on Hello Friend NG</title>
+    <link>https://ifaa.top/categorys/uncategorys/</link>
+    <description>Recent content in uncategorys on Hello Friend NG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 31 Mar 2023 09:31:52 +0000</lastBuildDate><atom:link href="https://ifaa.top/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 09:31:52 +0000</lastBuildDate><atom:link href="https://ifaa.top/categorys/uncategorys/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Third</title>
       <link>https://ifaa.top/posts/third/</link>
@@ -19,15 +19,6 @@
 分类
 系列
 标签</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://ifaa.top/posts/first/</link>
-      <pubDate>Thu, 30 Mar 2023 14:12:06 +0000</pubDate>
-      
-      <guid>https://ifaa.top/posts/first/</guid>
-      <description>hello world !</description>
     </item>
     
   </channel>

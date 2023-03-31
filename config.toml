@@ -27,6 +27,7 @@ paginate     = 20
 [taxonomies]
     category = "categorys"
     tag      = "tags"
+    series      = "series"
 
 [languages]
   [languages.en]
@@ -53,4 +54,13 @@ paginate     = 20
     identifier = "about"
     name       = "About"
     url        = "/about"
+ [[menu.main]]
+    identifier = "categorys"
+    name       = "Category"
+    url        = "/categorys"
+  [[menu.main]]
+    identifier = "series"
+    name       = "Series"
+    url        = "/series"
+
                   
