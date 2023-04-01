@@ -9,9 +9,12 @@ paginate     = 20
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+ 
+  # enable Theme blink
+  enableThemeToggle = true
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "Software Engineer // Consultant"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -23,6 +26,13 @@ paginate     = 20
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
+  
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
 
 [taxonomies]
     category = "categorys"
@@ -77,4 +87,3 @@ paginate     = 20
     name       = "Series"
     url        = "/series"
 
-                  
