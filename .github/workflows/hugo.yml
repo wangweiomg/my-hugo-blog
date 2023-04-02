@@ -39,9 +39,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       
       - name: Get current directory
-        run: |
-          pwd
-          ls -al
+        run: ls -al
+        run: ls -al ../
       - name: Get githubworkspace
         run: echo  ${{ github.workspace }}
       - name: Build with Hugo
