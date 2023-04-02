@@ -40,8 +40,8 @@ jobs:
       
       - name: Get current directory
         run: |
-          ls -al ../
-          ls -al
+          ls -al ../ | echo
+          ls -al | echo
       - name: Get githubworkspace
         run: echo  ${{ github.workspace }}
       - name: Build with Hugo
