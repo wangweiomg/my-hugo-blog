@@ -32,5 +32,6 @@ jobs:
         with:
           personal_token: ${{ secrets.MY_BLOG_DEPLOY }}
           external_repository: wangweiomg/wangweiomg.github.io
+          publish_branch: master
           publish_dir: ./public
           commit_message: ${{ github.event.head_commit.message }}
