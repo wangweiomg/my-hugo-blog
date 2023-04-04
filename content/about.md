@@ -5,7 +5,10 @@ draft: false
 ---
 
 ### 我是谁
-一个普通程序员， 理想是做出几款有影响力的产品。
+{{< image src="/images/hello.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
+
+
+一个普通程序员。
 
 从事后端开发工作,  常用编程语言是 Java, SQL, Python, 也正在尝试更多前端技术，目前在学JavaScript 和 node, React, Vue ,
 也准备尝试后端的 Go, Rust, Ruby on Rails ... 
