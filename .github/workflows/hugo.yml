@@ -35,4 +35,5 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.MY_BLOG_DEPLOY }}
+          external_repository: wangweiomg/wangweiomg.github.io
           publish_dir: ./public
