@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categorys/</loc>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
+  </url><url>
+    <loc>/tags/chatgpt/</loc>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
+  </url><url>
     <loc>/tags/english/</loc>
-    <lastmod>2023-04-04T17:02:47+08:00</lastmod>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
+  </url><url>
+    <loc>/categorys/english-learning/</loc>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-04-04T17:02:47+08:00</lastmod>
-  </url><url>
-    <loc>/posts/inbox/interview_questions_230404/</loc>
-    <lastmod>2023-04-04T17:02:47+08:00</lastmod>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2023-04-04T17:02:47+08:00</lastmod>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
+  </url><url>
+    <loc>/posts/lang/top100_en_sencences_230405/</loc>
+    <lastmod>2023-04-05T12:23:15+08:00</lastmod>
+  </url><url>
+    <loc>/posts/inbox/interview_questions_230404/</loc>
     <lastmod>2023-04-04T17:02:47+08:00</lastmod>
   </url><url>
     <loc>/tags/%E9%9D%A2%E8%AF%95/</loc>
     <lastmod>2023-04-04T17:02:47+08:00</lastmod>
   </url><url>
     <loc>/tags/arts/</loc>
-    <lastmod>2023-03-31T15:45:50+00:00</lastmod>
-  </url><url>
-    <loc>/categorys/</loc>
     <lastmod>2023-03-31T15:45:50+00:00</lastmod>
   </url><url>
     <loc>/posts/arts/week1043_review/</loc>
