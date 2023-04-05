@@ -7,8 +7,8 @@
 <meta name="author" content="">
 <meta name="description" content="ARTS - Share 补2019.1.9 HashMap的key是否可以是null 简介 HashMap是一个经常要用到的键值对。我们知道它的大致原理就是对key进行hash计算，找到它在容器中的位置，在此过程重要的是hash计算，尽可能不同key不产生相同的hash值。那么 hashmap的key能否为null呢？
 key能不能是null 我们在map容器中添加元素时候使用 map.put(k, v). 我们查看put方法：
-public V put(K key, V value) { // 调用了putVal 方法， return putVal(hash(key), key, value, false, true); } // 在看hash(key)，是否要求不为空 static final int hash(Object key) { int h; return (key == null) ? 0 : (h = key.hashCode()) ^ (h &amp;gt;&amp;gt;&amp;gt; 16); } // hash(null) == 0 可见HashMap中， key可以是null，
-putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) { // 声明node 数组 Node&amp;lt;K,V&amp;gt;[] tab; Node&amp;lt;K,V&amp;gt; p; int n, i; // 把当前node数组指向 table, 如果为空就初始化一个 if ((tab = table) == null || (n = tab." />
+public V put(K key, V value) {// 调用了putVal 方法，return putVal(hash(key), key, value, false, true);}// 在看hash(key)，是否要求不为空static final int hash(Object key) {int h;return (key == null) ? 0 : (h = key.hashCode()) ^ (h &amp;gt;&amp;gt;&amp;gt; 16);}// hash(null) == 0可见HashMap中， key可以是null，
+putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent,boolean evict) {// 声明node 数组 Node&amp;lt;K,V&amp;gt;[] tab; Node&amp;lt;K,V&amp;gt; p; int n, i;// 把当前node数组指向 table, 如果为空就初始化一个if ((tab = table) == null || (n = tab." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -44,8 +44,8 @@ putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, bool
 <meta itemprop="name" content="Week1027_share">
 <meta itemprop="description" content="ARTS - Share 补2019.1.9 HashMap的key是否可以是null 简介 HashMap是一个经常要用到的键值对。我们知道它的大致原理就是对key进行hash计算，找到它在容器中的位置，在此过程重要的是hash计算，尽可能不同key不产生相同的hash值。那么 hashmap的key能否为null呢？
 key能不能是null 我们在map容器中添加元素时候使用 map.put(k, v). 我们查看put方法：
-public V put(K key, V value) { // 调用了putVal 方法， return putVal(hash(key), key, value, false, true); } // 在看hash(key)，是否要求不为空 static final int hash(Object key) { int h; return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16); } // hash(null) == 0 可见HashMap中， key可以是null，
-putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) { // 声明node 数组 Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i; // 把当前node数组指向 table, 如果为空就初始化一个 if ((tab = table) == null || (n = tab."><meta itemprop="datePublished" content="2023-03-31T15:45:42+00:00" />
+public V put(K key, V value) {// 调用了putVal 方法，return putVal(hash(key), key, value, false, true);}// 在看hash(key)，是否要求不为空static final int hash(Object key) {int h;return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16);}// hash(null) == 0可见HashMap中， key可以是null，
+putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent,boolean evict) {// 声明node 数组 Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i;// 把当前node数组指向 table, 如果为空就初始化一个if ((tab = table) == null || (n = tab."><meta itemprop="datePublished" content="2023-03-31T15:45:42+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:42+00:00" />
 <meta itemprop="wordCount" content="652"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -55,16 +55,16 @@ putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, bool
 <meta name="twitter:title" content="Week1027_share"/>
 <meta name="twitter:description" content="ARTS - Share 补2019.1.9 HashMap的key是否可以是null 简介 HashMap是一个经常要用到的键值对。我们知道它的大致原理就是对key进行hash计算，找到它在容器中的位置，在此过程重要的是hash计算，尽可能不同key不产生相同的hash值。那么 hashmap的key能否为null呢？
 key能不能是null 我们在map容器中添加元素时候使用 map.put(k, v). 我们查看put方法：
-public V put(K key, V value) { // 调用了putVal 方法， return putVal(hash(key), key, value, false, true); } // 在看hash(key)，是否要求不为空 static final int hash(Object key) { int h; return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16); } // hash(null) == 0 可见HashMap中， key可以是null，
-putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) { // 声明node 数组 Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i; // 把当前node数组指向 table, 如果为空就初始化一个 if ((tab = table) == null || (n = tab."/>
+public V put(K key, V value) {// 调用了putVal 方法，return putVal(hash(key), key, value, false, true);}// 在看hash(key)，是否要求不为空static final int hash(Object key) {int h;return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16);}// hash(null) == 0可见HashMap中， key可以是null，
+putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent,boolean evict) {// 声明node 数组 Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i;// 把当前node数组指向 table, 如果为空就初始化一个if ((tab = table) == null || (n = tab."/>
 
 
 
     <meta property="og:title" content="Week1027_share" />
 <meta property="og:description" content="ARTS - Share 补2019.1.9 HashMap的key是否可以是null 简介 HashMap是一个经常要用到的键值对。我们知道它的大致原理就是对key进行hash计算，找到它在容器中的位置，在此过程重要的是hash计算，尽可能不同key不产生相同的hash值。那么 hashmap的key能否为null呢？
 key能不能是null 我们在map容器中添加元素时候使用 map.put(k, v). 我们查看put方法：
-public V put(K key, V value) { // 调用了putVal 方法， return putVal(hash(key), key, value, false, true); } // 在看hash(key)，是否要求不为空 static final int hash(Object key) { int h; return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16); } // hash(null) == 0 可见HashMap中， key可以是null，
-putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) { // 声明node 数组 Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i; // 把当前node数组指向 table, 如果为空就初始化一个 if ((tab = table) == null || (n = tab." />
+public V put(K key, V value) {// 调用了putVal 方法，return putVal(hash(key), key, value, false, true);}// 在看hash(key)，是否要求不为空static final int hash(Object key) {int h;return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16);}// hash(null) == 0可见HashMap中， key可以是null，
+putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent,boolean evict) {// 声明node 数组 Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i;// 把当前node数组指向 table, 如果为空就初始化一个if ((tab = table) == null || (n = tab." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1027_share/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:42+00:00" />
@@ -370,7 +370,7 @@ final Node&lt;K,V&gt;[] resize() {
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 15:45
+          2023-03-31 23:45
         
 
          

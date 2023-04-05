@@ -16,7 +16,7 @@
 为了测试这个问题，我尝试比较一些脚本，深入了解我得到的结果。我在Chrome浏览器 v10.11.0 的Node.js执行以下测试,都是在macOS系统。
 1. 数组循环 想到的第一个脚本是计算一个10K个项目的数组的和，这是一个有效的现实生活中的解决方案，我曾在尝试获取数据库中长表项目时候偶然发现，并使用总和来增强它，而不需要对数据库进行额外的查询。
 我比较了对随机 10K个项目进行for , for-of, while, forEach, 和 reduce 求和. 运行测试 10000次，返回了以下结果：
-For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 microseconds ForEach, average loop time: ~77 microseconds While, average loop time: ~11 microseconds Reduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。" />
+For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 microsecondsForEach, average loop time: ~77 microsecondsWhile, average loop time: ~11 microsecondsReduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。" />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -61,7 +61,7 @@ For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 mi
 为了测试这个问题，我尝试比较一些脚本，深入了解我得到的结果。我在Chrome浏览器 v10.11.0 的Node.js执行以下测试,都是在macOS系统。
 1. 数组循环 想到的第一个脚本是计算一个10K个项目的数组的和，这是一个有效的现实生活中的解决方案，我曾在尝试获取数据库中长表项目时候偶然发现，并使用总和来增强它，而不需要对数据库进行额外的查询。
 我比较了对随机 10K个项目进行for , for-of, while, forEach, 和 reduce 求和. 运行测试 10000次，返回了以下结果：
-For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 microseconds ForEach, average loop time: ~77 microseconds While, average loop time: ~11 microseconds Reduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。"><meta itemprop="datePublished" content="2023-03-31T15:45:36+00:00" />
+For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 microsecondsForEach, average loop time: ~77 microsecondsWhile, average loop time: ~11 microsecondsReduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。"><meta itemprop="datePublished" content="2023-03-31T15:45:36+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:36+00:00" />
 <meta itemprop="wordCount" content="180"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -80,7 +80,7 @@ For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 mi
 为了测试这个问题，我尝试比较一些脚本，深入了解我得到的结果。我在Chrome浏览器 v10.11.0 的Node.js执行以下测试,都是在macOS系统。
 1. 数组循环 想到的第一个脚本是计算一个10K个项目的数组的和，这是一个有效的现实生活中的解决方案，我曾在尝试获取数据库中长表项目时候偶然发现，并使用总和来增强它，而不需要对数据库进行额外的查询。
 我比较了对随机 10K个项目进行for , for-of, while, forEach, 和 reduce 求和. 运行测试 10000次，返回了以下结果：
-For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 microseconds ForEach, average loop time: ~77 microseconds While, average loop time: ~11 microseconds Reduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。"/>
+For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 microsecondsForEach, average loop time: ~77 microsecondsWhile, average loop time: ~11 microsecondsReduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。"/>
 
 
 
@@ -96,7 +96,7 @@ For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 mi
 为了测试这个问题，我尝试比较一些脚本，深入了解我得到的结果。我在Chrome浏览器 v10.11.0 的Node.js执行以下测试,都是在macOS系统。
 1. 数组循环 想到的第一个脚本是计算一个10K个项目的数组的和，这是一个有效的现实生活中的解决方案，我曾在尝试获取数据库中长表项目时候偶然发现，并使用总和来增强它，而不需要对数据库进行额外的查询。
 我比较了对随机 10K个项目进行for , for-of, while, forEach, 和 reduce 求和. 运行测试 10000次，返回了以下结果：
-For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 microseconds ForEach, average loop time: ~77 microseconds While, average loop time: ~11 microseconds Reduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。" />
+For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 microsecondsForEach, average loop time: ~77 microsecondsWhile, average loop time: ~11 microsecondsReduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1014_review/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:36+00:00" />
@@ -273,7 +273,7 @@ Object iterate Entries For-Of, average: ~535 microseconds
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 15:45
+          2023-03-31 23:45
         
 
          

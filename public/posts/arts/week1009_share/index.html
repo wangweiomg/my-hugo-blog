@@ -6,10 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
 <meta name="description" content="ARTS - Share 关于ES6箭头函数的this 源于忽然兴起尝试微信小程序开发，在一个文本预上加了一个点击事件，尝试获取微信收货地址， 首先是在模板文件文本域加点击事件：
-&amp;lt;view class=&amp;#34;usermotto&amp;#34; bindtap=&amp;#39;clickMe&amp;#39;&amp;gt; &amp;lt;text class=&amp;#34;user-motto&amp;#34;&amp;gt;{{motto}}&amp;lt;/text&amp;gt; &amp;lt;/view&amp;gt; 然后在index.js里实现 clickMe 方法：
-clickMe: function () { wx.chooseAddress({ success: function(res) { this.setData({ motto: res.detailInfo }) } }) }, 发现控制台报错：
-thirdScriptError Cannot read property &amp;#39;setData&amp;#39; of null;at pages/index/index clickMe function;at api openAddress success callback function TypeError: Cannot read property &amp;#39;setData&amp;#39; of null at success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13) 、 根据报错说明，```&amp;lsquo;setData&amp;rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
-clickMe: function () { console.log(1, this) wx." />
+&amp;lt;view class=&amp;#34;usermotto&amp;#34; bindtap=&amp;#39;clickMe&amp;#39;&amp;gt;&amp;lt;text class=&amp;#34;user-motto&amp;#34;&amp;gt;{{motto}}&amp;lt;/text&amp;gt;&amp;lt;/view&amp;gt; 然后在index.js里实现 clickMe 方法：
+clickMe: function () {wx.chooseAddress({success: function(res) {this.setData({motto: res.detailInfo})}})}, 发现控制台报错：
+thirdScriptErrorCannot read property &amp;#39;setData&amp;#39; of null;at pages/index/index clickMe function;at api openAddress success callback functionTypeError: Cannot read property &amp;#39;setData&amp;#39; of nullat success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13)、 根据报错说明，```&amp;lsquo;setData&amp;rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
+clickMe: function () {console.log(1, this)wx." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -44,10 +44,10 @@ clickMe: function () { console.log(1, this) wx." />
 
 <meta itemprop="name" content="Week1009_share">
 <meta itemprop="description" content="ARTS - Share 关于ES6箭头函数的this 源于忽然兴起尝试微信小程序开发，在一个文本预上加了一个点击事件，尝试获取微信收货地址， 首先是在模板文件文本域加点击事件：
-&lt;view class=&#34;usermotto&#34; bindtap=&#39;clickMe&#39;&gt; &lt;text class=&#34;user-motto&#34;&gt;{{motto}}&lt;/text&gt; &lt;/view&gt; 然后在index.js里实现 clickMe 方法：
-clickMe: function () { wx.chooseAddress({ success: function(res) { this.setData({ motto: res.detailInfo }) } }) }, 发现控制台报错：
-thirdScriptError Cannot read property &#39;setData&#39; of null;at pages/index/index clickMe function;at api openAddress success callback function TypeError: Cannot read property &#39;setData&#39; of null at success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13) 、 根据报错说明，```&lsquo;setData&rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
-clickMe: function () { console.log(1, this) wx."><meta itemprop="datePublished" content="2023-03-31T15:45:34+00:00" />
+&lt;view class=&#34;usermotto&#34; bindtap=&#39;clickMe&#39;&gt;&lt;text class=&#34;user-motto&#34;&gt;{{motto}}&lt;/text&gt;&lt;/view&gt; 然后在index.js里实现 clickMe 方法：
+clickMe: function () {wx.chooseAddress({success: function(res) {this.setData({motto: res.detailInfo})}})}, 发现控制台报错：
+thirdScriptErrorCannot read property &#39;setData&#39; of null;at pages/index/index clickMe function;at api openAddress success callback functionTypeError: Cannot read property &#39;setData&#39; of nullat success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13)、 根据报错说明，```&lsquo;setData&rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
+clickMe: function () {console.log(1, this)wx."><meta itemprop="datePublished" content="2023-03-31T15:45:34+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:34+00:00" />
 <meta itemprop="wordCount" content="182"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -56,19 +56,19 @@ clickMe: function () { console.log(1, this) wx."><meta itemprop="datePublished" 
 
 <meta name="twitter:title" content="Week1009_share"/>
 <meta name="twitter:description" content="ARTS - Share 关于ES6箭头函数的this 源于忽然兴起尝试微信小程序开发，在一个文本预上加了一个点击事件，尝试获取微信收货地址， 首先是在模板文件文本域加点击事件：
-&lt;view class=&#34;usermotto&#34; bindtap=&#39;clickMe&#39;&gt; &lt;text class=&#34;user-motto&#34;&gt;{{motto}}&lt;/text&gt; &lt;/view&gt; 然后在index.js里实现 clickMe 方法：
-clickMe: function () { wx.chooseAddress({ success: function(res) { this.setData({ motto: res.detailInfo }) } }) }, 发现控制台报错：
-thirdScriptError Cannot read property &#39;setData&#39; of null;at pages/index/index clickMe function;at api openAddress success callback function TypeError: Cannot read property &#39;setData&#39; of null at success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13) 、 根据报错说明，```&lsquo;setData&rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
-clickMe: function () { console.log(1, this) wx."/>
+&lt;view class=&#34;usermotto&#34; bindtap=&#39;clickMe&#39;&gt;&lt;text class=&#34;user-motto&#34;&gt;{{motto}}&lt;/text&gt;&lt;/view&gt; 然后在index.js里实现 clickMe 方法：
+clickMe: function () {wx.chooseAddress({success: function(res) {this.setData({motto: res.detailInfo})}})}, 发现控制台报错：
+thirdScriptErrorCannot read property &#39;setData&#39; of null;at pages/index/index clickMe function;at api openAddress success callback functionTypeError: Cannot read property &#39;setData&#39; of nullat success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13)、 根据报错说明，```&lsquo;setData&rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
+clickMe: function () {console.log(1, this)wx."/>
 
 
 
     <meta property="og:title" content="Week1009_share" />
 <meta property="og:description" content="ARTS - Share 关于ES6箭头函数的this 源于忽然兴起尝试微信小程序开发，在一个文本预上加了一个点击事件，尝试获取微信收货地址， 首先是在模板文件文本域加点击事件：
-&lt;view class=&#34;usermotto&#34; bindtap=&#39;clickMe&#39;&gt; &lt;text class=&#34;user-motto&#34;&gt;{{motto}}&lt;/text&gt; &lt;/view&gt; 然后在index.js里实现 clickMe 方法：
-clickMe: function () { wx.chooseAddress({ success: function(res) { this.setData({ motto: res.detailInfo }) } }) }, 发现控制台报错：
-thirdScriptError Cannot read property &#39;setData&#39; of null;at pages/index/index clickMe function;at api openAddress success callback function TypeError: Cannot read property &#39;setData&#39; of null at success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13) 、 根据报错说明，```&lsquo;setData&rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
-clickMe: function () { console.log(1, this) wx." />
+&lt;view class=&#34;usermotto&#34; bindtap=&#39;clickMe&#39;&gt;&lt;text class=&#34;user-motto&#34;&gt;{{motto}}&lt;/text&gt;&lt;/view&gt; 然后在index.js里实现 clickMe 方法：
+clickMe: function () {wx.chooseAddress({success: function(res) {this.setData({motto: res.detailInfo})}})}, 发现控制台报错：
+thirdScriptErrorCannot read property &#39;setData&#39; of null;at pages/index/index clickMe function;at api openAddress success callback functionTypeError: Cannot read property &#39;setData&#39; of nullat success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13)、 根据报错说明，```&lsquo;setData&rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
+clickMe: function () {console.log(1, this)wx." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1009_share/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:34+00:00" />
@@ -302,7 +302,7 @@ outer.bind({name: &#39;小明&#39;})(10);
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 15:45
+          2023-03-31 23:45
         
 
          
