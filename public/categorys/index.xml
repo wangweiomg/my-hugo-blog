@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categorys on Hello Friend </title>
-    <link>wanggweiomg.github.io/categorys/</link>
+    <link>/categorys/</link>
     <description>Recent content in Categorys on Hello Friend </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 31 Mar 2023 15:45:50 +0000</lastBuildDate><atom:link href="wanggweiomg.github.io/categorys/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 15:45:50 +0000</lastBuildDate><atom:link href="/categorys/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>每周学习</title>
-      <link>wanggweiomg.github.io/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/</link>
+      <link>/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:50 +0000</pubDate>
       
-      <guid>wanggweiomg.github.io/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uncategorys</title>
-      <link>wanggweiomg.github.io/categorys/uncategorys/</link>
+      <link>/categorys/uncategorys/</link>
       <pubDate>Fri, 31 Mar 2023 09:31:52 +0000</pubDate>
       
-      <guid>wanggweiomg.github.io/categorys/uncategorys/</guid>
+      <guid>/categorys/uncategorys/</guid>
       <description></description>
     </item>
     
