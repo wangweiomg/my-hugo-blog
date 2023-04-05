@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>每周学习 on Hello Friend </title>
-    <link>https://ifaa.top/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/</link>
+    <link>wanggweiomg.github.io/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/</link>
     <description>Recent content in 每周学习 on Hello Friend </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 31 Mar 2023 15:45:50 +0000</lastBuildDate><atom:link href="https://ifaa.top/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 15:45:50 +0000</lastBuildDate><atom:link href="wanggweiomg.github.io/categorys/%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week1043_review</title>
-      <link>https://ifaa.top/posts/week1043_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1043_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:50 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1043_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1043_review/</guid>
       <description>ARTS - Review - How To Be Successful How To Be Successful I’ve observed thousands of founders and thought a lot about what it takes to make a huge amount of money or to create something important. Usually, people start off wanting the former and end up wanting the latter.
 Here are 13 thoughts about how to achieve such outlier success. Everything here is easier to do once you’ve already reached a baseline degree of success (through privilege or effort) and want to put in the work to turn that into outlier success.</description>
     </item>
     
     <item>
       <title>Week1043_share</title>
-      <link>https://ifaa.top/posts/week1043_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1043_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:50 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1043_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1043_share/</guid>
       <description>ARTS - Share 使用AI绘图 参考的这篇文章: 低成本体验生成 AI 小姐姐照片
 stable diffusion
 等待安装 但是报错了：
@@ -40,10 +40,10 @@ stable diffusion
     
     <item>
       <title>Week1043_tip</title>
-      <link>https://ifaa.top/posts/week1043_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1043_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:50 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1043_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1043_tip/</guid>
       <description>ARTS - Tip - 一次mybatis 与 java8 LocalDateTime的问题 问题描述 之前使用Java model ,mybatis 来操作mysql数据库， 对于mysql datetime类型一直使用的是 java.util.Date ， java8 提供了java.time.LocalDateTime 新的日期解决方案， 所以就引入了项目，然后在批量更新中用到，出现了无法更新的问题。
 具体报错: SQL语法错误
 环境与版本 mybatis: 3.5.1 mysql: 5.7 mysql driver: 8.0.26 mybatis xml写法是： &amp;lt;update id=&amp;#34;batchUpdate&amp;#34; parameterType=&amp;#34;xxx&amp;#34;&amp;gt; &amp;lt;foreach collection=&amp;#34;list&amp;#34; item=&amp;#34;item&amp;#34; index=&amp;#34;index&amp;#34; separator=&amp;#34;;&amp;#34;&amp;gt; UPDATE t_table SET complete_date = #{item.completeDate} &amp;lt;/set&amp;gt; WHERE id = #{item.id} &amp;lt;/foreach&amp;gt; &amp;lt;/update&amp;gt; 解决过程 首先是自认为 mybatis 解析 LocalDateTime出现了问题，所以搜索关键字是 &amp;quot; mybatis update localdatetime &amp;quot; ， 在 Java 8 LocalDate mapping with mybatis 的回答说是要 增加 mybatis-typehandlers-jsr310 来处理 typeHandler 的问题， 但是在</description>
@@ -51,10 +51,10 @@ stable diffusion
     
     <item>
       <title>Week1041_review</title>
-      <link>https://ifaa.top/posts/week1041_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1041_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1041_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1041_review/</guid>
       <description>ARTS - Review - Don’t Just Set Goals. Build Systems 不要只设置目标。要建立系统。
 The Secret To Happiness And Achieving More 通往幸福和成就更多的秘诀。| 幸福和获得更多的秘密
 It’s that time of year again.
@@ -73,10 +73,10 @@ It won’t.
     
     <item>
       <title>Week1041_share</title>
-      <link>https://ifaa.top/posts/week1041_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1041_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1041_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1041_share/</guid>
       <description>ARTS - Share 设计模式是什么？ 是软件设计中常见问题的的典型解决方案。他们就像能根据需求进行调整的预制蓝图，可用于解决代码中反复出现的设计问题。
 设计模式与方法或库的使用方法不同，模式并不是一段特定的代码， 而是解决特定问题的一般性概念。可以根据模式来实现符合自己程序实际所需的解决方案。
 人们常混淆模式和算法，因为两者概念都是已知问题的典型解决方案。但算法总是明确定义达成特定目标所需的一系列步骤，而模式是对解决方案的更高层次描述。同一模式在两个不同程序中的实现代码可能会不一样。
@@ -88,10 +88,10 @@ It won’t.
     
     <item>
       <title>Week1041_snack</title>
-      <link>https://ifaa.top/posts/week1041_snack/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1041_snack/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1041_snack/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1041_snack/</guid>
       <description>流批一体大数据架构 流批一体指的是流处理和批处理。
 根据数据产生时间，划分为历史数据和实时数据，
 根据数据明细粒度分为流水数据和切片数据；
@@ -109,10 +109,10 @@ It won’t.
     
     <item>
       <title>Week1042_algorithm</title>
-      <link>https://ifaa.top/posts/week1042_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1042_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1042_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1042_algorithm/</guid>
       <description>ARTS - Algorithm - 119. 杨辉三角 II 杨辉三角 II 给定一个非负索引 rowIndex，返回「杨辉三角」的第 rowIndex 行。
 在「杨辉三角」中，每个数是它左上方和右上方的数的和。
 分析 根据上一题，返回前n层的杨辉三角，我们已经有逻辑了，所以直接使用就能用，代码如下：
@@ -121,10 +121,10 @@ class Solution { public List&amp;lt;Integer&amp;gt; getRow(int rowIndex) { retur
     
     <item>
       <title>Week1042_learn</title>
-      <link>https://ifaa.top/posts/week1042_learn/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1042_learn/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1042_learn/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1042_learn/</guid>
       <description>AC自动机 AC 就是一种多模式字符串匹配算法。多模式匹配算法就是在一个主串中查找多个模式串。
 原理 AC自动机算法是构造一个Trie数，然后再添加额外的失配指针。这些额外的失配指针在查找字符串失败的时候进行回退(例如在Trie树中查找单词bef失败后，但是在Trie树中存在bea这个单词，失配指针会指向前缀be), 转向某些前缀分支，免于重复匹配前缀，提高算法效率.
 假设现有模式字符串集合： {abd, abdk, abchijn, chnit, ijabdf, ijaij} 构建AC自动机。</description>
@@ -132,10 +132,10 @@ class Solution { public List&amp;lt;Integer&amp;gt; getRow(int rowIndex) { retur
     
     <item>
       <title>Week1042_review</title>
-      <link>https://ifaa.top/posts/week1042_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1042_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1042_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1042_review/</guid>
       <description>ARTS - Review Python StringIO and BytesIO Compared With Open()
 Python使用open方法的字符流和字节流比较
 StringIO and BytesIO are methods that manipulate string and bytes data in memory. StringIO is used for string data and BytesIO is used for binary data. This classes create file like object that operate on string data. The StringIO and BytesIO classes are most useful in scenarios where you need to mimic a normal file. 字符IO和字节IO是在内存中操纵字符字节数据的方法 字符IO用在字符数据，字节IO用作二进制数据 此类创建对字符串数据进行操作的类似于文件的对象。 StringIO 和 BytesIO 类在需要模拟普通文件的场景中最为有用。 </description>
@@ -143,10 +143,10 @@ StringIO and BytesIO are methods that manipulate string and bytes data in memory
     
     <item>
       <title>Week1042_share</title>
-      <link>https://ifaa.top/posts/week1042_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1042_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1042_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1042_share/</guid>
       <description>ARTS - Share 使用docker部署python web工程 步骤 创建一个flask app，并运行 编写Dockerfile, 制作 docker image 运行container 创建一个flask app 首先根据官网安装python依赖的Flask。
 之后参考官网：Quickstart
 新建文件夹 first_py_docker 在文件夹 first_py_docker下新建 src目录 在src目录下新建requirements.txt，并写入 flask==2.2.2 在src目录下新建main.py文件 在 main.py里输入flask官网示例: from flask import Flask app = Flask(__name__) @app.route(&amp;#34;/&amp;#34;) def hello_world(): return &amp;#34;&amp;lt;h1&amp;gt;hello world!&amp;lt;/h1&amp;gt;&amp;#34; 运行flask 浏览器访问：
@@ -158,10 +158,10 @@ FROM python:3.8-slim-buster WORKDIR /src COPY src/requirements.txt requirements.
     
     <item>
       <title>Week1042_tip</title>
-      <link>https://ifaa.top/posts/week1042_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1042_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1042_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1042_tip/</guid>
       <description>ARTS - Tip - LLM 大型语言模型 (LLM) ChatGPT 是否带来了NLP乃至AI领域的研究范式转换？如果是，那会带来怎样的影响？ LLM从海量数据中学到了什么知识？LLM又是如何存取这些知识的？ 随着LLM规模逐步增大，会带来什么影响？ 什么是In Context Learning? 为什么它是一项很神秘的技术？它和Instruct 又是什么关系？ LLM具备推理能力吗？思维CoT 又是怎么做的？ NLP研究范式的转换 范式转换1.0：从深度学习到两阶段预训练模型 时间范围，大致在深度学习引入NLP领域(2013年左右)， 到GPT 3.0 出现之前(2020年5月左右)。
 在Bert 和 GPT模型出现之前，NLP领域流行的技术是深度学习模型，而NLP领域的深度学习，主要依托一下几项关键技术：
 以大量的改进LSTM模型及少量的改进CNN模型作为典型的特征抽取器 以Sequence to Sequence (或叫 encoder-decoder亦可) + Attention 作为各种具体任务典型的总体技术框架 在这些核心技术加持下，NLP领域深度学习的主要研究目标，如果归纳一下，是如何有效增加模型层深或模型参数容量。就是说，怎么才能王encoder和decoder里不断叠加更深的LSTM或CNN层，来达成增加层深和模型容量的目标。 这种努力，尽管确实不断增加了模型层深，但是从解决具体任务的效果角度看，总体而言不算很成功，或者说和非深度学习方法相比，带来的优势不算大。
@@ -188,10 +188,10 @@ ChatGPT 是出发这次范型转换的关键节点，但是在InstructGPT出现�
     
     <item>
       <title>Week1043_Algorithm</title>
-      <link>https://ifaa.top/posts/week1043_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1043_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:49 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1043_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1043_algorithm/</guid>
       <description>ARTS - Algorithm - 191. 位1的个数 - 力扣（Leetcode） 题目 位1的个数 编写一个函数，输入是一个无符号整数（以二进制串的形式），返回其二进制表达式中数字位数为 &amp;lsquo;1&amp;rsquo; 的个数（也被称为汉明重量）。
 提示：
 请注意，在某些语言（如 Java）中，没有无符号整数类型。在这种情况下，输入和输出都将被指定为有符号整数类型，并且不应影响您的实现，因为无论整数是有符号的还是无符号的，其内部的二进制表示形式都是相同的。 在 Java 中，编译器使用二进制补码记法来表示有符号整数。因此，在上面的 示例 3 中，输入表示有符号整数 -3。 分析 按位与， 每一位与1进行按位与， 是1就计数器加一，由于int 是32位整数， 就直接迭代32次。
@@ -201,10 +201,10 @@ public class Solution { // you need to treat n as an unsigned value public int h
     
     <item>
       <title>Week1039_review</title>
-      <link>https://ifaa.top/posts/week1039_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1039_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1039_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1039_review/</guid>
       <description>Review 理解JVM架构 Understanding JVM architecture and how Java really works under the hood is an important learning for every Java developer in order to effectively make use of the Java ecosystem. This blog post series will provide you with a solid foundation on JVM internals and technologies around the Java ecosystem.
 理解JVM架构和Java在覆盖下如何真正工作，对每个想要高效使用Java生态的Java开发者，是一件很重要的学习。本篇博客系列将会为你在JVM内部和围绕Java生态技术，提供一个坚实的基础。
 背景 Designed in 1995 by James Gosling for Sun Microsystems, Java is a multi-paradigm (i.e. object-oriented class-based, structural, imperative, generic, reflective, concurrent) programming language which is loved by millions of developers.</description>
@@ -212,10 +212,10 @@ public class Solution { // you need to treat n as an unsigned value public int h
     
     <item>
       <title>Week1039_share</title>
-      <link>https://ifaa.top/posts/week1039_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1039_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1039_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1039_share/</guid>
       <description>Share - 年终非正式总结 又是一年年终，年年做总结做规划，发现最大的结论是，规划目标总是完不成&amp;hellip;， 那就不看目标了，只去记录一下今年觉得还行的事。
 工作 年初谈去年绩效 自学并应用了Spark, Hive, Airflow 学了React ，尝试了Nest.js, Next.js, Express.js 生活 想明白了一些事 先说工作绩效。
 当我得知我的绩效并不好时候， 虽然我知道并非完全不合理，但是我还是觉得要为自己据理力争一回，于是约了领导谈话。主要表达就是相比去年承担了更多的工作与责任，付出了更多的精力，可是绩效却比去年差。领导的回答虽然实在，但是令人失望。他主要意思是人多不可能精确评估每个人的绩效，只能根据开会出勤面熟度来确定，所以不公平是在所难免。 对这个回答，我感谢他的诚实回答，但是对他对此事无丝毫作为感到失望。 最后只能告诫自己，职场这类事多了去，还是自己好好努力，争取跳出这个圈。
@@ -237,10 +237,10 @@ public class Solution { // you need to treat n as an unsigned value public int h
     
     <item>
       <title>Week1039_tip</title>
-      <link>https://ifaa.top/posts/week1039_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1039_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1039_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1039_tip/</guid>
       <description>Tip - Airflow DAG多少的思考 在做ETL任务时候，使用Airflow作为数据任务调度框架，就遇到了很多任务下，如何组织DAG的问题。
 一个任务一个DAG 最开始做的方式就是一个任务一个DAG。比如要制作一个每日数量类统计，编写逻辑就是从ods取数，生成一个新表，存进去数据。那么一个DAG组织起来实现逻辑的SQL就够了，这时候就是一个任务一个DAG。
 但是这样做的问题还是有的，比如我要做DW层，要对ods进行汇总得到多个DW层数据，然后我要制作报表，用到了 dw1,dw2.. ， 由于需要明确的先后顺序，其他人做法依然是多个DAG，设置不同的调用时间来实现。这显然不够精确。
@@ -253,10 +253,10 @@ public class Solution { // you need to treat n as an unsigned value public int h
     
     <item>
       <title>Week1040_Algorithm</title>
-      <link>https://ifaa.top/posts/week1040_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1040_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1040_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1040_algorithm/</guid>
       <description>Algorithm - 169. 多数元素 多数元素 给定一个大小为 n 的数组 nums ，返回其中的多数元素。多数元素是指在数组中出现次数 大于 ⌊ n/2 ⌋ 的元素。
 你可以假设数组是非空的，并且给定的数组总是存在多数元素。
 示例 1：
@@ -268,20 +268,20 @@ class Solution { public int majorityElement(int[] nums) { if (nums.length == 1) 
     
     <item>
       <title>Week1040_Review</title>
-      <link>https://ifaa.top/posts/week1040_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1040_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1040_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1040_review/</guid>
       <description>Review - Java类加载机制 1. Introduction to Class Loaders Class loaders are responsible for loading Java classes dynamically to the JVM (Java Virtual Machine) during runtime. They&amp;rsquo;re also part of the JRE (Java Runtime Environment). Therefore, the JVM doesn&amp;rsquo;t need to know about the underlying files or file systems in order to run Java programs thanks to class loaders.
 Furthermore, these Java classes aren&amp;rsquo;t loaded into memory all at once, but rather when they&amp;rsquo;re required by an application.</description>
     </item>
     
     <item>
       <title>Week1040_Share</title>
-      <link>https://ifaa.top/posts/week1040_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1040_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1040_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1040_share/</guid>
       <description>Share - 数据结构和算法开篇 主要重点 常用的数据结构和算法各有10个，只要逐一攻克，就掌握大部分情况了。
 10个数据结构：
 数组、链表、栈、队列、散列表、二叉树、堆、跳表、图、Trie数
@@ -295,10 +295,10 @@ Furthermore, these Java classes aren&amp;rsquo;t loaded into memory all at once,
     
     <item>
       <title>Week1040_Tip</title>
-      <link>https://ifaa.top/posts/week1040_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1040_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1040_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1040_tip/</guid>
       <description>Tip - 窗口函数 Lead， Lag 近来接触了SQL中的 window function . 窗口函数主要作用在对结果集 跨越操作， 如上一条记录、行号、排序等。
 平时使用最多的是 row_numer, 作为行号来处理，
 随之的是 rank, dense_rank， 近来有一个需求是比较今天、昨天的差额，就用到了适合临近行的 Lead 和 Lag
@@ -310,10 +310,10 @@ jack 23 rose 24 bob 34 jim 14 比如 current row 是 3 bob, 那么 lead（bob）
     
     <item>
       <title>Week1041_algorithm</title>
-      <link>https://ifaa.top/posts/week1041_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1041_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1041_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1041_algorithm/</guid>
       <description>ARTS - Algorithm - 杨辉三角 给定一个非负整数 *numRows，*生成「杨辉三角」的前 numRows 行。
 在「杨辉三角」中，每个数是它左上方和右上方的数的和。
 分析 杨辉三角属于简单类型的题。根据题目分析，我们总结几个杨辉三角的特点：
@@ -323,29 +323,29 @@ jack 23 rose 24 bob 34 jim 14 比如 current row 是 3 bob, 那么 lead（bob）
     
     <item>
       <title>Week1041_tip</title>
-      <link>https://ifaa.top/posts/week1041_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1041_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:48 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1041_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1041_tip/</guid>
       <description>ARTS - Tip spark建hive表insert 时候的一些问题
 使用pyspark 来创建hive表并insert时候，一直没遇到啥问题。最近在增加了几个字段，然后跑任务后，发现使用hive查数据dt过滤，新增的字段是NULL， 但是用sparksql查出来确实有值的。开发的回复是，都用hive sql来建表，sparksql建表有问题。至于是什么问题，暂时还不清楚，需要细查一下。</description>
     </item>
     
     <item>
       <title>Week1037_review</title>
-      <link>https://ifaa.top/posts/week1037_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1037_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1037_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1037_review/</guid>
       <description>Apache Kafka in Depth In the era of Big Data, lots and lots of data(volume) are being produced every second(velocity) from various sources like social media, blogs that I am writing currently, e-commerce, etc., which gets stored across different platforms in different schemas(varieties). In order to perform any ETL (Extract, Transform, Load) operation, a messaging/streaming system is needed which should be asynchronous and loosely coupled i.e. data from various sources/clients like hdfs, Cassandra, RDBMS, application log file, etc.</description>
     </item>
     
     <item>
       <title>Week1037_share</title>
-      <link>https://ifaa.top/posts/week1037_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1037_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1037_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1037_share/</guid>
       <description>ARTS - Share 养成写开发文档习惯 一个优秀程序员应该把80%时间用来写文档，20%的时间用于编码。
 为什么写文档？ 文档，就像盖楼房的设计图，没有图纸，你是不能开始搬砖的。
 写什么文档？ 要干什么？要干成什么样？ 领导有没有给你看需求分析文档？有没有拿着需求分析文档给你宣讲你要做什么？没有？不干活；
@@ -362,10 +362,10 @@ jack 23 rose 24 bob 34 jim 14 比如 current row 是 3 bob, 那么 lead（bob）
     
     <item>
       <title>Week1038_algorithm</title>
-      <link>https://ifaa.top/posts/week1038_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1038_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1038_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1038_algorithm/</guid>
       <description>Algorithm - 3. 无重复字符的最长子串 给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
 示例 1:
 输入: s = &amp;#34;abcabcbb&amp;#34; 输出: 3 解释: 因为无重复字符的最长子串是 &amp;#34;abc&amp;#34;，所以其长度为 3。 分析 一开始毫无头绪，就从能想到的最简单的方法来实现，不考虑空间、时间，只考虑能够解决问题。
@@ -378,19 +378,19 @@ public int lengthOfLongestSubstring(String s) { if (s == null || s.length() == 0
     
     <item>
       <title>Week1038_review</title>
-      <link>https://ifaa.top/posts/week1038_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1038_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1038_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1038_review/</guid>
       <description>Review Stop the World Event All the Garbage Collections are “Stop the World” events because all application threads are stopped until the operation completes. Since Young generation keeps short-lived objects, Minor GC is very fast and the application doesn’t get affected by this. However, Major GC takes a long time because it checks all the live objects. Major GC should be minimized because it will make your application unresponsive for the garbage collection duration.</description>
     </item>
     
     <item>
       <title>Week1038_share</title>
-      <link>https://ifaa.top/posts/week1038_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1038_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1038_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1038_share/</guid>
       <description>关于项目计划与复盘的几个原则 做计划的SMART原则，复盘描述的STAR原则
 复盘、描述事情 STAR Situation 事情的背景是什么 Task 如何明确你的任务 Action 这种情况分析，采用了什么行动方式 Result 结果如何 简单理解：
 案例是在什么情况下发生的，发生后如何明确自己的任务，采取了哪些行动，结果是什么。
@@ -408,10 +408,10 @@ A: 好的。
     
     <item>
       <title>Week1038_tip</title>
-      <link>https://ifaa.top/posts/week1038_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1038_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1038_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1038_tip/</guid>
       <description>Tip - Aiflow注解生成Task的易错点 Situation 在使用Airflow配置任务时候，使用了Task group 和 task注解来实现任务配置，使用一组注解task用来检测数据是否完整，完整的话就继续走以后逻辑。
 Task 在这样的情况下，本应该检查完数据才进行下一步，结果没有实际检查，因此要查具体原因。
 Action 查看日志，实际执行检查会打出相应日志Success criteria met. Exiting.， 但我的任务日志并没有检查，
@@ -424,10 +424,10 @@ with DAG () as dag: check_a = PythonOperator(...) check_b = PythonOperator(...) 
     
     <item>
       <title>Week1039_algorithm</title>
-      <link>https://ifaa.top/posts/week1039_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1039_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1039_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1039_algorithm/</guid>
       <description>Algorithm - 217. 存在重复元素 给你一个整数数组 nums 。如果任一值在数组中出现 至少两次 ，返回 true ；如果数组中每个元素互不相同，返回 false 。
 分析 这个是简单类别的题目。要判断某个值在数组中至少出现两次，也就是只要判断数组中有重复的元素就行。还是老样子，从你想到最能解决问题的方案入手，不用考虑性能空间， 首先能想到，利用Map的key不重复特性来处理， 遍历数组，从Map中取数，取到就说明有重复的，没有的话就继续。
 代码如下：
@@ -438,19 +438,19 @@ class Solution { public boolean containsDuplicate(int[] nums) { Map&amp;lt;Integ
     
     <item>
       <title>Week1039_learn</title>
-      <link>https://ifaa.top/posts/week1039_learn/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1039_learn/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:47 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1039_learn/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1039_learn/</guid>
       <description>Learn - React-Hook useState class写法 import React, { Component } from &amp;#39;react&amp;#39; export default class App extends Component { state = { count: 0 } setCount = ()=&amp;gt;{ this.setState(state=&amp;gt;({ count: ++state.count })) } render() { return ( &amp;lt;div&amp;gt; &amp;lt;p&amp;gt;you click {this.state.count} times&amp;lt;/p&amp;gt; &amp;lt;button onClick={this.setCount}&amp;gt; Click me! &amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt; ) } } hook写法 import React, { useState } from &amp;#39;react&amp;#39; export default function App() { const [count, setCount] = useState(0) return ( &amp;lt;div&amp;gt; &amp;lt;p&amp;gt;you click {count} times&amp;lt;/p&amp;gt; &amp;lt;button onClick={()=&amp;gt; setCount(count+1)}&amp;gt; Click me &amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt; ) } </description>
     </item>
     
     <item>
       <title>Week1035_review</title>
-      <link>https://ifaa.top/posts/week1035_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1035_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1035_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1035_review/</guid>
       <description>ARTS - Review 补2019.3.6 How To Learn Any New Programming Language Quickly 如何快速学习一门新的编程语言？
 essential adj. 必要，必不可少 fundamentals n. 基调， 基本原理 assumes 假设 concepts 概念 disheartening adj. 令人犯愁的 preconceived adj. 先入为主的 Anatomy n 剖析 strip out 剔除 aspect n. 方面，侧面，局面 equivalent An essential checklist of fundamentals 一个必不可少的原理清单
 This article assumes you already know at least one programming language; however, the concepts here will help you get started with programming.
@@ -460,10 +460,10 @@ When I was in school, a teacher told me something I share with new developers: T
     
     <item>
       <title>Week1035_share</title>
-      <link>https://ifaa.top/posts/week1035_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1035_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1035_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1035_share/</guid>
       <description>ARTS - Share 补2019.3.6 本章的主题是创建和销毁对象：什么时候、如何创建对象；什么时候、如何避免创建对象；如何保证对象能够适时的销毁；对象被销毁之前如何管理各种清理工作。
 第1条：考虑用静态工厂方法代替构造函数 一个类，为了让客户获得它的一个实例，最通常的做法是提供一个公有构造函数。或者提供一个公有的 静态工厂方法（static factory method），就是一个简单的静态方法，返回类的一个实例。如boolan的 包装类 Boolean, valueOf方法：
 public static Boolean valueOf(boolean b) { return (b ? TRUE : FALSE); } 类可以为它的客户提供一些静态工厂方法，来代替构造函数，或者同时提供一些构造函数。一个好处是静态工厂方法具有名字，使得类更易用，客户代码更易读。静态工厂方法有自己的名字，没有构造函数只能有一个原型相同的构造函数，可以有不止一个静态工厂方法。如果一个类看起来需要多个构造函数，并且原型特征相同，那么应该考虑用静态工厂方法来代替其中一个或多个构造函数，并且慎重选择他们的名字以便明显表示它们的不同。
@@ -478,20 +478,20 @@ public static Boolean valueOf(boolean b) { return (b ? TRUE : FALSE); } 类可�
     
     <item>
       <title>Week1035_tip</title>
-      <link>https://ifaa.top/posts/week1035_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1035_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1035_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1035_tip/</guid>
       <description>ARTS - Tip 补2019.3.6 MySQL的 ON DUPLICATE KEY UPDATE 背景 项目中经常使用到saveOrUpdate方式更新，即没有就插入，有就更新。发现MySQL支持这样的语法，13.2.6.2 INSERT &amp;hellip; ON DUPLICATE KEY UPDATE Syntax
 官方文档 If you specify an ON DUPLICATE KEY UPDATE clause and a row to be inserted would cause a duplicate value in a UNIQUE index or PRIMARY KEY, an UPDATE of the old row occurs. For example, if column a is declared as UNIQUE and contains the value 1, the following two statements have similar effect:</description>
     </item>
     
     <item>
       <title>Week1036_algorithm</title>
-      <link>https://ifaa.top/posts/week1036_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1036_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1036_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1036_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.3.13 5. 最长回文子串 题目 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
 示例 1：
 输入: &amp;ldquo;babad&amp;rdquo; 输出: &amp;ldquo;bab&amp;rdquo; 注意: &amp;ldquo;aba&amp;rdquo; 也是一个有效答案。 示例 2：
@@ -502,10 +502,10 @@ private static boolean isPalindrome(String subString) { boolean isPalindrom = tr
     
     <item>
       <title>Week1036_review</title>
-      <link>https://ifaa.top/posts/week1036_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1036_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1036_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1036_review/</guid>
       <description>ARTS - Review 补2019.3.13 Generating Unique Id in Distributed Environment in high Scale:
 大规模生成分布式系统的唯一ID
 Recently I was working on a project which requires unique id in a distributed environment which we used as a primary key to store in databases. In a single server, it is easy to generate unique id like *** Oracle *** uses *sequence(increment counter for next id )* in SQL auto increment primary key column in tables.</description>
@@ -513,10 +513,10 @@ Recently I was working on a project which requires unique id in a distributed en
     
     <item>
       <title>Week1036_share</title>
-      <link>https://ifaa.top/posts/week1036_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1036_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1036_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1036_share/</guid>
       <description>ARTS - Share 补2019.3.13 第2条：使用私有构造函数强化singleton属性
 singleton是指这样的类，它只能实例化一次，singleton通常被用来代表那些本质上具有唯一性的系统组件。
 public class Elvis { public static final Elvis INSTANCE = new Elvis(); private Elvis() {} } 私有构造函数仅被调用一次，用来实例化公有的平台final 域Elvis.INSTANCE.
@@ -530,10 +530,10 @@ private Object readResolve() throws ObjectsStreamException { return INSTANCE; } 
     
     <item>
       <title>Week1036_tip</title>
-      <link>https://ifaa.top/posts/week1036_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1036_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1036_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1036_tip/</guid>
       <description>ARTS - Tip 补2019.3.13 MySQL 的CAST转换函数 最近在做一个需求需要连接查询， 如下
 SELECT a.column1, a.column2, b.column1 FROM table1 a LEFT JOIN table b on a.id = b.id WHERE ... 由于 a.id 和 b.id 类型不一致，所以需要转换下,那么，比如
 a.id = CAST(b.id AS CHAR(20)) 如果要走索引比较条件左边是不能带函数的
@@ -543,10 +543,10 @@ Name Desciption BINARY string转为二进制string CAST() Cast a value as a cert
     
     <item>
       <title>Week1037_algorithm</title>
-      <link>https://ifaa.top/posts/week1037_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1037_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1037_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1037_algorithm/</guid>
       <description>ARTS - Algorithm 6. Z 字形变换 题目 将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。
 比如输入字符串为 &amp;ldquo;LEETCODEISHIRING&amp;rdquo; 行数为 3 时，排列如下：
 L C I R E T O E S I I G E D H N 之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：&amp;ldquo;LCIRETOESIIGEDHN&amp;rdquo;。
@@ -559,10 +559,10 @@ L D R E O E I I E C I H N T S G</description>
     
     <item>
       <title>Week1037_tip</title>
-      <link>https://ifaa.top/posts/week1037_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1037_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:46 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1037_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1037_tip/</guid>
       <description>ARTS - Tip 补2019.3.20 一个关于MongoDB连接的问题 最近有一个需求，要连接mongo集群，但是总是报错，以下是问题及解决过程。
 项目背景 springboot项目，连接阿里云MongoDB数据库。
 问题描述 在启动项目时候报错如下：
@@ -571,20 +571,20 @@ No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cl
     
     <item>
       <title>Week1033_review</title>
-      <link>https://ifaa.top/posts/week1033_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1033_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1033_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1033_review/</guid>
       <description>ARTS - Review 补2019.2.20 MySQL数据类型(2) temporal adj. 时间的 guarantee n. 保证 fractional adj. 很小的 ，分数的 omit v. 删除，省略 assignment n. 分配 equivalent adj. 相等的 explicitly adv. 明确地 11.1.2 Date and Time Type Overview 日期时间类型概览
 A summary of the temporal data types follows. For additional information about properties and storage requirements of the temporal types, see Section 11.3, “Date and Time Types”, and Section 11.8, “Data Type Storage Requirements”. For descriptions of functions that operate on temporal values, see Section 12.</description>
     </item>
     
     <item>
       <title>Week1033_share</title>
-      <link>https://ifaa.top/posts/week1033_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1033_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1033_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1033_share/</guid>
       <description>ARTS - Share 补2019.2.20 关于APP后端的登陆状态 问题 最近做APP的后端，考虑如何做登陆的状态，要实现的目标是区分用户，并且不用频繁重新登登录，不暴露系统用户的实际ID。
 思路 有这样一个思路，考虑用户表增加一个token列，当token存在，就说明已经登陆，不存在说明未登录。token的控制可以分为客户主动登出，或者超时退出(后端定时清理)。这样就不用暴露userId到外部，使用token传输放在header里，每次只要验证有没有这个参数，参数是否存在库里(加缓存)，就能判断登陆状态。
 生成规则 不使用UUID，因为它无序，我们需要能够按照时间有序生成，这里参考了下twitter开源的ID生成策略项目snowflake，支持分布式唯一ID。
@@ -597,10 +597,10 @@ snowflake生成的ID整体上按照时间自增排序，并且整个分布式系
     
     <item>
       <title>Week1033_tip</title>
-      <link>https://ifaa.top/posts/week1033_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1033_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1033_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1033_tip/</guid>
       <description>ARTS - Tip 补2019.2.20 MySQL 的GTID
 背景 在数据库备份与恢复中碰到了不能导入的情况，报错是GTID相关，查了资料，发现是MySQL在5.6时引入的。
 概念 GTID (Global Transaction Identifier) 即全局I事务ID，GTID实际是由UUID 和 TID 组成的。UUID是MySQL实例的唯一标识。TID代表了该实例上已经提交的事务数量，并且随着事务提交单调递增，所以GTID能保证每个MySQL实例事务的执行(不会重复执行同一个事务，并且会补全没有执行的事务)。具体的看官方文档：17.1.3 Replication with Global Transaction Identifiers
@@ -616,10 +616,10 @@ GTID 意义 引入GTID的意义是什么?
     
     <item>
       <title>Week1034_algorithm</title>
-      <link>https://ifaa.top/posts/week1034_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1034_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1034_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1034_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.2.27 86. 分隔列表 题目 给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。
 你应当保留两个分区中每个节点的初始相对位置。
 示例:
@@ -629,20 +629,20 @@ GTID 意义 引入GTID的意义是什么?
     
     <item>
       <title>Week1034_review</title>
-      <link>https://ifaa.top/posts/week1034_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1034_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1034_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1034_review/</guid>
       <description>ARTS - Review 补2019.2.27 Developers — here is the best WHY to quit your 9–5 job 开发者 — 这是你退出朝九晚五工作的最佳选择
 prowess n. 非凡的技能， fret v. 苦恼 meagre adj. 微薄的 compensation n. 补偿 supervise v. 监督，管理 console v. 安慰 come across 偶然发现 unilaterally 单方面的 applauds 鼓掌 metal n. 金属 carpentry n. 木工 manufacturing n. 制造业 colonies n. 殖民地 boycotted v. 拒绝购买，抵制boycott过去式 harmoniums 和声 despite prep. 尽管，即使 clutter v.杂乱，. gargantuan adj. 巨大的 Archaic adj.</description>
     </item>
     
     <item>
       <title>Week1034_share</title>
-      <link>https://ifaa.top/posts/week1034_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1034_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1034_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1034_share/</guid>
       <description>ARTS - Share 补2019.2.27 Spring容器启动过程 根据这个图了解spring的启动过程:
 Web.xml
 -Start-contextInitialzed(ServletContextEvent event)
@@ -668,10 +668,10 @@ public class ContextLoaderListener extends ContextLoader implements ServletConte
     
     <item>
       <title>Week1034_tip</title>
-      <link>https://ifaa.top/posts/week1034_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1034_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1034_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1034_tip/</guid>
       <description>ARTS - Tip 补2019.2.27 Ajax跨域 背景 在对APP、服务端项目开发时候，由于APP使用了html5做页面，有一些ajax调用后台数据的需求，测试时候前后端部署一台机器上没问题，当两者分开部署时候，就产生了跨域问题。
 介绍： 什么是AJAX跨域问题 产生AJAX跨域问题的原因 解决AJAX跨域的思路和方法 什么是AJAX跨域 简单说就是前端调用后端服务接口时，如果服务接口不是同一个域，就会产生跨域问题。
 AJAX跨域场景 前后端分离、服务化的开发模式 AJAX跨域原因 浏览器限制： 浏览器安全校验限制 跨域(协议、域名、端口任何一个不一样都会认为是跨域) XHR请求 AJAX跨域问题解决思路 浏览器： 浏览器去掉跨域校验 XHR： 不使用XHR，使用JSONP，有很多弊端（JsonP向Server提交URL的长度限制在8000字符，超过了则被浏览器拒绝，因此不采用。），无法满足现在开发要求 跨域：被调用方法支持跨域调用(指定参数)；调用方法修改跨域（基于代理） 解决方法 后端要做的工作：
@@ -691,10 +691,10 @@ application/x-www-form-urlencoded` multipart/form-data text/plain 其他会导�
     
     <item>
       <title>Week1035_algorithm</title>
-      <link>https://ifaa.top/posts/week1035_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1035_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:45 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1035_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1035_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.3.6 92. 反转链表 II 题目 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
 说明: 1 ≤ m ≤ n ≤ 链表长度。
 示例:
@@ -706,10 +706,10 @@ application/x-www-form-urlencoded` multipart/form-data text/plain 其他会导�
     
     <item>
       <title>Week1031_algorithm</title>
-      <link>https://ifaa.top/posts/week1031_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1031_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1031_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1031_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.2.6 [24. 两两交换链表中的节点] 题目 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换
 示例:
@@ -721,10 +721,10 @@ Prev -&amp;gt; node -&amp;gt; node.next -&amp;gt; node.next.next
     
     <item>
       <title>Week1031_review</title>
-      <link>https://ifaa.top/posts/week1031_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1031_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1031_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1031_review/</guid>
       <description>ARTS - Review 补 2019.2.6 The Best Questions to Ask at Your Performance Review Rebecca Fishbein
 在绩效评估中最好的问题
 disservice n. 损害，伤害 specific adj. 明确的，具体的 exactly adv. 精确地，准确地 quarterly adj.季度的 annual adj. 每年的 buckets n. 桶 assistant n. 助理 Negotiable adj. 可协商的 striving v. 努力 informed adj. 有学问的 v.了解，熟悉 engaged adj. 忙于，从事于 bonus n. 奖金 jittery adj. 紧张不安的 entails v. 牵涉，需要，带来 temperature n. 温度 impacting 影响 attaining 获得 rough adj. 粗略的 dental hygienist adj.</description>
@@ -732,10 +732,10 @@ disservice n. 损害，伤害 specific adj. 明确的，具体的 exactly adv. �
     
     <item>
       <title>Week1031_share</title>
-      <link>https://ifaa.top/posts/week1031_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1031_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1031_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1031_share/</guid>
       <description>ARTS - Share 补2019.2.6 JVM的守护线程和用户线程 线程池创建非daemon线程 最近在看线程池时候, 发现线程池创建线程特别设置了线程为非daemon，以下是DefaultThreadFactory 中的一段代码：
 public Thread newThread(Runnable r) { Thread t = new Thread(group, r, namePrefix + threadNumber.getAndIncrement(), 0); if (t.isDaemon()) t.setDaemon(false); if (t.getPriority() != Thread.NORM_PRIORITY) t.setPriority(Thread.NORM_PRIORITY); return t; } 于是就了解了下JVM的线程。
 守护线程和用户线程 Java线程分类为daemon 即守护线程，和非守护线程即用户线程，守护线程一般用来辅助用户线程，如GC线程就是守护线程，
@@ -748,10 +748,10 @@ public Thread newThread(Runnable r) { Thread t = new Thread(group, r, namePrefix
     
     <item>
       <title>Week1031_tip</title>
-      <link>https://ifaa.top/posts/week1031_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1031_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1031_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1031_tip/</guid>
       <description>ARTS - Tip 补 2019.2.6 线程池的getTask()方法 线程池持有线程不退出的思路 学线程池，都知道它的好处就是减少了频繁创建、销毁线程的开销，从而提高效率的，那么到底是怎么实现这个机制的呢？
 我们自己设想下，线程的声明周期就是创建、就绪、运行、销毁。如果线程一直在运行状态并且可以接收其他任务，那么其实就相当于是避开了频繁创建、销毁的开销。那么，线程池也是这么个思路。
 先看代码 runWorker, 我们知道runWorker其实就是相当于线程的run方法， 同理addWorker 可以看做是创建线程。
@@ -760,10 +760,10 @@ runWorker final void runWorker(Worker w) { Thread wt = Thread.currentThread(); R
     
     <item>
       <title>Week1032_algorithm</title>
-      <link>https://ifaa.top/posts/week1032_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1032_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1032_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1032_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.2.13 25. k个一组翻转链表 题目 给出一个链表，每 k 个节点一组进行翻转，并返回翻转后的链表。
 k 是一个正整数，它的值小于或等于链表的长度。如果节点总数不是 k 的整数倍，那么将最后剩余节点保持原有顺序。
 示例 :
@@ -777,10 +777,10 @@ k 是一个正整数，它的值小于或等于链表的长度。如果节点总
     
     <item>
       <title>Week1032_review</title>
-      <link>https://ifaa.top/posts/week1032_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1032_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1032_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1032_review/</guid>
       <description>ARTS - Review 补2019.2.13 MySQL数据类型总览 11.1.1 Numeric Type Overview unrelated adj. 无关联的. specify v. 具体说明 subtraction n. 减法 omit v. 忽略 synonyms n. 同义词 precision n. 精确，准确 A summary of the numeric data types follows. For additional information about properties and storage requirements of the numeric types, see Section 11.2, “Numeric Types”, and Section 11.8, “Data Type Storage Requirements”.
 主要的数字数据类型如下。更多关于数字类型的属性和存储信息，请看11.2章，和11.8章。
 M indicates the maximum display width for integer types. The maximum display width is 255.</description>
@@ -788,10 +788,10 @@ M indicates the maximum display width for integer types. The maximum display wid
     
     <item>
       <title>Week1032_share</title>
-      <link>https://ifaa.top/posts/week1032_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1032_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1032_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1032_share/</guid>
       <description>ARTS - Share 补2019.2.13 基础的重要性 现代计算机的存储结构 现代计算机大多采用冯诺依曼机构，主要分为核心计算中央处理器CPU，内存，作为临时存储数据的模块，硬盘，永久存储数据的地方，还有数据总线，负责之间数据传输通信。
 我们与计算机交互，其实就是把数据交给CPU处理，然后结果返回。中间涉及到数据存储、传输、读取，也就是输入输出，简称IO(input output)。实现这个过程的实体就是CPU、内存、硬盘。速度上CPU&amp;gt;内存&amp;raquo;硬盘。 我们的目标是用尽可能少的资源(计算资源、时间资源、空间存储资源)得到尽可能多的结果。
 由于目前经常是CPU处理性能强大，我们经常优化点就在磁盘(硬盘)IO，和内存存取计算这块，为了实现目标，落到实地就是尽可能的减少磁盘IO，尽可能减少内存开销，和尽可能少的计算。于是出现了各种数据结构，就是为了在不同场景下最大化的利用资源达到目的。数据结构和算法并非凭空产生，都是依托于场景存在，所以学习这类知识不能孤立的只是学习记忆，要尽可能的学习它的适用场景。
@@ -807,10 +807,10 @@ MySQL的B+树 这里说一个典型的mysql索引B+树。我们知道磁盘数�
     
     <item>
       <title>Week1032_tip</title>
-      <link>https://ifaa.top/posts/week1032_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1032_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1032_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1032_tip/</guid>
       <description>ARTS - Tip 补 2019.2.13 linux前后台切换 ctrl + z 和 bg 、fg 最近使用到了Linux命令的前后台切换功能。本来是命令是在前台执行，但是执行时间过长，就想要调到后台执行，于是就找了这一块的知识。
 Linux终端，执行命令后加 &amp;amp; 可以让程序在后台运行。注意的是，如果退出终端，程序也停止运行，要永久运行使用 nohup， 后面再讲。
 如果程序已经在前台运行，可以用 ctrl+z 调到后台，但是此时程序是暂停的，需要用bg %n 放到后台继续运行
@@ -821,10 +821,10 @@ Linux终端，执行命令后加 &amp;amp; 可以让程序在后台运行。注�
     
     <item>
       <title>Week1033_algorithm</title>
-      <link>https://ifaa.top/posts/week1033_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1033_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:44 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1033_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1033_algorithm/</guid>
       <description>ARTS - Algorithm 补 2019.2.20 [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/submissions/) 题目 给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
 示例 1:
 输入: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5-&amp;gt;NULL, k = 2 输出: 4-&amp;gt;5-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;NULL 解释: 向右旋转 1 步: 5-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;NULL 向右旋转 2 步: 4-&amp;gt;5-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;NULL 示例 2:
@@ -834,10 +834,10 @@ Linux终端，执行命令后加 &amp;amp; 可以让程序在后台运行。注�
     
     <item>
       <title>Week1028_share</title>
-      <link>https://ifaa.top/posts/week1028_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1028_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1028_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1028_share/</guid>
       <description>ARTS - Share 补2019.1.16 快速迭代与流程开发的一点思考 软件工程与互联网 我们很早接受了软件工程的思想，有一套非常标准的工作流程： 客户谈需求、形成用例、完成文档、开发、测试、上线部署等。如果有需求变更，就再走一遍流程，变更的需求大约在下一期上线。
 这样的工作流程或准则在业务变更不频繁，时间充裕的传统企业是比较适合的，因为比较好控制质量、成本等。但是在瞬息万变的互联网行业是不行的，因为互联网的特点就是新颖的事物层出不穷，快速响应变化。因此需求变更是常态。如果哪家互联网企业严格按照软件工程那一套，必然容易失去先机，不会成为一流。
 技术架构的多变 以业务导向为核心，需求的频繁变更不可避免，那么架构就要适应这个变化。然而现实很容易走极端，过度架构设计保证灵活性可能带来复杂性，如果变更的一点需求需要大量的时间开发、测试，然后上线，最后发现付出的成本远超产生的价值；不进行架构设计，又容易造成重复开发，疲于应付各种意外，造成项目越来越臃肿，直到改无可改，开始重构。那么，该如何思考架构设计？答案是，适度设计。
@@ -848,10 +848,10 @@ Linux终端，执行命令后加 &amp;amp; 可以让程序在后台运行。注�
     
     <item>
       <title>Week1029_algorithm</title>
-      <link>https://ifaa.top/posts/week1029_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1029_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1029_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1029_algorithm/</guid>
       <description>ARTS - Algorithm 补 2019.1.23 19. 删除链表的倒数第N个节点 题目 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
 示例：
 给定一个链表: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5, 和 n = 2. 当删除了倒数第二个节点后，链表变为 1-&amp;gt;2-&amp;gt;3-&amp;gt;5. 说明：
@@ -865,20 +865,20 @@ Linux终端，执行命令后加 &amp;amp; 可以让程序在后台运行。注�
     
     <item>
       <title>Week1029_review</title>
-      <link>https://ifaa.top/posts/week1029_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1029_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1029_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1029_review/</guid>
       <description>ARTS - Review 补2019.1.23 1.5 MySQL8.0服务状态变量和可选性的增加、过时或删除 rotated v. 回转 activate vt. 激活 Options and Variables Introduced in MySQL 8.0 he following system variables, status variables, and options are new in MySQL 8.0, and have not been included in any previous release series. 以下系统变量，状态变量，和可选项是MySQL8.0新增的，在之前的的发布系列中是不包含的。
 Acl_cache_items_count: Number of cached privilege objects. Added in MySQL 8.0.0.Each object is the privilege combination of a user and its active roles. 缓存的权限对象数量。MySQL8.0.0添加。 每个对象都是连接一个用户和它的角色的权限。 Audit_log_current_size: Audit log file current size.</description>
     </item>
     
     <item>
       <title>Week1029_share</title>
-      <link>https://ifaa.top/posts/week1029_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1029_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1029_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1029_share/</guid>
       <description>ARTS - Share 补2019.1.23 再谈代码规范 为什么要有规范 代码是方便给人读的，机器码是方便给机器读的。
 探本溯源来看代码这个问题。为什么会出现不同的编程语言？为什么不直接使用机器码0，1或汇编来进行编程？为什么进化出了一大堆语言，比如适合做系统开发的C，面向对象的C++、Java， 浏览器方面的JavaScript ?我们多问几遍为什么，就离答案不远了，—— 为了方便我们人类工作。
 并非人人都是冯诺依曼 冯诺依曼是个天才，当我们在争论&amp;quot;PHP是最好的语言&amp;quot;时候，人家认为的最好的语言是汇编，因为汇编可以做到一切。我们软件、互联网行业并非人人都是开宗立派级的大师，还有很多水平一般的从业者，他们的目的并非是研究一门性能卓越的语言或开拓一个技术新领域，而是使用现有的技术手段完成任务。 相信大多数人都是这样，基于这个目的，我们需要的就是一个 人类逻辑习惯与计算机性能之间平衡最好的语言。于是就出现了各种编程语言，慢慢形成了各自的适应领域。
@@ -893,10 +893,10 @@ if/else ，如果else逻辑简短但if繁多，就把 else 内容提前面。比
     
     <item>
       <title>Week1029_tip</title>
-      <link>https://ifaa.top/posts/week1029_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1029_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1029_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1029_tip/</guid>
       <description>ARTS - Tip 补2019.1.23 线程池的execute 方法 源码 线程池提交两种任务，一种是无返回值的，就是execute, 另一种是有返回值的submit,下次讲。
 先来看源码：
 public void execute(Runnable command) { if (command == null) throw new NullPointerException(); /* * 三步处理: * 1. 如果比核心线程数小，会尝试打开一个新线程来执行任务。调用addWorker自动检查runState状态和workerCount 运行中的任务数，添加失败返回false. * 2. 如果一个任务可以入队成功，仍要二次校验是否添加成功(因为存在上次检查过后就消亡了)。 * 3. 如果任务不能入队，尝试添加一个新线程，如果失败，我们知道线程池关闭或队列饱和，拒绝任务。 */ // 获得线程池(包含状态 + 数量) int c = ctl.get(); if (workerCountOf(c) &amp;lt; corePoolSize) { if (addWorker(command, true)) return; c = ctl.get(); } if (isRunning(c) &amp;amp;&amp;amp; workQueue.offer(command)) { int recheck = ctl.get(); if (! isRunning(recheck) &amp;amp;&amp;amp; remove(command)) reject(command); else if (workerCountOf(recheck) == 0) addWorker(null, false); } else if (!</description>
@@ -904,10 +904,10 @@ public void execute(Runnable command) { if (command == null) throw new NullPoint
     
     <item>
       <title>Week1030_algorithm</title>
-      <link>https://ifaa.top/posts/week1030_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1030_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1030_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1030_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.1.30 23. 合并K个排序链表 题目 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
 示例:
 输入: [ 1-&amp;gt;4-&amp;gt;5, 1-&amp;gt;3-&amp;gt;4, 2-&amp;gt;6 ] 输出: 1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4-&amp;gt;5-&amp;gt;6 分析 相当于合并多个有序数组，也可以先合并两个有序数组，再合并剩下的，于是代码如下：
@@ -916,20 +916,20 @@ public void execute(Runnable command) { if (command == null) throw new NullPoint
     
     <item>
       <title>Week1030_review</title>
-      <link>https://ifaa.top/posts/week1030_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1030_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1030_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1030_review/</guid>
       <description>ARTS - Reivew 补2019.1.30 As a Leader, Time Is Your Most Valuable Resource 来自 Medium, 作者 Dave Anderson As a Leader, Time Is Your Most Valuable Resource
 Inquire v.调查 查究 Occasionally adv. 偶尔 candidate n. 候选人 thrive v.兴旺发达，茁壮成长 variation n. 变种，变体 critical adj. 批评的，挑剔的，极重要的 packed adj. 异常拥挤的 infinite adj. 极大的，无限的 fire hose 消防水管 abate vt. 减少 throttle v. 使窒息，掐死， prioritizing v. 优先排序 guaranteed adj. 必然的 eventually adv. 最后，终于 dividends n. 红利，股息 Identify v.</description>
     </item>
     
     <item>
       <title>Week1030_share</title>
-      <link>https://ifaa.top/posts/week1030_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1030_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1030_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1030_share/</guid>
       <description>ARTS - Share 补2019.1.30 其实产业只有金融业与非金融业 存钱与放贷 我们假设这样一种情况：
 A给一笔钱到B，约定利率是年化3%， 也就是一万元，一年后能够取回一万零三百。
 B拿这笔钱借给C，约定年化利率是8%，也就是一万元一年以后还一万零八百。
@@ -954,10 +954,10 @@ E拿到钱后以30%的年化利率给了F，赚10的息差。
     
     <item>
       <title>Week1030_tip</title>
-      <link>https://ifaa.top/posts/week1030_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1030_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:43 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1030_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1030_tip/</guid>
       <description>ARTS - Tip 补2019.1.30 线程池addWorker里的Worker探析 Worker是什么 我们在addWorker方法看到这样的一段代码：
 boolean workerStarted = false; boolean workerAdded = false; Worker w = null; try { w = new Worker(firstTask); final Thread t = w.thread; if (t != null) { ... if (workerAdded) { t.start(); workerStarted = true; } } } finally { if (! workerStarted) addWorkerFailed(w); } return workerStarted; 这里主要做的就是启动Worker，我们再来看看Worker是什么。
 private final class Worker extends AbstractQueuedSynchronizer implements Runnable { /** * This class will never be serialized, but we provide a * serialVersionUID to suppress a javac warning.</description>
@@ -965,10 +965,10 @@ private final class Worker extends AbstractQueuedSynchronizer implements Runnabl
     
     <item>
       <title>Week1026_share</title>
-      <link>https://ifaa.top/posts/week1026_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1026_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1026_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1026_share/</guid>
       <description>ARTS - Share 补2019.1.2 提高系统性能方式的总结 问题提出 根据最近一列的优化系统性能，形成了一点思考，做下总结。
 所谓提高系统性能，就是把慢的地方，变成快的地方。哪个地方容易慢？磁盘、网络IO、计算密集操作，这些就对应着数据库优化，网络请求，和各类计算。那么，对应的解决方案就是减少磁盘操作，如优化数据库索引，换成内存操作，如使用缓存，如进行预处理。
 加缓存 因为内存操作远快于磁盘操作，所以对于有些查询类且不经常变化的数据例如用户信息类、历史统计表等放入缓存，下次直接读取缓存，提高的性能就相当于内存相对磁盘的性能。
@@ -986,10 +986,10 @@ private final class Worker extends AbstractQueuedSynchronizer implements Runnabl
     
     <item>
       <title>Week1027_algorithm</title>
-      <link>https://ifaa.top/posts/week1027_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1027_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1027_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1027_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.1.9 122. 买卖股票的最佳时机 II 题目 给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
 设计一个算法来计算你所能获取的最大利润。你可以尽可能地完成更多的交易（多次买卖一支股票）。
 注意：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
@@ -1000,20 +1000,20 @@ private final class Worker extends AbstractQueuedSynchronizer implements Runnabl
     
     <item>
       <title>Week1027_review</title>
-      <link>https://ifaa.top/posts/week1027_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1027_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1027_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1027_review/</guid>
       <description>ARTS - Review 补2019.1.9 Java Class Format （二） determine 决定 denote 代表 lexicographically 按字典顺序 distinguished 卓著 indicates 表示 4.1. The ClassFile Structure A class file consists of a single ClassFile structure:
 ClassFile { u4 magic; u2 minor_version; u2 major_version; u2 constant_pool_count; cp_info constant_pool[constant_pool_count-1]; u2 access_flags; u2 this_class; u2 super_class; u2 interfaces_count; u2 interfaces[interfaces_count]; u2 fields_count; field_info fields[fields_count]; u2 methods_count; method_info methods[methods_count]; u2 attributes_count; attribute_info attributes[attributes_count]; } The items in the ClassFile structure are as follows:</description>
     </item>
     
     <item>
       <title>Week1027_share</title>
-      <link>https://ifaa.top/posts/week1027_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1027_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1027_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1027_share/</guid>
       <description>ARTS - Share 补2019.1.9 HashMap的key是否可以是null 简介 HashMap是一个经常要用到的键值对。我们知道它的大致原理就是对key进行hash计算，找到它在容器中的位置，在此过程重要的是hash计算，尽可能不同key不产生相同的hash值。那么 hashmap的key能否为null呢？
 key能不能是null 我们在map容器中添加元素时候使用 map.put(k, v). 我们查看put方法：
 public V put(K key, V value) { // 调用了putVal 方法， return putVal(hash(key), key, value, false, true); } // 在看hash(key)，是否要求不为空 static final int hash(Object key) { int h; return (key == null) ? 0 : (h = key.hashCode()) ^ (h &amp;gt;&amp;gt;&amp;gt; 16); } // hash(null) == 0 可见HashMap中， key可以是null，
@@ -1022,10 +1022,10 @@ putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, bool
     
     <item>
       <title>Week1027_tip</title>
-      <link>https://ifaa.top/posts/week1027_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1027_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1027_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1027_tip/</guid>
       <description>ARTS - Tip 补2019.1.9 关于创建线程池 阿里巴巴规范 在阿里巴巴Java开发手册里有这么一条：
 【强制】线程池不允许使用 Executors 去创建，而是通过 ThreadPoolExecutor 的方式，这样 的处理方式让写的同学更加明确线程池的运行规则，规避资源耗尽的风险。 说明:Executors 返回的线程池对象的弊端如下:
 1)FixedThreadPool 和 SingleThreadPool: 允许的请求队列长度为 Integer.MAX_VALUE，可能会堆积大量的请求，从而导致 OOM。
@@ -1038,10 +1038,10 @@ FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
     
     <item>
       <title>Week1028_algorithm</title>
-      <link>https://ifaa.top/posts/week1028_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1028_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1028_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1028_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.1.16 160. 相交链表 题目 编写一个程序，找到两个单链表相交的起始节点。 如下面的两个链表：
 在节点 c1 开始相交。
 示例 1： 输入：intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3 输出：Reference of the node with value = 8 输入解释：相交节点的值为 8 （注意，如果两个列表相交则不能为 0）。从各自的表头开始算起，链表 A 为 [4,1,8,4,5]，链表 B 为 [5,0,1,8,4,5]。在 A 中，相交节点前有 2 个节点；在 B 中，相交节点前有 3 个节点。
@@ -1050,10 +1050,10 @@ FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
     
     <item>
       <title>Week1028_review</title>
-      <link>https://ifaa.top/posts/week1028_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1028_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1028_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1028_review/</guid>
       <description>ARTS - Review 补2019.1.16 Java class File Format（3） inherited v. 继承 specification n. 规范 this_class
 The value of the this_class item must be a valid index into the constant_pool table. The constant_pool entry at that index must be a CONSTANT_Class_info structure (§4.4.1) representing the class or interface defined by this class file.
 this_class 这一项的值必须是constant_pool里验证过的值。constant_pool 实体索引必须是CONSTANT_Class_info 结构 代表定义在类文件的类或接口。
@@ -1062,10 +1062,10 @@ super_class For a class, the value of the super_class item either must be zero o
     
     <item>
       <title>Week1028_tip</title>
-      <link>https://ifaa.top/posts/week1028_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1028_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:42 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1028_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1028_tip/</guid>
       <description>ARTS - Tip 补 2019.1.16 线程池的状态 我们来看 ThreadPoolExecutor 的execute方法。
 线程池提交方法有两个， execute 和 submit, execute 提交的是无返回值的Runnable, submit提交的是有返回值 Callable.今天先看execute.
 /** * * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。 * 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止 * * * @param command 待执行的任务 * @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常 */ public void execute(Runnable command) { if (command == null) throw new NullPointerException(); /* * Proceed in 3 steps: * * 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。 * 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况 * * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程 * (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以 * 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程 * * 3.</description>
@@ -1073,19 +1073,19 @@ super_class For a class, the value of the super_class item either must be zero o
     
     <item>
       <title>Week1024_review</title>
-      <link>https://ifaa.top/posts/week1024_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1024_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1024_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1024_review/</guid>
       <description>ARTS - Review 补12.17 1.4 What Is New in MySQL 8.0 summarizes v 总结 deprecated v 弃用 companion n 伴侣，伙伴 incorporates v 合并 associated adj. 相关 enhancements 增强 accompanying adj. 随同 latency 等待时间 restrictions 限制 This section summarizes what has been added to, deprecated in, and removed from MySQL 8.0. A companion section lists MySQL server options and variables that have been added, deprecated, or removed in MySQL 8.0. See Section 1.</description>
     </item>
     
     <item>
       <title>Week1024_share</title>
-      <link>https://ifaa.top/posts/week1024_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1024_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1024_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1024_share/</guid>
       <description>ARTS-Share	补12.17 对软件工程的思考 什么是工程 工程就是做成某事的一整套方案。为什么要提出软件工程，因为为了像普通工程一样，过程控制，结果控制，整体控制，达到一个好的结果，所以需要工程化软件生产实现过程。说到底，就是为了又快又好的完成产品。
 怎么做 又快又好的完成软件，就需要工程化的控制怎么快，怎么好的问题。
 怎么快？
@@ -1103,10 +1103,10 @@ super_class For a class, the value of the super_class item either must be zero o
     
     <item>
       <title>Week1025_algorithm</title>
-      <link>https://ifaa.top/posts/week1025_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1025_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1025_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1025_algorithm/</guid>
       <description>ARTS - Algorithm 补12.24 205. 同构字符串 题目 给定两个字符串 s 和 t，判断它们是否是同构的。
 如果 s 中的字符可以被替换得到 t ，那么这两个字符串是同构的。
 所有出现的字符都必须用另一个字符替换，同时保留字符的顺序。两个字符不能映射到同一个字符上，但字符可以映射自己本身。
@@ -1121,10 +1121,10 @@ public static boolean isIsomorphic(String s, String t) { if (s.length() != t.</d
     
     <item>
       <title>Week1025_review</title>
-      <link>https://ifaa.top/posts/week1025_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1025_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1025_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1025_review/</guid>
       <description>ARTS - Review 补12.24 1.4 What Is New in MySQL 8.0(下) assigning 分配
 enhancements 增强
 persistent adj 持久化
@@ -1139,10 +1139,10 @@ MySQL now supports creation and management of resource groups, and permits assig
     
     <item>
       <title>Week1025_share</title>
-      <link>https://ifaa.top/posts/week1025_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1025_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1025_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1025_share/</guid>
       <description>ARTS - Share - 补12.24日 MySQL的联合索引 最左匹配原则 索引的重要性就不再说了，反正使用数据库的都知道，我们来说说联合索引。说到联合索引，就要说它的最左匹配原则，由于B+Tree 的特点，索引从左往右建，加入一张表 table(col1, col2, col3), 建立联合索引 create index idx_table_col1_col2 on table(col1, col2);
 在查询时候 where col1 = xxx and col2 = xxx 和 where col1 ，都会用到这个联合索引，但是如果 where col2 = xxx ， 这种情况是用不到联合索引的。
 实际案例 本人在进行一个百万级表的查询时候，碰到了这个问题。
@@ -1152,10 +1152,10 @@ MySQL now supports creation and management of resource groups, and permits assig
     
     <item>
       <title>Week1025_tip</title>
-      <link>https://ifaa.top/posts/week1025_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1025_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1025_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1025_tip/</guid>
       <description>ARTS - Tip 补12.24 MySQL报错 Packet for query is too large 问题出现 今日碰到了一个mysql报错如下：
 com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4281662 &amp;gt; 4194304). You can change this value on the server by setting the max_allowed_packet&amp;#39; variable. 这句话说查询包太大了，这里有一个参数叫 max_allowed_packet，查询资料发现是MySQL设置的最大查询发送包大下，现在看来是超过了。查找相应的SQL语句，确实传送了大量的数据作为参数，然后就优化了SQL，避开这种使用方式。
 max_allowed_packet 这个参数是什么呢?
@@ -1166,10 +1166,10 @@ The packet message buffer is initialized to net_buffer_length bytes, but can gro
     
     <item>
       <title>Week1026_algorithm</title>
-      <link>https://ifaa.top/posts/week1026_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1026_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1026_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1026_algorithm/</guid>
       <description>ARTS - Algorithm 补2019.1.2 155. 最小栈 题目 设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
 push(x) &amp;ndash; 将元素 x 推入栈中。 pop() &amp;ndash; 删除栈顶的元素。 top() &amp;ndash; 获取栈顶元素。 getMin() &amp;ndash; 检索栈中的最小元素。 示例:
 MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStack.push(-3); minStack.getMin(); --&amp;gt; 返回 -3. minStack.pop(); minStack.top(); --&amp;gt; 返回 0. minStack.getMin(); --&amp;gt; 返回 -2. 分析 两个要求，一是设计一个栈的数据结构，第二是要求取得最小元素时间复杂度为常数。
@@ -1180,20 +1180,20 @@ MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStac
     
     <item>
       <title>Week1026_review</title>
-      <link>https://ifaa.top/posts/week1026_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1026_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1026_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1026_review/</guid>
       <description>ARTS - Review 补2019.1.2 Java Class文件格式 本片来自于官网文档: Chapter 4. The class File Format
 definition n. 定义 external 外部的 representation 表现 literally 字面上的 colloquially 口语的，白话的 consists 包括 respectively 分别地，各自地 This chapter describes the class file format of the Java Virtual Machine. Each class file contains the definition of a single class or interface. Although a class or interface need not have an external representation literally contained in a file (for instance, because the class is generated by a class loader), we will colloquially refer to any valid representation of a class or interface as being in the class file format.</description>
     </item>
     
     <item>
       <title>Week1026_tip</title>
-      <link>https://ifaa.top/posts/week1026_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1026_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:41 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1026_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1026_tip/</guid>
       <description>ARTS - Tip 补 2019.1.2 多人查询系统加锁 问题 由于有几百人同时查询一个借口，造成数据库压力飙升，在优化完数据库索引、缓存之后，发现了多人查询返回的结果是一样的，然后在系统中做过滤，可以根据这一特点进行优化。
 思路 因为多人请求返回同样的数据，那么就可以让第一个人请求数据库，返回后放入缓存，其他人从缓存中拿，如果在请求中出现了另一个人查询，直接返回空。
 实现 刚开始使用了AtomicInteger 原子整形来实现，通过和初始化值做对比，如果没被修改过，就相当于获得了锁，把他改变值，然后去查询db, 存入缓存。
@@ -1204,10 +1204,10 @@ definition n. 定义 external 外部的 representation 表现 literally 字面�
     
     <item>
       <title>Week1022_review</title>
-      <link>https://ifaa.top/posts/week1022_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1022_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1022_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1022_review/</guid>
       <description>ARTS - Review 补12.3 gallery n. 画廊、走廊， vast amount of 大量的 standalone utilities 独立应用程序 relational adj. 亲属的，有关系的 governing v. 统治，控制 enforces v.强制执行 inconsistent adj. 不一致的 orphan adj. 孤立的 embed 嵌入 commercial 商业的 dedicate 奉献 demanding 苛求的 consists 包括 pronounce 发音 1.3.1 What is MySQL?
 MySQL, the most popular Open Source SQL database management system, is developed, distributed, and supported by Oracle Corporation.
 The MySQL website (http://www.mysql.com/) provides the latest information about MySQL software.</description>
@@ -1215,10 +1215,10 @@ The MySQL website (http://www.mysql.com/) provides the latest information about 
     
     <item>
       <title>Week1022_share</title>
-      <link>https://ifaa.top/posts/week1022_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1022_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1022_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1022_share/</guid>
       <description>ARTS - Share 补12.3 学技术要结合使用场景 结合场景理解技术 常常有这样的想法，学习了一段新语言、新技术，然后由于工作中没有使用，就闲置了，然后再过一段时间就忘了，等于没学。了解了一个技术实现，但是没有和实际结合起来，造成记忆不深，说明并没有完全吃透，因为没有适用场景的结合，造成知识如同空中楼阁。我建议由需求、场景引出使用这类技术的必要性，这样更能掌握技术。
 比如MySQL的使用 Q: 发现MySQL查询很慢，会怎么做呢？
 A: 看条件字段有没有加索引，没有的话就建立索引。
@@ -1256,10 +1256,10 @@ A: 如果只选一个数据，hash更快，数据库经常查多条，由于B+�
     
     <item>
       <title>Week1022_tip</title>
-      <link>https://ifaa.top/posts/week1022_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1022_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1022_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1022_tip/</guid>
       <description>ARTS - Tip 补12.3 MySQL备份数据过滤与自动化 导数据 在工作中要同步生产数据到测试服务器的需求，以方便测试，于是经常要复制表.
 最开始我是这么做的：
 // 首先备份表 mysqldump -uusername -p dbname tablename &amp;gt; tablename.sql // 把表复制到其他服务器 scp tablename.sql user@ip:~/ // 登录user机器，导入数据 mysql -uusername -p dbname &amp;lt; tablename.sql 由于测试机测试和本机测试还是不一样，有时使用 sz tablename.sql 到本地，再测试，这种情况下如果网络不好，而且数据文件非常大，要很慢才能传送完毕，于是就想到，有些数据按天产生，只需要最近几天的数据，对于之前的没必要传送。于是查文档找到了方案.
@@ -1270,10 +1270,10 @@ Dump only rows selected by the given WHERE condition. Quotes around the conditio
     
     <item>
       <title>Week1023_algorithm</title>
-      <link>https://ifaa.top/posts/week1023_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1023_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1023_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1023_algorithm/</guid>
       <description>ARTS - Algorithm 补12.10 143. 重排链表 题目 给定一个单链表 L：L0→L1→…→Ln-1→Ln ，
 将其重新排列后变为： L0→Ln→L1→Ln-1→L2→Ln-2→…
 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
@@ -1287,19 +1287,19 @@ public void reorderList(ListNode head) { LinkedList&amp;lt;Integer&amp;gt; list 
     
     <item>
       <title>Week1023_review</title>
-      <link>https://ifaa.top/posts/week1023_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1023_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1023_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1023_review/</guid>
       <description>ARTS - Review 补12.10 1.3.2 MySQL重要特性 respects n. 敬意；考虑；关联 roadmap n. 路标 appropriate adj. 适合的 Nutshell n. 果壳，简言之，一言以蔽之 Internals 内部 Portability 可移植性 commercial adj. 商用的 Internals 内幕 Portability 可移植性 temporary 临时的 optimized 优化 retrieve v. 取回 restriction 限制 privilege 特权 flexible 灵活 Scalability n. 可扩展性 consist of 由&amp;hellip;组成 Connectivity 连通性 Localization 局部化，地方化 specified 规定 This section describes some of the important characteristics of the MySQL Database Software. In most respects, the roadmap applies to all versions of MySQL.</description>
     </item>
     
     <item>
       <title>Week1023_share</title>
-      <link>https://ifaa.top/posts/week1023_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1023_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1023_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1023_share/</guid>
       <description>ARTS - Share 补12.10 创意实践思考 有才华的程序员 程序员圈子有才华的人很多，达成自己目标理想的人也有很多。因为创造一个程序、产品是一个虚拟数字产品，原材料仅仅是一个可以上网的电脑，可以根据需要找到各种各样的辅助工具，不需要像实体产品一样需要其他那么多人配合，自己在家中就可以实现。于是有些程序员就实现了自己的创业放到了网上，然后引起了一些投资人的兴趣，然后创业，项目做大。
 互联网风投的起源就是一帮大佬资助有才华的程序员去把自己的想法变成产品，然后获取回报，不管市场好坏，行业冷暖，市场上是不缺钱的，缺的是好项目。所以，最怕的不是你缺钱，而是你缺创意，缺把创意落地的能力。
 把创意落地 大多数人无法做到全职创业，拿着自己的想法去找投资人。那么可以利用业余时间做出第一版，让他跑起来再说，然后根据别人反馈、自己使用等方式，进行优化升级，如果引来一些人愿意尝试，那么可以一起讨论，然后推动它进步，项目就是这样一步步起来的。
@@ -1310,10 +1310,10 @@ public void reorderList(ListNode head) { LinkedList&amp;lt;Integer&amp;gt; list 
     
     <item>
       <title>Week1023_tip</title>
-      <link>https://ifaa.top/posts/week1023_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1023_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1023_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1023_tip/</guid>
       <description>ARTS - Tip 补12.10 一次MySQL时区问题引发的血案 事由 我们的系统是非洲人使用的，所以时区都改了，然后有一个功能是获取当前时间比较，但是页面显示不正常。
 分析 然后就在浏览器debug获取时间戳，然后通过js转成日期时间格式，发现仍然会自动转化为当前时区，就把本地时间改成了非洲一样的时区，通过比较发现获取的当前时间比非洲时间慢，说明获取当前时间取得的不对，然后看了这个时间获取方式，是mysql now() 函数产生的，于是去数据库服务器上去看时区，发现数据库时区和数据库服务器时区不一致！
 解决 修改MySQL时区和服务器一样，然后问题解决。
@@ -1322,10 +1322,10 @@ public void reorderList(ListNode head) { LinkedList&amp;lt;Integer&amp;gt; list 
     
     <item>
       <title>Week1024_algorithm</title>
-      <link>https://ifaa.top/posts/week1024_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1024_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1024_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1024_algorithm/</guid>
       <description>ARTS - Algorithm 补12.17 206. 反转链表 题目 反转一个单链表。
 示例:
 输入: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5-&amp;gt;NULL
@@ -1340,10 +1340,10 @@ A-&amp;gt;B-&amp;gt;C
     
     <item>
       <title>Week1024_tip</title>
-      <link>https://ifaa.top/posts/week1024_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1024_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:40 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1024_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1024_tip/</guid>
       <description>ARTS-Tip 补12.17 Redis 的使用场景思考 问题引入 我们的现状是两个产品用一套代码，分开部署。
 这种就要求两边的功能需求是一致的，现实中也确实是，不过里面的数据是不一样的，正好有一个需求，是每天初始化一个数据到保存的版本，这个数据对两个产品是不同的，于是在代码里判断了环境，初始化不同的数据。考虑后来写入db, 这样就不用判断环境了。然后别人提议写入 redis, 这样也不用区分环境了，然后就写入db还是redis 的问题，进行了思考。
 Redis的定位是什么 缓存。
@@ -1359,10 +1359,10 @@ Redis的定位是什么 缓存。
     
     <item>
       <title>Week1020_review</title>
-      <link>https://ifaa.top/posts/week1020_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1020_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1020_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1020_review/</guid>
       <description>ARTS - Review 补11.19 Chapter 4 Processes 1. passive adj. 被动的 a passive entity 被动的实体
 2. routine n 常规 routine parameters 常规参数
 3. individual adj. 个人的，个别的 individual process 个别的进程
@@ -1374,10 +1374,10 @@ Redis的定位是什么 缓存。
     
     <item>
       <title>Week1020_share</title>
-      <link>https://ifaa.top/posts/week1020_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1020_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1020_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1020_share/</guid>
       <description>ARTS - Share 补11.19 Linux 进程浅析 什么是进程 进程是在操作系统里开展工作。一个程序就是机器码命令和存储在硬盘可执行镜像上的数据的集合，就是一个被动实体；一个进程可以被看做一个运行中的计算机程序。
 它是一个动态实体，随着机器码指令被处理器执行不断变化着。和程序的命令与数据一样，进程也包含程序计数器和所有的CPU 的机器村 也有进程栈包含像常规参数这样的临时数据，返回地址和保存变量。
 Linux是多任务操作系统，进程之间互不影响，各自有各自的工作空间独立工作，除非安全问题和内核管理机制影响。
@@ -1398,10 +1398,10 @@ $ pstree init─┬─acpid ├─atd ├─cron ├─dbus-daemon ├─dhclien
     
     <item>
       <title>Week1020_tip</title>
-      <link>https://ifaa.top/posts/week1020_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1020_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1020_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1020_tip/</guid>
       <description>ARTS - Tip 补11.19 Maven 构建的意外killed 问题场景 在linux环境构建java web项目时候，运行 mvn clean package 后，会意外killed，
 [INFO] Packaging webapp [INFO] Processing war project [INFO] Webapp assembled in [1156 msecs] [INFO] Building war: /home/jack/git/xxx/zzz/target/x.war [1] + 25650 killed mvn clean package 问题定位 加上-X 开启debug模式
 INFO] Copying xstream-1.4.7.jar to /home/jack/git/credit-c[1] 25909 killed mvn package -X 没有报错，还是被killed, 可能是被操作系统killed的，只好谷歌了。
@@ -1414,10 +1414,10 @@ INFO] Copying xstream-1.4.7.jar to /home/jack/git/credit-c[1] 25909 killed mvn p
     
     <item>
       <title>Week1021_algorithm</title>
-      <link>https://ifaa.top/posts/week1021_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1021_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1021_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1021_algorithm/</guid>
       <description>ARTS - Algorithm 补11.26 141. 环形链表 题目 给定一个链表，判断链表中是否有环。
 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
 示例 1：
@@ -1431,10 +1431,10 @@ public static boolean hasCycle(ListNode head) { if (head == null || head.next ==
     
     <item>
       <title>Week1021_review</title>
-      <link>https://ifaa.top/posts/week1021_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1021_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1021_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1021_review/</guid>
       <description>ARTS - Review 补12.3号 Linux进程那些事（2） briefly adv. 简单地 made up of 由&amp;hellip;组成 fundamentally adv. 根本上 Foreground 前景 interactive adj.互动的 spontaneously adv. 自然地 via prep. 通过 partially adv. 部分地 preempt vt. 先占，取代 relinquish 放弃 A process refers to a program in execution; it’s a running instance of a program. It is made up of the program instruction, data read from files, other programs or input from a system user.
 一个进程代表一个程序执行过程；是一个程序运行实例。它由程序命令，从文件读取的数据或其他程序或系统用户输入读取数据组成。
 There are fundamentally two types of processes in Linux:</description>
@@ -1442,10 +1442,10 @@ There are fundamentally two types of processes in Linux:</description>
     
     <item>
       <title>Week1021_share</title>
-      <link>https://ifaa.top/posts/week1021_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1021_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1021_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1021_share/</guid>
       <description>ARTS - Share 补11.26 一个.java 文本文件是如何运行起来的 整体 我们知道，通常的说法是 .java被编译器编译成.class文件，也就是字节码文件，然后虚拟机加载执行。这是粗略的说法，具体实现是有些复杂的，如
 编译器如何把.java 文件编译成.class字节码文件的？ 虚拟机是如何加载编译后的字节码文件的？ 为什么要用虚拟机来执行Java程序？ 1.编译Java Java编译使用javac命令，编译器输入java源码文件， 输出机器语言，具体过程如下：
 java源代码（符合语言规范）-&amp;gt; javac -&amp;gt; .class字节码文件 -&amp;gt; jvm -&amp;gt; 机器语言（不同平台不同种类）
@@ -1459,10 +1459,10 @@ java源代码（符合语言规范）-&amp;gt; javac -&amp;gt; .class字节码�
     
     <item>
       <title>Week1021_tip</title>
-      <link>https://ifaa.top/posts/week1021_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1021_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1021_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1021_tip/</guid>
       <description>ARTS - Tip 补 11.26 关于字符串类型和数值类型排序的bug 最近遇到了一个排序需求，于是就直接使用了 Collections.sort 方法来实现，但是没有注意元素类型，就导致排序有问题。
 如下：
 List&amp;lt;String&amp;gt; list = Arrays.asList(&amp;#34;4.2, 3.3, 1, 17, 25&amp;#34;.split(&amp;#34;,&amp;#34;)); System.out.println(list); Collections.sort(list); System.out.println(list); // output [4.2, 3.3, 1, 17, 25] [ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
@@ -1471,10 +1471,10 @@ Collections.sort(list, Comparator.comparingDouble(o -&amp;gt; Double.parseDouble
     
     <item>
       <title>Week1022_algorithm</title>
-      <link>https://ifaa.top/posts/week1022_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1022_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:39 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1022_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1022_algorithm/</guid>
       <description>ARTS - Algorithm 补12.3 142. 环形链表 II 题目 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
 说明：不允许修改给定的链表。
@@ -1490,10 +1490,10 @@ public ListNode detectCycle2(ListNode head) { if (head == null || head.</descrip
     
     <item>
       <title>Week1018_algorithm</title>
-      <link>https://ifaa.top/posts/week1018_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1018_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1018_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1018_algorithm/</guid>
       <description>ARTS - Algorithm 补 11.5 88. 合并两个有序数组 题目 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
 说明:
 初始化 nums1 和 nums2 的元素数量分别为 m 和 n。 你可以假设 nums1 有足够的空间（空间大小大于或等于 m + n）来保存 nums2 中的元素。 示例:
@@ -1506,10 +1506,10 @@ public static void merge(int[] nums1, int m, int[] nums2, int n) { for (int i = 
     
     <item>
       <title>Week1018_review</title>
-      <link>https://ifaa.top/posts/week1018_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1018_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1018_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1018_review/</guid>
       <description>ARTS - Review 补11.5 为什么游戏玩乐是21世纪通往成功的关键 After the death of Isaac Newton — a mythic figure even in his own lifetime — the poet Alexander Pope wrote the following epitaph for him:
 爱克萨、牛顿 &amp;ndash; 一个甚至在有生之年都是神话的人物 去世后，诗人 Alexander Pope 为他写下了以下墓志铭：
 自然和自然法则隐藏在黑夜里
@@ -1545,10 +1545,10 @@ public static void merge(int[] nums1, int m, int[] nums2, int n) { for (int i = 
     
     <item>
       <title>Week1018_share</title>
-      <link>https://ifaa.top/posts/week1018_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1018_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1018_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1018_share/</guid>
       <description>ARTS - Share 补 11.5 日 对ARTS - Review 的思考与改进 目的 加入了ARTS 学习组有一段时间了，对耗子叔设置的ARTS每周任务很是赞同，也在努力坚持中。ARTS是每周要做的四个任务
 Algorithm 每周做一个算法题 Review 每周阅读一篇medium文章 Tip 每周学习总结一个技术技巧，最好是实际工作中遇到的 Share 每周分享一篇有观点有思考的技术文章 我觉得坚持这四项对成长很有好处。我对 Algorithm 和 Tip 很是赞同，对 Review 有点思考。
 Review 目的是阅读英文文章，提高英文能力，这样方便接触第一手英文技术资料，对自己有很大好处。另外，medium很多文章内容也是高质量，很值得看，这样在学习英文中也学到了作者的思想观点。我目前的做法是尽量翻译整理下来。
@@ -1560,10 +1560,10 @@ Review 目的是阅读英文文章，提高英文能力，这样方便接触第�
     
     <item>
       <title>Week1018_tip</title>
-      <link>https://ifaa.top/posts/week1018_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1018_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1018_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1018_tip/</guid>
       <description>ARTS - Tip 补 11.5 就说下我在工作中主动推动的事吧 生产和测试库分离 之前好长一段时间，我们测试环境连接数据库是直接连接生产数据库的，这样做有方便之处，便于直接查看生产数据，对于不涉及修改类的新功能更能直观看到效果，但也存在很大的风险，就是对于修改性的操作，很可能会影响到生产，尽管我们默认不去操作修改。但是也无法保证有时候的误操作，或者某些批处理任务的误启动。
 问组长为什么不分开，也没有特别的理由，只是强调这样做方便。我觉得是因为这么做习惯了，但是为了数据安全，还是要分开的。于是在就主动推动这件事，在他同意下，联系运维找到新的测试数据库，开始导一份生产备份到新测试库里，同时在构建工具里，增加了编译测试环境库的参数，这样以后修改可以发布测试库直接连测试库了，真正做到了分离，也避免了很多安全问题。
 文档不全 我们的环境有很多，各种系统的生产、测试部署环境、缓存环境、数据库环境，刚开始接触只有一张大而全的表格，又很多是业务无关的内容，因为连接只需要知道 ip，于是就着手做了业务类型和IP对应表，简洁方便，扫一眼就能清楚自己要连接的地址。
@@ -1573,10 +1573,10 @@ Review 目的是阅读英文文章，提高英文能力，这样方便接触第�
     
     <item>
       <title>Week1019_algorithm</title>
-      <link>https://ifaa.top/posts/week1019_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1019_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1019_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1019_algorithm/</guid>
       <description>ARTS - Algorithm 补 11.12 4.寻找两个有序数组的中位数 题目 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。
 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。
 你可以假设 nums1 和 nums2 不会同时为空。
@@ -1593,20 +1593,20 @@ class Solution { public double findMedianSortedArrays(int[] nums1, int[] nums2) 
     
     <item>
       <title>Week1019_review</title>
-      <link>https://ifaa.top/posts/week1019_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1019_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1019_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1019_review/</guid>
       <description>ARTS - Review 补 11.12 MySQL8.0 参考手册 单词列表 Abstract 抽象的，还有摘要的意思 Cluster 群，簇， 集群 edition 版次 refer 提到，针对，送交，使求助于 representative 代表 Preface 序言 Forums 座谈会、论坛 revision 修订，校对 摘要 This is the MySQL™ Reference Manual.It documents MySQL 8.0 through 8.0.14. It may include documentation of features of MySQL versions that have not yet been released. For information about which versions have been released, see the MySQL 8.0 Release Notes.
 这是MySQL参考手册. 它是MySQL8.0 的8.0.14 版文档.它可能包含MySQL至今没发布的版本的特性文档。关于已经发布的MySQL版本信息，看MySQL8.0 发布通知。</description>
     </item>
     
     <item>
       <title>Week1019_share</title>
-      <link>https://ifaa.top/posts/week1019_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1019_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1019_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1019_share/</guid>
       <description>ARTS - Share 补11.12 又看了看左耳听风的《技术人员的发展之路》 链接 https://coolshell.cn/articles/17583.html
 20-30岁的积累之路 这个阶段是积累。一定要摒弃速成、急富的心态，踏实的实践中学习，学习中实践。
 最重要的素质是提升学习能力和解决问题的能力，形成领导力气质。怎么形成的？无非就是别人解决不了的你能解决了，在团队中处于被依赖的地位。这就要平时注重基础，注重实践，多解决难题，家中有粮，心中不慌。
@@ -1621,10 +1621,10 @@ class Solution { public double findMedianSortedArrays(int[] nums1, int[] nums2) 
     
     <item>
       <title>Week1019_tip</title>
-      <link>https://ifaa.top/posts/week1019_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1019_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1019_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1019_tip/</guid>
       <description>ARTS - Tip 补11.12 ECharts 的使用简介 项目中使用了ECharts， 主要说下echarts的 dataset 和 dataZoom.
 dataset 在option里设置dataset就是设置数据源
 dataset: { // 这里指定了维度名的顺序，从而可以利用默认的维度到坐标轴的映射。 // 如果不指定 dimensions，也可以通过指定 series.encode 完成映射，参见后文。 dimensions: [&amp;#39;legendName&amp;#39;, &amp;#39;col2&amp;#39;, &amp;#39;col3&amp;#39;], source: result }, 这里result是数据数组，用来提供需要展示的数据，这样比以下直接分割写数据更紧凑些。
@@ -1635,10 +1635,10 @@ dataZoom: [ { type: &amp;#39;slider&amp;#39;, show: true, xAxisIndex: [0], left:
     
     <item>
       <title>Week1020_algorithm</title>
-      <link>https://ifaa.top/posts/week1020_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1020_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:38 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1020_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1020_algorithm/</guid>
       <description>ARTS - Alogirthm 补11.19 121. 买卖股票的最佳时机 题目 给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
 如果你最多只允许完成一笔交易（即买入和卖出一支股票），设计一个算法来计算你所能获取的最大利润。
 注意你不能在买入股票前卖出股票。
@@ -1650,10 +1650,10 @@ class Solution { public int maxProfit(int[] prices) { if (prices == null || pric
     
     <item>
       <title>Week1015_share</title>
-      <link>https://ifaa.top/posts/week1015_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1015_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1015_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1015_share/</guid>
       <description>ARTS - Share 关于日志那些事 日志有访问日志，行为日志……不同类型的日志有不同的格式，另外，还有日志的滚动归档，还有像systemd/syslog等这样的系统日志系统……
 什么是日志 计算机中，用来记录操作系统或其他软件运行事件，或不同用户操作行为的文件。日志是储存在文件里的动作。在最简单的例子中，信息被写入一个单个文件中。
 一个事务日志就是一个系统和系统用户之间交流记录的文件，或者一个数据采集方法，用于自动捕获具有该系统终端操作事务的人员的类型，内容或者时间。网页服务日志文件，但是任何日志文件都可以使用科学日志分析工具来进行分析。
@@ -1674,10 +1674,10 @@ RELP协议支持 缓冲操作支持 日志归档 滚动策略， 设置最多归
     
     <item>
       <title>Week1016_algorithm</title>
-      <link>https://ifaa.top/posts/week1016_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1016_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1016_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1016_algorithm/</guid>
       <description>ARTS - Algorithm 补 10月22日 83. 删除排序链表中的重复元素 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
 示例 1:
 输入: 1-&amp;gt;1-&amp;gt;2 输出: 1-&amp;gt;2 示例 2:
@@ -1689,10 +1689,10 @@ if (head == null) { return null; } ListNode node = new ListNode(head.val); ListN
     
     <item>
       <title>Week1016_review</title>
-      <link>https://ifaa.top/posts/week1016_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1016_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1016_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1016_review/</guid>
       <description>Reivew SQL 存储过程和游标介绍 学习为一个关系型数据库写存储过程和游标。 如果你学习更多关于SQL特别是从数据科学的角度，你可以学习DataCamp的 &amp;ldquo;数据科学SQL介绍&amp;rdquo;课程。
 SQL对每个现代软件工程师都是必备技能。因为几乎全部软件都依赖几种数据集成的RDBMS（关系型数据库管理系统）。无论是网页应用，无论是API或者内部应用，都会用到关系型数据库。SQL就是查询关系型数据库的语言。
 作为一个数据科学家，了解SQL和它关联知识非常重要。为了能够查询一个数据库系统获得你想要的处理的特定问题返回，SQL是最低需求。
@@ -1712,10 +1712,10 @@ EXEC procedure_name; 让我们写一个简单的存储过程。考虑如下快�
     
     <item>
       <title>Week1016_share</title>
-      <link>https://ifaa.top/posts/week1016_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1016_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1016_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1016_share/</guid>
       <description>ARTS - Share 关于SQL JOIN 的那些事 一张图 SQL中关联查询使用最多的是各种JOIN，这个图中简单明了的说明了各个JOIN 的含义：
 测试数据 准备了两张表 t_user 和 t_info, 数据如下：
 mysql&amp;gt; select * from t_user; +----+------+------+-------------+ | id | name | age | telephone | +----+------+------+-------------+ | 1 | jack | 20 | 18877771111 | | 2 | rose | 33 | 18977771111 | | 3 | tom | 21 | 13877761111 | | 4 | bob | 24 | 13356771111 | +----+------+------+-------------+ mysql&amp;gt; select * from t_info; +----+---------+-----------------+--------------+ | id | user_id | bank_no | company_name | +----+---------+-----------------+--------------+ | 1 | 1 | 110132011114578 | google | | 2 | 2 | 110119677118521 | facebook | | 3 | 3 | 110111842716547 | twitter | | 4 | 8 | 210111842716547 | baidu | | 5 | 9 | 410111842716547 | tencent | +----+---------+-----------------+--------------+ 1.</description>
@@ -1723,10 +1723,10 @@ mysql&amp;gt; select * from t_user; +----+------+------+-------------+ | id | na
     
     <item>
       <title>Week1016_tip</title>
-      <link>https://ifaa.top/posts/week1016_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1016_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1016_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1016_tip/</guid>
       <description>ARTS - Tip 一个SQL JOIN问题 问题描述 工作中碰到了一个SQL JOIN 的bug。
 典型的内部系统， 牵涉到的用户表，用户角色表，用户角色关联表，分别是： sys_user, sys_role, sys_user_role
 需求是获得 角色类型为 xxx 的所有用户的id, 名字 和角色id.
@@ -1739,10 +1739,10 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
     
     <item>
       <title>Week1017_algorithm</title>
-      <link>https://ifaa.top/posts/week1017_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1017_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1017_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1017_algorithm/</guid>
       <description>ARTS - Algorithm 补 10月29日 82. 删除排序链表中的重复元素 II 题目 给定一个排序链表，删除所有含有重复数字的节点，只保留原始链表中 没有重复出现 的数字。
 示例 1:
 输入: 1-&amp;gt;2-&amp;gt;3-&amp;gt;3-&amp;gt;4-&amp;gt;4-&amp;gt;5 输出: 1-&amp;gt;2-&amp;gt;5 示例 2:
@@ -1756,10 +1756,10 @@ public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值�
     
     <item>
       <title>Week1017_review</title>
-      <link>https://ifaa.top/posts/week1017_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1017_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1017_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1017_review/</guid>
       <description>ARTS - Review 补10.29 一个好的开发者说不 在我们的生活很早的时候，我们就学到 ‘不’这个词是消极的。但是在我们生活中学会说不以便专注于重要的事是非常积极的，尤其是当你做为一个程序员不得不和你的客户和队长日常讨论让你开发一个功能时候。
 作为一个软件开发者，我们面对不仅语法和逻辑挑战，还要客户交流。（crucial 关键的） 这是关键的因为有时，你的客户将会让你加一些需要花费大量时间开发但是对最终产品应用目标没有价值的功能。
 如果你面对和以上提到的类似的场景，你有两个选择。
@@ -1781,10 +1781,10 @@ public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值�
     
     <item>
       <title>Week1017_share</title>
-      <link>https://ifaa.top/posts/week1017_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1017_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1017_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1017_share/</guid>
       <description>ARTS - Share Java项目的 接口-实现 写法真有必要吗 习惯的日常 由于经常做内部系统，所以只讨论在开发内部系统的范围。
 经典的MVC架构，经典的Spring、MyBatis 组合，开发内部系统已经是成熟的套路了，不需要思考：
 Controller 接收用户请求 Service 接口处理用户逻辑 Service 实现真正处理逻辑，用各种Dao来操作数据库。 MyBatis 生成各种xml，或者根据需要特别写SQL 然而，这个过程使用久了，觉得就应该是这么写的，但是为什么非要这么写呢？
@@ -1798,10 +1798,10 @@ Controller 接收用户请求 Service 接口处理用户逻辑 Service 实现真
     
     <item>
       <title>Week1017_tip</title>
-      <link>https://ifaa.top/posts/week1017_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1017_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:37 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1017_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1017_tip/</guid>
       <description>ARTS - Tip 谈谈MySQL慢查询 什么是慢查询 MySQL的慢查询是MySQL提供的一种记录查询慢的SQL的工具。方便做系统优化。
 开启慢查询日志 默认情况下是关闭的，
 mysql&amp;gt; show variables like &amp;#39;slow_query%&amp;#39;; +---------------------+-------------------------------------+ | Variable_name | Value | +---------------------+-------------------------------------+ | slow_query_log | OFF | | slow_query_log_file | /usr/local/var/mysql/bogon-slow.log | +---------------------+-------------------------------------+ 2 rows in set (0.01 sec) ysql&amp;gt; show variables like &amp;#39;long_query_time&amp;#39;; +-----------------+-----------+ | Variable_name | Value | +-----------------+-----------+ | long_query_time | 10.000000 | +-----------------+-----------+ 1 row in set (0.00 sec) 设置方法
@@ -1811,10 +1811,10 @@ mysql&amp;gt; show variables like &amp;#39;slow_query%&amp;#39;; +--------------
     
     <item>
       <title>Week1013_review</title>
-      <link>https://ifaa.top/posts/week1013_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1013_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1013_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1013_review/</guid>
       <description>ARTS - Review 让困难事情变得看起来简单的艺术 如果存在我们钦佩的一类人，就是那种能够做成没尝试过的事的人。
 你知道那个人。他甚至没有学习就进行期末考试的人。她是instagram的模特醒来头发就很完美。他们保持完美外形的共同点是通过”吃的正确“。
 这些陈述可能困扰我们。但是同时，我们忍不住钦佩或嫉妒哪些很容就得到的人。
@@ -1849,10 +1849,10 @@ Castiglione创造这个词几世纪后，我们仍然能看到这些，不仅在
     
     <item>
       <title>Week1013_share</title>
-      <link>https://ifaa.top/posts/week1013_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1013_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1013_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1013_share/</guid>
       <description>ARTS - Share 前端发展的逻辑 java servlet 输出html, jsp 抽离生成html, html 的跳转 和获取数据，json, java后台的router功能， 和获取数据功能， js 的自行route和获取数据，前后端分离
 技术发展方向 一项技术出现首先是为了解决某类问题，然后向着更好的解决这类问题方向发展，然后优化到极致，再然后就是这类问题被颠覆，这项技术也就走到了尽头。
 前端的出现 pc机的时代就是操作系统的时代，每台计算机都要安装操作系统，之后迎来了互联网时代，用的最多的就是浏览器，浏览器解析HTML语言来展示内容，所以浏览器向服务器发送请求，服务器会返回拼装好的带内容的HTML，然后用户就看到了网页内容。那么这个过程中，服务器需要做的是提取数据，封装成HTML，Java在这个过程中提供的技术是Servlet
@@ -1865,10 +1865,10 @@ Vue和React 这里面的代表是Vue和React还有Angular。 他们将js和浏�
     
     <item>
       <title>Week1014_algorithm</title>
-      <link>https://ifaa.top/posts/week1014_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1014_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1014_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1014_algorithm/</guid>
       <description>ARTS - Algorithm 70. 爬楼梯 题目 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
 注意：给定 n 是一个正整数。
@@ -1881,10 +1881,10 @@ n = 1 1. 1 + 1 n = 2 1.</description>
     
     <item>
       <title>Week1014_review</title>
-      <link>https://ifaa.top/posts/week1014_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1014_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1014_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1014_review/</guid>
       <description>ARTS - Review 你应该避免使用的3个JavaScript性能错误 作者：Yotam Kadishay 全栈软件工程师
 来自：https://hackernoon.com/3-javascript-performance-mistakes-you-should-stop-doing-ebf84b9de951
 如果我告诉你你知道的一切都是谎言，如果你了解到这些年发布的一些我们热爱的ECMAScript的关键特性确实存在危险的性能陷阱，糖衣包裹在华丽的一行回调代码之上，那么事情会变得怎么样？
@@ -1901,10 +1901,10 @@ For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 mi
     
     <item>
       <title>Week1014_share</title>
-      <link>https://ifaa.top/posts/week1014_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1014_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1014_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1014_share/</guid>
       <description>ARTS - Share 后端发展的逻辑 之前我们说了前端发展的逻辑, 今天我们探讨下后端发展的逻辑。
 根据前端的发展路径，后端Servlet引擎-&amp;gt;后端Jsp等模板引擎&amp;ndash;&amp;gt; 后端MVC &amp;ndash;&amp;gt; 前后端分离 &amp;ndash;&amp;gt; React Vue
 根据这个路径很容易看出，其实关于页面展示的部分慢慢脱离了服务端，最终形成前端框架和浏览器绑定，只从后端拿数据的局面， 看似服务端退化为只为前端提供数据的一部分了。
@@ -1916,10 +1916,10 @@ For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 mi
     
     <item>
       <title>Week1014_tip</title>
-      <link>https://ifaa.top/posts/week1014_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1014_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1014_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1014_tip/</guid>
       <description>ARTS - Tip Java和JavaScript 中的split 我们都知道split是字符串分割的函数，平时使用频率并不低，本人在使用时候碰到一个情况：
 事例 现在有一个字符串 “31+” ，需要获得前面的数字&amp;quot;31&amp;quot;，本人就想到了使用split(str)[0] 的方法，于是在javascript的写法就是：
 let s = &amp;#34;31+&amp;#34;; let result = s.split(&amp;#39;+&amp;#39;)[0]; console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
@@ -1931,10 +1931,10 @@ private static String s = &amp;#34;+&amp;#34;; @org.junit.Test public void test5
     
     <item>
       <title>Week1015_algorithm</title>
-      <link>https://ifaa.top/posts/week1015_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1015_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1015_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1015_algorithm/</guid>
       <description>ARTS - Algorithm 补10.15号 746. 使用最小花费爬楼梯 数组的每个索引做为一个阶梯，第 i个阶梯对应着一个非负数的体力花费值 costi。
 每当你爬上一个阶梯你都要花费对应的体力花费值，然后你可以选择继续爬一个阶梯或者爬两个阶梯。
 您需要找到达到楼层顶部的最低花费。在开始时，你可以选择从索引为 0 或 1 的元素作为初始阶梯。
@@ -1948,10 +1948,10 @@ public static int minCostClimbingStairs(int[] cost) { int len = cost.length; if 
     
     <item>
       <title>Week1015_review</title>
-      <link>https://ifaa.top/posts/week1015_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1015_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1015_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1015_review/</guid>
       <description>ARTS - Review mysql性能优化 数据库性能优化最重要的事是选择正确的方式。你应该决定你的应用需要关系型或非关系型数据库。甚至里面的一个类型，你都会有好几个选择。在关系型数据库里，你可以选择Oracle， MySQL, SQL Server,和PostgreSQL. 另一方面，非关系型数据库例如MongoDB, Cassandra和CouchDB. 你可能希望我建议用读写性能快的非关系型数据库。然而，通过一些改进和调整，你可以把关系型数据推到超过它已知的限制。所以，在本文中，我将会介绍给你一些技巧来让你的MySQL数据库更快。如果你想知道为什么特别是MySQL, 那么答案是简单的，因为它免费，开源在PHP社区很流行Oracle 并没有广泛使用因为它很昂贵。其他的选择并没有像MySQL这么受欢迎。
 MySQL服务配置 首先你应该知道根据你的操作系统配置文件是在哪里。在Linux系统，它在 “/etc/mysql/my.cnf”. 是时候拿上你的引擎对比InnoDB和MyISAM了。为了让选择更简单，你应该知道InnoDB成为默认引擎始于MySQL5.5 因为它支持“行级锁， 外键和事务” ，MyISAM不支持这里提到的任何在现实应用中很少使用的特性。
 选择正确的引擎后，是时候设置一些在my.cnf 文件里的配置变量。
@@ -1967,10 +1967,10 @@ query_cache_limit = 0 query_cache_size = 0 慢查询日志 慢查询日志将会
     
     <item>
       <title>Week1015_tip</title>
-      <link>https://ifaa.top/posts/week1015_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1015_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:36 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1015_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1015_tip/</guid>
       <description>ARTS - Tip MySQL 大分页问题 问题 我们知道在进行MySQL分页时候最常用 limit offset, size, 但是当数据量很大，达到千万级别，直接分页会很慢，所以需要进行优化。
 验证 我们进行测试：
 mysql&amp;gt; select count(*) from table ; +----------+ | count(*) | +----------+ | 16079918 | +----------+ 1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
@@ -1979,10 +1979,10 @@ mysql&amp;gt; select id, user_name, mobile from table limit 1000, 10; --- 10 row
     
     <item>
       <title>Week1011_review</title>
-      <link>https://ifaa.top/posts/week1011_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1011_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1011_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1011_review/</guid>
       <description>ARTS - Review 用python和beautifulSoup来抓取网站 因特网上的信息多到任何一个人穷尽一生都无法全部吸收的地步。你需要的不是操作这些信息，而是一个额外的方法来存储，组织、分析它。
 你需要网页爬虫。
 网页爬虫自动提取数据并且用一个你能轻松理解的格式展现。在本教程中，我们将聚焦它在金融市场的应用，但是网页爬虫可以用在很多场景下。
@@ -1999,10 +1999,10 @@ HTML 标签 如果你早已理解HTML标签，感到无压力请跳过这段。
     
     <item>
       <title>Week1011_share</title>
-      <link>https://ifaa.top/posts/week1011_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1011_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1011_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1011_share/</guid>
       <description>ARTS - Share 关于 ThreadPoolExecutor 方式创建线程 我们知道在使用多线程时候，使用线程池技术能够减少系统在创建、销毁线程时的开销，提高性能. 一般用Executors的四个方法：
 newCachedThreadPool newFixedThreadPool newScheduledThreadPool newSingleThreadExecutor Executors 方式 在创建固定数量的线程池时候是：
 1. newFixedThreadPool() ExecutorService exec = Executors.newFixedThreadPool() 我们查看源码就是：
@@ -2012,10 +2012,10 @@ public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveT
     
     <item>
       <title>Week1012_algorithm</title>
-      <link>https://ifaa.top/posts/week1012_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1012_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1012_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1012_algorithm/</guid>
       <description>ARTS - Algorithm 67. 二进制求和 题目 给定两个二进制字符串，返回他们的和（用二进制表示）。
 输入为非空字符串且只包含数字 1 和 0。
 示例 1:
@@ -2028,10 +2028,10 @@ public static String addBinary(String a, String b) { if (a == null || a.length()
     
     <item>
       <title>Week1012_review</title>
-      <link>https://ifaa.top/posts/week1012_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1012_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1012_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1012_review/</guid>
       <description>ARTS - Review 为什么当你觉得你像开发人员一样苦苦挣扎时候觉得学到的最多 我的开发技能突飞猛进的时候就是我在挣扎着学一些新东西并没有放弃的时候。这对我来说并不总是容易。我遇到了一些帮助我突破个人障碍的一些想法。
 可能也适用你。
 当你面对难的软件工程问题时候太容易陷入沮丧了。我时常会产生一种想放弃的感觉。在这种情境下我察觉到我的理性意识开始提出为什么我应该花费时间在熟悉的事情上或者抱怨问题超出我的能力的原因。
@@ -2077,10 +2077,10 @@ public static String addBinary(String a, String b) { if (a == null || a.length()
     
     <item>
       <title>Week1012_share</title>
-      <link>https://ifaa.top/posts/week1012_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1012_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1012_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1012_share/</guid>
       <description>ARTS - Share 由传统销货进货流程想到的 现状 一家代理商公司，为经销商提供各种商品货物，这种货物类目繁多，价格还时长变动，经销商来购货，大量的时间花在了解货物品相和价格上，同时代理商公司需要提供对接销售人员介绍，然后代理商对购货单进行结账开始发货。
 设想 如果存在这样一个小程序，代理商把商品类目、价格、库存维护在系统里，购货单位可以自行挑选商品并下单结算，然后经销商直接发货，省去了中间对接的过程，对于争议部分可以再另行沟通，这样的话就节省了中间对接的时间和结算时间，还提高了准确性，整个过程变得简洁迅速还正确率高，历史订单清楚记录交易过程，那么对于整体来说是提高了效率，所以盈利应该是提高的。
 分析 这就是一个商城系统，这也就是技术带来的效率提升和优势所在。
@@ -2091,10 +2091,10 @@ public static String addBinary(String a, String b) { if (a == null || a.length()
     
     <item>
       <title>Week1012_tip</title>
-      <link>https://ifaa.top/posts/week1012_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1012_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1012_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1012_tip/</guid>
       <description>ARTS - Tip 关于linux tomcat启动war工程的一个log4j报错 背景 在进行linux centos6.5部署war工程时候，报了一个错导致启动不起来，但是在开发时候在idea里完全没问题。
 问题现象 启动时候catalina.out报错，如下：
 09-Oct-2018 15:04:39.725 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access. java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.</description>
@@ -2102,10 +2102,10 @@ public static String addBinary(String a, String b) { if (a == null || a.length()
     
     <item>
       <title>Week1013_algorithm</title>
-      <link>https://ifaa.top/posts/week1013_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1013_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1013_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1013_algorithm/</guid>
       <description>ARTS - Algorithm 69. x 的平方根 题目 实现 int sqrt(int x) 函数。
 计算并返回 x 的平方根，其中 x 是非负整数。
 由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。
@@ -2118,10 +2118,10 @@ public int mySqrt(int x) { if (x &amp;lt;= 0) { return 0; } for (int i = 0; i &a
     
     <item>
       <title>Week1013_tip</title>
-      <link>https://ifaa.top/posts/week1013_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1013_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:35 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1013_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1013_tip/</guid>
       <description>ARTS - Tip MyBatis 的 if test=&amp;ldquo;param == &amp;lsquo;1&amp;rsquo;&amp;rdquo; 的问题 在项目开发中，发现了mybatis的一个问题，如下：
 &amp;lt;if test=&amp;#34;first == 1&amp;#34;&amp;gt; limit 1 &amp;lt;/if&amp;gt; &amp;lt;if test=&amp;#34;second == &amp;#39;2&amp;#39;&amp;#34;&amp;gt; limit 2 &amp;lt;/if&amp;gt; 如果第一个没问题，第二个 ==&amp;lsquo;2&amp;rsquo; 就不会执行，不管参数是integer,int,还是String, 第二个都不会执行，程序也不会报错，查了资料，mybatis 使用了ognl表达式，&amp;lsquo;2&amp;rsquo;会被解析成char， 在Java中char 和String 相比较就会不等。
 改进方法： 1. 增加toString &amp;lt;if test=&amp;#34;second == &amp;#39;2&amp;#39;.toString()&amp;#34;&amp;gt; limit 2 &amp;lt;/if&amp;gt; 2. 双引号 &amp;lt;if test=&amp;#39;second == &amp;#34;2&amp;#34;&amp;#39;&amp;gt; limit 2 &amp;lt;/if&amp;gt; </description>
@@ -2129,10 +2129,10 @@ public int mySqrt(int x) { if (x &amp;lt;= 0) { return 0; } for (int i = 0; i &a
     
     <item>
       <title>Week1009_review</title>
-      <link>https://ifaa.top/posts/week1009_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1009_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1009_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1009_review/</guid>
       <description>ARTS - Review 为什么Java小伙对Node.js和JavaScript如此兴奋？（下）
 这是个循环。但不是用循环的写法，它不使用普通的循环结构。此外，错误和结果不会落入普通写法的循环里，但是会落入这种回调函数中。在ES2015/2016 特性加入Node.js之前，这是我们能做的极致了。
 在Node.js 10.x 中等价于：
@@ -2145,10 +2145,10 @@ const fs = require(&amp;#39;fs&amp;#39;).promises; async function cat(filenmz) {
     
     <item>
       <title>Week1009_share</title>
-      <link>https://ifaa.top/posts/week1009_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1009_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1009_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1009_share/</guid>
       <description>ARTS - Share 关于ES6箭头函数的this 源于忽然兴起尝试微信小程序开发，在一个文本预上加了一个点击事件，尝试获取微信收货地址， 首先是在模板文件文本域加点击事件：
 &amp;lt;view class=&amp;#34;usermotto&amp;#34; bindtap=&amp;#39;clickMe&amp;#39;&amp;gt; &amp;lt;text class=&amp;#34;user-motto&amp;#34;&amp;gt;{{motto}}&amp;lt;/text&amp;gt; &amp;lt;/view&amp;gt; 然后在index.js里实现 clickMe 方法：
 clickMe: function () { wx.chooseAddress({ success: function(res) { this.setData({ motto: res.detailInfo }) } }) }, 发现控制台报错：
@@ -2158,10 +2158,10 @@ clickMe: function () { console.log(1, this) wx.</description>
     
     <item>
       <title>Week1009_tip</title>
-      <link>https://ifaa.top/posts/week1009_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1009_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1009_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1009_tip/</guid>
       <description>ARTS - Tip 关于MyBatis 报错的一个反思 今天开发一个功能，和别的系统功能重复，就直接复制了别的系统的Mapper，写好业务逻辑后测试，发现系统报异常：
 Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &amp;#39;id&amp;#39; in &amp;#39;class java.lang.String&amp;#39; 意思是，String类里没有 名字为 id 的属性的get 方法。我有点奇怪，我调用Mapper的是一个 insert 方法，传的是业务对象，为什么会报String的id问题？有点奇怪，于是就进行了谷歌、百度大法，几乎所有的帖子都是如下：
 传入的参数是String， parameterType=&amp;ldquo;String&amp;rdquo;，解决方法是：
@@ -2174,10 +2174,10 @@ INSERT INTO sys_log( id, type, title, create_by, create_date ) VALUES ( #{id}, #
     
     <item>
       <title>Week1010_algorithm</title>
-      <link>https://ifaa.top/posts/week1010_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1010_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1010_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1010_algorithm/</guid>
       <description>ARTS - Algorithm 35. 搜索插入位置
 给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
 你可以假设数组中无重复元素。
@@ -2191,10 +2191,10 @@ public static int searchInsert2(int[] nums, int target) { if (nums == null || nu
     
     <item>
       <title>Week1010_review</title>
-      <link>https://ifaa.top/posts/week1010_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1010_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1010_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1010_review/</guid>
       <description>ARTS - Review How to Make Money Online: 38 Remote Jobs in 2018 通过你笔记本来工作每年都变得更容易。
 如果你还没想过通过线上赚钱，你或许是： A. 90岁了，你的孙辈刚刚给你第一台电脑， 或者 B. 坦诚说，我不知道你在做啥。
 2017年，每在线30秒仅仅电子商务就产生1.2百万美元。
@@ -2214,10 +2214,10 @@ public static int searchInsert2(int[] nums, int target) { if (nums == null || nu
     
     <item>
       <title>Week1010_share</title>
-      <link>https://ifaa.top/posts/week1010_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1010_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1010_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1010_share/</guid>
       <description>ARTS - Share 关于reduce 函数 举例 我们知道reduce() 方法是对数组中的每个元素(从左到右)应用一个函数，将其减少为单个值。 例子：
 const array1 = [1, 2, 4, 6]; const reducer = (acc, curr) =&amp;gt; acc + curr; console.log(array1.reduce(reducer)) // output 13 reduce ####语法：
 arr.reduce(callback[, initialValue])
@@ -2236,10 +2236,10 @@ data.reduce((pre, cur) =&amp;gt; pre.</description>
     
     <item>
       <title>Week1010_tip</title>
-      <link>https://ifaa.top/posts/week1010_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1010_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1010_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1010_tip/</guid>
       <description>ARTS - Tip 关于 js 接收前端有序map 变无序的问题 在实际开发中，本人遇到了一个后台排序map，传给前端变无序的问题。于是开始测试这个问题。
 继续使用之前的一个例子 week6 share: Java8的分组与排序实践
 造数据 建一个 课程类Course, 分组获得map,再排序，写一个控制类方法：
@@ -2248,10 +2248,10 @@ data.reduce((pre, cur) =&amp;gt; pre.</description>
     
     <item>
       <title>Week1011_algorithm</title>
-      <link>https://ifaa.top/posts/week1011_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1011_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1011_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1011_algorithm/</guid>
       <description>ARTS - Algorithm 66. 加一 描述 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
 最高位数字存放在数组的首位， 数组中每个元素只存储一个数字。
 你可以假设除了整数 0 之外，这个整数不会以零开头。
@@ -2265,10 +2265,10 @@ public int[] plusOne(int[] digits) { // 需要加1 int plus = 1; for (int i = di
     
     <item>
       <title>Week1011_tip</title>
-      <link>https://ifaa.top/posts/week1011_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1011_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:34 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1011_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1011_tip/</guid>
       <description>ARTS - Tip 关于Moment.js 一个好用的处理日期时间的插件: moment.js, 中文地址： http://momentjs.cn/
 在项目中引用，主要使用了两个功能，时间格式话和时区转换。
 当前时间 var now = moment(); // 和 moment(new Date()) 是等价的 解析字符串 var date = moment(&amp;#34;09-30-2018&amp;#34;, &amp;#34;MM-DD-YYYY&amp;#34;); 输入 例子 描述 YYYY 2018 4位年 YY 18 2位年 M MM 12 月份 D DD 1..31 日期 时区 这里要用到moment-timezone.js
@@ -2277,10 +2277,10 @@ moment.tz(new Date(), &amp;#39;America/Los_Angeles&amp;#39;).format(&amp;#39;YYY
     
     <item>
       <title>Week1007_algorithm</title>
-      <link>https://ifaa.top/posts/week1007_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1007_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1007_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1007_algorithm/</guid>
       <description>ARTS - Algorithm 26. 删除排序数组中的重复项 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
 示例 1: 给定数组 nums = [1,1,2],
@@ -2295,10 +2295,10 @@ public int removeDuplicates(int[] nums) { int i = 0, j = 1; int len = nums.</des
     
     <item>
       <title>Week1007_review</title>
-      <link>https://ifaa.top/posts/week1007_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1007_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1007_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1007_review/</guid>
       <description>ARTS - Review 聚光灯效应：为什么没有人记得你做过什么 想象一下你走进一个房间。
 你穿着印着恐怖小丑的的T恤。因为是整块印刷的，所以没有人会忽视。颜色不搭配，明显使人尴尬。
 预期会有两种反映。
@@ -2324,10 +2324,10 @@ public int removeDuplicates(int[] nums) { int i = 0, j = 1; int len = nums.</des
     
     <item>
       <title>Week1007_share</title>
-      <link>https://ifaa.top/posts/week1007_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1007_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1007_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1007_share/</guid>
       <description>ARTS - Share 说说一次sql优化过程 很容易在网上找到sql优化要点，在这里记录一次本人经历的一个优化过程。
 在工作中需要统计一个信息形成报表，最开始的sql 是这样的：
 SELECT SUM(a + b - c) amount, CASE WHEN day &amp;gt;= 2 AND day &amp;lt;= 8 THEN &amp;#39;m1_1&amp;#39; WHEN day &amp;gt;= 9 AND day &amp;lt;= 20 THEN &amp;#39;m1_2&amp;#39; WHEN day &amp;gt;= 21 THEN &amp;#39;m1_3&amp;#39; ELSE &amp;#39;m1_0&amp;#39; END &amp;#39;day_type&amp;#39;, create_date FROM table a GROUP BY day_type, create_date HAVING create_date &amp;gt;= ? and create_date&amp;lt;= ? and day_type != &amp;#39;m1_0&amp;#39; 这个sql在我们库里执行了10秒，于是就需要优化。
@@ -2338,10 +2338,10 @@ SELECT SUM(a + b - c) amount, CASE WHEN day &amp;gt;= 2 AND day &amp;lt;= 8 THEN
     
     <item>
       <title>Week1007_tip</title>
-      <link>https://ifaa.top/posts/week1007_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1007_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1007_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1007_tip/</guid>
       <description>ARTS - Tip 在启动项目时候，由于本地安装了mysql8, 所以有报错：
 Caused by: java.sql.SQLException: Unknown system variable &amp;#39;tx_isolation&amp;#39; 看数据库版本：
 Welcome to the MySQL monitor. Commands end with ; or \g. Your MySQL connection id is 124 Server version: 8.0.11 Homebrew 看是否有tx_isolotion
@@ -2351,10 +2351,10 @@ mysql&amp;gt; show variables like &amp;#39;transaction_isolation&amp;#39;; +----
     
     <item>
       <title>Week1008_algorithm</title>
-      <link>https://ifaa.top/posts/week1008_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1008_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1008_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1008_algorithm/</guid>
       <description>ARTS - Algorithm 27. 移除元素 给定一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，返回移除后数组的新长度。
 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
 元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
@@ -2373,10 +2373,10 @@ public int removeElement(int[] nums, int val) { if (nums == null || nums.</descr
     
     <item>
       <title>Week1008_review</title>
-      <link>https://ifaa.top/posts/week1008_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1008_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1008_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1008_review/</guid>
       <description>ARTS - Review 为什么Java小伙对Node.js和JavaScript 如此兴奋？ &amp;ndash; David Herron , 软件工程师和作家，热衷于Node.js 以及清洁能源技术。Node.js WEB 开发网站的作者。https://sourcerer.io/robogeek
 在Sun Microsystems 公司JavaSE 组工作超十年的人不应该牺牲Java字节码，并将抽象接口实例化进行到底吗？对这个前JavaSE组成员，在2011年学习Node.js平台就像呼吸了新空气。在被Sun公司在2009年一月份被解雇(仅仅被甲骨文收购前)后，我学习并迷上了Node.js
 有多着迷？从2010年，我写了大量的Node.js编程的文章。即，Node.js Web开发四个版本，再加上Node.js编程的其他书籍和众多博客教程帖子。用大量的时间阐述Node.js和JavaScript语言的先进性。
@@ -2389,10 +2389,10 @@ Java 充满公式化的代码，掩盖了程序员的意图。 Spring 和 Spring
     
     <item>
       <title>Week1008_share</title>
-      <link>https://ifaa.top/posts/week1008_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1008_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1008_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1008_share/</guid>
       <description>ARTS - Share 说说 super-csv 官网地址是 http://super-csv.github.io/
 有些系统需要csv格式的文件，所以就发现了这样一个框架.其实直接使用逗号分隔，数据换行也是可以的，框架带来了一定的便利性。
 我们先看Writer, 一般是Jdbc 数据库读数据转化成JavaBean ，然后生成csv文件。
@@ -2403,10 +2403,10 @@ private static void writeWithCsvBeanWriter() throws IOException { CustomerBean j
     
     <item>
       <title>Week1008_tip</title>
-      <link>https://ifaa.top/posts/week1008_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1008_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1008_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1008_tip/</guid>
       <description>ARTS - Tip 数字的格式化 工作中有个需求，要把货币数字，改成逢千逗号分隔的格式，于是就总结下实现方式。
 1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672); DecimalFormat df = new DecimalFormat(&amp;#34;###,##0&amp;#34;); // 100,543,000 DecimalFormat df2 = new DecimalFormat(&amp;#34;###,##0.&amp;#34;); // 100,543,000. DecimalFormat df3 = new DecimalFormat(&amp;#34;###,##0.0&amp;#34;); //100,543,000.1 DecimalFormat df4 = new DecimalFormat(&amp;#34;###,##0.00&amp;#34;); // 100,543,000.13 DecimalFormat df5 = new DecimalFormat(&amp;#34;###,##0.000&amp;#34;); //100,543,000.127 DecimalFormat df6 = new DecimalFormat(&amp;#34;###,##0.0000&amp;#34;); //100,543,000.1267 由此可知，在小数规定位数后，会做四舍五入操作。
 2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化 System.out.println(f1.format(b1)); //￥100,543,000.13 NumberFormat f2 = NumberFormat.getNumberInstance(); System.out.println(f2.format(b1)); //100,543,000.127 System.out.println(f2.format(1123)); //1,123 System.out.println(f2.format(1123.1)); //1,123.</description>
@@ -2414,10 +2414,10 @@ private static void writeWithCsvBeanWriter() throws IOException { CustomerBean j
     
     <item>
       <title>Week1009_algorithm</title>
-      <link>https://ifaa.top/posts/week1009_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1009_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:33 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1009_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1009_algorithm/</guid>
       <description>ARTS - Algorithm 28. 实现strStr()
 实现 strStr() 函数。
 给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回 -1。
@@ -2428,10 +2428,10 @@ public int strStr(String haystack, String needle) { if (haystack == null || need
     
     <item>
       <title>Week1005_algorithm</title>
-      <link>https://ifaa.top/posts/week1005_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1005_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1005_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1005_algorithm/</guid>
       <description>ARTS - Algorithm 20. 有效的括号
 给定一个只包括 &amp;lsquo;(&amp;rsquo;，&amp;rsquo;)&amp;rsquo;，&amp;rsquo;{&amp;rsquo;，&amp;rsquo;}&amp;rsquo;，&amp;rsquo;[&amp;rsquo;，&amp;rsquo;]&amp;rsquo; 的字符串，判断字符串是否有效。
 有效字符串需满足：
@@ -2442,10 +2442,10 @@ public boolean isValid(String s) { if (s == null || s.length() == 0) { return tr
     
     <item>
       <title>Week1005_review</title>
-      <link>https://ifaa.top/posts/week1005_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1005_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1005_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1005_review/</guid>
       <description>ARTS - Review 软件的特点就是没有代码 早期的数码计算机不是十分有用。当然，他们比取代的穿孔打点机强大的多，但是对于编程来说是非常难的。需要用汇编语言写指令，非常耗时且困难。
 当John Backus 在1950年代初开发了FORTRAN 语言后事情发生改变，该语言使用类似英语的逻辑控制命令，编译成低级机器语言来执行，使得编程更简单来取代了汇编语言。
 如今，像 Quick Base , Mendix , Zudy 这样的公司正在尝试类似的动作，视图将代码转化成可视化界面。非常类似从汇编到FORTRAN 的转换，底层代码依然不变，但使得表示更简单。这些低级代码、无代码平台开始扰乱软件如何为企业提供动力。
@@ -2467,10 +2467,10 @@ public boolean isValid(String s) { if (s == null || s.length() == 0) { return tr
     
     <item>
       <title>Week1005_share</title>
-      <link>https://ifaa.top/posts/week1005_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1005_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1005_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1005_share/</guid>
       <description>ARTS - Share 怎样写简历 - 左耳听风阅读 原文链接
 作者有丰富的面试和被面试经验，提到的一些注意点也很有价值。
 我们知道真正的好简历是要用自己的经历去写的，比如，有人的简历就是一句话： 我发明了 Unix.
@@ -2487,10 +2487,10 @@ public boolean isValid(String s) { if (s == null || s.length() == 0) { return tr
     
     <item>
       <title>Week1005_tip</title>
-      <link>https://ifaa.top/posts/week1005_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1005_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1005_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1005_tip/</guid>
       <description>ARTS - Tip JavaScript Date对象与时区 GMT 和 UTC 我们先来解释下两个概念： GMT 时间就是格林尼治时间，
 格林尼治平时（英语：Greenwich Mean Time，GMT）是指位于英国伦敦郊区的皇家格林尼治天文台当地的平太阳时，因为本初子午线被定义为通过那里的经线。
 自1924年2月5日开始，格林尼治天文台负责每隔一小时向全世界发放调时信息。
@@ -2503,10 +2503,10 @@ var now = new Date(); now; // Wed Jun 24 2015 19:49:22 GMT+0800 (CST) now.getFul
     
     <item>
       <title>Week1006_algorithm</title>
-      <link>https://ifaa.top/posts/week1006_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1006_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1006_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1006_algorithm/</guid>
       <description>ARTS - Algorithm 21. 合并两个有序链表
 将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
 示例：
@@ -2517,10 +2517,10 @@ public ListNode mergeTwoLists(ListNode l1, ListNode l2) { ListNode head = null, 
     
     <item>
       <title>Week1006_review</title>
-      <link>https://ifaa.top/posts/week1006_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1006_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1006_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1006_review/</guid>
       <description>ARTS - Review 计算机程序设计艺术
 一些在书架上的书看着如此美丽，不仅仅是因为装帧美，而且书脊上表达了关于主人的话。Donald Knuth 的四精装卷的“计算机程序设计艺术” - 四个很贴切的深紫色， 传达了一个明确的信息：站一边，地球人，你站在一个真正的程序员面前。一个计算机科学的严谨实践者。
 比尔盖茨曾经说过，如果你认为你是一个非常好的程序员，请阅读《计算机程序设计艺术》，如果你能读懂书里的一切，你可以直接给我发简历了。
@@ -2546,10 +2546,10 @@ IBM 650 的约束生硬且迅速，今天的电脑约束更软常常自我约束
     
     <item>
       <title>Week1006_share</title>
-      <link>https://ifaa.top/posts/week1006_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1006_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1006_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1006_share/</guid>
       <description>ARTS - Share Java8的分组与排序实践 假设有一个课程类，Course， 里面包含学生ID userId， 学科名称name, 和成绩grade:
 public class Course { private Integer userId; private String name; private Integer grade; // setters and getters } 初始化一些数据
 Course eng = new Course(1, &amp;#34;eng&amp;#34;, 80); Course chi = new Course(1, &amp;#34;chi&amp;#34;, 75); Course chi2 = new Course(2, &amp;#34;chi&amp;#34;, 77); Course eng3 = new Course(3, &amp;#34;eng&amp;#34;, 105); Course chi3 = new Course(3, &amp;#34;chi&amp;#34;, 110); List&amp;lt;Course&amp;gt; courseList = Lists.newArrayList(eng, chi, chi2, eng3, chi3); 1.</description>
@@ -2557,20 +2557,20 @@ Course eng = new Course(1, &amp;#34;eng&amp;#34;, 80); Course chi = new Course(1
     
     <item>
       <title>Week1006_tip</title>
-      <link>https://ifaa.top/posts/week1006_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1006_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:32 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1006_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1006_tip/</guid>
       <description>ARTS - Tip spring boot多数据源问题 我们知道，在使用多个数据源时候，需要注册到spring boot 里，然后使用时候一般是两种
 查询非默认数据源数据时候，加上数据库名前缀 在service 方法里指定数据源，一般是@DataSource(&amp;ldquo;xxx&amp;rdquo;) 在网上很多例子上都是本地环境下两个数据库，但是在开发中需要访问的数据库分布在不同的服务器上，在使用 前缀 + 表 的查询方式不再生效了，就使用了第 2 种方法才生效，注意这点。</description>
     </item>
     
     <item>
       <title>Week1002_share</title>
-      <link>https://ifaa.top/posts/week1002_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1002_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1002_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1002_share/</guid>
       <description>Java 内存区域及对象 计算机存储单位 从小到大 Bit byte KB MB GB TB
 计算机存储元件
 寄存器 CPU读写数据存储元件 内核空间与用户空间 字长 CPU一次能并行处理二进制的位数 堆栈 堆用来存储对象，栈用来执行程序
@@ -2589,10 +2589,10 @@ a. 若内存规整，指针碰撞法分配内存。 意思是所有已用内存�
     
     <item>
       <title>Week1003_algorthm</title>
-      <link>https://ifaa.top/posts/week1003_algorthm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1003_algorthm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1003_algorthm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1003_algorthm/</guid>
       <description>ARTS - Algorthm 9. 回文数 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
 分析： 负数比如 -121， 从左到右是 -121, 从右到左是 121-， 所以不是回文数。 这道题算法和7.反转整数 类似，反转整数是取得每一位倒置输出，而这个是取得每一位倒置后和原值进行比较。
 代码如下：
@@ -2601,10 +2601,10 @@ public boolean isPalindrome(int x) { if (x &amp;lt; 0) { return false; } int y =
     
     <item>
       <title>Week1003_review</title>
-      <link>https://ifaa.top/posts/week1003_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1003_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1003_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1003_review/</guid>
       <description>ARTS - Review 编写好代码的高级技巧 来自medium: Advanced Techniques and Ideas for Better Coding Skills
 好的开发者是用他们的代码质量来定义的。在软件工程里，书写好的代码意味着节省了可能投资在测试、更新、扩展或者修复bug的钱。本文里， 我将会给你展示一些真实生活中的例子来帮助你整理你已有的代码来重构它使得更健壮，更模块化。这些技术不仅能帮你重构老代码，也能为你将来的编码中提供好的思路。
 什么是重构，为什么我们要重构？ 重构指的是帮你写整洁代码的技术和步骤。这对其他可能会阅读、扩展、重用你的代码的人很重要，使得他不用大范围的修改。
@@ -2623,10 +2623,10 @@ public boolean isPalindrome(int x) { if (x &amp;lt; 0) { return false; } int y =
     
     <item>
       <title>Week1003_share</title>
-      <link>https://ifaa.top/posts/week1003_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1003_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1003_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1003_share/</guid>
       <description>ARTS - Share 编码坏习惯 工作中主要写业务实现代码，使用SpringMVC 框架，也阅读过很多同事的代码，下面总结几条不好的习惯：
 1. 控制类里写业务逻辑而不是在服务类 我们springmvc 分层架构，一般就是Controller 处理业务请求， 注入Service, 具体的逻辑处理调用service, 然后返回给前台结构，但是不少同学违背这一原则， 把大量的业务逻辑写在控制类方法里，service 模块仅当做 dao 层来使用了，这样明显是有问题的，一个最大的问题就是可能导致无法进行事务管理， 因为一般习惯事务是在service 里进行控制。
 2. 过多的if/else 嵌套 过多的if /else 嵌套会造成代码可读性很差，当因为请假临时需要别人管理你代码时候，会造成很大的困扰，笔者曾开玩笑引用某段子说，别人阅读你代码时骂脏话的频率和你代码质量成反比。机器语言是让机器可读性好的， 编程语言是让人类可读性好的，所以我们尽量写简洁易读的代码，尽量把大方法拆成几个小方法，对一类功能代码块提出来，做到代码简洁。
@@ -2637,19 +2637,19 @@ public boolean isPalindrome(int x) { if (x &amp;lt; 0) { return false; } int y =
     
     <item>
       <title>Week1003_tip</title>
-      <link>https://ifaa.top/posts/week1003_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1003_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1003_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1003_tip/</guid>
       <description>ARTS - Tip 关于TKMybatis 的一个小技巧 本人在开发一个实体类时候，对这个实体类进行有参构造，但是没有加无参构造，于是在使用tk mapper的查询方法时候， 就一直报错没有 xxx 构造函数，由于 tk 是不用写xml mapper的，问题可能出在对象关系映射那块，猜测tk是想自己根据数据库类型，来转成Java类型的，不需要自己指定参数类型，于是解决办法是再加个无参构造函数就解决了。</description>
     </item>
     
     <item>
       <title>Week1004_algorithm</title>
-      <link>https://ifaa.top/posts/week1004_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1004_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1004_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1004_algorithm/</guid>
       <description>ARTS - Algorithm 14. 最长公共前缀
 编写一个函数来查找字符串数组中的最长公共前缀。
 如果不存在公共前缀，返回空字符串 &amp;ldquo;&amp;quot;。
@@ -2663,10 +2663,10 @@ public String longestCommonPrefix(String[] strs) { if (strs.length == 0) { retur
     
     <item>
       <title>Week1004_review</title>
-      <link>https://ifaa.top/posts/week1004_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1004_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1004_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1004_review/</guid>
       <description>ARTS - Review Kotlin 可触摸式自定义动画视图 如果你想绘画自己的视图，并且有一些动画，kotlin可以帮你。
 多点触控动画增长圆圆 (类似下雨) 下面就是我将会展示的怎么做这样一个视图。
 它包含：
@@ -2679,10 +2679,10 @@ override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.o
     
     <item>
       <title>Week1004_share</title>
-      <link>https://ifaa.top/posts/week1004_share/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1004_share/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1004_share/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1004_share/</guid>
       <description>ARTS - Share 关于紧急内部项目想到的 键人最近在赶一个内部项目，接手后看到代码组织的情况，忍不住罗列下不合理之处：
 对每一个角色建立了相对应的页面，内容相同 菜单、控制类基于变量而划分 数据库表没有说明文档，脚本有报错地方 没有格式化 逐个分析： 首先想到的大背景是， 内部项目、几个人用、时间紧、要求不高。
 于是出现了1， 几个角色就建立几个页面，哪怕除了管理员外这个几个角色的页面完全相同，仅仅是数据不同。这样造成的结果是，如果后期页面有调整（就是键人在经历的）， 那么需要对每个页面进行重复修改。整体来看并没有节省时间。解决方法，用同一个页面，根据不同角色展示不同权限的数据，页面必要时候引入shiro 划分操作权限。
@@ -2694,10 +2694,10 @@ override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.o
     
     <item>
       <title>Week1004_tip</title>
-      <link>https://ifaa.top/posts/week1004_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1004_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:31 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1004_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1004_tip/</guid>
       <description>ARTS - Tip 1. ES6 中 let 和 var 最近写js, IDE 提示推荐使用 let 或const 代替 var 声明变量，于是就了解了下ES6的 let和 var的区别。
 关键词：
 let : 变量只能声明一次 var : 变量可以多次声明 var a = 5; var a = 3; let b = 2; let b = 4; console.console.log(a); console.console.log(b); 然后就报错了 Uncaught SyntaxError: Identifier &amp;lsquo;b&amp;rsquo; has already been declared at :1:1
@@ -2707,10 +2707,10 @@ let : 变量只能声明一次 var : 变量可以多次声明 var a = 5; var a =
     
     <item>
       <title>Week1001_AP_computer</title>
-      <link>https://ifaa.top/posts/week1001_ap_computer/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1001_ap_computer/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:30 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1001_ap_computer/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1001_ap_computer/</guid>
       <description>ARTS 2. Review Expansion of AP computer science courses draws more girls and minorities ‘There’s more work to do’
 扩大AP计算机科学[1]课程吸引更多女孩和少数民族，还有更多工作要做。
 Adapted from a story by The Washington Post&amp;rsquo;s Nick Anderson.
@@ -2722,10 +2722,10 @@ About 20,000 students took the computer science tests in 2007, fewer than the to
     
     <item>
       <title>Week1001_java_timezone</title>
-      <link>https://ifaa.top/posts/week1001_java_timezone/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1001_java_timezone/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:30 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1001_java_timezone/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1001_java_timezone/</guid>
       <description>ARTS Tip 场景与需求 项目使用国内一家公司的接口服务，该接口服务根据北京时间调用次数收费的，我们项目部署在国外服务器上，需求是统计接口每天调用量。
 分析 我们要统计接口调用量，要把时区切换到北京时区。
 实现方式 使用java8 java.time包 实现最方便。
@@ -2737,10 +2737,10 @@ public static final Map&amp;lt;String, String&amp;gt; SHORT_IDS; static { Map&am
     
     <item>
       <title>Week1001_SingleNumber</title>
-      <link>https://ifaa.top/posts/week1001_singlenumber/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1001_singlenumber/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:30 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1001_singlenumber/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1001_singlenumber/</guid>
       <description>ARTS Algorithm 136. 只出现一次的数字
 题目： 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 说明：
@@ -2751,10 +2751,10 @@ private static int singleNumber(int[] a) { List&amp;lt;Integer&amp;gt; list = Li
     
     <item>
       <title>Week1001_think</title>
-      <link>https://ifaa.top/posts/week1001_think/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1001_think/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:30 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1001_think/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1001_think/</guid>
       <description>ARTS Share 关于提高自己技术能力的几点思考 回想自己进步快的时候，一个是读书时理解了书中逻辑，然后代入到工作能够解决问题， 一个是解决了一个个个新问题的时候总结出经验的时候。现在想想这两种方式确实是符合认知逻辑的，了解到知识，结合实际使用场景，举一反三，带来提升， 这是理论指导实践， 第二种，先碰到了问题，事先没有解决经验，去摸索尝试，最后解决了问题，能力边界又扩张了一些，这是个实践总结理论。如何更好的提高能力？ 那就是重复这个过程。
 实际中就是，对于理论指导实践，多看书，多看技术文章，多了解前人经验，扩大自己的认知范围，极限就是自己碰到的问题都能在自己知识库里找到解决方案。 对于实践总结理论，出现这种情况说明自己知识库里还没有收录该问题，那就在实践中用各种方法来处理，最终解决后总结经验，存入知识库。反复循环，能力肯定飞跃。
 但是这里面还有一个问题，就是知识库与自己所面对的现实问题的匹配问题， 有可能知识库的知识是错的，也有可能现实问题没有抓住核心矛盾，没有看清它的本质。这就需要提高自己的逻辑能力、思辨能力、抽象能力、总结能力了。提高逻辑能力、思辨能力才能在获取知识时更好的研究出它的规律，提高知识库的质量；提高抽象能力、总结能力，才能对现实中遇到的问题透过现象看本质，迅速找出解决思路与应对策略，提炼出核心逻辑存入知识库，以后遇到相同问题就不再手足无措。
@@ -2764,10 +2764,10 @@ private static int singleNumber(int[] a) { List&amp;lt;Integer&amp;gt; list = Li
     
     <item>
       <title>Week1002_algorithm</title>
-      <link>https://ifaa.top/posts/week1002_algorithm/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1002_algorithm/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:30 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1002_algorithm/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1002_algorithm/</guid>
       <description>Algorithm leecode 7. 翻转整数 给定一个 32 位有符号整数，将整数中的数字进行反转。
 分析 这道题把数字翻转，思路是使用模运算和直接除以10运算获得每一位数字，然后要考虑越界问题，比较笨的方式是转为字符数组，然后倒序排列后转为int，本人不才，使用了第二种。代码如下:
 public int reverse(int x) { if (x == Integer.MIN_VALUE) { return 0; } boolean positive = x &amp;lt; 0; if (positive) { x = -x; } String n = String.valueOf(x); char[] chars = n.toCharArray(); StringBuilder sb = new StringBuilder(); for (int len = chars.length, i = len - 1; i &amp;gt;= 0; i--) { sb.append(chars[i]); } String result = sb.toString(); try { if (positive) { return -Integer.</description>
@@ -2775,20 +2775,20 @@ public int reverse(int x) { if (x == Integer.MIN_VALUE) { return 0; } boolean po
     
     <item>
       <title>Week1002_review</title>
-      <link>https://ifaa.top/posts/week1002_review/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1002_review/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:30 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1002_review/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1002_review/</guid>
       <description>ARTS - Review 我们的数据就是我们自己 怎样阻止高科技公司垄断我们的个人信息 来自 medium: Our Data, Ourselves
 Concentrated in a few hands, big data is a threat to democracy. Social media companies and political data-mining firms such as Cambridge Analytica have built their businesses by manipulating public life using personal data. Their work has helped heighten ethnic tensions, revive nationalism, intensify political conflict, and even produce new political crises in countries around the world — all while weakening public trust in journalism, voting systems, and electoral outcomes.</description>
     </item>
     
     <item>
       <title>Week1002_tip</title>
-      <link>https://ifaa.top/posts/week1002_tip/</link>
+      <link>wanggweiomg.github.io/posts/arts/week1002_tip/</link>
       <pubDate>Fri, 31 Mar 2023 15:45:30 +0000</pubDate>
       
-      <guid>https://ifaa.top/posts/week1002_tip/</guid>
+      <guid>wanggweiomg.github.io/posts/arts/week1002_tip/</guid>
       <description>ARTS - Tip ssh 登录配置 在登录远程服务器时候，很多是用ssh-key来验证的，每次要输入ip地址会比教麻烦，于是就产生了配置
 在 ~/.ssh/ 目录创建config文件，配置如下：
 Host www HostName 182.159.15.88 Port 50 User root IdentityFile ~/.ssh/id_rsa_2048 # git指定私钥 Host api HostName api.domain.com User git Port 22 IdentityFile ~/.ssh/git_id_rsa 这样登陆时候直接 ssh www 就可以了， 还有在不操作一段时间后会自动断开，需要再设置一个：
