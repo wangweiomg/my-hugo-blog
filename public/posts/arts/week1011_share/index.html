@@ -8,8 +8,8 @@
 <meta name="description" content="ARTS - Share 关于 ThreadPoolExecutor 方式创建线程 我们知道在使用多线程时候，使用线程池技术能够减少系统在创建、销毁线程时的开销，提高性能. 一般用Executors的四个方法：
 newCachedThreadPool newFixedThreadPool newScheduledThreadPool newSingleThreadExecutor Executors 方式 在创建固定数量的线程池时候是：
 1. newFixedThreadPool() ExecutorService exec = Executors.newFixedThreadPool() 我们查看源码就是：
-public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;());} 返回创建了ThreadPoolExecutor
-public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors.defaultThreadFactory(), defaultHandler);}/*** Creates a new {@code ThreadPoolExecutor} with the given initial* parameters." />
+public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;()); } 返回创建了ThreadPoolExecutor
+public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors.defaultThreadFactory(), defaultHandler); } /** * Creates a new {@code ThreadPoolExecutor} with the given initial * parameters." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -46,8 +46,8 @@ public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveT
 <meta itemprop="description" content="ARTS - Share 关于 ThreadPoolExecutor 方式创建线程 我们知道在使用多线程时候，使用线程池技术能够减少系统在创建、销毁线程时的开销，提高性能. 一般用Executors的四个方法：
 newCachedThreadPool newFixedThreadPool newScheduledThreadPool newSingleThreadExecutor Executors 方式 在创建固定数量的线程池时候是：
 1. newFixedThreadPool() ExecutorService exec = Executors.newFixedThreadPool() 我们查看源码就是：
-public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&lt;Runnable&gt;());} 返回创建了ThreadPoolExecutor
-public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&lt;Runnable&gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors.defaultThreadFactory(), defaultHandler);}/*** Creates a new {@code ThreadPoolExecutor} with the given initial* parameters."><meta itemprop="datePublished" content="2023-03-31T15:45:35+00:00" />
+public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&lt;Runnable&gt;()); } 返回创建了ThreadPoolExecutor
+public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&lt;Runnable&gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors.defaultThreadFactory(), defaultHandler); } /** * Creates a new {@code ThreadPoolExecutor} with the given initial * parameters."><meta itemprop="datePublished" content="2023-03-31T15:45:35+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:35+00:00" />
 <meta itemprop="wordCount" content="482"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -58,8 +58,8 @@ public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveT
 <meta name="twitter:description" content="ARTS - Share 关于 ThreadPoolExecutor 方式创建线程 我们知道在使用多线程时候，使用线程池技术能够减少系统在创建、销毁线程时的开销，提高性能. 一般用Executors的四个方法：
 newCachedThreadPool newFixedThreadPool newScheduledThreadPool newSingleThreadExecutor Executors 方式 在创建固定数量的线程池时候是：
 1. newFixedThreadPool() ExecutorService exec = Executors.newFixedThreadPool() 我们查看源码就是：
-public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&lt;Runnable&gt;());} 返回创建了ThreadPoolExecutor
-public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&lt;Runnable&gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors.defaultThreadFactory(), defaultHandler);}/*** Creates a new {@code ThreadPoolExecutor} with the given initial* parameters."/>
+public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&lt;Runnable&gt;()); } 返回创建了ThreadPoolExecutor
+public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&lt;Runnable&gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors.defaultThreadFactory(), defaultHandler); } /** * Creates a new {@code ThreadPoolExecutor} with the given initial * parameters."/>
 
 
 
@@ -67,8 +67,8 @@ public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveT
 <meta property="og:description" content="ARTS - Share 关于 ThreadPoolExecutor 方式创建线程 我们知道在使用多线程时候，使用线程池技术能够减少系统在创建、销毁线程时的开销，提高性能. 一般用Executors的四个方法：
 newCachedThreadPool newFixedThreadPool newScheduledThreadPool newSingleThreadExecutor Executors 方式 在创建固定数量的线程池时候是：
 1. newFixedThreadPool() ExecutorService exec = Executors.newFixedThreadPool() 我们查看源码就是：
-public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&lt;Runnable&gt;());} 返回创建了ThreadPoolExecutor
-public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&lt;Runnable&gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors.defaultThreadFactory(), defaultHandler);}/*** Creates a new {@code ThreadPoolExecutor} with the given initial* parameters." />
+public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&lt;Runnable&gt;()); } 返回创建了ThreadPoolExecutor
+public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&lt;Runnable&gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors.defaultThreadFactory(), defaultHandler); } /** * Creates a new {@code ThreadPoolExecutor} with the given initial * parameters." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1011_share/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:35+00:00" />
@@ -355,7 +355,7 @@ public static ExecutorService newSingleThreadExecutor(ThreadFactory threadFactor
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          

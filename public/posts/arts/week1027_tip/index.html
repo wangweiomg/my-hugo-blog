@@ -10,9 +10,9 @@
 1)FixedThreadPool 和 SingleThreadPool: 允许的请求队列长度为 Integer.MAX_VALUE，可能会堆积大量的请求，从而导致 OOM。
 2)CachedThreadPool 和 ScheduledThreadPool: 允许的创建线程数量为 Integer.MAX_VALUE，可能会创建大量的线程，从而导致 OOM。
 我们使用线程池一般就是这样(如下)，Java编程思想里面的也这么举例：
-ExecutorService exec = Executors.newFixedThreadPool(10);... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
+ExecutorService exec = Executors.newFixedThreadPool(10); ... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
 FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
-// 这里返回了ThreadPoolExecutor 对象public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;());}public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors." />
+// 这里返回了ThreadPoolExecutor 对象 public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;()); } public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -51,9 +51,9 @@ FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
 1)FixedThreadPool 和 SingleThreadPool: 允许的请求队列长度为 Integer.MAX_VALUE，可能会堆积大量的请求，从而导致 OOM。
 2)CachedThreadPool 和 ScheduledThreadPool: 允许的创建线程数量为 Integer.MAX_VALUE，可能会创建大量的线程，从而导致 OOM。
 我们使用线程池一般就是这样(如下)，Java编程思想里面的也这么举例：
-ExecutorService exec = Executors.newFixedThreadPool(10);... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
+ExecutorService exec = Executors.newFixedThreadPool(10); ... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
 FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
-// 这里返回了ThreadPoolExecutor 对象public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&lt;Runnable&gt;());}public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&lt;Runnable&gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors."><meta itemprop="datePublished" content="2023-03-31T15:45:42+00:00" />
+// 这里返回了ThreadPoolExecutor 对象 public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&lt;Runnable&gt;()); } public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&lt;Runnable&gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors."><meta itemprop="datePublished" content="2023-03-31T15:45:42+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:42+00:00" />
 <meta itemprop="wordCount" content="564"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -66,9 +66,9 @@ FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
 1)FixedThreadPool 和 SingleThreadPool: 允许的请求队列长度为 Integer.MAX_VALUE，可能会堆积大量的请求，从而导致 OOM。
 2)CachedThreadPool 和 ScheduledThreadPool: 允许的创建线程数量为 Integer.MAX_VALUE，可能会创建大量的线程，从而导致 OOM。
 我们使用线程池一般就是这样(如下)，Java编程思想里面的也这么举例：
-ExecutorService exec = Executors.newFixedThreadPool(10);... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
+ExecutorService exec = Executors.newFixedThreadPool(10); ... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
 FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
-// 这里返回了ThreadPoolExecutor 对象public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&lt;Runnable&gt;());}public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&lt;Runnable&gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors."/>
+// 这里返回了ThreadPoolExecutor 对象 public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&lt;Runnable&gt;()); } public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&lt;Runnable&gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors."/>
 
 
 
@@ -78,9 +78,9 @@ FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
 1)FixedThreadPool 和 SingleThreadPool: 允许的请求队列长度为 Integer.MAX_VALUE，可能会堆积大量的请求，从而导致 OOM。
 2)CachedThreadPool 和 ScheduledThreadPool: 允许的创建线程数量为 Integer.MAX_VALUE，可能会创建大量的线程，从而导致 OOM。
 我们使用线程池一般就是这样(如下)，Java编程思想里面的也这么举例：
-ExecutorService exec = Executors.newFixedThreadPool(10);... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
+ExecutorService exec = Executors.newFixedThreadPool(10); ... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
 FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
-// 这里返回了ThreadPoolExecutor 对象public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&lt;Runnable&gt;());}public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&lt;Runnable&gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors." />
+// 这里返回了ThreadPoolExecutor 对象 public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&lt;Runnable&gt;()); } public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&lt;Runnable&gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1027_tip/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:42+00:00" />
@@ -390,7 +390,7 @@ public ThreadPoolExecutor(int corePoolSize,
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          

@@ -7,8 +7,8 @@
 <meta name="author" content="">
 <meta name="description" content="ARTS - Tip 补 11.26 关于字符串类型和数值类型排序的bug 最近遇到了一个排序需求，于是就直接使用了 Collections.sort 方法来实现，但是没有注意元素类型，就导致排序有问题。
 如下：
-List&amp;lt;String&amp;gt; list = Arrays.asList(&amp;#34;4.2, 3.3, 1, 17, 25&amp;#34;.split(&amp;#34;,&amp;#34;));System.out.println(list);Collections.sort(list);System.out.println(list);// output[4.2, 3.3, 1, 17, 25][ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
-Collections.sort(list, Comparator.comparingDouble(o -&amp;gt; Double.parseDouble(o)));// output[ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。" />
+List&amp;lt;String&amp;gt; list = Arrays.asList(&amp;#34;4.2, 3.3, 1, 17, 25&amp;#34;.split(&amp;#34;,&amp;#34;)); System.out.println(list); Collections.sort(list); System.out.println(list); // output [4.2, 3.3, 1, 17, 25] [ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
+Collections.sort(list, Comparator.comparingDouble(o -&amp;gt; Double.parseDouble(o))); // output [ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。" />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -44,8 +44,8 @@ Collections.sort(list, Comparator.comparingDouble(o -&amp;gt; Double.parseDouble
 <meta itemprop="name" content="Week1021_tip">
 <meta itemprop="description" content="ARTS - Tip 补 11.26 关于字符串类型和数值类型排序的bug 最近遇到了一个排序需求，于是就直接使用了 Collections.sort 方法来实现，但是没有注意元素类型，就导致排序有问题。
 如下：
-List&lt;String&gt; list = Arrays.asList(&#34;4.2, 3.3, 1, 17, 25&#34;.split(&#34;,&#34;));System.out.println(list);Collections.sort(list);System.out.println(list);// output[4.2, 3.3, 1, 17, 25][ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
-Collections.sort(list, Comparator.comparingDouble(o -&gt; Double.parseDouble(o)));// output[ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。"><meta itemprop="datePublished" content="2023-03-31T15:45:39+00:00" />
+List&lt;String&gt; list = Arrays.asList(&#34;4.2, 3.3, 1, 17, 25&#34;.split(&#34;,&#34;)); System.out.println(list); Collections.sort(list); System.out.println(list); // output [4.2, 3.3, 1, 17, 25] [ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
+Collections.sort(list, Comparator.comparingDouble(o -&gt; Double.parseDouble(o))); // output [ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。"><meta itemprop="datePublished" content="2023-03-31T15:45:39+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:39+00:00" />
 <meta itemprop="wordCount" content="48"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -55,16 +55,16 @@ Collections.sort(list, Comparator.comparingDouble(o -&gt; Double.parseDouble(o))
 <meta name="twitter:title" content="Week1021_tip"/>
 <meta name="twitter:description" content="ARTS - Tip 补 11.26 关于字符串类型和数值类型排序的bug 最近遇到了一个排序需求，于是就直接使用了 Collections.sort 方法来实现，但是没有注意元素类型，就导致排序有问题。
 如下：
-List&lt;String&gt; list = Arrays.asList(&#34;4.2, 3.3, 1, 17, 25&#34;.split(&#34;,&#34;));System.out.println(list);Collections.sort(list);System.out.println(list);// output[4.2, 3.3, 1, 17, 25][ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
-Collections.sort(list, Comparator.comparingDouble(o -&gt; Double.parseDouble(o)));// output[ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。"/>
+List&lt;String&gt; list = Arrays.asList(&#34;4.2, 3.3, 1, 17, 25&#34;.split(&#34;,&#34;)); System.out.println(list); Collections.sort(list); System.out.println(list); // output [4.2, 3.3, 1, 17, 25] [ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
+Collections.sort(list, Comparator.comparingDouble(o -&gt; Double.parseDouble(o))); // output [ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。"/>
 
 
 
     <meta property="og:title" content="Week1021_tip" />
 <meta property="og:description" content="ARTS - Tip 补 11.26 关于字符串类型和数值类型排序的bug 最近遇到了一个排序需求，于是就直接使用了 Collections.sort 方法来实现，但是没有注意元素类型，就导致排序有问题。
 如下：
-List&lt;String&gt; list = Arrays.asList(&#34;4.2, 3.3, 1, 17, 25&#34;.split(&#34;,&#34;));System.out.println(list);Collections.sort(list);System.out.println(list);// output[4.2, 3.3, 1, 17, 25][ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
-Collections.sort(list, Comparator.comparingDouble(o -&gt; Double.parseDouble(o)));// output[ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。" />
+List&lt;String&gt; list = Arrays.asList(&#34;4.2, 3.3, 1, 17, 25&#34;.split(&#34;,&#34;)); System.out.println(list); Collections.sort(list); System.out.println(list); // output [4.2, 3.3, 1, 17, 25] [ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
+Collections.sort(list, Comparator.comparingDouble(o -&gt; Double.parseDouble(o))); // output [ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1021_tip/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:39+00:00" />
@@ -218,7 +218,7 @@ System.out.println(list);
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          

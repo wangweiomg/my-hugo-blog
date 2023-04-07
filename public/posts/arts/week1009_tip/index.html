@@ -11,7 +11,7 @@ Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter 
 解决方法一:把#{xxx}修改为 #{_parameter} 即可
 解决方法二:可以在方法中提前定义:@Param(value=&amp;ldquo;xxx&amp;rdquo;) String xxx
 虽然报错和我的一样，但是明显不是我这样的问题情形。于是又检查了一遍代码，发现了问题所在：
-INSERT INTO sys_log(id,type,title,create_by, create_date) VALUES (#{id},#{type},#{title}, #{createBy.id},#{createDate}) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
+INSERT INTO sys_log( id, type, title, create_by, create_date ) VALUES ( #{id}, #{type}, #{title}, #{createBy.id}, #{createDate} ) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
 教训 参考别的系统可以，最好不要直接复制。 就算复制也需要批判的使用，毕竟不是久经考验的公共库 不要偷懒，多自己实现 " />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
@@ -52,7 +52,7 @@ Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter 
 解决方法一:把#{xxx}修改为 #{_parameter} 即可
 解决方法二:可以在方法中提前定义:@Param(value=&ldquo;xxx&rdquo;) String xxx
 虽然报错和我的一样，但是明显不是我这样的问题情形。于是又检查了一遍代码，发现了问题所在：
-INSERT INTO sys_log(id,type,title,create_by, create_date) VALUES (#{id},#{type},#{title}, #{createBy.id},#{createDate}) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
+INSERT INTO sys_log( id, type, title, create_by, create_date ) VALUES ( #{id}, #{type}, #{title}, #{createBy.id}, #{createDate} ) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
 教训 参考别的系统可以，最好不要直接复制。 就算复制也需要批判的使用，毕竟不是久经考验的公共库 不要偷懒，多自己实现 "><meta itemprop="datePublished" content="2023-03-31T15:45:34+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:34+00:00" />
 <meta itemprop="wordCount" content="64"><meta itemprop="image" content="/"/>
@@ -67,7 +67,7 @@ Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter 
 解决方法一:把#{xxx}修改为 #{_parameter} 即可
 解决方法二:可以在方法中提前定义:@Param(value=&ldquo;xxx&rdquo;) String xxx
 虽然报错和我的一样，但是明显不是我这样的问题情形。于是又检查了一遍代码，发现了问题所在：
-INSERT INTO sys_log(id,type,title,create_by, create_date) VALUES (#{id},#{type},#{title}, #{createBy.id},#{createDate}) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
+INSERT INTO sys_log( id, type, title, create_by, create_date ) VALUES ( #{id}, #{type}, #{title}, #{createBy.id}, #{createDate} ) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
 教训 参考别的系统可以，最好不要直接复制。 就算复制也需要批判的使用，毕竟不是久经考验的公共库 不要偷懒，多自己实现 "/>
 
 
@@ -79,7 +79,7 @@ Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter 
 解决方法一:把#{xxx}修改为 #{_parameter} 即可
 解决方法二:可以在方法中提前定义:@Param(value=&ldquo;xxx&rdquo;) String xxx
 虽然报错和我的一样，但是明显不是我这样的问题情形。于是又检查了一遍代码，发现了问题所在：
-INSERT INTO sys_log(id,type,title,create_by, create_date) VALUES (#{id},#{type},#{title}, #{createBy.id},#{createDate}) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
+INSERT INTO sys_log( id, type, title, create_by, create_date ) VALUES ( #{id}, #{type}, #{title}, #{createBy.id}, #{createDate} ) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
 教训 参考别的系统可以，最好不要直接复制。 就算复制也需要批判的使用，毕竟不是久经考验的公共库 不要偷懒，多自己实现 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1009_tip/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
@@ -253,7 +253,7 @@ Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter 
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          

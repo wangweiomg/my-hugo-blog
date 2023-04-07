@@ -12,7 +12,7 @@
 nums1 = [1,2,3,0,0,0], m = 3 nums2 = [2,5,6], n = 3 输出: [1,2,2,3,5,6]
 分析 首先想出解决方案，再优化解决方案。
 这个问题可以先合并数组，再对数组排序，于是就有了如下代码：
-public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = m, j = 0; i &amp;lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) {nums1[i] = nums2[j];}for (int i = 0; i &amp;lt; m &#43; n; i&#43;&#43;) {for (int j = i &#43; 1; j &amp;lt; m &#43; n; j&#43;&#43;) {if (nums1[i] &amp;gt; nums1[j]) {int tmp = nums1[i];nums1[i] = nums1[j];nums1[j] = tmp;}}}} 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。" />
+public static void merge(int[] nums1, int m, int[] nums2, int n) { for (int i = m, j = 0; i &amp;lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) { nums1[i] = nums2[j]; } for (int i = 0; i &amp;lt; m &#43; n; i&#43;&#43;) { for (int j = i &#43; 1; j &amp;lt; m &#43; n; j&#43;&#43;) { if (nums1[i] &amp;gt; nums1[j]) { int tmp = nums1[i]; nums1[i] = nums1[j]; nums1[j] = tmp; } } } } 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。" />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -53,7 +53,7 @@ public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = 
 nums1 = [1,2,3,0,0,0], m = 3 nums2 = [2,5,6], n = 3 输出: [1,2,2,3,5,6]
 分析 首先想出解决方案，再优化解决方案。
 这个问题可以先合并数组，再对数组排序，于是就有了如下代码：
-public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = m, j = 0; i &lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) {nums1[i] = nums2[j];}for (int i = 0; i &lt; m &#43; n; i&#43;&#43;) {for (int j = i &#43; 1; j &lt; m &#43; n; j&#43;&#43;) {if (nums1[i] &gt; nums1[j]) {int tmp = nums1[i];nums1[i] = nums1[j];nums1[j] = tmp;}}}} 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。"><meta itemprop="datePublished" content="2023-03-31T15:45:38+00:00" />
+public static void merge(int[] nums1, int m, int[] nums2, int n) { for (int i = m, j = 0; i &lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) { nums1[i] = nums2[j]; } for (int i = 0; i &lt; m &#43; n; i&#43;&#43;) { for (int j = i &#43; 1; j &lt; m &#43; n; j&#43;&#43;) { if (nums1[i] &gt; nums1[j]) { int tmp = nums1[i]; nums1[i] = nums1[j]; nums1[j] = tmp; } } } } 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。"><meta itemprop="datePublished" content="2023-03-31T15:45:38+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:38+00:00" />
 <meta itemprop="wordCount" content="216"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -68,7 +68,7 @@ public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = 
 nums1 = [1,2,3,0,0,0], m = 3 nums2 = [2,5,6], n = 3 输出: [1,2,2,3,5,6]
 分析 首先想出解决方案，再优化解决方案。
 这个问题可以先合并数组，再对数组排序，于是就有了如下代码：
-public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = m, j = 0; i &lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) {nums1[i] = nums2[j];}for (int i = 0; i &lt; m &#43; n; i&#43;&#43;) {for (int j = i &#43; 1; j &lt; m &#43; n; j&#43;&#43;) {if (nums1[i] &gt; nums1[j]) {int tmp = nums1[i];nums1[i] = nums1[j];nums1[j] = tmp;}}}} 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。"/>
+public static void merge(int[] nums1, int m, int[] nums2, int n) { for (int i = m, j = 0; i &lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) { nums1[i] = nums2[j]; } for (int i = 0; i &lt; m &#43; n; i&#43;&#43;) { for (int j = i &#43; 1; j &lt; m &#43; n; j&#43;&#43;) { if (nums1[i] &gt; nums1[j]) { int tmp = nums1[i]; nums1[i] = nums1[j]; nums1[j] = tmp; } } } } 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。"/>
 
 
 
@@ -80,7 +80,7 @@ public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = 
 nums1 = [1,2,3,0,0,0], m = 3 nums2 = [2,5,6], n = 3 输出: [1,2,2,3,5,6]
 分析 首先想出解决方案，再优化解决方案。
 这个问题可以先合并数组，再对数组排序，于是就有了如下代码：
-public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = m, j = 0; i &lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) {nums1[i] = nums2[j];}for (int i = 0; i &lt; m &#43; n; i&#43;&#43;) {for (int j = i &#43; 1; j &lt; m &#43; n; j&#43;&#43;) {if (nums1[i] &gt; nums1[j]) {int tmp = nums1[i];nums1[i] = nums1[j];nums1[j] = tmp;}}}} 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。" />
+public static void merge(int[] nums1, int m, int[] nums2, int n) { for (int i = m, j = 0; i &lt; m &#43; n; i&#43;&#43;, j&#43;&#43;) { nums1[i] = nums2[j]; } for (int i = 0; i &lt; m &#43; n; i&#43;&#43;) { for (int j = i &#43; 1; j &lt; m &#43; n; j&#43;&#43;) { if (nums1[i] &gt; nums1[j]) { int tmp = nums1[i]; nums1[i] = nums1[j]; nums1[j] = tmp; } } } } 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1018_algorithm/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:38+00:00" />
@@ -286,7 +286,7 @@ public static void merge(int[] nums1, int m, int[] nums2, int n) {
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          

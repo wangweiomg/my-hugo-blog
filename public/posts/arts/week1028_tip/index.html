@@ -7,7 +7,7 @@
 <meta name="author" content="">
 <meta name="description" content="ARTS - Tip 补 2019.1.16 线程池的状态 我们来看 ThreadPoolExecutor 的execute方法。
 线程池提交方法有两个， execute 和 submit, execute 提交的是无返回值的Runnable, submit提交的是有返回值 Callable.今天先看execute.
-/*** * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。* 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止*** @param command 待执行的任务* @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常*/public void execute(Runnable command) {if (command == null)throw new NullPointerException();/** Proceed in 3 steps:** 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。* 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况* * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程* (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以* 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程* * 3." />
+/** * * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。 * 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止 * * * @param command 待执行的任务 * @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常 */ public void execute(Runnable command) { if (command == null) throw new NullPointerException(); /* * Proceed in 3 steps: * * 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。 * 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况 * * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程 * (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以 * 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程 * * 3." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Week1028_tip">
 <meta itemprop="description" content="ARTS - Tip 补 2019.1.16 线程池的状态 我们来看 ThreadPoolExecutor 的execute方法。
 线程池提交方法有两个， execute 和 submit, execute 提交的是无返回值的Runnable, submit提交的是有返回值 Callable.今天先看execute.
-/*** * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。* 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止*** @param command 待执行的任务* @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常*/public void execute(Runnable command) {if (command == null)throw new NullPointerException();/** Proceed in 3 steps:** 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。* 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况* * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程* (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以* 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程* * 3."><meta itemprop="datePublished" content="2023-03-31T15:45:42+00:00" />
+/** * * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。 * 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止 * * * @param command 待执行的任务 * @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常 */ public void execute(Runnable command) { if (command == null) throw new NullPointerException(); /* * Proceed in 3 steps: * * 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。 * 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况 * * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程 * (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以 * 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程 * * 3."><meta itemprop="datePublished" content="2023-03-31T15:45:42+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:42+00:00" />
 <meta itemprop="wordCount" content="581"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -53,14 +53,14 @@
 <meta name="twitter:title" content="Week1028_tip"/>
 <meta name="twitter:description" content="ARTS - Tip 补 2019.1.16 线程池的状态 我们来看 ThreadPoolExecutor 的execute方法。
 线程池提交方法有两个， execute 和 submit, execute 提交的是无返回值的Runnable, submit提交的是有返回值 Callable.今天先看execute.
-/*** * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。* 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止*** @param command 待执行的任务* @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常*/public void execute(Runnable command) {if (command == null)throw new NullPointerException();/** Proceed in 3 steps:** 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。* 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况* * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程* (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以* 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程* * 3."/>
+/** * * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。 * 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止 * * * @param command 待执行的任务 * @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常 */ public void execute(Runnable command) { if (command == null) throw new NullPointerException(); /* * Proceed in 3 steps: * * 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。 * 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况 * * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程 * (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以 * 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程 * * 3."/>
 
 
 
     <meta property="og:title" content="Week1028_tip" />
 <meta property="og:description" content="ARTS - Tip 补 2019.1.16 线程池的状态 我们来看 ThreadPoolExecutor 的execute方法。
 线程池提交方法有两个， execute 和 submit, execute 提交的是无返回值的Runnable, submit提交的是有返回值 Callable.今天先看execute.
-/*** * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。* 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止*** @param command 待执行的任务* @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常*/public void execute(Runnable command) {if (command == null)throw new NullPointerException();/** Proceed in 3 steps:** 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。* 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况* * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程* (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以* 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程* * 3." />
+/** * * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。 * 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止 * * * @param command 待执行的任务 * @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常 */ public void execute(Runnable command) { if (command == null) throw new NullPointerException(); /* * Proceed in 3 steps: * * 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。 * 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况 * * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程 * (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以 * 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程 * * 3." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1028_tip/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:42+00:00" />
@@ -326,7 +326,7 @@ private final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0));
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          

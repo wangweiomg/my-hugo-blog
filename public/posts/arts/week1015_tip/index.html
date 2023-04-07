@@ -7,8 +7,8 @@
 <meta name="author" content="">
 <meta name="description" content="ARTS - Tip MySQL 大分页问题 问题 我们知道在进行MySQL分页时候最常用 limit offset, size, 但是当数据量很大，达到千万级别，直接分页会很慢，所以需要进行优化。
 验证 我们进行测试：
-mysql&amp;gt; select count(*) from table ;&#43;----------&#43;| count(*) |&#43;----------&#43;| 16079918 |&#43;----------&#43;1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
-mysql&amp;gt; select id, user_name, mobile from table limit 1000, 10;---10 rows in set (0.00 sec)mysql&amp;gt; select id, user_name, mobile from table limit 100000, 10;---10 rows in set (0." />
+mysql&amp;gt; select count(*) from table ; &#43;----------&#43; | count(*) | &#43;----------&#43; | 16079918 | &#43;----------&#43; 1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
+mysql&amp;gt; select id, user_name, mobile from table limit 1000, 10; --- 10 rows in set (0.00 sec) mysql&amp;gt; select id, user_name, mobile from table limit 100000, 10; --- 10 rows in set (0." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -44,8 +44,8 @@ mysql&amp;gt; select id, user_name, mobile from table limit 1000, 10;---10 row
 <meta itemprop="name" content="Week1015_tip">
 <meta itemprop="description" content="ARTS - Tip MySQL 大分页问题 问题 我们知道在进行MySQL分页时候最常用 limit offset, size, 但是当数据量很大，达到千万级别，直接分页会很慢，所以需要进行优化。
 验证 我们进行测试：
-mysql&gt; select count(*) from table ;&#43;----------&#43;| count(*) |&#43;----------&#43;| 16079918 |&#43;----------&#43;1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
-mysql&gt; select id, user_name, mobile from table limit 1000, 10;---10 rows in set (0.00 sec)mysql&gt; select id, user_name, mobile from table limit 100000, 10;---10 rows in set (0."><meta itemprop="datePublished" content="2023-03-31T15:45:36+00:00" />
+mysql&gt; select count(*) from table ; &#43;----------&#43; | count(*) | &#43;----------&#43; | 16079918 | &#43;----------&#43; 1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
+mysql&gt; select id, user_name, mobile from table limit 1000, 10; --- 10 rows in set (0.00 sec) mysql&gt; select id, user_name, mobile from table limit 100000, 10; --- 10 rows in set (0."><meta itemprop="datePublished" content="2023-03-31T15:45:36+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:36+00:00" />
 <meta itemprop="wordCount" content="165"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -55,16 +55,16 @@ mysql&gt; select id, user_name, mobile from table limit 1000, 10;---10 rows in
 <meta name="twitter:title" content="Week1015_tip"/>
 <meta name="twitter:description" content="ARTS - Tip MySQL 大分页问题 问题 我们知道在进行MySQL分页时候最常用 limit offset, size, 但是当数据量很大，达到千万级别，直接分页会很慢，所以需要进行优化。
 验证 我们进行测试：
-mysql&gt; select count(*) from table ;&#43;----------&#43;| count(*) |&#43;----------&#43;| 16079918 |&#43;----------&#43;1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
-mysql&gt; select id, user_name, mobile from table limit 1000, 10;---10 rows in set (0.00 sec)mysql&gt; select id, user_name, mobile from table limit 100000, 10;---10 rows in set (0."/>
+mysql&gt; select count(*) from table ; &#43;----------&#43; | count(*) | &#43;----------&#43; | 16079918 | &#43;----------&#43; 1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
+mysql&gt; select id, user_name, mobile from table limit 1000, 10; --- 10 rows in set (0.00 sec) mysql&gt; select id, user_name, mobile from table limit 100000, 10; --- 10 rows in set (0."/>
 
 
 
     <meta property="og:title" content="Week1015_tip" />
 <meta property="og:description" content="ARTS - Tip MySQL 大分页问题 问题 我们知道在进行MySQL分页时候最常用 limit offset, size, 但是当数据量很大，达到千万级别，直接分页会很慢，所以需要进行优化。
 验证 我们进行测试：
-mysql&gt; select count(*) from table ;&#43;----------&#43;| count(*) |&#43;----------&#43;| 16079918 |&#43;----------&#43;1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
-mysql&gt; select id, user_name, mobile from table limit 1000, 10;---10 rows in set (0.00 sec)mysql&gt; select id, user_name, mobile from table limit 100000, 10;---10 rows in set (0." />
+mysql&gt; select count(*) from table ; &#43;----------&#43; | count(*) | &#43;----------&#43; | 16079918 | &#43;----------&#43; 1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
+mysql&gt; select id, user_name, mobile from table limit 1000, 10; --- 10 rows in set (0.00 sec) mysql&gt; select id, user_name, mobile from table limit 100000, 10; --- 10 rows in set (0." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1015_tip/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:36+00:00" />
@@ -244,7 +244,7 @@ mysql&gt; select id, user_name, mobile from table limit 10000000, 10;
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          

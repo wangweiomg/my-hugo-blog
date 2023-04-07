@@ -7,11 +7,11 @@
 <meta name="author" content="">
 <meta name="description" content="ARTS - Tip Java和JavaScript 中的split 我们都知道split是字符串分割的函数，平时使用频率并不低，本人在使用时候碰到一个情况：
 事例 现在有一个字符串 “31&#43;” ，需要获得前面的数字&amp;quot;31&amp;quot;，本人就想到了使用split(str)[0] 的方法，于是在javascript的写法就是：
-let s = &amp;#34;31&#43;&amp;#34;;let result = s.split(&amp;#39;&#43;&amp;#39;)[0];console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
-String s = &amp;#34;31&#43;&amp;#34;;String result = s.split(&amp;#34;&#43;&amp;#34;)[0];System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
-java.util.regex.PatternSyntaxException: Dangling meta character &amp;#39;&#43;&amp;#39; near index 0&#43;^ 分析 String 的split 方法接受的是一个正则表达式，&amp;quot;&#43;&amp;quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
+let s = &amp;#34;31&#43;&amp;#34;; let result = s.split(&amp;#39;&#43;&amp;#39;)[0]; console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
+String s = &amp;#34;31&#43;&amp;#34;; String result = s.split(&amp;#34;&#43;&amp;#34;)[0]; System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
+java.util.regex.PatternSyntaxException: Dangling meta character &amp;#39;&#43;&amp;#39; near index 0 &#43; ^ 分析 String 的split 方法接受的是一个正则表达式，&amp;quot;&#43;&amp;quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
 但是，既然会有编译提示，本人为什么还是碰到了报错呢？因为我吧 “&#43;” 写在了一个常量里，
-private static String s = &amp;#34;&#43;&amp;#34;;@org.junit.Testpublic void test5() {String s = &amp;#34;31&#43;&amp;#34;;System." />
+private static String s = &amp;#34;&#43;&amp;#34;; @org.junit.Test public void test5() { String s = &amp;#34;31&#43;&amp;#34;; System." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -47,11 +47,11 @@ private static String s = &amp;#34;&#43;&amp;#34;;@org.junit.Testpublic void t
 <meta itemprop="name" content="Week1014_tip">
 <meta itemprop="description" content="ARTS - Tip Java和JavaScript 中的split 我们都知道split是字符串分割的函数，平时使用频率并不低，本人在使用时候碰到一个情况：
 事例 现在有一个字符串 “31&#43;” ，需要获得前面的数字&quot;31&quot;，本人就想到了使用split(str)[0] 的方法，于是在javascript的写法就是：
-let s = &#34;31&#43;&#34;;let result = s.split(&#39;&#43;&#39;)[0];console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
-String s = &#34;31&#43;&#34;;String result = s.split(&#34;&#43;&#34;)[0];System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
-java.util.regex.PatternSyntaxException: Dangling meta character &#39;&#43;&#39; near index 0&#43;^ 分析 String 的split 方法接受的是一个正则表达式，&quot;&#43;&quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
+let s = &#34;31&#43;&#34;; let result = s.split(&#39;&#43;&#39;)[0]; console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
+String s = &#34;31&#43;&#34;; String result = s.split(&#34;&#43;&#34;)[0]; System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
+java.util.regex.PatternSyntaxException: Dangling meta character &#39;&#43;&#39; near index 0 &#43; ^ 分析 String 的split 方法接受的是一个正则表达式，&quot;&#43;&quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
 但是，既然会有编译提示，本人为什么还是碰到了报错呢？因为我吧 “&#43;” 写在了一个常量里，
-private static String s = &#34;&#43;&#34;;@org.junit.Testpublic void test5() {String s = &#34;31&#43;&#34;;System."><meta itemprop="datePublished" content="2023-03-31T15:45:36+00:00" />
+private static String s = &#34;&#43;&#34;; @org.junit.Test public void test5() { String s = &#34;31&#43;&#34;; System."><meta itemprop="datePublished" content="2023-03-31T15:45:36+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:36+00:00" />
 <meta itemprop="wordCount" content="78"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -61,22 +61,22 @@ private static String s = &#34;&#43;&#34;;@org.junit.Testpublic void test5() {
 <meta name="twitter:title" content="Week1014_tip"/>
 <meta name="twitter:description" content="ARTS - Tip Java和JavaScript 中的split 我们都知道split是字符串分割的函数，平时使用频率并不低，本人在使用时候碰到一个情况：
 事例 现在有一个字符串 “31&#43;” ，需要获得前面的数字&quot;31&quot;，本人就想到了使用split(str)[0] 的方法，于是在javascript的写法就是：
-let s = &#34;31&#43;&#34;;let result = s.split(&#39;&#43;&#39;)[0];console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
-String s = &#34;31&#43;&#34;;String result = s.split(&#34;&#43;&#34;)[0];System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
-java.util.regex.PatternSyntaxException: Dangling meta character &#39;&#43;&#39; near index 0&#43;^ 分析 String 的split 方法接受的是一个正则表达式，&quot;&#43;&quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
+let s = &#34;31&#43;&#34;; let result = s.split(&#39;&#43;&#39;)[0]; console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
+String s = &#34;31&#43;&#34;; String result = s.split(&#34;&#43;&#34;)[0]; System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
+java.util.regex.PatternSyntaxException: Dangling meta character &#39;&#43;&#39; near index 0 &#43; ^ 分析 String 的split 方法接受的是一个正则表达式，&quot;&#43;&quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
 但是，既然会有编译提示，本人为什么还是碰到了报错呢？因为我吧 “&#43;” 写在了一个常量里，
-private static String s = &#34;&#43;&#34;;@org.junit.Testpublic void test5() {String s = &#34;31&#43;&#34;;System."/>
+private static String s = &#34;&#43;&#34;; @org.junit.Test public void test5() { String s = &#34;31&#43;&#34;; System."/>
 
 
 
     <meta property="og:title" content="Week1014_tip" />
 <meta property="og:description" content="ARTS - Tip Java和JavaScript 中的split 我们都知道split是字符串分割的函数，平时使用频率并不低，本人在使用时候碰到一个情况：
 事例 现在有一个字符串 “31&#43;” ，需要获得前面的数字&quot;31&quot;，本人就想到了使用split(str)[0] 的方法，于是在javascript的写法就是：
-let s = &#34;31&#43;&#34;;let result = s.split(&#39;&#43;&#39;)[0];console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
-String s = &#34;31&#43;&#34;;String result = s.split(&#34;&#43;&#34;)[0];System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
-java.util.regex.PatternSyntaxException: Dangling meta character &#39;&#43;&#39; near index 0&#43;^ 分析 String 的split 方法接受的是一个正则表达式，&quot;&#43;&quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
+let s = &#34;31&#43;&#34;; let result = s.split(&#39;&#43;&#39;)[0]; console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
+String s = &#34;31&#43;&#34;; String result = s.split(&#34;&#43;&#34;)[0]; System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
+java.util.regex.PatternSyntaxException: Dangling meta character &#39;&#43;&#39; near index 0 &#43; ^ 分析 String 的split 方法接受的是一个正则表达式，&quot;&#43;&quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\&#43;” 就没问题了。
 但是，既然会有编译提示，本人为什么还是碰到了报错呢？因为我吧 “&#43;” 写在了一个常量里，
-private static String s = &#34;&#43;&#34;;@org.junit.Testpublic void test5() {String s = &#34;31&#43;&#34;;System." />
+private static String s = &#34;&#43;&#34;; @org.junit.Test public void test5() { String s = &#34;31&#43;&#34;; System." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1014_tip/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:36+00:00" />
@@ -242,7 +242,7 @@ System.out.println(result);
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 23:45
+          2023-03-31 15:45
         
 
          
