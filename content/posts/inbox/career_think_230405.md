@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - career
 ---
 ## 职业和学历的思考
 
