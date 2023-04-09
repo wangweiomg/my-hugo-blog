@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>面试 on Hello Friend </title>
-    <link>/tags/%E9%9D%A2%E8%AF%95/</link>
-    <description>Recent content in 面试 on Hello Friend </description>
+    <title>Java on Hello Friend </title>
+    <link>/tags/java/</link>
+    <description>Recent content in Java on Hello Friend </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 09 Apr 2023 01:51:26 +0000</lastBuildDate><atom:link href="/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 01:51:26 +0000</lastBuildDate><atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于Java面试要求的思考</title>
       <link>/posts/inbox/interview_230409/</link>
@@ -25,18 +25,6 @@ Java IO 对各种开源开发框架如Spring boot, mybatis,等有深入的应用
 springboot 基本概念，AOP, IOC, 代理， 循环依赖 事务传播 MyBatis 批量操作、动态SQL， 熟悉大型分布式系统的设计与开发，熟练掌握如消息队列、ES、redis、Mysql等中间件，熟悉其原理和优化；
 分布式系统架构 消息队列的作用 ES使用场景和原理 Redis的使用场景和原理 MySQL 原理与SQL优化 熟悉常用的设计模式及开发实践，熟悉面向对象和数据结构；
 23种设计模式，常用的几个，以及在实际项目、或spring中的应用 面向对象与数据结构 总结 以上每个环节都是需要时间和经历去学习与练习，对于有经验的对照着查漏补缺。</description>
-    </item>
-    
-    <item>
-      <title>Interview_questions_230404</title>
-      <link>/posts/inbox/interview_questions_230404/</link>
-      <pubDate>Tue, 04 Apr 2023 17:02:47 +0800</pubDate>
-      
-      <guid>/posts/inbox/interview_questions_230404/</guid>
-      <description>关于面试问题的一篇英文推 最近在推上看到了一名CEO写的关于面试会问的几个问题，觉得有参考意义，所以写下来. 文末附中文。
-原推点这里
-I’ve interviewed 1000s of people over my career. Most leaders ask the same terrible questions every time. Ask these 13 questions and I guarantee you&amp;rsquo;ll make better hiring decisions:
-#1: If you were to tell a friend about our company, how would you describe what we do? Preparedness. How much do they know about your business? Mission. Vision. Values. If they are marketing/sales hires and can’t answer this, the interview is over.</description>
     </item>
     
   </channel>
