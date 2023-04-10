@@ -1,5 +1,5 @@
 ---
-?title: "Java基础之集合"
+title: "Java基础之集合-ArrayList"
 date: 2023-04-09T02:51:02Z
 draft: false
 toc: false
