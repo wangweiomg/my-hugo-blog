@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/inbox/java_base_230409/</loc>
+    <lastmod>2023-04-09T02:51:02+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2023-04-09T02:51:02+00:00</lastmod>
   </url><url>
@@ -9,9 +12,6 @@
     <lastmod>2023-04-09T02:51:02+00:00</lastmod>
   </url><url>
     <loc>/series/java%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-04-09T02:51:02+00:00</lastmod>
-  </url><url>
-    <loc>/posts/inbox/java_base_230409/</loc>
     <lastmod>2023-04-09T02:51:02+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
