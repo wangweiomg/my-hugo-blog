@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java基础 on Hello Friend </title>
-    <link>/series/java%E5%9F%BA%E7%A1%80/</link>
-    <description>Recent content in Java基础 on Hello Friend </description>
+    <title>spring on Hello Friend </title>
+    <link>/tags/spring/</link>
+    <description>Recent content in spring on Hello Friend </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 11 Apr 2023 01:44:00 +0000</lastBuildDate><atom:link href="/series/java%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Apr 2023 01:44:00 +0000</lastBuildDate><atom:link href="/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring缓存三级缓存机制</title>
       <link>/posts/tech/spring_cache_230411/</link>
@@ -23,32 +23,6 @@ Spring Bean作用域 了解了三级缓存后，我们知道以上都是对单�
 Singleton 单例。整个spring容器中，一个类的单例Bean实例只会被创建一次。这是Spring默认的作用域 Prototype 原型。每次请求一个Bean时候，都会创建一个新的实例。 Request 请求。每一个HTTP请求的生命周期内，一个Bean的实例只会被创建一次。这个作用于仅适用于Web应用程序。 Session 会话。在一个HTTP会话的生命周期内，一个Bean的实例只会被创建一次。这个做用户仅适用于Web应用程序。 Application 应用。 在一个ServletContext的生命周期内，一个Bean的实例只会被创建一次。这个作用域仅适用于Web应用程序。 Spring Bean生命周期 既然说到了注入，就来了解下注入时候spring做了哪些事。
 Spring Bean 生命周期简化概述：
 Spring容器启动 Bean 定义被读取，Spring确定Bean的依赖关系。 实例化Bean, 调用构造函数。 Setter 注入：spring 容器注入带有 @Autowired 注解的依赖项 如果实现了 BeanNameAware 、BeanFactoryAware 等接口，调用相应的方法。 如果Bean实现了BeanPostProcessor接口，调用postProcessBeforeInitialization方法 初始化Bean， 这可能包括调用 @PostConstruct 注解的方法、调用afterPropertiesSet方法(如果实现了InitializingBean接口) 或调用自定义的初始化方法 (通过@Bean(initMethod=&amp;ldquo;customInit&amp;rdquo;)指定)。 如果Bean实现了BeanPostProcessor接口，调用 postProcessAfterInitialization方法 Bean 现在已经准备好使用。 当应用程序关闭或Spring容器被销毁时，执行清理操作，包括调用@PreDestory注解的方法，调用destroy方法(如果实现了DisposableBean接口) 或调用自定义的销毁方法(通过@Bean(destroyMethod=&amp;ldquo;customDestroy&amp;rdquo;)指定) graph TD; A[Spring容器启动]--&amp;gt;B[读取Bean定义,确定Bean依赖关系] B --&amp;gt; C[实例化Bean,调用构造函数] C --&amp;gt; D[Setter注入 \ 字段注入] D --&amp;gt; E{是否实现BeanPostProcessor} E --&amp;gt;|是| F[调用postProcessBeforeInitialization] E --&amp;gt;|否| G[初始化Bean,PostConstruct注解方法,自定义初始化方法] F --&amp;gt; G G --&amp;gt;|如果实现| H[BeanPostProcessor的postProcessAfterInitialization] H --&amp;gt; I[Bean准备好了] I --&amp;gt; J[spring容器销毁,preDestroy, destory, customDestroy] J --&amp;gt; K[结束] Spring提供了哪些依赖注入方式： 构造器注入 (Constructor Injection) Setter注入 (Setter Injection) 字段注入 (Field Injection) 简单代码示例：</description>
-    </item>
-    
-    <item>
-      <title>Java集合基础之HashMap</title>
-      <link>/posts/tech/javabase_hashmap_230410/</link>
-      <pubDate>Mon, 10 Apr 2023 08:24:53 +0000</pubDate>
-      
-      <guid>/posts/tech/javabase_hashmap_230410/</guid>
-      <description>Java集合基础之HashMap HashMap在日常中也是使用频繁，了解它的源码很有必要。
-构造方法与默认属性 public class HashMap&amp;lt;K,V&amp;gt; extends AbstractMap&amp;lt;K,V&amp;gt; implements Map&amp;lt;K,V&amp;gt;, Cloneable, Serializable {} static final int DEFAULT_INITIAL_CAPACITY = 1 &amp;lt;&amp;lt; 4; // aka 16 默认容量的16， ArrayList是10。
-static final int MAXIMUM_CAPACITY = 1 &amp;lt;&amp;lt; 30; 最大容量是 1&amp;laquo;30
-static final float DEFAULT_LOAD_FACTOR = 0.75f; 默认负载因子是 0.75.
-static final int TREEIFY_THRESHOLD = 8; 当&amp;gt;=8时候转化为红黑树
-static final int UNTREEIFY_THRESHOLD = 6; static final int MIN_TREEIFY_CAPACITY = 64; 核心内部类Node
-static class Node&amp;lt;K,V&amp;gt; implements Map.Entry&amp;lt;K,V&amp;gt; { final int hash; final K key; V value; Node&amp;lt;K,V&amp;gt; next; Node(int hash, K key, V value, Node&amp;lt;K,V&amp;gt; next) { this.</description>
-    </item>
-    
-    <item>
-      <title>Java基础之集合-ArrayList</title>
-      <link>/posts/tech/java_base_230409/</link>
-      <pubDate>Sun, 09 Apr 2023 02:51:02 +0000</pubDate>
-      
-      <guid>/posts/tech/java_base_230409/</guid>
-      <description>Java基础之集合总览 - ArrayList Java集合是经常使用到的，集合类主要由Collection 和 Map 这两个接口派生。
-Collection 派生出 Set，List, Queue。 Map派生HashMap, TreeMap， ConcurrentHashMap
-Collection常用方法 // 返回集合中元素个数 int size(); //Returns true if this collection contains no elements. boolean isEmpty(); // 判断集合中是否存在元素o , (o==null ? e==null : o.equals(e)). boolean contains(Object o); // 添加元素 boolean add(E e); // 删除元素 boolean remove(Object o); // 清空元素 void clear(); Map常用方法 // 返回 k-v 数量 int size(); // Returns &amp;lt;tt&amp;gt;true&amp;lt;/tt&amp;gt; if this map contains no key-value mappings.</description>
     </item>
     
   </channel>
