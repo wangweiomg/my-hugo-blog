@@ -183,11 +183,139 @@ static final int tableSizeFor(int cap) {
     int threshold;
 ```
 
-
-
-
-
-
-
-
 ### 常用方法
+
+#### put
+
+```java
+public V put(K key, V value) {
+        return putVal(hash(key), key, value, false, true);
+}
+
+final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
+                   boolean evict) {
+	// Node 数组 tab;   Node 对象p;  整型  n , i;
+        Node<K,V>[] tab; Node<K,V> p; int n, i;
+
+	// table赋值给 tab ，这里table 是成员变量 transient Node<K,V>[] table;
+	// 如果table 是null 或者 tab的长度是0， 就resize() ， 赋值给tab 和 n, resize的具体实现先不看，以免影响主线，根据名字，就当做是调整初始化size的方法
+        if ((tab = table) == null || (n = tab.length) == 0)
+            n = (tab = resize()).length;
+	// 这时候就要找到桶的位置， 算法就是 (n-1) & hash  ？？？ 
+	// 如果值为空， 就新建一个node
+        if ((p = tab[i = (n - 1) & hash]) == null)
+            tab[i] = newNode(hash, key, value, null);
+        else { // 否则，桶的位置不为空，就遍历链表或红黑树
+            Node<K,V> e; K k;
+	    // 如果hash 相同 并且 (p.key == key 或者 key 不为null p.key.equals(key)))
+	    // 如果hash 相同并且 key相同或值相等 ，就把 p 赋值 给e
+            if (p.hash == hash &&
+                ((k = p.key) == key || (key != null && key.equals(k))))
+                e = p;
+	    // 如果 p 是一个TreeNode结构，就去遍历红黑树
+            else if (p instanceof TreeNode)
+                e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
+            else {
+		// 如果取出的第一个元素不一样，就遍历链表
+                for (int binCount = 0; ; ++binCount) {
+		    // 如果next 是null， 就拼接上新node
+                    if ((e = p.next) == null) {
+                        p.next = newNode(hash, key, value, null);
+                       // 如果 binCount >= 8-1 ,就转化为 treeifyBin
+                        if (binCount >= TREEIFY_THRESHOLD - 1) // -1 for 1st
+                            treeifyBin(tab, hash);
+                        break;
+                    }
+                    // next不为空，hash相等就用 equals比较key
+                    if (e.hash == hash &&
+                        ((k = e.key) == key || (key != null && key.equals(k))))
+                        break;
+                    p = e;
+                }
+            }
+            if (e != null) { // existing mapping for key
+                V oldValue = e.value;
+                if (!onlyIfAbsent || oldValue == null)
+                    e.value = value;
+                afterNodeAccess(e);
+                return oldValue;
+            }
+        }
+        ++modCount;
+        if (++size > threshold)
+            resize();
+        afterNodeInsertion(evict);
+        return null;
+    }
+```
+
+首先来看最常用的put方法。 它接受一个 key 和 value. 我们知道hashmap会把key计算hash 还会处理hash碰撞， 重点带着问题去看代码。
+
+put方法调用了 putVal() 方法，   hash(key), key, value, false, true
+
+这几个参数分别是
+
+```
+/**
+ * Implements Map.put and related methods.
+ *
+ * @param hash hash for key   key的hash值
+ * @param key the key   key的值
+ * @param value the value to put  value的值
+ * @param onlyIfAbsent if true, don't change existing value  如果true,不改变存在的值
+ * @param evict if false, the table is in creation mode. 如果false, table就是创建模式
+ * @return previous value, or null if none
+ */
+final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
+                   boolean evict) {}
+```
+
+##### 如何获取到桶的位置？
+
+```java
+if ((p = tab[i = (n - 1) & hash]) == null)
+```
+
+看这里这一段， if ((p = tab[i = (n - 1) & hash]) == null)，  获得桶的位置，也就是要存的数组的下表 i 的计算方式：
+
+> i = (n-1) & hash
+
+这里的n 来自上一步, n 是 tab.length ， 如果是tab是空的， n 来自resize()后 tab的length , 反正n 就是map中元素数组的长度.
+
+```java
+if ((tab = table) == null || (n = tab.length) == 0)
+            n = (tab = resize()).length;
+```
+
+再来看hash是哪个， hash 来自于传入put的key 的hash值， 也就是hash = hash(key) , hash算法是:
+
+```java
+/**
+     * Computes key.hashCode() and spreads (XORs) higher bits of hash
+     * to lower.  Because the table uses power-of-two masking, sets of
+     * hashes that vary only in bits above the current mask will
+     * always collide. (Among known examples are sets of Float keys
+     * holding consecutive whole numbers in small tables.)  So we
+     * apply a transform that spreads the impact of higher bits
+     * downward. There is a tradeoff between speed, utility, and
+     * quality of bit-spreading. Because many common sets of hashes
+     * are already reasonably distributed (so don't benefit from
+     * spreading), and because we use trees to handle large sets of
+     * collisions in bins, we just XOR some shifted bits in the
+     * cheapest possible way to reduce systematic lossage, as well as
+     * to incorporate impact of the highest bits that would otherwise
+     * never be used in index calculations because of table bounds.
+     */
+    static final int hash(Object key) {
+        int h;
+        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+    }
+```
+
+先看算法， 如果key 是null, hash(null) 就是0 ， 否则就是 (h = key.hashCode())
+
+asdf
+
+afsfs
+
+dadf
