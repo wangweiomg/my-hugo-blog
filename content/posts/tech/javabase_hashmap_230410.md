@@ -312,10 +312,76 @@ if ((tab = table) == null || (n = tab.length) == 0)
     }
 ```
 
-先看算法， 如果key 是null, hash(null) 就是0 ， 否则就是 (h = key.hashCode())
+先看算法， 如果key 是null, hash(null) 就是0 ， 否则就是 (h = key.hashCode())^(h>>>16)
 
-asdf
+也就是 key.hashCode() ^ (key.hashCode()>>>16)
 
-afsfs
+连到上面计算 ``i = (n-1) & hash`` 的式子里
 
-dadf
+i = (tab.length-1) & (key.hashCode() ^ (key.hashCode() >>>16))
+
+这个到底是什么意思呢? 如果我来设计，我一般能想到计算桶的位置，获取到hash值后直接和长度取模运算，也就是 hash%tab.length ，避免占到0位置的null ，就要写成  hash%(tab.lenght-1) + 1， 这个也基本是java5的思想。
+
+Java5计算桶位置的算法：
+
+```java
+int hash = hash(key.hashCode());
+int i = (hash & 0x7FFFFFFF) % table.length;
+
+```
+
+对key的hashcode再hash, 然后和最大int值按位与，保证是正整数， 然后在取模table.length, 这样结果就是 0 - lenght-1 之间。
+
+由于负载因子增多时候，扩容需要重新计算所有hash ，所以会出现性能问题，hash碰撞概率也会变大。因此在java6中改造为：
+
+```java
+static int hash(int h) {
+    // This function ensures that hashCodes that differ only by
+    // constant multiples at each bit position have a bounded
+    // number of collisions (approximately 8 at default load factor).
+    h ^= (h >>> 20) ^ (h >>> 12);
+    return h ^ (h >>> 7) ^ (h >>> 4);
+}
+/**
+ * Returns index for hash code h.
+ */
+static int indexFor(int h, int length) {
+    return h & (length-1);
+}
+```
+
+`(n - 1) & hash`，其中 `n` 表示 HashMap 的容量，`hash` 表示键的哈希值。 这个算法虽然采用了位运算的方式计算桶位置，具有较高的计算效率，但是在负载因子较高时会出现性能问题和哈希冲突的概率变高等问题。
+
+所以Java7又改版了, 修改了hash计算方式：
+
+```java
+final int hash(Object key) {
+    int h;
+    return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+}
+
+/**
+ * Returns index for hash code h.
+ */
+static int indexFor(int h, int length) {
+    return h & (length-1);
+}
+```
+
+然后就是java8中的桶计算方式了：
+
+```java
+static final int hash(Object key) {
+        int h;
+        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+    }
+
+```
+
+```java
+i = (n-1) & hash
+```
+
+和java7的 indexFor 一样， 不同的是，在hash碰撞时候，链表超过7会转化为红黑树，加速查询。
+
+之后的版本，hashmap的桶计算方法，就没有大改过了。
