@@ -9,7 +9,7 @@
 典型的内部系统， 牵涉到的用户表，用户角色表，用户角色关联表，分别是： sys_user, sys_role, sys_user_role
 需求是获得 角色类型为 xxx 的所有用户的id, 名字 和角色id.
 我写的SQL是如下
-SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u.id = ur.user_id AND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &amp;#39;xxx&amp;#39;) 问题分析 根据上面SQL，做的事情是
+SELECTu.id,u.name ,ur.role_id FROM sys_user uLEFT JOIN sys_user_role ur on u.id = ur.user_idAND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &amp;#39;xxx&amp;#39;) 问题分析 根据上面SQL，做的事情是
 查找所有的用户表， 关联上 用户角色表， 这个用户角色表数据只有角色ID 是 role_type = xxx 的数据。连接用的是LEFT JOIN，这样的话，左边的数据是 &amp;gt;= 右边的数据，左边会出现一些无用数据。
 出现使用LEFT JOIN 是对连接的范围理解的有误。 关于各种连接，下面一张图就能看明白：
 问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。" />
@@ -50,7 +50,7 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
 典型的内部系统， 牵涉到的用户表，用户角色表，用户角色关联表，分别是： sys_user, sys_role, sys_user_role
 需求是获得 角色类型为 xxx 的所有用户的id, 名字 和角色id.
 我写的SQL是如下
-SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u.id = ur.user_id AND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &#39;xxx&#39;) 问题分析 根据上面SQL，做的事情是
+SELECTu.id,u.name ,ur.role_id FROM sys_user uLEFT JOIN sys_user_role ur on u.id = ur.user_idAND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &#39;xxx&#39;) 问题分析 根据上面SQL，做的事情是
 查找所有的用户表， 关联上 用户角色表， 这个用户角色表数据只有角色ID 是 role_type = xxx 的数据。连接用的是LEFT JOIN，这样的话，左边的数据是 &gt;= 右边的数据，左边会出现一些无用数据。
 出现使用LEFT JOIN 是对连接的范围理解的有误。 关于各种连接，下面一张图就能看明白：
 问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。"><meta itemprop="datePublished" content="2023-03-31T15:45:37+00:00" />
@@ -65,7 +65,7 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
 典型的内部系统， 牵涉到的用户表，用户角色表，用户角色关联表，分别是： sys_user, sys_role, sys_user_role
 需求是获得 角色类型为 xxx 的所有用户的id, 名字 和角色id.
 我写的SQL是如下
-SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u.id = ur.user_id AND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &#39;xxx&#39;) 问题分析 根据上面SQL，做的事情是
+SELECTu.id,u.name ,ur.role_id FROM sys_user uLEFT JOIN sys_user_role ur on u.id = ur.user_idAND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &#39;xxx&#39;) 问题分析 根据上面SQL，做的事情是
 查找所有的用户表， 关联上 用户角色表， 这个用户角色表数据只有角色ID 是 role_type = xxx 的数据。连接用的是LEFT JOIN，这样的话，左边的数据是 &gt;= 右边的数据，左边会出现一些无用数据。
 出现使用LEFT JOIN 是对连接的范围理解的有误。 关于各种连接，下面一张图就能看明白：
 问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。"/>
@@ -77,7 +77,7 @@ SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u
 典型的内部系统， 牵涉到的用户表，用户角色表，用户角色关联表，分别是： sys_user, sys_role, sys_user_role
 需求是获得 角色类型为 xxx 的所有用户的id, 名字 和角色id.
 我写的SQL是如下
-SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u.id = ur.user_id AND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &#39;xxx&#39;) 问题分析 根据上面SQL，做的事情是
+SELECTu.id,u.name ,ur.role_id FROM sys_user uLEFT JOIN sys_user_role ur on u.id = ur.user_idAND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &#39;xxx&#39;) 问题分析 根据上面SQL，做的事情是
 查找所有的用户表， 关联上 用户角色表， 这个用户角色表数据只有角色ID 是 role_type = xxx 的数据。连接用的是LEFT JOIN，这样的话，左边的数据是 &gt;= 右边的数据，左边会出现一些无用数据。
 出现使用LEFT JOIN 是对连接的范围理解的有误。 关于各种连接，下面一张图就能看明白：
 问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。" />
@@ -250,7 +250,7 @@ where u.id In (
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 15:45
+          2023-03-31 23:45
         
 
          

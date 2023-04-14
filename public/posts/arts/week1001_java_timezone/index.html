@@ -9,9 +9,9 @@
 分析 我们要统计接口调用量，要把时区切换到北京时区。
 实现方式 使用java8 java.time包 实现最方便。
 代码：
-@Test public void test1() { ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&amp;#34;CTT&amp;#34;)); System.out.println(LocalDateTime.now(shanghaiZone)); ZoneId zoneId = ZoneId.systemDefault(); System.out.println(zoneId); LocalDateTime now = LocalDateTime.now(zoneId); System.out.println(now); } 打印结果：
-2018-07-14T15:53:24.818 Asia/Shanghai 2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
-public static final Map&amp;lt;String, String&amp;gt; SHORT_IDS; static { Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;&amp;gt;(64); map.put(&amp;#34;ACT&amp;#34;, &amp;#34;Australia/Darwin&amp;#34;); map.put(&amp;#34;AET&amp;#34;, &amp;#34;Australia/Sydney&amp;#34;); map.put(&amp;#34;AGT&amp;#34;, &amp;#34;America/Argentina/Buenos_Aires&amp;#34;); map.put(&amp;#34;ART&amp;#34;, &amp;#34;Africa/Cairo&amp;#34;); map.put(&amp;#34;AST&amp;#34;, &amp;#34;America/Anchorage&amp;#34;); map.put(&amp;#34;BET&amp;#34;, &amp;#34;America/Sao_Paulo&amp;#34;); map.put(&amp;#34;BST&amp;#34;, &amp;#34;Asia/Dhaka&amp;#34;); map.put(&amp;#34;CAT&amp;#34;, &amp;#34;Africa/Harare&amp;#34;); map." />
+@Testpublic void test1() {ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&amp;#34;CTT&amp;#34;));System.out.println(LocalDateTime.now(shanghaiZone));ZoneId zoneId = ZoneId.systemDefault();System.out.println(zoneId);LocalDateTime now = LocalDateTime.now(zoneId);System.out.println(now);}打印结果：
+2018-07-14T15:53:24.818Asia/Shanghai2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
+public static final Map&amp;lt;String, String&amp;gt; SHORT_IDS;static {Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;&amp;gt;(64);map.put(&amp;#34;ACT&amp;#34;, &amp;#34;Australia/Darwin&amp;#34;);map.put(&amp;#34;AET&amp;#34;, &amp;#34;Australia/Sydney&amp;#34;);map.put(&amp;#34;AGT&amp;#34;, &amp;#34;America/Argentina/Buenos_Aires&amp;#34;);map.put(&amp;#34;ART&amp;#34;, &amp;#34;Africa/Cairo&amp;#34;);map.put(&amp;#34;AST&amp;#34;, &amp;#34;America/Anchorage&amp;#34;);map.put(&amp;#34;BET&amp;#34;, &amp;#34;America/Sao_Paulo&amp;#34;);map.put(&amp;#34;BST&amp;#34;, &amp;#34;Asia/Dhaka&amp;#34;);map.put(&amp;#34;CAT&amp;#34;, &amp;#34;Africa/Harare&amp;#34;);map." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -49,9 +49,9 @@ public static final Map&amp;lt;String, String&amp;gt; SHORT_IDS; static { Map&am
 分析 我们要统计接口调用量，要把时区切换到北京时区。
 实现方式 使用java8 java.time包 实现最方便。
 代码：
-@Test public void test1() { ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&#34;CTT&#34;)); System.out.println(LocalDateTime.now(shanghaiZone)); ZoneId zoneId = ZoneId.systemDefault(); System.out.println(zoneId); LocalDateTime now = LocalDateTime.now(zoneId); System.out.println(now); } 打印结果：
-2018-07-14T15:53:24.818 Asia/Shanghai 2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
-public static final Map&lt;String, String&gt; SHORT_IDS; static { Map&lt;String, String&gt; map = new HashMap&lt;&gt;(64); map.put(&#34;ACT&#34;, &#34;Australia/Darwin&#34;); map.put(&#34;AET&#34;, &#34;Australia/Sydney&#34;); map.put(&#34;AGT&#34;, &#34;America/Argentina/Buenos_Aires&#34;); map.put(&#34;ART&#34;, &#34;Africa/Cairo&#34;); map.put(&#34;AST&#34;, &#34;America/Anchorage&#34;); map.put(&#34;BET&#34;, &#34;America/Sao_Paulo&#34;); map.put(&#34;BST&#34;, &#34;Asia/Dhaka&#34;); map.put(&#34;CAT&#34;, &#34;Africa/Harare&#34;); map."><meta itemprop="datePublished" content="2023-03-31T15:45:30+00:00" />
+@Testpublic void test1() {ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&#34;CTT&#34;));System.out.println(LocalDateTime.now(shanghaiZone));ZoneId zoneId = ZoneId.systemDefault();System.out.println(zoneId);LocalDateTime now = LocalDateTime.now(zoneId);System.out.println(now);}打印结果：
+2018-07-14T15:53:24.818Asia/Shanghai2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
+public static final Map&lt;String, String&gt; SHORT_IDS;static {Map&lt;String, String&gt; map = new HashMap&lt;&gt;(64);map.put(&#34;ACT&#34;, &#34;Australia/Darwin&#34;);map.put(&#34;AET&#34;, &#34;Australia/Sydney&#34;);map.put(&#34;AGT&#34;, &#34;America/Argentina/Buenos_Aires&#34;);map.put(&#34;ART&#34;, &#34;Africa/Cairo&#34;);map.put(&#34;AST&#34;, &#34;America/Anchorage&#34;);map.put(&#34;BET&#34;, &#34;America/Sao_Paulo&#34;);map.put(&#34;BST&#34;, &#34;Asia/Dhaka&#34;);map.put(&#34;CAT&#34;, &#34;Africa/Harare&#34;);map."><meta itemprop="datePublished" content="2023-03-31T15:45:30+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:30+00:00" />
 <meta itemprop="wordCount" content="114"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -63,9 +63,9 @@ public static final Map&lt;String, String&gt; SHORT_IDS; static { Map&lt;String,
 分析 我们要统计接口调用量，要把时区切换到北京时区。
 实现方式 使用java8 java.time包 实现最方便。
 代码：
-@Test public void test1() { ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&#34;CTT&#34;)); System.out.println(LocalDateTime.now(shanghaiZone)); ZoneId zoneId = ZoneId.systemDefault(); System.out.println(zoneId); LocalDateTime now = LocalDateTime.now(zoneId); System.out.println(now); } 打印结果：
-2018-07-14T15:53:24.818 Asia/Shanghai 2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
-public static final Map&lt;String, String&gt; SHORT_IDS; static { Map&lt;String, String&gt; map = new HashMap&lt;&gt;(64); map.put(&#34;ACT&#34;, &#34;Australia/Darwin&#34;); map.put(&#34;AET&#34;, &#34;Australia/Sydney&#34;); map.put(&#34;AGT&#34;, &#34;America/Argentina/Buenos_Aires&#34;); map.put(&#34;ART&#34;, &#34;Africa/Cairo&#34;); map.put(&#34;AST&#34;, &#34;America/Anchorage&#34;); map.put(&#34;BET&#34;, &#34;America/Sao_Paulo&#34;); map.put(&#34;BST&#34;, &#34;Asia/Dhaka&#34;); map.put(&#34;CAT&#34;, &#34;Africa/Harare&#34;); map."/>
+@Testpublic void test1() {ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&#34;CTT&#34;));System.out.println(LocalDateTime.now(shanghaiZone));ZoneId zoneId = ZoneId.systemDefault();System.out.println(zoneId);LocalDateTime now = LocalDateTime.now(zoneId);System.out.println(now);}打印结果：
+2018-07-14T15:53:24.818Asia/Shanghai2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
+public static final Map&lt;String, String&gt; SHORT_IDS;static {Map&lt;String, String&gt; map = new HashMap&lt;&gt;(64);map.put(&#34;ACT&#34;, &#34;Australia/Darwin&#34;);map.put(&#34;AET&#34;, &#34;Australia/Sydney&#34;);map.put(&#34;AGT&#34;, &#34;America/Argentina/Buenos_Aires&#34;);map.put(&#34;ART&#34;, &#34;Africa/Cairo&#34;);map.put(&#34;AST&#34;, &#34;America/Anchorage&#34;);map.put(&#34;BET&#34;, &#34;America/Sao_Paulo&#34;);map.put(&#34;BST&#34;, &#34;Asia/Dhaka&#34;);map.put(&#34;CAT&#34;, &#34;Africa/Harare&#34;);map."/>
 
 
 
@@ -74,9 +74,9 @@ public static final Map&lt;String, String&gt; SHORT_IDS; static { Map&lt;String,
 分析 我们要统计接口调用量，要把时区切换到北京时区。
 实现方式 使用java8 java.time包 实现最方便。
 代码：
-@Test public void test1() { ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&#34;CTT&#34;)); System.out.println(LocalDateTime.now(shanghaiZone)); ZoneId zoneId = ZoneId.systemDefault(); System.out.println(zoneId); LocalDateTime now = LocalDateTime.now(zoneId); System.out.println(now); } 打印结果：
-2018-07-14T15:53:24.818 Asia/Shanghai 2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
-public static final Map&lt;String, String&gt; SHORT_IDS; static { Map&lt;String, String&gt; map = new HashMap&lt;&gt;(64); map.put(&#34;ACT&#34;, &#34;Australia/Darwin&#34;); map.put(&#34;AET&#34;, &#34;Australia/Sydney&#34;); map.put(&#34;AGT&#34;, &#34;America/Argentina/Buenos_Aires&#34;); map.put(&#34;ART&#34;, &#34;Africa/Cairo&#34;); map.put(&#34;AST&#34;, &#34;America/Anchorage&#34;); map.put(&#34;BET&#34;, &#34;America/Sao_Paulo&#34;); map.put(&#34;BST&#34;, &#34;Asia/Dhaka&#34;); map.put(&#34;CAT&#34;, &#34;Africa/Harare&#34;); map." />
+@Testpublic void test1() {ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&#34;CTT&#34;));System.out.println(LocalDateTime.now(shanghaiZone));ZoneId zoneId = ZoneId.systemDefault();System.out.println(zoneId);LocalDateTime now = LocalDateTime.now(zoneId);System.out.println(now);}打印结果：
+2018-07-14T15:53:24.818Asia/Shanghai2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
+public static final Map&lt;String, String&gt; SHORT_IDS;static {Map&lt;String, String&gt; map = new HashMap&lt;&gt;(64);map.put(&#34;ACT&#34;, &#34;Australia/Darwin&#34;);map.put(&#34;AET&#34;, &#34;Australia/Sydney&#34;);map.put(&#34;AGT&#34;, &#34;America/Argentina/Buenos_Aires&#34;);map.put(&#34;ART&#34;, &#34;Africa/Cairo&#34;);map.put(&#34;AST&#34;, &#34;America/Anchorage&#34;);map.put(&#34;BET&#34;, &#34;America/Sao_Paulo&#34;);map.put(&#34;BST&#34;, &#34;Asia/Dhaka&#34;);map.put(&#34;CAT&#34;, &#34;Africa/Harare&#34;);map." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1001_java_timezone/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:30+00:00" />
@@ -274,7 +274,7 @@ Asia/Shanghai
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 15:45
+          2023-03-31 23:45
         
 
          

@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
 <meta name="description" content="ARTS - Tip 数字的格式化 工作中有个需求，要把货币数字，改成逢千逗号分隔的格式，于是就总结下实现方式。
-1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672); DecimalFormat df = new DecimalFormat(&amp;#34;###,##0&amp;#34;); // 100,543,000 DecimalFormat df2 = new DecimalFormat(&amp;#34;###,##0.&amp;#34;); // 100,543,000. DecimalFormat df3 = new DecimalFormat(&amp;#34;###,##0.0&amp;#34;); //100,543,000.1 DecimalFormat df4 = new DecimalFormat(&amp;#34;###,##0.00&amp;#34;); // 100,543,000.13 DecimalFormat df5 = new DecimalFormat(&amp;#34;###,##0.000&amp;#34;); //100,543,000.127 DecimalFormat df6 = new DecimalFormat(&amp;#34;###,##0.0000&amp;#34;); //100,543,000.1267 由此可知，在小数规定位数后，会做四舍五入操作。
-2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化 System.out.println(f1.format(b1)); //￥100,543,000.13 NumberFormat f2 = NumberFormat.getNumberInstance(); System.out.println(f2.format(b1)); //100,543,000.127 System.out.println(f2.format(1123)); //1,123 System.out.println(f2.format(1123.1)); //1,123." />
+1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672);DecimalFormat df = new DecimalFormat(&amp;#34;###,##0&amp;#34;); // 100,543,000DecimalFormat df2 = new DecimalFormat(&amp;#34;###,##0.&amp;#34;); // 100,543,000.DecimalFormat df3 = new DecimalFormat(&amp;#34;###,##0.0&amp;#34;); //100,543,000.1DecimalFormat df4 = new DecimalFormat(&amp;#34;###,##0.00&amp;#34;); // 100,543,000.13DecimalFormat df5 = new DecimalFormat(&amp;#34;###,##0.000&amp;#34;); //100,543,000.127DecimalFormat df6 = new DecimalFormat(&amp;#34;###,##0.0000&amp;#34;); //100,543,000.1267由此可知，在小数规定位数后，会做四舍五入操作。
+2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化System.out.println(f1.format(b1)); //￥100,543,000.13NumberFormat f2 = NumberFormat.getNumberInstance();System.out.println(f2.format(b1)); //100,543,000.127System.out.println(f2.format(1123)); //1,123System.out.println(f2.format(1123.1)); //1,123." />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -42,8 +42,8 @@
 
 <meta itemprop="name" content="Week1008_tip">
 <meta itemprop="description" content="ARTS - Tip 数字的格式化 工作中有个需求，要把货币数字，改成逢千逗号分隔的格式，于是就总结下实现方式。
-1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672); DecimalFormat df = new DecimalFormat(&#34;###,##0&#34;); // 100,543,000 DecimalFormat df2 = new DecimalFormat(&#34;###,##0.&#34;); // 100,543,000. DecimalFormat df3 = new DecimalFormat(&#34;###,##0.0&#34;); //100,543,000.1 DecimalFormat df4 = new DecimalFormat(&#34;###,##0.00&#34;); // 100,543,000.13 DecimalFormat df5 = new DecimalFormat(&#34;###,##0.000&#34;); //100,543,000.127 DecimalFormat df6 = new DecimalFormat(&#34;###,##0.0000&#34;); //100,543,000.1267 由此可知，在小数规定位数后，会做四舍五入操作。
-2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化 System.out.println(f1.format(b1)); //￥100,543,000.13 NumberFormat f2 = NumberFormat.getNumberInstance(); System.out.println(f2.format(b1)); //100,543,000.127 System.out.println(f2.format(1123)); //1,123 System.out.println(f2.format(1123.1)); //1,123."><meta itemprop="datePublished" content="2023-03-31T15:45:33+00:00" />
+1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672);DecimalFormat df = new DecimalFormat(&#34;###,##0&#34;); // 100,543,000DecimalFormat df2 = new DecimalFormat(&#34;###,##0.&#34;); // 100,543,000.DecimalFormat df3 = new DecimalFormat(&#34;###,##0.0&#34;); //100,543,000.1DecimalFormat df4 = new DecimalFormat(&#34;###,##0.00&#34;); // 100,543,000.13DecimalFormat df5 = new DecimalFormat(&#34;###,##0.000&#34;); //100,543,000.127DecimalFormat df6 = new DecimalFormat(&#34;###,##0.0000&#34;); //100,543,000.1267由此可知，在小数规定位数后，会做四舍五入操作。
+2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化System.out.println(f1.format(b1)); //￥100,543,000.13NumberFormat f2 = NumberFormat.getNumberInstance();System.out.println(f2.format(b1)); //100,543,000.127System.out.println(f2.format(1123)); //1,123System.out.println(f2.format(1123.1)); //1,123."><meta itemprop="datePublished" content="2023-03-31T15:45:33+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:33+00:00" />
 <meta itemprop="wordCount" content="232"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -52,15 +52,15 @@
 
 <meta name="twitter:title" content="Week1008_tip"/>
 <meta name="twitter:description" content="ARTS - Tip 数字的格式化 工作中有个需求，要把货币数字，改成逢千逗号分隔的格式，于是就总结下实现方式。
-1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672); DecimalFormat df = new DecimalFormat(&#34;###,##0&#34;); // 100,543,000 DecimalFormat df2 = new DecimalFormat(&#34;###,##0.&#34;); // 100,543,000. DecimalFormat df3 = new DecimalFormat(&#34;###,##0.0&#34;); //100,543,000.1 DecimalFormat df4 = new DecimalFormat(&#34;###,##0.00&#34;); // 100,543,000.13 DecimalFormat df5 = new DecimalFormat(&#34;###,##0.000&#34;); //100,543,000.127 DecimalFormat df6 = new DecimalFormat(&#34;###,##0.0000&#34;); //100,543,000.1267 由此可知，在小数规定位数后，会做四舍五入操作。
-2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化 System.out.println(f1.format(b1)); //￥100,543,000.13 NumberFormat f2 = NumberFormat.getNumberInstance(); System.out.println(f2.format(b1)); //100,543,000.127 System.out.println(f2.format(1123)); //1,123 System.out.println(f2.format(1123.1)); //1,123."/>
+1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672);DecimalFormat df = new DecimalFormat(&#34;###,##0&#34;); // 100,543,000DecimalFormat df2 = new DecimalFormat(&#34;###,##0.&#34;); // 100,543,000.DecimalFormat df3 = new DecimalFormat(&#34;###,##0.0&#34;); //100,543,000.1DecimalFormat df4 = new DecimalFormat(&#34;###,##0.00&#34;); // 100,543,000.13DecimalFormat df5 = new DecimalFormat(&#34;###,##0.000&#34;); //100,543,000.127DecimalFormat df6 = new DecimalFormat(&#34;###,##0.0000&#34;); //100,543,000.1267由此可知，在小数规定位数后，会做四舍五入操作。
+2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化System.out.println(f1.format(b1)); //￥100,543,000.13NumberFormat f2 = NumberFormat.getNumberInstance();System.out.println(f2.format(b1)); //100,543,000.127System.out.println(f2.format(1123)); //1,123System.out.println(f2.format(1123.1)); //1,123."/>
 
 
 
     <meta property="og:title" content="Week1008_tip" />
 <meta property="og:description" content="ARTS - Tip 数字的格式化 工作中有个需求，要把货币数字，改成逢千逗号分隔的格式，于是就总结下实现方式。
-1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672); DecimalFormat df = new DecimalFormat(&#34;###,##0&#34;); // 100,543,000 DecimalFormat df2 = new DecimalFormat(&#34;###,##0.&#34;); // 100,543,000. DecimalFormat df3 = new DecimalFormat(&#34;###,##0.0&#34;); //100,543,000.1 DecimalFormat df4 = new DecimalFormat(&#34;###,##0.00&#34;); // 100,543,000.13 DecimalFormat df5 = new DecimalFormat(&#34;###,##0.000&#34;); //100,543,000.127 DecimalFormat df6 = new DecimalFormat(&#34;###,##0.0000&#34;); //100,543,000.1267 由此可知，在小数规定位数后，会做四舍五入操作。
-2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化 System.out.println(f1.format(b1)); //￥100,543,000.13 NumberFormat f2 = NumberFormat.getNumberInstance(); System.out.println(f2.format(b1)); //100,543,000.127 System.out.println(f2.format(1123)); //1,123 System.out.println(f2.format(1123.1)); //1,123." />
+1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672);DecimalFormat df = new DecimalFormat(&#34;###,##0&#34;); // 100,543,000DecimalFormat df2 = new DecimalFormat(&#34;###,##0.&#34;); // 100,543,000.DecimalFormat df3 = new DecimalFormat(&#34;###,##0.0&#34;); //100,543,000.1DecimalFormat df4 = new DecimalFormat(&#34;###,##0.00&#34;); // 100,543,000.13DecimalFormat df5 = new DecimalFormat(&#34;###,##0.000&#34;); //100,543,000.127DecimalFormat df6 = new DecimalFormat(&#34;###,##0.0000&#34;); //100,543,000.1267由此可知，在小数规定位数后，会做四舍五入操作。
+2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化System.out.println(f1.format(b1)); //￥100,543,000.13NumberFormat f2 = NumberFormat.getNumberInstance();System.out.println(f2.format(b1)); //100,543,000.127System.out.println(f2.format(1123)); //1,123System.out.println(f2.format(1123.1)); //1,123." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1008_tip/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:33+00:00" />
@@ -280,7 +280,7 @@ function number_format(number, decimals, dec_point, thousands_sep) {
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 15:45
+          2023-03-31 23:45
         
 
          

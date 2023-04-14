@@ -6,8 +6,103 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 14 Apr 2023 04:21:08 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 15 Apr 2023 00:54:44 +0800</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>技术面试前的准备</title>
+            <link>/posts/inbox/interview_prepare_230415/</link>
+            <pubDate>Sat, 15 Apr 2023 00:54:44 +0800</pubDate>
+            
+            <guid>/posts/inbox/interview_prepare_230415/</guid>
+            <description>看到了一篇挺好的面试准备文章，收藏下。 原文链接: 面试底层逻辑整理
+面试前 1、基础真的很重要 语言基础，操作系统，网络知识，数据结构，常用开源软件的熟练使用，刷算法题，这些决定是否能有资格跟面试官继续聊下去。
+2、充分准备好面试内容 把自己的工作经历先拟一个草稿，思维导图也可，流畅背诵，时长能够持续20分钟以上。别觉得多，有的说总比两三分钟就结束了强。并且准备越充分，候选人说的越多，越能体现项目经验丰富。
+3、做过的项目一定要吃透 一个有意义的项目往往比较复杂，一定要将话术写在笔记上自己反复打磨，修饰最精炼的语句，让听者更好理解。有简有繁，有条有理地介绍你的项目功能点，能够显得你语言干练，逻辑性清晰。
+哪怕是共建项目，也得掌握整个项目的知识点。比如项目实现了什么功能、解决了什么痛点、技术栈有哪些、规模、用户量多少、多少人参与研发的、你在项目中的角色是什么等等。
+4、简历上分层分点简单概要项目经验，先说结论 这一点很重要，面试官接收候选人传达的信息无非就是耳和眼，当候选人在描述自己所熟悉的项目，大多数面试官需要脑补你的应用场景，经常会有跟不上候选人的语速。
+若简历上清晰分点描述了项目概要，眼耳并用传达信息速度的带宽是指数增长的。一能给面试官从视觉上快速的整体把握，知道候选人在说什么，二能防止候选人说跑偏，到最后扯远了，问到自己不熟悉的领域就GG。
+5、一定要画一个思维导图，向上管理 思维导图内容包含你的工作所需的技术细节，方法论以及你的观点，思考。
+现在因为疫情原因，大多数技术面试均已改为线上视频面试，无论是腾讯会议、飞书、钉钉等都具备屏幕共享功能，如果在面试过程中，你把你的项目或者观点思路以思维导图的形式分享，面试的思路就完全跟着你走了，他会很认真仔细的看你的思维导图，那么面试问题也会局限在你导图内容范围，不会太过于发散其他。
+另外，如果你整一套清晰的思维导图照着念，那么给人的第一印象就是你善于总结，思路清晰，表达流畅。
+6、数据量化 人类通过对图表的理解速度要强于纯文字，对数字的理解速度强于纯文字。所以简历上分点描述的内容，最好量化成“监控系统日告警量超3000条，经优化后日告警不超过100条”；“监控系统客户端覆盖全网5000台设备”这样的句式。这也是团队间分享及汇报给上级的一个好习惯，向上管理^_^，要预判你的对象希望从你这里得到什么。
+7、学会发散 准备项目的时候不要太老实，该吹牛逼的时候还是需要吹的，比如项目某一功能很有特点，但是目前还没排期实现，或者你调研业界有些优秀的功能点，在吃透其技术方案并可落地实施的前提下，是可以写进项目经验的。
+8、分析人物需求，打组合拳 提前问清楚招聘HR，下一面的面试官的角色是什么，比如：
+一面面试官，基本上是候选人将来同组同事或者组长。在跟他们聊的时候需要着重谈项目能力，如何落地实施，技术细节，执行能力，突出基础扎实，算法是重中之重，必须刷题。
+二面面试官，大多为交叉面试，可能是兄弟部门leader，比如我们做运维的，二面面试官可能是研发部门的leader，候选人需要着重表现代码能力，算法能力，架构设计能力，同时也可以吹吹你对代码的高度洁癖，对标准化、自动化的强迫症。当然吹的时候还是需要提前准备下相关内容。一般情况，交叉面不会随便挂人，除非表现非常一般。
+三面四面面试官，基本上都是主管总监级，这一角色的评价决定了候选人的职级、薪资以及是否为高潜候选人。他们更关注候选人的综合素养，对岗位的理解，对行业方向的嗅探能力。另外就是上文所述“对待业务的思想需要具备全局性，前瞻性，需要具备一个上帝视角的思想，如在架构视角，用户视角，产品视角，全方位去度量自己负责的业务是否能够满足客户需求，能否更加降本增效，能否做一些更优质的平台工具去提高业务效率，提高业务稳定性，能否制定一些预案，把可预见型的故障自动化避免，把不可预见型的故障，降影响降到最低，如何结合业务进行方案落地。”这些能力，嘴皮子要灵活一点，体现出踏实肯干，有灵性，值得培养。
+HR终面，考察的是候选人稳定性，长期发展规划，以及平衡双方都满意的一个薪资点。大致问题如下：
+为什么从前几家公司离职？
+你在上一家公司团队担任什么角色，工作中有什么亮点
+如果你前几家公司有些比较出名，HR会问你你对其某些业务在市场上的定位，或者公司文化有什么看法？
+你觉得的优缺点是什么？兴趣爱好是什么？
+前公司给你留下印象最深的是什么？既然这么好，你为什么要出来？为什么不内部调岗？
+后期规划是什么，通过哪些方法实现你的目标规划？
+是否打算长期在XX城市发展？
+期望薪资是多少，若少于多少你就不考虑了？
+分析：HR大多数都是女性，要抓住女性本身生活中也是感性居多，自然HR面的问题大多也是感性的，不像技术问题那样，大部分标准答案很明确。HR想在候选人这里得到的认知是：你有明确的正确的职业规划，你跳槽是为了更好的靠近自己的目标，正好该公司能够提供这样的岗位机会，你将来会稳定的在公司发展下去，并且能为公司输出比别人更多的价值，良禽择木而栖，你就是他们要找的人。自然薪资就好谈了。这里就不举例了，结合自身情况，自己准备好话术。
+加分项：若候选人按照上述方法面试下来，感觉跟面试官聊的比较投机，并且氛围比较轻松的情况下，可以问下这个问题：“老哥，我这还有最后一个问题，希望您无论是作为行业中耕耘多年的前辈也好，还是本次面试的面试官也好，能否根据我的表现，给我一些建议，我好结合自身情况，摆正方向，努力提升。”对方若给出建议就洗耳恭听，没给出也正常，因为可能会透露出面试结果，这不重要。重要的是你这句话是表态的，表示候选人对这位面试官的尊重，对其职位的认可，对该团队在做工作的认可，也表示了候选人学习态度端正，值得培养，是个好苗子。这个问题每一个技术面试官都可以问。
+面试中： 1、自信，别紧张 虽说是求职，但面试官在某些领域不一定比你强，对于自己的项目，自然是要比面试官熟悉，你要做的就是把项目条理清晰地描述，请分点说明。面试其实就是与一位”前辈“交流探讨，思想碰撞。只要前期准备工作充分，要很享受这个互相学习交流的过程。自然就不会紧张，气场就出来了。
+2、掌握节奏，掌握主动权 技术面单场基本在1小时到1.5小时内，面试开始第一句话大部分都是互相自我介绍，轮到候选人的时候就直接说：“那我就通过描述我的这几年工作经验，简单的介绍下自己。”巴拉巴拉说完一段工作经验后，面试官会打断要你把某些要点仔细讲一遍。只要前期准备工作做得好，这都不是问题。切记要语言精炼，分点描述，语速适中，自信不虚。这样有来有回3、4个回合基本上40分钟就过去了，面试官在跟着你的思路走，他的脑袋也在学习一些业内的优秀解决方案。时间不多的情况下，最后会问几道基础知识的问题，一道算法题，这些前期准备充分，问题不大，面试基本就稳了。面试的时候注意表达方式，掌握主导权，强势一点，帮助面试官做判断。比如在阐述你的一些优点和项目经验时，面试官就需要把候选人的描述与岗位做匹配，但这是面试官在做判断。候选人应着重体现：该岗位所做的项目比较需要自己的优点与项目经验，你的特点能为这个团队带来什么价值。这样就是在帮面试官做判断，旁敲侧击告诉面试官你就是那个最匹配岗位的人。就如前文所述，需要具备用户思维，站在用户视角，分析其需求，把自己当作产品打磨至最优解，推送给用户。
+3、问清楚后续工作内容是否符合预期 一定要问清楚，工作内容具体做什么，规模，用户群体，系统功能等，别等到入职后发现不契合，到时候就很麻烦了，对职业生涯非常不利。
+面试后： 1、总结 一定要总结每一场面试自己表现好的地方，表现待提高的地方，问题没答上来的地方，记录下来反复推敲，提炼语句，查漏补缺，人就是在不断总结的过程中迅速成长的。
+2、先后顺序 先不要投意向企业，自私一点，先找一些公司练练手。看看行业中都在问什么，关注什么。收集问题，积攒经验。
+3、着重情商培养 说别人爱听的话，做自己认为正确的事。
+你要像个海王一样同时面试不同的公司岗位，在其中查漏补缺，包括技术，话术，绎术，但是一旦确定去了某家公司 你就得像个直男一样，认真对待，不耍小心眼，做出成绩！</description>
+            <content type="html"><![CDATA[<p>看到了一篇挺好的面试准备文章，收藏下。 原文链接: <a href="https://docs.google.com/document/d/1srnMc_hiOsyH7MuK196vExGGFjLJ0f-NDBih7jPJ2fE/edit#heading=h.pbqz19x3s3ev">面试底层逻辑整理</a></p>
+<h3 id="面试前">面试前</h3>
+<h4 id="1基础真的很重要">1、基础真的很重要</h4>
+<p>语言基础，操作系统，网络知识，数据结构，常用开源软件的熟练使用，刷算法题，这些决定是否能有资格跟面试官继续聊下去。</p>
+<h4 id="2充分准备好面试内容">2、充分准备好面试内容</h4>
+<p>把自己的工作经历先拟一个草稿，思维导图也可，流畅背诵，时长能够持续20分钟以上。别觉得多，有的说总比两三分钟就结束了强。并且准备越充分，候选人说的越多，越能体现项目经验丰富。</p>
+<h4 id="3做过的项目一定要吃透">3、做过的项目一定要吃透</h4>
+<p>一个有意义的项目往往比较复杂，一定要将话术写在笔记上自己反复打磨，修饰最精炼的语句，让听者更好理解。有简有繁，有条有理地介绍你的项目功能点，能够显得你语言干练，逻辑性清晰。</p>
+<p>哪怕是共建项目，也得掌握整个项目的知识点。比如项目实现了什么功能、解决了什么痛点、技术栈有哪些、规模、用户量多少、多少人参与研发的、你在项目中的角色是什么等等。</p>
+<h4 id="4简历上分层分点简单概要项目经验先说结论">4、简历上分层分点简单概要项目经验，先说结论</h4>
+<p>这一点很重要，面试官接收候选人传达的信息无非就是耳和眼，当候选人在描述自己所熟悉的项目，大多数面试官需要脑补你的应用场景，经常会有跟不上候选人的语速。</p>
+<p>若简历上清晰分点描述了项目概要，眼耳并用传达信息速度的带宽是指数增长的。一能给面试官从视觉上快速的整体把握，知道候选人在说什么，二能防止候选人说跑偏，到最后扯远了，问到自己不熟悉的领域就GG。</p>
+<h4 id="5一定要画一个思维导图向上管理">5、一定要画一个思维导图，向上管理</h4>
+<p>思维导图内容包含你的工作所需的技术细节，方法论以及你的观点，思考。</p>
+<p>现在因为疫情原因，大多数技术面试均已改为线上视频面试，无论是腾讯会议、飞书、钉钉等都具备屏幕共享功能，如果在面试过程中，你把你的项目或者观点思路以思维导图的形式分享，面试的思路就完全跟着你走了，他会很认真仔细的看你的思维导图，那么面试问题也会局限在你导图内容范围，不会太过于发散其他。</p>
+<p>另外，如果你整一套清晰的思维导图照着念，那么给人的第一印象就是你善于总结，思路清晰，表达流畅。</p>
+<h4 id="6数据量化">6、数据量化</h4>
+<p>人类通过对图表的理解速度要强于纯文字，对数字的理解速度强于纯文字。所以简历上分点描述的内容，最好量化成“监控系统日告警量超3000条，经优化后日告警不超过100条”；“监控系统客户端覆盖全网5000台设备”这样的句式。这也是团队间分享及汇报给上级的一个好习惯，向上管理^_^，要预判你的对象希望从你这里得到什么。</p>
+<h4 id="7学会发散">7、学会发散</h4>
+<p>准备项目的时候不要太老实，该吹牛逼的时候还是需要吹的，比如项目某一功能很有特点，但是目前还没排期实现，或者你调研业界有些优秀的功能点，在吃透其技术方案并可落地实施的前提下，是可以写进项目经验的。</p>
+<h4 id="8分析人物需求打组合拳">8、分析人物需求，打组合拳</h4>
+<p>提前问清楚招聘HR，下一面的面试官的角色是什么，比如：</p>
+<p>一面面试官，基本上是候选人将来同组同事或者组长。在跟他们聊的时候需要着重谈项目能力，如何落地实施，技术细节，执行能力，突出基础扎实，算法是重中之重，必须刷题。</p>
+<p>二面面试官，大多为交叉面试，可能是兄弟部门leader，比如我们做运维的，二面面试官可能是研发部门的leader，候选人需要着重表现代码能力，算法能力，架构设计能力，同时也可以吹吹你对代码的高度洁癖，对标准化、自动化的强迫症。当然吹的时候还是需要提前准备下相关内容。一般情况，交叉面不会随便挂人，除非表现非常一般。</p>
+<p>三面四面面试官，基本上都是主管总监级，这一角色的评价决定了候选人的职级、薪资以及是否为高潜候选人。他们更关注候选人的综合素养，对岗位的理解，对行业方向的嗅探能力。另外就是上文所述“对待业务的思想需要具备全局性，前瞻性，需要具备一个上帝视角的思想，如在架构视角，用户视角，产品视角，全方位去度量自己负责的业务是否能够满足客户需求，能否更加降本增效，能否做一些更优质的平台工具去提高业务效率，提高业务稳定性，能否制定一些预案，把可预见型的故障自动化避免，把不可预见型的故障，降影响降到最低，如何结合业务进行方案落地。”这些能力，嘴皮子要灵活一点，体现出踏实肯干，有灵性，值得培养。</p>
+<p>HR终面，考察的是候选人稳定性，长期发展规划，以及平衡双方都满意的一个薪资点。大致问题如下：</p>
+<p>为什么从前几家公司离职？</p>
+<p>你在上一家公司团队担任什么角色，工作中有什么亮点</p>
+<p>如果你前几家公司有些比较出名，HR会问你你对其某些业务在市场上的定位，或者公司文化有什么看法？</p>
+<p>你觉得的优缺点是什么？兴趣爱好是什么？</p>
+<p>前公司给你留下印象最深的是什么？既然这么好，你为什么要出来？为什么不内部调岗？</p>
+<p>后期规划是什么，通过哪些方法实现你的目标规划？</p>
+<p>是否打算长期在XX城市发展？</p>
+<p>期望薪资是多少，若少于多少你就不考虑了？</p>
+<p>分析：HR大多数都是女性，要抓住女性本身生活中也是感性居多，自然HR面的问题大多也是感性的，不像技术问题那样，大部分标准答案很明确。HR想在候选人这里得到的认知是：你有明确的正确的职业规划，你跳槽是为了更好的靠近自己的目标，正好该公司能够提供这样的岗位机会，你将来会稳定的在公司发展下去，并且能为公司输出比别人更多的价值，良禽择木而栖，你就是他们要找的人。自然薪资就好谈了。这里就不举例了，结合自身情况，自己准备好话术。</p>
+<p>加分项：若候选人按照上述方法面试下来，感觉跟面试官聊的比较投机，并且氛围比较轻松的情况下，可以问下这个问题：“老哥，我这还有最后一个问题，希望您无论是作为行业中耕耘多年的前辈也好，还是本次面试的面试官也好，能否根据我的表现，给我一些建议，我好结合自身情况，摆正方向，努力提升。”对方若给出建议就洗耳恭听，没给出也正常，因为可能会透露出面试结果，这不重要。重要的是你这句话是表态的，表示候选人对这位面试官的尊重，对其职位的认可，对该团队在做工作的认可，也表示了候选人学习态度端正，值得培养，是个好苗子。这个问题每一个技术面试官都可以问。</p>
+<h2 id="面试中">面试中：</h2>
+<h4 id="1自信别紧张">1、自信，别紧张</h4>
+<p>虽说是求职，但面试官在某些领域不一定比你强，对于自己的项目，自然是要比面试官熟悉，你要做的就是把项目条理清晰地描述，请分点说明。面试其实就是与一位”前辈“交流探讨，思想碰撞。只要前期准备工作充分，要很享受这个互相学习交流的过程。自然就不会紧张，气场就出来了。</p>
+<h4 id="2掌握节奏掌握主动权">2、掌握节奏，掌握主动权</h4>
+<p>技术面单场基本在1小时到1.5小时内，面试开始第一句话大部分都是互相自我介绍，轮到候选人的时候就直接说：“那我就通过描述我的这几年工作经验，简单的介绍下自己。”巴拉巴拉说完一段工作经验后，面试官会打断要你把某些要点仔细讲一遍。只要前期准备工作做得好，这都不是问题。切记要语言精炼，分点描述，语速适中，自信不虚。这样有来有回3、4个回合基本上40分钟就过去了，面试官在跟着你的思路走，他的脑袋也在学习一些业内的优秀解决方案。时间不多的情况下，最后会问几道基础知识的问题，一道算法题，这些前期准备充分，问题不大，面试基本就稳了。面试的时候注意表达方式，掌握主导权，强势一点，帮助面试官做判断。比如在阐述你的一些优点和项目经验时，面试官就需要把候选人的描述与岗位做匹配，但这是面试官在做判断。候选人应着重体现：该岗位所做的项目比较需要自己的优点与项目经验，你的特点能为这个团队带来什么价值。这样就是在帮面试官做判断，旁敲侧击告诉面试官你就是那个最匹配岗位的人。就如前文所述，需要具备用户思维，站在用户视角，分析其需求，把自己当作产品打磨至最优解，推送给用户。</p>
+<h4 id="3问清楚后续工作内容是否符合预期">3、问清楚后续工作内容是否符合预期</h4>
+<p>一定要问清楚，工作内容具体做什么，规模，用户群体，系统功能等，别等到入职后发现不契合，到时候就很麻烦了，对职业生涯非常不利。</p>
+<h2 id="面试后">面试后：</h2>
+<h4 id="1总结">1、总结</h4>
+<p>一定要总结每一场面试自己表现好的地方，表现待提高的地方，问题没答上来的地方，记录下来反复推敲，提炼语句，查漏补缺，人就是在不断总结的过程中迅速成长的。</p>
+<h4 id="2先后顺序">2、先后顺序</h4>
+<p>先不要投意向企业，自私一点，先找一些公司练练手。看看行业中都在问什么，关注什么。收集问题，积攒经验。</p>
+<h4 id="3着重情商培养">3、着重情商培养</h4>
+<p>说别人爱听的话，做自己认为正确的事。</p>
+<p>你要像个海王一样同时面试不同的公司岗位，在其中查漏补缺，包括技术，话术，绎术，但是一旦确定去了某家公司
+你就得像个直男一样，认真对待，不耍小心眼，做出成绩！</p>
+]]></content>
+        </item>
         
         <item>
             <title>JVM 常见面试题</title>
@@ -426,7 +521,7 @@ Singleton Objects Cache 单例对象缓存： 这个缓存存储已经完全初�
 Spring Bean作用域 了解了三级缓存后，我们知道以上都是对单例bean的操作，那么来复习下spring作用域有哪些。
 Singleton 单例。整个spring容器中，一个类的单例Bean实例只会被创建一次。这是Spring默认的作用域 Prototype 原型。每次请求一个Bean时候，都会创建一个新的实例。 Request 请求。每一个HTTP请求的生命周期内，一个Bean的实例只会被创建一次。这个作用于仅适用于Web应用程序。 Session 会话。在一个HTTP会话的生命周期内，一个Bean的实例只会被创建一次。这个做用户仅适用于Web应用程序。 Application 应用。 在一个ServletContext的生命周期内，一个Bean的实例只会被创建一次。这个作用域仅适用于Web应用程序。 Spring Bean生命周期 既然说到了注入，就来了解下注入时候spring做了哪些事。
 Spring Bean 生命周期简化概述：
-Spring容器启动 Bean 定义被读取，Spring确定Bean的依赖关系。 实例化Bean, 调用构造函数。 Setter 注入：spring 容器注入带有 @Autowired 注解的依赖项 如果实现了 BeanNameAware 、BeanFactoryAware 等接口，调用相应的方法。 如果Bean实现了BeanPostProcessor接口，调用postProcessBeforeInitialization方法 初始化Bean， 这可能包括调用 @PostConstruct 注解的方法、调用afterPropertiesSet方法(如果实现了InitializingBean接口) 或调用自定义的初始化方法 (通过@Bean(initMethod=&amp;ldquo;customInit&amp;rdquo;)指定)。 如果Bean实现了BeanPostProcessor接口，调用 postProcessAfterInitialization方法 Bean 现在已经准备好使用。 当应用程序关闭或Spring容器被销毁时，执行清理操作，包括调用@PreDestory注解的方法，调用destroy方法(如果实现了DisposableBean接口) 或调用自定义的销毁方法(通过@Bean(destroyMethod=&amp;ldquo;customDestroy&amp;rdquo;)指定) graph TD; A[Spring容器启动]--&amp;gt;B[读取Bean定义,确定Bean依赖关系] B --&amp;gt; C[实例化Bean,调用构造函数] C --&amp;gt; D[Setter注入 \ 字段注入] D --&amp;gt; E{是否实现BeanPostProcessor} E --&amp;gt;|是| F[调用postProcessBeforeInitialization] E --&amp;gt;|否| G[初始化Bean,PostConstruct注解方法,自定义初始化方法] F --&amp;gt; G G --&amp;gt;|如果实现| H[BeanPostProcessor的postProcessAfterInitialization] H --&amp;gt; I[Bean准备好了] I --&amp;gt; J[spring容器销毁,preDestroy, destory, customDestroy] J --&amp;gt; K[结束] Spring提供了哪些依赖注入方式： 构造器注入 (Constructor Injection) Setter注入 (Setter Injection) 字段注入 (Field Injection) 简单代码示例：</description>
+Spring容器启动 Bean 定义被读取，Spring确定Bean的依赖关系。 实例化Bean, 调用构造函数。 Setter 注入：spring 容器注入带有 @Autowired 注解的依赖项 如果实现了 BeanNameAware 、BeanFactoryAware 等接口，调用相应的方法。 如果Bean实现了BeanPostProcessor接口，调用postProcessBeforeInitialization方法 初始化Bean， 这可能包括调用 @PostConstruct 注解的方法、调用afterPropertiesSet方法(如果实现了InitializingBean接口) 或调用自定义的初始化方法 (通过@Bean(initMethod=&amp;ldquo;customInit&amp;rdquo;)指定)。 如果Bean实现了BeanPostProcessor接口，调用 postProcessAfterInitialization方法 Bean 现在已经准备好使用。 当应用程序关闭或Spring容器被销毁时，执行清理操作，包括调用@PreDestory注解的方法，调用destroy方法(如果实现了DisposableBean接口) 或调用自定义的销毁方法(通过@Bean(destroyMethod=&amp;ldquo;customDestroy&amp;rdquo;)指定) graph TD;A[Spring容器启动]--&amp;gt;B[读取Bean定义,确定Bean依赖关系]B --&amp;gt; C[实例化Bean,调用构造函数]C --&amp;gt; D[Setter注入 \ 字段注入]D --&amp;gt; E{是否实现BeanPostProcessor}E --&amp;gt;|是| F[调用postProcessBeforeInitialization]E --&amp;gt;|否| G[初始化Bean,PostConstruct注解方法,自定义初始化方法]F --&amp;gt; GG --&amp;gt;|如果实现| H[BeanPostProcessor的postProcessAfterInitialization]H --&amp;gt; I[Bean准备好了]I --&amp;gt; J[spring容器销毁,preDestroy, destory, customDestroy]J --&amp;gt; K[结束]Spring提供了哪些依赖注入方式： 构造器注入 (Constructor Injection) Setter注入 (Setter Injection) 字段注入 (Field Injection) 简单代码示例：</description>
             <content type="html"><![CDATA[<h2 id="spring三级缓存">Spring三级缓存</h2>
 <p>想起之前面试被问到的一个回答的不好的基础题，“spring如何解决循环依赖的？”</p>
 <p>因为并没有真正理解spring缓存机制和作用，所以早起看过后就忘了，现在重新复习下。</p>
@@ -529,7 +624,7 @@ Spring容器启动 Bean 定义被读取，Spring确定Bean的依赖关系。 实
             
             <guid>/posts/tech/javabase_hashmap_230410/</guid>
             <description>Java集合基础之HashMap HashMap在日常中也是使用频繁，了解它的源码很有必要。
-构造方法与默认属性 public class HashMap&amp;lt;K,V&amp;gt; extends AbstractMap&amp;lt;K,V&amp;gt; implements Map&amp;lt;K,V&amp;gt;, Cloneable, Serializable {} static final int DEFAULT_INITIAL_CAPACITY = 1 &amp;lt;&amp;lt; 4; // aka 16 默认容量的16， ArrayList是10。
+构造方法与默认属性 public class HashMap&amp;lt;K,V&amp;gt; extends AbstractMap&amp;lt;K,V&amp;gt;implements Map&amp;lt;K,V&amp;gt;, Cloneable, Serializable {} static final int DEFAULT_INITIAL_CAPACITY = 1 &amp;lt;&amp;lt; 4; // aka 16 默认容量的16， ArrayList是10。
 static final int MAXIMUM_CAPACITY = 1 &amp;lt;&amp;lt; 30; 最大容量是 1&amp;laquo;30
 static final float DEFAULT_LOAD_FACTOR = 0.75f; 默认负载因子是 0.75.
 static final int TREEIFY_THRESHOLD = 8; 当&amp;gt;=8时候转化为红黑树
@@ -647,6 +742,156 @@ static class Node&amp;lt;K,V&amp;gt; implements Map.Entry&amp;lt;K,V&amp;gt; { f
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// DEFAULT_INITIAL_CAPACITY.)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> threshold<span style="color:#f92672">;</span>
 </span></span></code></pre></div><h3 id="常用方法">常用方法</h3>
+<h4 id="put">put</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> V <span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>K key<span style="color:#f92672">,</span> V value<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> putVal<span style="color:#f92672">(</span>hash<span style="color:#f92672">(</span>key<span style="color:#f92672">),</span> key<span style="color:#f92672">,</span> value<span style="color:#f92672">,</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">final</span> V <span style="color:#a6e22e">putVal</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> hash<span style="color:#f92672">,</span> K key<span style="color:#f92672">,</span> V value<span style="color:#f92672">,</span> <span style="color:#66d9ef">boolean</span> onlyIfAbsent<span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#66d9ef">boolean</span> evict<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Node 数组 tab;   Node 对象p;  整型  n , i;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        Node<span style="color:#f92672">&lt;</span>K<span style="color:#f92672">,</span>V<span style="color:#f92672">&gt;[]</span> tab<span style="color:#f92672">;</span> Node<span style="color:#f92672">&lt;</span>K<span style="color:#f92672">,</span>V<span style="color:#f92672">&gt;</span> p<span style="color:#f92672">;</span> <span style="color:#66d9ef">int</span> n<span style="color:#f92672">,</span> i<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// table赋值给 tab ，这里table 是成员变量 transient Node&lt;K,V&gt;[] table;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#75715e">// 如果table 是null 或者 tab的长度是0， 就resize() ， 赋值给tab 和 n, resize的具体实现先不看，以免影响主线，根据名字，就当做是调整初始化size的方法
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">((</span>tab <span style="color:#f92672">=</span> table<span style="color:#f92672">)</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">=</span> tab<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">)</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>            n <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>tab <span style="color:#f92672">=</span> resize<span style="color:#f92672">()).</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 这时候就要找到桶的位置， 算法就是 (n-1) &amp; hash  ？？？ 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#75715e">// 如果值为空，也就是桶的位置没有值， 就新建一个node 放进去
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">((</span>p <span style="color:#f92672">=</span> tab<span style="color:#f92672">[</span>i <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">)</span> <span style="color:#f92672">&amp;</span> hash<span style="color:#f92672">])</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>            tab<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> newNode<span style="color:#f92672">(</span>hash<span style="color:#f92672">,</span> key<span style="color:#f92672">,</span> value<span style="color:#f92672">,</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span> <span style="color:#75715e">// 否则，桶的位置不为空，就遍历链表或红黑树
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            Node<span style="color:#f92672">&lt;</span>K<span style="color:#f92672">,</span>V<span style="color:#f92672">&gt;</span> e<span style="color:#f92672">;</span> K k<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>	    <span style="color:#75715e">// 如果hash 相同 并且 (p.key == key 或者 key 不为null p.key.equals(key)))
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	    <span style="color:#75715e">// 如果hash 相同并且 key相同或值相等 ，就把 p 赋值 给e
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>p<span style="color:#f92672">.</span><span style="color:#a6e22e">hash</span> <span style="color:#f92672">==</span> hash <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">((</span>k <span style="color:#f92672">=</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">key</span><span style="color:#f92672">)</span> <span style="color:#f92672">==</span> key <span style="color:#f92672">||</span> <span style="color:#f92672">(</span>key <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> key<span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>k<span style="color:#f92672">))))</span>
+</span></span><span style="display:flex;"><span>                e <span style="color:#f92672">=</span> p<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>	    <span style="color:#75715e">// 如果 p 是一个TreeNode结构，就去遍历红黑树，返回e
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>p <span style="color:#66d9ef">instanceof</span> TreeNode<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>                e <span style="color:#f92672">=</span> <span style="color:#f92672">((</span>TreeNode<span style="color:#f92672">&lt;</span>K<span style="color:#f92672">,</span>V<span style="color:#f92672">&gt;)</span>p<span style="color:#f92672">).</span><span style="color:#a6e22e">putTreeVal</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> tab<span style="color:#f92672">,</span> hash<span style="color:#f92672">,</span> key<span style="color:#f92672">,</span> value<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// 如果取出的第一个元素不一样，就遍历链表
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> binCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">;</span> <span style="color:#f92672">;</span> <span style="color:#f92672">++</span>binCount<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>		    <span style="color:#75715e">// 如果next 是null， 就拼接上新node
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">((</span>e <span style="color:#f92672">=</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">)</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                        p<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span> <span style="color:#f92672">=</span> newNode<span style="color:#f92672">(</span>hash<span style="color:#f92672">,</span> key<span style="color:#f92672">,</span> value<span style="color:#f92672">,</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                       <span style="color:#75715e">// 如果 binCount &gt;= 8-1 ,就转化为 treeifyBin
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>binCount <span style="color:#f92672">&gt;=</span> TREEIFY_THRESHOLD <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">)</span> <span style="color:#75715e">// -1 for 1st
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                            treeifyBin<span style="color:#f92672">(</span>tab<span style="color:#f92672">,</span> hash<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">// next不为空，hash相等就用 equals比较key
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>e<span style="color:#f92672">.</span><span style="color:#a6e22e">hash</span> <span style="color:#f92672">==</span> hash <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">((</span>k <span style="color:#f92672">=</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">key</span><span style="color:#f92672">)</span> <span style="color:#f92672">==</span> key <span style="color:#f92672">||</span> <span style="color:#f92672">(</span>key <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> key<span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>k<span style="color:#f92672">))))</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                    p <span style="color:#f92672">=</span> e<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>   	    <span style="color:#75715e">// 存在key映射， 就把value赋值给e的value, 然后调用 afterNodeAccess(e)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>e <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span> <span style="color:#75715e">// existing mapping for key
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                V oldValue <span style="color:#f92672">=</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">value</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(!</span>onlyIfAbsent <span style="color:#f92672">||</span> oldValue <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>                    e<span style="color:#f92672">.</span><span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> value<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                afterNodeAccess<span style="color:#f92672">(</span>e<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> oldValue<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">++</span>modCount<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(++</span>size <span style="color:#f92672">&gt;</span> threshold<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>            resize<span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>        afterNodeInsertion<span style="color:#f92672">(</span>evict<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>首先来看最常用的put方法。 它接受一个 key 和 value. 我们知道hashmap会把key计算hash 还会处理hash碰撞， 重点带着问题去看代码。</p>
+<p>put方法调用了 putVal() 方法，   hash(key), key, value, false, true</p>
+<p>这几个参数分别是</p>
+<pre tabindex="0"><code>/**
+ * Implements Map.put and related methods.
+ *
+ * @param hash hash for key   key的hash值
+ * @param key the key   key的值
+ * @param value the value to put  value的值
+ * @param onlyIfAbsent if true, don&#39;t change existing value  如果true,不改变存在的值
+ * @param evict if false, the table is in creation mode. 如果false, table就是创建模式
+ * @return previous value, or null if none
+ */
+final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
+                   boolean evict) {}
+</code></pre><h5 id="如何获取到桶的位置">如何获取到桶的位置？</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">((</span>p <span style="color:#f92672">=</span> tab<span style="color:#f92672">[</span>i <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">)</span> <span style="color:#f92672">&amp;</span> hash<span style="color:#f92672">])</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>看这里这一段， if ((p = tab[i = (n - 1) &amp; hash]) == null)，  获得桶的位置，也就是要存的数组的下表 i 的计算方式：</p>
+<blockquote>
+<p>i = (n-1) &amp; hash</p>
+</blockquote>
+<p>这里的n 来自上一步, n 是 tab.length ， 如果是tab是空的， n 来自resize()后 tab的length , 反正n 就是map中元素数组的长度.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">((</span>tab <span style="color:#f92672">=</span> table<span style="color:#f92672">)</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">=</span> tab<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">)</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>            n <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>tab <span style="color:#f92672">=</span> resize<span style="color:#f92672">()).</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span>
+</span></span></code></pre></div><p>再来看hash是哪个， hash 来自于传入put的key 的hash值， 也就是hash = hash(key) , hash算法是:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * Computes key.hashCode() and spreads (XORs) higher bits of hash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * to lower.  Because the table uses power-of-two masking, sets of
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * hashes that vary only in bits above the current mask will
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * always collide. (Among known examples are sets of Float keys
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * holding consecutive whole numbers in small tables.)  So we
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * apply a transform that spreads the impact of higher bits
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * downward. There is a tradeoff between speed, utility, and
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * quality of bit-spreading. Because many common sets of hashes
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * are already reasonably distributed (so don&#39;t benefit from
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * spreading), and because we use trees to handle large sets of
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * collisions in bins, we just XOR some shifted bits in the
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * cheapest possible way to reduce systematic lossage, as well as
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * to incorporate impact of the highest bits that would otherwise
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * never be used in index calculations because of table bounds.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">hash</span><span style="color:#f92672">(</span>Object key<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> h<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">(</span>key <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">?</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">:</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">=</span> key<span style="color:#f92672">.</span><span style="color:#a6e22e">hashCode</span><span style="color:#f92672">())</span> <span style="color:#f92672">^</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">16</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>先看算法， 如果key 是null, hash(null) 就是0 ， 否则就是 (h = key.hashCode())^(h&raquo;&gt;16)</p>
+<p>也就是 key.hashCode() ^ (key.hashCode()&raquo;&gt;16)</p>
+<p>连到上面计算 <code>i = (n-1) &amp; hash</code> 的式子里</p>
+<p>i = (tab.length-1) &amp; (key.hashCode() ^ (key.hashCode() &raquo;&gt;16))</p>
+<p>这个到底是什么意思呢? 如果我来设计，我一般能想到计算桶的位置，获取到hash值后直接和长度取模运算，也就是 hash%tab.length ，避免占到0位置的null ，就要写成  hash%(tab.lenght-1) + 1， 这个也基本是java5的思想。</p>
+<p>Java5计算桶位置的算法：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> hash <span style="color:#f92672">=</span> hash<span style="color:#f92672">(</span>key<span style="color:#f92672">.</span><span style="color:#a6e22e">hashCode</span><span style="color:#f92672">());</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>hash <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0x7FFFFFFF</span><span style="color:#f92672">)</span> <span style="color:#f92672">%</span> table<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span>
+</span></span></code></pre></div><p>对key的hashcode再hash, 然后和最大int值按位与，保证是正整数， 然后在取模table.length, 这样结果就是 0 - lenght-1 之间。</p>
+<p>由于负载因子增多时候，扩容需要重新计算所有hash ，所以会出现性能问题，hash碰撞概率也会变大。因此在java6中改造为：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">hash</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> h<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// This function ensures that hashCodes that differ only by
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// constant multiples at each bit position have a bounded
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// number of collisions (approximately 8 at default load factor).
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    h <span style="color:#f92672">^=</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">20</span><span style="color:#f92672">)</span> <span style="color:#f92672">^</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">12</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> h <span style="color:#f92672">^</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">)</span> <span style="color:#f92672">^</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Returns index for hash code h.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">indexFor</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> h<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> length<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> h <span style="color:#f92672">&amp;</span> <span style="color:#f92672">(</span>length<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p><code>(n - 1) &amp; hash</code>，其中 <code>n</code> 表示 HashMap 的容量，<code>hash</code> 表示键的哈希值。 这个算法虽然采用了位运算的方式计算桶位置，具有较高的计算效率，但是在负载因子较高时会出现性能问题和哈希冲突的概率变高等问题。</p>
+<p>所以Java7又改版了, 修改了hash计算方式：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">hash</span><span style="color:#f92672">(</span>Object key<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> h<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#f92672">(</span>key <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">?</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">:</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">=</span> key<span style="color:#f92672">.</span><span style="color:#a6e22e">hashCode</span><span style="color:#f92672">())</span> <span style="color:#f92672">^</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">16</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Returns index for hash code h.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">indexFor</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> h<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> length<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> h <span style="color:#f92672">&amp;</span> <span style="color:#f92672">(</span>length<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>然后就是java8中的桶计算方式了：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">hash</span><span style="color:#f92672">(</span>Object key<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> h<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">(</span>key <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">?</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">:</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">=</span> key<span style="color:#f92672">.</span><span style="color:#a6e22e">hashCode</span><span style="color:#f92672">())</span> <span style="color:#f92672">^</span> <span style="color:#f92672">(</span>h <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">16</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>i <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">)</span> <span style="color:#f92672">&amp;</span> hash
+</span></span></code></pre></div><p>和java7的 indexFor 一样， 不同的是，在hash碰撞时候，链表超过7会转化为红黑树，加速查询。</p>
+<p>之后的版本，hashmap的桶计算方法，就没有大改过了。</p>
 ]]></content>
         </item>
         
@@ -2835,8 +3080,8 @@ public class Solution { // you need to treat n as an unsigned value public int h
             <description>Algorithm - 169. 多数元素 多数元素 给定一个大小为 n 的数组 nums ，返回其中的多数元素。多数元素是指在数组中出现次数 大于 ⌊ n/2 ⌋ 的元素。
 你可以假设数组是非空的，并且给定的数组总是存在多数元素。
 示例 1：
-输入：nums = [3,2,3] 输出：3 示例 2：
-输入：nums = [2,2,1,1,1,2,2] 输出：2 分析 老规矩，先从想到的最笨的的方法解决。 只要把数组中每个元素放入map里， value作为次数，就能找出多数元素。
+输入：nums = [3,2,3]输出：3 示例 2：
+输入：nums = [2,2,1,1,1,2,2]输出：2 分析 老规矩，先从想到的最笨的的方法解决。 只要把数组中每个元素放入map里， value作为次数，就能找出多数元素。
 代码如下：
 class Solution { public int majorityElement(int[] nums) { if (nums.length == 1) { return nums[0]; } Map&amp;lt;Integer, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;(nums.length/2+1); for (int num : nums) { if (map.get(num) == null) { map.put(num, 1); } else { int cnt = map.</description>
             <content type="html"><![CDATA[<h2 id="algorithm---169-多数元素httpsleetcodecnproblemsmajority-element">Algorithm - <a href="https://leetcode.cn/problems/majority-element/">169. 多数元素</a></h2>
@@ -7669,13 +7914,13 @@ Linux终端，执行命令后加 &amp;amp; 可以让程序在后台运行。注�
             <guid>/posts/arts/week1029_algorithm/</guid>
             <description>ARTS - Algorithm 补 2019.1.23 19. 删除链表的倒数第N个节点 题目 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
 示例：
-给定一个链表: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5, 和 n = 2. 当删除了倒数第二个节点后，链表变为 1-&amp;gt;2-&amp;gt;3-&amp;gt;5. 说明：
+给定一个链表: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5, 和 n = 2.当删除了倒数第二个节点后，链表变为 1-&amp;gt;2-&amp;gt;3-&amp;gt;5. 说明：
 给定的 n 保证是有效的。
 进阶：
 你能尝试使用一趟扫描实现吗？
 分析 如果没有一趟扫描实现的限制，那么通过两次扫描就能实现： 第一次算出总长度，第二次删除指定节点。但是要求一次扫描就完成，我们有没有更好的思路？
 我们根据条件知道 队尾和删除节点相距为 n, 我们可以使用两个指针，距离为n， 然后同步走，先走的指针到达队尾，那么后出发的指针就到了要删除的节点，代码如下：
-代码 public ListNode removeNthFromEnd(ListNode head, int n) { if (head == null || n &amp;lt;= 0) { return null; } ListNode first = head; ListNode second = head; for (int i = 0; i &amp;lt; n; i++) { second = second.</description>
+代码 public ListNode removeNthFromEnd(ListNode head, int n) {if (head == null || n &amp;lt;= 0) {return null;}ListNode first = head;ListNode second = head;for (int i = 0; i &amp;lt; n; i++) {second = second.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补-2019123">ARTS - Algorithm 补 2019.1.23</h2>
 <h2 id="19-删除链表的倒数第n个节点httpsleetcode-cncomproblemsremove-nth-node-from-end-of-list"><a href="https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/">19. 删除链表的倒数第N个节点</a></h2>
 <h3 id="题目">题目</h3>
@@ -8319,8 +8564,8 @@ public void execute(Runnable command) { if (command == null) throw new NullPoint
             <guid>/posts/arts/week1030_algorithm/</guid>
             <description>ARTS - Algorithm 补2019.1.30 23. 合并K个排序链表 题目 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
 示例:
-输入: [ 1-&amp;gt;4-&amp;gt;5, 1-&amp;gt;3-&amp;gt;4, 2-&amp;gt;6 ] 输出: 1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4-&amp;gt;5-&amp;gt;6 分析 相当于合并多个有序数组，也可以先合并两个有序数组，再合并剩下的，于是代码如下：
-代码： public class MergeKLists { public static ListNode mergeKLists(ListNode[] lists) { int len = lists.length; if (len == 0) { return null; } ListNode res = lists[0]; for (int i = 1; i &amp;lt; len; i++) { res = mergeNode(res, lists[i]); } return res; } private static ListNode mergeNode(ListNode node1, ListNode node2) { ListNode fake = new ListNode(0); ListNode head = fake; while (node1 !</description>
+输入:[1-&amp;gt;4-&amp;gt;5,1-&amp;gt;3-&amp;gt;4,2-&amp;gt;6]输出: 1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4-&amp;gt;5-&amp;gt;6 分析 相当于合并多个有序数组，也可以先合并两个有序数组，再合并剩下的，于是代码如下：
+代码： public class MergeKLists {public static ListNode mergeKLists(ListNode[] lists) {int len = lists.length;if (len == 0) {return null;}ListNode res = lists[0];for (int i = 1; i &amp;lt; len; i++) {res = mergeNode(res, lists[i]);}return res;}private static ListNode mergeNode(ListNode node1, ListNode node2) {ListNode fake = new ListNode(0);ListNode head = fake;while (node1 !</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补2019130">ARTS - Algorithm 补2019.1.30</h2>
 <h2 id="23-合并k个排序链表httpsleetcode-cncomproblemsmerge-k-sorted-listssubmissions"><a href="https://leetcode-cn.com/problems/merge-k-sorted-lists/submissions/">23. 合并K个排序链表</a></h2>
 <h3 id="题目">题目</h3>
@@ -8932,8 +9177,8 @@ private final class Worker extends AbstractQueuedSynchronizer implements Runnabl
 设计一个算法来计算你所能获取的最大利润。你可以尽可能地完成更多的交易（多次买卖一支股票）。
 注意：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
 示例 1:
-输入: [7,1,5,3,6,4] 输出: 7 解释: 在第 2 天（股票价格 = 1）的时候买入，在第 3 天（股票价格 = 5）的时候卖出, 这笔交易所能获得利润 = 5-1 = 4 。 随后，在第 4 天（股票价格 = 3）的时候买入，在第 5 天（股票价格 = 6）的时候卖出, 这笔交易所能获得利润 = 6-3 = 3 。 示例 2:
-输入: [1,2,3,4,5] 输出: 4 解释: 在第 1 天（股票价格 = 1）的时候买入，在第 5 天 （股票价格 = 5）的时候卖出, 这笔交易所能获得利润 = 5-1 = 4 。 注意你不能在第 1 天和第 2 天接连购买股票，之后再将它们卖出。 因为这样属于同时参与了多笔交易，你必须在再次购买前出售掉之前的股票。 示例 3:</description>
+输入: [7,1,5,3,6,4]输出: 7解释: 在第 2 天（股票价格 = 1）的时候买入，在第 3 天（股票价格 = 5）的时候卖出, 这笔交易所能获得利润 = 5-1 = 4 。随后，在第 4 天（股票价格 = 3）的时候买入，在第 5 天（股票价格 = 6）的时候卖出, 这笔交易所能获得利润 = 6-3 = 3 。 示例 2:
+输入: [1,2,3,4,5]输出: 4解释: 在第 1 天（股票价格 = 1）的时候买入，在第 5 天 （股票价格 = 5）的时候卖出, 这笔交易所能获得利润 = 5-1 = 4 。注意你不能在第 1 天和第 2 天接连购买股票，之后再将它们卖出。因为这样属于同时参与了多笔交易，你必须在再次购买前出售掉之前的股票。 示例 3:</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补201919">ARTS - Algorithm 补2019.1.9</h2>
 <h2 id="122-买卖股票的最佳时机-iihttpsleetcode-cncomproblemsbest-time-to-buy-and-sell-stock-iisubmissions"><a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/">122. 买卖股票的最佳时机 II</a></h2>
 <h3 id="题目">题目</h3>
@@ -9030,7 +9275,7 @@ private final class Worker extends AbstractQueuedSynchronizer implements Runnabl
             
             <guid>/posts/arts/week1027_review/</guid>
             <description>ARTS - Review 补2019.1.9 Java Class Format （二） determine 决定 denote 代表 lexicographically 按字典顺序 distinguished 卓著 indicates 表示 4.1. The ClassFile Structure A class file consists of a single ClassFile structure:
-ClassFile { u4 magic; u2 minor_version; u2 major_version; u2 constant_pool_count; cp_info constant_pool[constant_pool_count-1]; u2 access_flags; u2 this_class; u2 super_class; u2 interfaces_count; u2 interfaces[interfaces_count]; u2 fields_count; field_info fields[fields_count]; u2 methods_count; method_info methods[methods_count]; u2 attributes_count; attribute_info attributes[attributes_count]; } The items in the ClassFile structure are as follows:</description>
+ClassFile {u4 magic;u2 minor_version;u2 major_version;u2 constant_pool_count;cp_info constant_pool[constant_pool_count-1];u2 access_flags;u2 this_class;u2 super_class;u2 interfaces_count;u2 interfaces[interfaces_count];u2 fields_count;field_info fields[fields_count];u2 methods_count;method_info methods[methods_count];u2 attributes_count;attribute_info attributes[attributes_count];} The items in the ClassFile structure are as follows:</description>
             <content type="html"><![CDATA[<h2 id="arts---review-补201919">ARTS - Review 补2019.1.9</h2>
 <h2 id="java-class-format-二">Java Class Format （二）</h2>
 <ul>
@@ -9202,8 +9447,8 @@ The magic item supplies the magic number identifying the class file format; it h
             <guid>/posts/arts/week1027_share/</guid>
             <description>ARTS - Share 补2019.1.9 HashMap的key是否可以是null 简介 HashMap是一个经常要用到的键值对。我们知道它的大致原理就是对key进行hash计算，找到它在容器中的位置，在此过程重要的是hash计算，尽可能不同key不产生相同的hash值。那么 hashmap的key能否为null呢？
 key能不能是null 我们在map容器中添加元素时候使用 map.put(k, v). 我们查看put方法：
-public V put(K key, V value) { // 调用了putVal 方法， return putVal(hash(key), key, value, false, true); } // 在看hash(key)，是否要求不为空 static final int hash(Object key) { int h; return (key == null) ? 0 : (h = key.hashCode()) ^ (h &amp;gt;&amp;gt;&amp;gt; 16); } // hash(null) == 0 可见HashMap中， key可以是null，
-putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) { // 声明node 数组 Node&amp;lt;K,V&amp;gt;[] tab; Node&amp;lt;K,V&amp;gt; p; int n, i; // 把当前node数组指向 table, 如果为空就初始化一个 if ((tab = table) == null || (n = tab.</description>
+public V put(K key, V value) {// 调用了putVal 方法，return putVal(hash(key), key, value, false, true);}// 在看hash(key)，是否要求不为空static final int hash(Object key) {int h;return (key == null) ? 0 : (h = key.hashCode()) ^ (h &amp;gt;&amp;gt;&amp;gt; 16);}// hash(null) == 0可见HashMap中， key可以是null，
+putVal方法 final V putVal(int hash, K key, V value, boolean onlyIfAbsent,boolean evict) {// 声明node 数组 Node&amp;lt;K,V&amp;gt;[] tab; Node&amp;lt;K,V&amp;gt; p; int n, i;// 把当前node数组指向 table, 如果为空就初始化一个if ((tab = table) == null || (n = tab.</description>
             <content type="html"><![CDATA[<h2 id="arts---share-补201919">ARTS - Share 补2019.1.9</h2>
 <h2 id="hashmap的key是否可以是null">HashMap的key是否可以是null</h2>
 <h3 id="简介">简介</h3>
@@ -9388,9 +9633,9 @@ final Node&lt;K,V&gt;[] resize() {
 1)FixedThreadPool 和 SingleThreadPool: 允许的请求队列长度为 Integer.MAX_VALUE，可能会堆积大量的请求，从而导致 OOM。
 2)CachedThreadPool 和 ScheduledThreadPool: 允许的创建线程数量为 Integer.MAX_VALUE，可能会创建大量的线程，从而导致 OOM。
 我们使用线程池一般就是这样(如下)，Java编程思想里面的也这么举例：
-ExecutorService exec = Executors.newFixedThreadPool(10); ... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
+ExecutorService exec = Executors.newFixedThreadPool(10);... 这里说的弊端第一条是队列堆积大量请求导致OOM，我们就看看这两个源码：
 FixedThreadPool ,SingleThreadPool 首先是 FixedThreadPool:
-// 这里返回了ThreadPoolExecutor 对象 public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;()); } public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors.</description>
+// 这里返回了ThreadPoolExecutor 对象public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;());}public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip-补201919">ARTS - Tip 补2019.1.9</h2>
 <h2 id="关于创建线程池">关于创建线程池</h2>
 <h3 id="阿里巴巴规范">阿里巴巴规范</h3>
@@ -9792,7 +10037,7 @@ Each value of the attributes table must be an attribute_info structure (§4.7).<
             <guid>/posts/arts/week1028_tip/</guid>
             <description>ARTS - Tip 补 2019.1.16 线程池的状态 我们来看 ThreadPoolExecutor 的execute方法。
 线程池提交方法有两个， execute 和 submit, execute 提交的是无返回值的Runnable, submit提交的是有返回值 Callable.今天先看execute.
-/** * * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。 * 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止 * * * @param command 待执行的任务 * @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常 */ public void execute(Runnable command) { if (command == null) throw new NullPointerException(); /* * Proceed in 3 steps: * * 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。 * 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况 * * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程 * (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以 * 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程 * * 3.</description>
+/*** * 在将来某个时刻执行给定的任务，可能在一个新的线程里或池中存在的的线程里。* 如果任务不能被提交执行，这个执行器已经被当前 rejectExecutionHandler 停止*** @param command 待执行的任务* @throws RejectedExecutionException 如果任务不被接受执行，抛出这个异常*/public void execute(Runnable command) {if (command == null)throw new NullPointerException();/** Proceed in 3 steps:** 1. 如果运行线程少于corePoolSize, 会尝试启动一个新线程首先执行这个任务。* 调用 addWork 原子检查 运行状态 和 工作线程数，避免返回false不能添加线程的情况* * 2. 如果一个任务能被成功进入队列， 之后我们仍需二次验证我们是否应该添加一个线程* (因为存在存在上次检查线程死亡的情况)或者在实体进入到这个方法时 池子关闭了。所以* 我们重新状态检查 如果必要回滚入队实体如果停止了，或者没有的话启动一个新线程* * 3.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip-补-2019116">ARTS - Tip 补 2019.1.16</h2>
 <h2 id="线程池的状态">线程池的状态</h2>
 <p>我们来看 ThreadPoolExecutor 的execute方法。</p>
@@ -10058,7 +10303,7 @@ private final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0));
 输入: s = &amp;ldquo;paper&amp;rdquo;, t = &amp;ldquo;title&amp;rdquo; 输出: true 说明: 你可以假设 s 和 t 具有相同的长度。
 分析 找相同结构的字符串，那么，可以把字符串转换为数字，比如第一个1开始，如果和之前的字符有重复，就设置为相同的数字，如果不是，就把前一个加1.
 那么代码如下：
-public static boolean isIsomorphic(String s, String t) { if (s.length() != t.</description>
+public static boolean isIsomorphic(String s, String t) {if (s.length() != t.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补1224">ARTS - Algorithm 补12.24</h2>
 <h2 id="205-同构字符串httpsleetcode-cncomproblemsisomorphic-strings"><a href="https://leetcode-cn.com/problems/isomorphic-strings/">205. 同构字符串</a></h2>
 <h3 id="题目">题目</h3>
@@ -10241,7 +10486,7 @@ These InnoDB enhancements were added:</p>
 在查询时候 where col1 = xxx and col2 = xxx 和 where col1 ，都会用到这个联合索引，但是如果 where col2 = xxx ， 这种情况是用不到联合索引的。
 实际案例 本人在进行一个百万级表的查询时候，碰到了这个问题。
 在使用 where create_date = xxxx时候， 使用执行计划查看：
-+----+-------------+-------+------------+--------+-----------------------------+---------+---------+-------------------+---------+----------+----------------------------------------------+ | id | select_type | table | partitions | type | possible_keys | key | key_len | ref | rows | filtered | Extra | +----+-------------+-------+------------+--------+-----------------------------+---------+---------+-------------------+---------+----------+----------------------------------------------+ | 1 | SIMPLE | d | &amp;lt;null&amp;gt; | ALL | idx_create_by | &amp;lt;null&amp;gt; | &amp;lt;null&amp;gt; | &amp;lt;null&amp;gt; | 2343409 | 1.</description>
++----+-------------+-------+------------+--------+-----------------------------+---------+---------+-------------------+---------+----------+----------------------------------------------+| id | select_type | table | partitions | type | possible_keys | key | key_len | ref | rows | filtered | Extra |+----+-------------+-------+------------+--------+-----------------------------+---------+---------+-------------------+---------+----------+----------------------------------------------+| 1 | SIMPLE | d | &amp;lt;null&amp;gt; | ALL | idx_create_by | &amp;lt;null&amp;gt; | &amp;lt;null&amp;gt; | &amp;lt;null&amp;gt; | 2343409 | 1.</description>
             <content type="html"><![CDATA[<h2 id="arts---share----补1224日">ARTS - Share  - 补12.24日</h2>
 <h2 id="mysql的联合索引">MySQL的联合索引</h2>
 <h3 id="最左匹配原则">最左匹配原则</h3>
@@ -10331,10 +10576,10 @@ The packet message buffer is initialized to net_buffer_length bytes, but can gro
             <guid>/posts/arts/week1026_algorithm/</guid>
             <description>ARTS - Algorithm 补2019.1.2 155. 最小栈 题目 设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
 push(x) &amp;ndash; 将元素 x 推入栈中。 pop() &amp;ndash; 删除栈顶的元素。 top() &amp;ndash; 获取栈顶元素。 getMin() &amp;ndash; 检索栈中的最小元素。 示例:
-MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStack.push(-3); minStack.getMin(); --&amp;gt; 返回 -3. minStack.pop(); minStack.top(); --&amp;gt; 返回 0. minStack.getMin(); --&amp;gt; 返回 -2. 分析 两个要求，一是设计一个栈的数据结构，第二是要求取得最小元素时间复杂度为常数。
+MinStack minStack = new MinStack();minStack.push(-2);minStack.push(0);minStack.push(-3);minStack.getMin(); --&amp;gt; 返回 -3.minStack.pop();minStack.top(); --&amp;gt; 返回 0.minStack.getMin(); --&amp;gt; 返回 -2. 分析 两个要求，一是设计一个栈的数据结构，第二是要求取得最小元素时间复杂度为常数。
 对于一，我们可以根据栈的先进后出的特点，使用数组来实现，维护一个移动指针，指向栈顶，也就是数组尾巴， 要考虑数组扩容问题。
 对于二，要常数时间获得最小元素，就要提前保存下这个最小元素，最初想法就是把最小的单独保存起来，遇到更小的元素就刷新最小的值，但是在做pop操作时候，无法获得倒数第二小的元素，于是就需要用数组维护起来。比如维护一个有序的队列，但是这个明显不需要保存那么多元素，只保存小的就行，这时候就有保存最小元素还是保存索引的问题，如果保存最小元素，可能会出现重复现象，保存索引就不存在，于是最后选定使用保存索引方式。 代码如下。
-代码 class MinStack { private int[] stack; private int[] mins; private int index; private int minIndex; private int capacity; /** initialize your data structure here.</description>
+代码 class MinStack {private int[] stack;private int[] mins;private int index;private int minIndex;private int capacity;/** initialize your data structure here.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补201912">ARTS - Algorithm 补2019.1.2</h2>
 <h2 id="155-最小栈httpsleetcode-cncomproblemsmin-stacksubmissions"><a href="https://leetcode-cn.com/problems/min-stack/submissions/">155. 最小栈</a></h2>
 <h3 id="题目">题目</h3>
@@ -10722,7 +10967,7 @@ A: 如果只选一个数据，hash更快，数据库经常查多条，由于B+�
             <guid>/posts/arts/week1022_tip/</guid>
             <description>ARTS - Tip 补12.3 MySQL备份数据过滤与自动化 导数据 在工作中要同步生产数据到测试服务器的需求，以方便测试，于是经常要复制表.
 最开始我是这么做的：
-// 首先备份表 mysqldump -uusername -p dbname tablename &amp;gt; tablename.sql // 把表复制到其他服务器 scp tablename.sql user@ip:~/ // 登录user机器，导入数据 mysql -uusername -p dbname &amp;lt; tablename.sql 由于测试机测试和本机测试还是不一样，有时使用 sz tablename.sql 到本地，再测试，这种情况下如果网络不好，而且数据文件非常大，要很慢才能传送完毕，于是就想到，有些数据按天产生，只需要最近几天的数据，对于之前的没必要传送。于是查文档找到了方案.
+// 首先备份表mysqldump -uusername -p dbname tablename &amp;gt; tablename.sql// 把表复制到其他服务器scp tablename.sql user@ip:~/// 登录user机器，导入数据mysql -uusername -p dbname &amp;lt; tablename.sql 由于测试机测试和本机测试还是不一样，有时使用 sz tablename.sql 到本地，再测试，这种情况下如果网络不好，而且数据文件非常大，要很慢才能传送完毕，于是就想到，有些数据按天产生，只需要最近几天的数据，对于之前的没必要传送。于是查文档找到了方案.
 备份数据过滤 &amp;ndash;tables Override the &amp;ndash;databases or -B option. mysqldump regards all name arguments following the option as table names.
 &amp;ndash;where=&amp;lsquo;where_condition&amp;rsquo;, -w &amp;lsquo;where_condition&amp;rsquo;
 Dump only rows selected by the given WHERE condition. Quotes around the condition are mandatory if it contains spaces or other characters that are special to your command interpreter.</description>
@@ -10827,7 +11072,7 @@ mv *.sql ../tmp
 示例 2:
 给定链表 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5, 重新排列为 1-&amp;gt;5-&amp;gt;2-&amp;gt;4-&amp;gt;3.
 分析 还是先用最简单的方法实现。我们发现最后的排列结果其实就是取一个首，取一个尾，用栈这种数据结构很合适，于是就想到了如下代码：
-public void reorderList(ListNode head) { LinkedList&amp;lt;Integer&amp;gt; list = new LinkedList&amp;lt;&amp;gt;(); while (head != null) { list.add(head.val); head = head.next; } ListNode node = new ListNode(0); ListNode n = node; while (list.size() &amp;gt; 0) { int a = list.pollFirst(); n.next = new ListNode(a); Integer x = list.</description>
+public void reorderList(ListNode head) {LinkedList&amp;lt;Integer&amp;gt; list = new LinkedList&amp;lt;&amp;gt;();while (head != null) {list.add(head.val);head = head.next;}ListNode node = new ListNode(0);ListNode n = node;while (list.size() &amp;gt; 0) {int a = list.pollFirst();n.next = new ListNode(a);Integer x = list.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm--补1210">ARTS - Algorithm  补12.10</h2>
 <h3 id="143-重排链表httpsleetcode-cncomproblemsreorder-list"><a href="https://leetcode-cn.com/problems/reorder-list/">143. 重排链表</a></h3>
 <h3 id="题目">题目</h3>
@@ -11423,7 +11668,7 @@ MySQL 连接器/NET 是一个完全ADO.NET 驱动管理的100% C#写的。</p>
 A-&amp;gt;B-&amp;gt;C
 当前指针指向 B， 我们要把B指向A，也就是 B.next = A, 但是目前 B.next 是C，把当前指针curr向前推进时候，需要保存C，防止链表断裂。
 于是就有了如下思路：
-保存curr.next 将 curr.next 指向prev 将prev指向curr, curr指向 第1步保存的， 最后循环结束，记得将curr指向prev, 代码 public static ListNode reverse(ListNode head) { ListNode prev = null; ListNode curr = head; ListNode next = null; while (curr != null) { // 1.保存 curr.next, // 2.将curr.next 指向 prev // 3. curr 翻转到curr.</description>
+保存curr.next 将 curr.next 指向prev 将prev指向curr, curr指向 第1步保存的， 最后循环结束，记得将curr指向prev, 代码 public static ListNode reverse(ListNode head) {ListNode prev = null;ListNode curr = head;ListNode next = null;while (curr != null) {// 1.保存 curr.next,// 2.将curr.next 指向 prev// 3. curr 翻转到curr.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补1217">ARTS - Algorithm 补12.17</h2>
 <h2 id="206-反转链表httpsleetcode-cncomproblemsreverse-linked-listsubmissions"><a href="https://leetcode-cn.com/problems/reverse-linked-list/submissions/">206. 反转链表</a></h2>
 <h3 id="题目">题目</h3>
@@ -11595,7 +11840,7 @@ Linux的 task_struct 的属性被分成几个方法区：
 虚拟内存 大多数进程有虚拟内存（内核线程和守护进程没有），Linux内核必须追踪虚拟内存是如何映射到系统物理内存上的。
 进程独特上下文 一个进程可以看做系统当前状态的总和。当一个进程运行时它使用处理器的寄存器，栈等等。这就是的进程的上下文，当一个进程暂停，所有关于CPU的独特上下文必须保存进task_struct，这样被调度器重新启动时候能在这个点上恢复。
 进程的标识符-进程号 系统启动的第一个进程是init, PID 是1，唯一一个由系统内核直接运行的进程。除了init之外每个进程都有父进程（PPID），使用pstree 看进程树：
-$ pstree init─┬─acpid ├─atd ├─cron ├─dbus-daemon ├─dhclient ├─7*[getty] ├─irqbalance ├─2*[java───89*[{java}]] ├─java───65*[{java}] ├─java───76*[{java}] ├─java───80*[{java}] ├─java───90*[{java}] ├─2*[java───98*[{java}]] ├─java───37*[{java}] ├─java───115*[{java}] ├─mysqld_safe───mysqld───53*[{mysqld}] ├─nginx───4*[nginx] ├─ntpd ├─polkitd───2*[{polkitd}] ├─redis-server───2*[{redis-server}] ├─6*[redis-server───3*[{redis-server}]] ├─rpc.</description>
+$ pstreeinit─┬─acpid├─atd├─cron├─dbus-daemon├─dhclient├─7*[getty]├─irqbalance├─2*[java───89*[{java}]]├─java───65*[{java}]├─java───76*[{java}]├─java───80*[{java}]├─java───90*[{java}]├─2*[java───98*[{java}]]├─java───37*[{java}]├─java───115*[{java}]├─mysqld_safe───mysqld───53*[{mysqld}]├─nginx───4*[nginx]├─ntpd├─polkitd───2*[{polkitd}]├─redis-server───2*[{redis-server}]├─6*[redis-server───3*[{redis-server}]]├─rpc.</description>
             <content type="html"><![CDATA[<h2 id="arts---share-补1119">ARTS - Share 补11.19</h2>
 <h2 id="linux-进程浅析">Linux 进程浅析</h2>
 <h3 id="什么是进程">什么是进程</h3>
@@ -11727,13 +11972,13 @@ init─┬─acpid
             
             <guid>/posts/arts/week1020_tip/</guid>
             <description>ARTS - Tip 补11.19 Maven 构建的意外killed 问题场景 在linux环境构建java web项目时候，运行 mvn clean package 后，会意外killed，
-[INFO] Packaging webapp [INFO] Processing war project [INFO] Webapp assembled in [1156 msecs] [INFO] Building war: /home/jack/git/xxx/zzz/target/x.war [1] + 25650 killed mvn clean package 问题定位 加上-X 开启debug模式
+[INFO] Packaging webapp[INFO] Processing war project[INFO] Webapp assembled in [1156 msecs][INFO] Building war: /home/jack/git/xxx/zzz/target/x.war[1] + 25650 killed mvn clean package 问题定位 加上-X 开启debug模式
 INFO] Copying xstream-1.4.7.jar to /home/jack/git/credit-c[1] 25909 killed mvn package -X 没有报错，还是被killed, 可能是被操作系统killed的，只好谷歌了。
 在这里找到了一点描述 Maven compilation dies with “Killed”
 说可能引起了OOM，所以系统把它kill 了，觉得这种可信度很大，于是就往调整内存那里处理。
 尝试解决 然后查到资料说可以在编译插件设置编译最大最小内存
 根据官网 Compile Using Memory Allocation Enhancements 于是设置如下：
-&amp;lt;!-- 编译插件 --&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
+&amp;lt;!-- 编译插件 --&amp;gt;&amp;lt;plugin&amp;gt;&amp;lt;groupId&amp;gt;org.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip-补1119">ARTS - Tip 补11.19</h2>
 <h2 id="maven-构建的意外killed">Maven 构建的意外killed</h2>
 <h3 id="问题场景">问题场景</h3>
@@ -11809,12 +12054,12 @@ org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal o
             <description>ARTS - Algorithm 补11.26 141. 环形链表 题目 给定一个链表，判断链表中是否有环。
 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
 示例 1：
-输入：head = [3,2,0,-4], pos = 1 输出：true 解释：链表中有一个环，其尾部连接到第二个节点。 示例 2：
-输入：head = [1,2], pos = 0 输出：true 解释：链表中有一个环，其尾部连接到第一个节点。 示例 3：
-输入：head = [1], pos = -1 输出：false 解释：链表中没有环。 进阶：
+输入：head = [3,2,0,-4], pos = 1输出：true解释：链表中有一个环，其尾部连接到第二个节点。 示例 2：
+输入：head = [1,2], pos = 0输出：true解释：链表中有一个环，其尾部连接到第一个节点。 示例 3：
+输入：head = [1], pos = -1输出：false解释：链表中没有环。 进阶：
 你能用 O(1)（即，常量）内存解决此问题吗？
 分析 这道题是要判断链表中有没有存在环。是否存在环，特点是有两个指针都指向同一个元素，就根据这个特点来判断，于是用最暴力的手段，把节点存到集合里，每取一个就去和集合中的比较，如果相同就代表存在环，于是代码如下：
-public static boolean hasCycle(ListNode head) { if (head == null || head.next == null) { return false; } List&amp;lt;ListNode&amp;gt; list = new ArrayList&amp;lt;&amp;gt;(); while (head !</description>
+public static boolean hasCycle(ListNode head) {if (head == null || head.next == null) {return false;}List&amp;lt;ListNode&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();while (head !</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补1126">ARTS - Algorithm 补11.26</h2>
 <h3 id="141-环形链表httpsleetcode-cncomproblemslinked-list-cycle"><a href="https://leetcode-cn.com/problems/linked-list-cycle/">141. 环形链表</a></h3>
 <h3 id="题目">题目</h3>
@@ -12017,8 +12262,8 @@ java源代码（符合语言规范）-&amp;gt; javac -&amp;gt; .class字节码�
             <guid>/posts/arts/week1021_tip/</guid>
             <description>ARTS - Tip 补 11.26 关于字符串类型和数值类型排序的bug 最近遇到了一个排序需求，于是就直接使用了 Collections.sort 方法来实现，但是没有注意元素类型，就导致排序有问题。
 如下：
-List&amp;lt;String&amp;gt; list = Arrays.asList(&amp;#34;4.2, 3.3, 1, 17, 25&amp;#34;.split(&amp;#34;,&amp;#34;)); System.out.println(list); Collections.sort(list); System.out.println(list); // output [4.2, 3.3, 1, 17, 25] [ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
-Collections.sort(list, Comparator.comparingDouble(o -&amp;gt; Double.parseDouble(o))); // output [ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。</description>
+List&amp;lt;String&amp;gt; list = Arrays.asList(&amp;#34;4.2, 3.3, 1, 17, 25&amp;#34;.split(&amp;#34;,&amp;#34;));System.out.println(list);Collections.sort(list);System.out.println(list);// output[4.2, 3.3, 1, 17, 25][ 1, 17, 25, 3.3, 4.2] 正确的做法是转成数字类型再排序
+Collections.sort(list, Comparator.comparingDouble(o -&amp;gt; Double.parseDouble(o)));// output[ 1, 3.3, 4.2, 17, 25] 这是个非常基础的问题，能在这么小的问题上犯错，也是无地自容了。</description>
             <content type="html"><![CDATA[<h2 id="arts---tip-补-1126">ARTS - Tip 补 11.26</h2>
 <h3 id="关于字符串类型和数值类型排序的bug">关于字符串类型和数值类型排序的bug</h3>
 <p>最近遇到了一个排序需求，于是就直接使用了 Collections.sort 方法来实现，但是没有注意元素类型，就导致排序有问题。</p>
@@ -12050,13 +12295,13 @@ System.out.println(list);
 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
 说明：不允许修改给定的链表。
 示例 1：
-输入：head = [3,2,0,-4], pos = 1 输出：tail connects to node index 1 解释：链表中有一个环，其尾部连接到第二个节点。 示例 2：
-输入：head = [1,2], pos = 0 输出：tail connects to node index 0 解释：链表中有一个环，其尾部连接到第一个节点 示例 3：
-输入：head = [1], pos = -1 输出：no cycle 解释：链表中没有环。 进阶：
+输入：head = [3,2,0,-4], pos = 1输出：tail connects to node index 1解释：链表中有一个环，其尾部连接到第二个节点。 示例 2：
+输入：head = [1,2], pos = 0输出：tail connects to node index 0解释：链表中有一个环，其尾部连接到第一个节点 示例 3：
+输入：head = [1], pos = -1输出：no cycle解释：链表中没有环。 进阶：
 你是否可以不用额外空间解决此题？
 分析 这道题是141.环形链表的进阶版，141只要判断是否存在环，这个要求找出进环位置。
 首先考虑还是使用HashSet Key的唯一性来做判断，只要第一次存在重复的元素，就说明这个元素为进环位置，代码如下：
-public ListNode detectCycle2(ListNode head) { if (head == null || head.</description>
+public ListNode detectCycle2(ListNode head) {if (head == null || head.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm-补123">ARTS - Algorithm 补12.3</h2>
 <h3 id="142-环形链表-iihttpsleetcode-cncomproblemslinked-list-cycle-ii"><a href="https://leetcode-cn.com/problems/linked-list-cycle-ii/">142. 环形链表 II</a></h3>
 <h3 id="题目">题目</h3>
@@ -12165,7 +12410,7 @@ public ListNode detectCycle2(ListNode head) { if (head == null || head.</descrip
 nums1 = [1,2,3,0,0,0], m = 3 nums2 = [2,5,6], n = 3 输出: [1,2,2,3,5,6]
 分析 首先想出解决方案，再优化解决方案。
 这个问题可以先合并数组，再对数组排序，于是就有了如下代码：
-public static void merge(int[] nums1, int m, int[] nums2, int n) { for (int i = m, j = 0; i &amp;lt; m + n; i++, j++) { nums1[i] = nums2[j]; } for (int i = 0; i &amp;lt; m + n; i++) { for (int j = i + 1; j &amp;lt; m + n; j++) { if (nums1[i] &amp;gt; nums1[j]) { int tmp = nums1[i]; nums1[i] = nums1[j]; nums1[j] = tmp; } } } } 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。</description>
+public static void merge(int[] nums1, int m, int[] nums2, int n) {for (int i = m, j = 0; i &amp;lt; m + n; i++, j++) {nums1[i] = nums2[j];}for (int i = 0; i &amp;lt; m + n; i++) {for (int j = i + 1; j &amp;lt; m + n; j++) {if (nums1[i] &amp;gt; nums1[j]) {int tmp = nums1[i];nums1[i] = nums1[j];nums1[j] = tmp;}}}} 这种解法虽说能解决问题，但是肯定存在更好的解法，主要是没有利用上数组的有序特性。考虑另一种解法，遍历两个数组，从前往后，小的放前面，大的放后面，感觉也不太好，因为牵涉到数组整体后移的情况。</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="补-115">补 11.5</h2>
 <h2 id="88-合并两个有序数组httpsleetcode-cncomproblemsmerge-sorted-arraydescription"><a href="https://leetcode-cn.com/problems/merge-sorted-array/description/">88. 合并两个有序数组</a></h2>
@@ -12405,7 +12650,7 @@ nums1 = [1, 2] nums2 = [3, 4]
 则中位数是 (2 + 3)/2 = 2.5
 分析 由于和 88. 合并两个有序数组 有相似之处，可以直接借鉴下解法。
 可以认为是合并有序数组，找中位数，那么可以倒着把两个数组放入新数组，不用全放，到中位数哪里就可以了，于是代码如下：
-class Solution { public double findMedianSortedArrays(int[] nums1, int[] nums2) { int m = nums1.</description>
+class Solution {public double findMedianSortedArrays(int[] nums1, int[] nums2) {int m = nums1.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="补-1112">补 11.12</h2>
 <h2 id="4寻找两个有序数组的中位数httpsleetcode-cncomproblemsmedian-of-two-sorted-arraysdescription"><a href="https://leetcode-cn.com/problems/median-of-two-sorted-arrays/description/">4.寻找两个有序数组的中位数</a></h2>
@@ -12638,10 +12883,10 @@ versions have been released, see the MySQL 8.0 Release Notes.</p>
             <guid>/posts/arts/week1019_tip/</guid>
             <description>ARTS - Tip 补11.12 ECharts 的使用简介 项目中使用了ECharts， 主要说下echarts的 dataset 和 dataZoom.
 dataset 在option里设置dataset就是设置数据源
-dataset: { // 这里指定了维度名的顺序，从而可以利用默认的维度到坐标轴的映射。 // 如果不指定 dimensions，也可以通过指定 series.encode 完成映射，参见后文。 dimensions: [&amp;#39;legendName&amp;#39;, &amp;#39;col2&amp;#39;, &amp;#39;col3&amp;#39;], source: result }, 这里result是数据数组，用来提供需要展示的数据，这样比以下直接分割写数据更紧凑些。
-legend: { data:[&amp;#39;销量&amp;#39;] }, xAxis: { data: [&amp;#34;衬衫&amp;#34;,&amp;#34;羊毛衫&amp;#34;,&amp;#34;雪纺衫&amp;#34;,&amp;#34;裤子&amp;#34;,&amp;#34;高跟鞋&amp;#34;,&amp;#34;袜子&amp;#34;] }, yAxis: {}, series: [{ name: &amp;#39;销量&amp;#39;, type: &amp;#39;bar&amp;#39;, data: [5, 20, 36, 10, 10, 20] }] dataZoom 这个是底下下拉栏。数据很多时候，需要左右拖动来调整显示，就用到了dataZoom.
+dataset: {// 这里指定了维度名的顺序，从而可以利用默认的维度到坐标轴的映射。// 如果不指定 dimensions，也可以通过指定 series.encode 完成映射，参见后文。dimensions: [&amp;#39;legendName&amp;#39;, &amp;#39;col2&amp;#39;, &amp;#39;col3&amp;#39;],source: result}, 这里result是数据数组，用来提供需要展示的数据，这样比以下直接分割写数据更紧凑些。
+legend: {data:[&amp;#39;销量&amp;#39;]},xAxis: {data: [&amp;#34;衬衫&amp;#34;,&amp;#34;羊毛衫&amp;#34;,&amp;#34;雪纺衫&amp;#34;,&amp;#34;裤子&amp;#34;,&amp;#34;高跟鞋&amp;#34;,&amp;#34;袜子&amp;#34;]},yAxis: {},series: [{name: &amp;#39;销量&amp;#39;,type: &amp;#39;bar&amp;#39;,data: [5, 20, 36, 10, 10, 20]}] dataZoom 这个是底下下拉栏。数据很多时候，需要左右拖动来调整显示，就用到了dataZoom.
 写法如下：
-dataZoom: [ { type: &amp;#39;slider&amp;#39;, show: true, xAxisIndex: [0], left: &amp;#39;9%&amp;#39;, bottom: -5, startValue: 0, endValue: 10 } ], 注意这里的startValue和endValue, 这个控制图表显示的起始阶段和容量，如果需要搜索某一个特定数据时候，找到该数据在列表中的坐标，直接设置startValue 就可以把该数据放在第一位，比再请求数据更方便高效些。</description>
+dataZoom: [{type: &amp;#39;slider&amp;#39;,show: true,xAxisIndex: [0],left: &amp;#39;9%&amp;#39;,bottom: -5,startValue: 0,endValue: 10}], 注意这里的startValue和endValue, 这个控制图表显示的起始阶段和容量，如果需要搜索某一个特定数据时候，找到该数据在列表中的坐标，直接设置startValue 就可以把该数据放在第一位，比再请求数据更方便高效些。</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="补1112">补11.12</h2>
 <h2 id="echarts-的使用简介">ECharts 的使用简介</h2>
@@ -12695,9 +12940,9 @@ dataZoom: [ { type: &amp;#39;slider&amp;#39;, show: true, xAxisIndex: [0], left:
 如果你最多只允许完成一笔交易（即买入和卖出一支股票），设计一个算法来计算你所能获取的最大利润。
 注意你不能在买入股票前卖出股票。
 示例 1:
-输入: [7,1,5,3,6,4] 输出: 5 解释: 在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。 注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格。 示例 2:
-输入: [7,6,4,3,1] 输出: 0 解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。 分析 先解决，再优化。笨方法，先跑起来再说。 类似冒泡排序，对每个元素进行比较，找出最大差额。代码如下：
-class Solution { public int maxProfit(int[] prices) { if (prices == null || prices.length &amp;lt; 2) { return 0; } int len = prices.</description>
+输入: [7,1,5,3,6,4]输出: 5解释: 在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格。 示例 2:
+输入: [7,6,4,3,1]输出: 0解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。 分析 先解决，再优化。笨方法，先跑起来再说。 类似冒泡排序，对每个元素进行比较，找出最大差额。代码如下：
+class Solution {public int maxProfit(int[] prices) {if (prices == null || prices.length &amp;lt; 2) {return 0;}int len = prices.</description>
             <content type="html"><![CDATA[<h2 id="arts---alogirthm-补1119">ARTS - Alogirthm 补11.19</h2>
 <h3 id="121-买卖股票的最佳时机httpsleetcode-cncomproblemsbest-time-to-buy-and-sell-stockdescription"><a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/">121. 买卖股票的最佳时机</a></h3>
 <h3 id="题目">题目</h3>
@@ -12880,7 +13125,7 @@ RELP协议支持 缓冲操作支持 日志归档 滚动策略， 设置最多归
 输入: 1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;3 输出: 1-&amp;gt;2-&amp;gt;3
 分析 这个就是数据结构的链表结构，相当于对删除链表上的某一个元素，把这个待删除的元素的前驱的后继指向该元素的后继，就行了。
 代码1 我第一想到方法是笨方法，首先建立一个新链表，第一个元素是 head.val, 遍历链表，如果比head.val 大就把这个元素拼接到新链表上， 返回新链表的head。代码如下：
-if (head == null) { return null; } ListNode node = new ListNode(head.val); ListNode x = node; while (head.next != null) { head = head.next; if (head.val &amp;gt; x.val) { x.next = new ListNode(head.val); x = x.next; } } return node; 代码2 然后就意识到不用新建链表就可以，于是写出了简化版：</description>
+if (head == null) {return null;}ListNode node = new ListNode(head.val);ListNode x = node;while (head.next != null) {head = head.next;if (head.val &amp;gt; x.val) {x.next = new ListNode(head.val);x = x.next;}}return node; 代码2 然后就意识到不用新建链表就可以，于是写出了简化版：</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="补-10月22日">补 10月22日</h2>
 <h2 id="83-删除排序链表中的重复元素httpsleetcode-cncomproblemsremove-duplicates-from-sorted-listdescription"><a href="https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/">83. 删除排序链表中的重复元素</a></h2>
@@ -12988,10 +13233,10 @@ SQL对每个现代软件工程师都是必备技能。因为几乎全部软件�
 所以如果你拥有SQL查询并且你想要重复执行它。存储过程是其中的一个解决方案。存储过程通常在这个上下文中被调用，因为他们保持了存储并在特定操作或一系列动作时被触发。存储过程也被称为 Procs.
 现在你将会看到怎么写一个存储过程。
 书写存储过程： 书写存储过程通用的语法如下：
-CREATE PROCEDURE procedure_name AS sql_statement GO; 请注意这些语法介乎适用于所有的RDBMS不管是Oracle， 还是PostgreSQL 还是MySQL。
+CREATE PROCEDURE procedure_nameAS sql_statementGO; 请注意这些语法介乎适用于所有的RDBMS不管是Oracle， 还是PostgreSQL 还是MySQL。
 创建存储过程之后，你要执行它。以下是语法。
 EXEC procedure_name; 让我们写一个简单的存储过程。考虑如下快照，是从一个RDBMS 以一个叫Customers 表里取得。
-+------------+--------------+-------------+---------------+--------+------------+---------+ | CustomerID | CustomerName | ContactName | Address | City | PostalCode | Country | +------------+--------------+-------------+---------------+--------+------------+---------+ | 1 | Jack | Rose | Obere Str.</description>
++------------+--------------+-------------+---------------+--------+------------+---------+| CustomerID | CustomerName | ContactName | Address | City | PostalCode | Country |+------------+--------------+-------------+---------------+--------+------------+---------+| 1 | Jack | Rose | Obere Str.</description>
             <content type="html"><![CDATA[<h2 id="reivew">Reivew</h2>
 <h2 id="sql-存储过程和游标介绍httpstowardsdatasciencecomintroduction-to-procedures-and-cursors-in-sql-f9d9b9ea1fe7"><a href="https://towardsdatascience.com/introduction-to-procedures-and-cursors-in-sql-f9d9b9ea1fe7">SQL 存储过程和游标介绍</a></h2>
 <h4 id="学习为一个关系型数据库写存储过程和游标">学习为一个关系型数据库写存储过程和游标。</h4>
@@ -13292,7 +13537,7 @@ END;
             <guid>/posts/arts/week1016_share/</guid>
             <description>ARTS - Share 关于SQL JOIN 的那些事 一张图 SQL中关联查询使用最多的是各种JOIN，这个图中简单明了的说明了各个JOIN 的含义：
 测试数据 准备了两张表 t_user 和 t_info, 数据如下：
-mysql&amp;gt; select * from t_user; +----+------+------+-------------+ | id | name | age | telephone | +----+------+------+-------------+ | 1 | jack | 20 | 18877771111 | | 2 | rose | 33 | 18977771111 | | 3 | tom | 21 | 13877761111 | | 4 | bob | 24 | 13356771111 | +----+------+------+-------------+ mysql&amp;gt; select * from t_info; +----+---------+-----------------+--------------+ | id | user_id | bank_no | company_name | +----+---------+-----------------+--------------+ | 1 | 1 | 110132011114578 | google | | 2 | 2 | 110119677118521 | facebook | | 3 | 3 | 110111842716547 | twitter | | 4 | 8 | 210111842716547 | baidu | | 5 | 9 | 410111842716547 | tencent | +----+---------+-----------------+--------------+ 1.</description>
+mysql&amp;gt; select * from t_user;+----+------+------+-------------+| id | name | age | telephone |+----+------+------+-------------+| 1 | jack | 20 | 18877771111 || 2 | rose | 33 | 18977771111 || 3 | tom | 21 | 13877761111 || 4 | bob | 24 | 13356771111 |+----+------+------+-------------+mysql&amp;gt; select * from t_info;+----+---------+-----------------+--------------+| id | user_id | bank_no | company_name |+----+---------+-----------------+--------------+| 1 | 1 | 110132011114578 | google || 2 | 2 | 110119677118521 | facebook || 3 | 3 | 110111842716547 | twitter || 4 | 8 | 210111842716547 | baidu || 5 | 9 | 410111842716547 | tencent |+----+---------+-----------------+--------------+ 1.</description>
             <content type="html"><![CDATA[<h2 id="arts---share">ARTS - Share</h2>
 <h2 id="关于sql-join-的那些事">关于SQL JOIN 的那些事</h2>
 <h3 id="一张图">一张图</h3>
@@ -13436,7 +13681,7 @@ mysql&gt; select * from t_user a left join t_info b on a.id = b.user_id where b.
 典型的内部系统， 牵涉到的用户表，用户角色表，用户角色关联表，分别是： sys_user, sys_role, sys_user_role
 需求是获得 角色类型为 xxx 的所有用户的id, 名字 和角色id.
 我写的SQL是如下
-SELECT u.id, u.name , ur.role_id FROM sys_user u LEFT JOIN sys_user_role ur on u.id = ur.user_id AND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &amp;#39;xxx&amp;#39;) 问题分析 根据上面SQL，做的事情是
+SELECTu.id,u.name ,ur.role_id FROM sys_user uLEFT JOIN sys_user_role ur on u.id = ur.user_idAND ur.role_id IN (SELECT id FROM sys_role r WHERE r.role_type = &amp;#39;xxx&amp;#39;) 问题分析 根据上面SQL，做的事情是
 查找所有的用户表， 关联上 用户角色表， 这个用户角色表数据只有角色ID 是 role_type = xxx 的数据。连接用的是LEFT JOIN，这样的话，左边的数据是 &amp;gt;= 右边的数据，左边会出现一些无用数据。
 出现使用LEFT JOIN 是对连接的范围理解的有误。 关于各种连接，下面一张图就能看明白：
 问题解决 把上面的SQL 改成 INNER JOIN 即可解决。这样就是等于把左边的范围缩小到和右边数据对等的数量上。</description>
@@ -13491,7 +13736,7 @@ where u.id In (
 初始的想法是，首先把遇到的和next相等的元素，把next 删掉，把当前的标记，第二次把标记过的删除，但是这样存在问题，
 标记的方式，如果设置当前元素的值为某一个数，如果元素中存在这个，就造成不准确； 如果存在连续重复的，标记了一个就无法删除掉全部的重复数据。 所以这种方法是不可行的， 还有一个方法，是双向循环链表结构，这样的话可以让前驱直接指向后继的后继，就一次删除了当前的和当前的后继， 但是存在连续重复的问题，需要把重复元素保存起来。
 代码如下：
-public static ListNode deleteDuplicates(ListNode head) { // 1. 记录重复值， 2.删除重复值， 3.从第二个开始 ListNode node = head; ListNode prev = new ListNode(head.val - 1); ListNode first = prev; int duplicate = prev.val; prev.next = node; while (node !</description>
+public static ListNode deleteDuplicates(ListNode head) {// 1. 记录重复值， 2.删除重复值， 3.从第二个开始ListNode node = head;ListNode prev = new ListNode(head.val - 1);ListNode first = prev;int duplicate = prev.val;prev.next = node;while (node !</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="补-10月29日">补 10月29日</h2>
 <h2 id="82-删除排序链表中的重复元素-iihttpsleetcode-cncomproblemsremove-duplicates-from-sorted-list-iidescription"><a href="https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/description/">82. 删除排序链表中的重复元素 II</a></h2>
@@ -13693,9 +13938,9 @@ Controller 接收用户请求 Service 接口处理用户逻辑 Service 实现真
             <guid>/posts/arts/week1017_tip/</guid>
             <description>ARTS - Tip 谈谈MySQL慢查询 什么是慢查询 MySQL的慢查询是MySQL提供的一种记录查询慢的SQL的工具。方便做系统优化。
 开启慢查询日志 默认情况下是关闭的，
-mysql&amp;gt; show variables like &amp;#39;slow_query%&amp;#39;; +---------------------+-------------------------------------+ | Variable_name | Value | +---------------------+-------------------------------------+ | slow_query_log | OFF | | slow_query_log_file | /usr/local/var/mysql/bogon-slow.log | +---------------------+-------------------------------------+ 2 rows in set (0.01 sec) ysql&amp;gt; show variables like &amp;#39;long_query_time&amp;#39;; +-----------------+-----------+ | Variable_name | Value | +-----------------+-----------+ | long_query_time | 10.000000 | +-----------------+-----------+ 1 row in set (0.00 sec) 设置方法
+mysql&amp;gt; show variables like &amp;#39;slow_query%&amp;#39;;+---------------------+-------------------------------------+| Variable_name | Value |+---------------------+-------------------------------------+| slow_query_log | OFF || slow_query_log_file | /usr/local/var/mysql/bogon-slow.log |+---------------------+-------------------------------------+2 rows in set (0.01 sec)ysql&amp;gt; show variables like &amp;#39;long_query_time&amp;#39;;+-----------------+-----------+| Variable_name | Value |+-----------------+-----------+| long_query_time | 10.000000 |+-----------------+-----------+1 row in set (0.00 sec) 设置方法
 全局变量设置
-#将 slow_query_log 全局变量设置为“ON”状态 mysql&amp;gt; set global slow_query_log=&amp;#39;ON&amp;#39;; #设置慢查询日志存放的位置 mysql&amp;gt; set global slow_query_log_file=&amp;#39;/usr/local/mysql/data/slow.</description>
+#将 slow_query_log 全局变量设置为“ON”状态mysql&amp;gt; set global slow_query_log=&amp;#39;ON&amp;#39;; #设置慢查询日志存放的位置mysql&amp;gt; set global slow_query_log_file=&amp;#39;/usr/local/mysql/data/slow.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="谈谈mysql慢查询">谈谈MySQL慢查询</h2>
 <h3 id="什么是慢查询">什么是慢查询</h3>
@@ -13919,7 +14164,7 @@ Vue和React 这里面的代表是Vue和React还有Angular。 他们将js和浏�
 #####输入： 3 #####输出： 3 #####解释： 有三种方法可以爬到楼顶。
 1 阶 + 1 阶 + 1 阶 1 阶 + 2 阶 2 阶 + 1 阶 分析 说实话这题确实没想到是斐波那契数列，感觉没有头绪，看了答案才明白这个，希望在下次碰到同类型的题多列举几次，去发现规律。
 比如
-n = 1 1. 1 + 1 n = 2 1.</description>
+n = 11. 1 + 1n = 21.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="70-爬楼梯httpsleetcode-cncomproblemsclimbing-stairsdescription"><a href="https://leetcode-cn.com/problems/climbing-stairs/description/">70. 爬楼梯</a></h2>
 <h3 id="题目">题目</h3>
@@ -14013,7 +14258,7 @@ public int climbStairs(int n) {
 为了测试这个问题，我尝试比较一些脚本，深入了解我得到的结果。我在Chrome浏览器 v10.11.0 的Node.js执行以下测试,都是在macOS系统。
 1. 数组循环 想到的第一个脚本是计算一个10K个项目的数组的和，这是一个有效的现实生活中的解决方案，我曾在尝试获取数据库中长表项目时候偶然发现，并使用总和来增强它，而不需要对数据库进行额外的查询。
 我比较了对随机 10K个项目进行for , for-of, while, forEach, 和 reduce 求和. 运行测试 10000次，返回了以下结果：
-For Loop, average loop time: ~10 microseconds For-Of, average loop time: ~110 microseconds ForEach, average loop time: ~77 microseconds While, average loop time: ~11 microseconds Reduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。</description>
+For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 microsecondsForEach, average loop time: ~77 microsecondsWhile, average loop time: ~11 microsecondsReduce, average loop time: ~113 microseconds 当谷歌搜索怎么计算一个数组时候，reduce 是最先被提供的解决方案，但是却是最慢的。我的forEach没有特别好。甚至最新的for-of (ES6) 性能表现差劲。这说明，老的for 循环（和while） 提供了最好的性能 - 10倍不止。</description>
             <content type="html"><![CDATA[<h2 id="arts---review">ARTS - Review</h2>
 <h2 id="你应该避免使用的3个javascript性能错误httpshackernooncom3-javascript-performance-mistakes-you-should-stop-doing-ebf84b9de951"><a href="https://hackernoon.com/3-javascript-performance-mistakes-you-should-stop-doing-ebf84b9de951">你应该避免使用的3个JavaScript性能错误</a></h2>
 <p>作者：Yotam Kadishay
@@ -14092,11 +14337,11 @@ Object iterate Entries For-Of, average: ~535 microseconds
             <guid>/posts/arts/week1014_tip/</guid>
             <description>ARTS - Tip Java和JavaScript 中的split 我们都知道split是字符串分割的函数，平时使用频率并不低，本人在使用时候碰到一个情况：
 事例 现在有一个字符串 “31+” ，需要获得前面的数字&amp;quot;31&amp;quot;，本人就想到了使用split(str)[0] 的方法，于是在javascript的写法就是：
-let s = &amp;#34;31+&amp;#34;; let result = s.split(&amp;#39;+&amp;#39;)[0]; console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
-String s = &amp;#34;31+&amp;#34;; String result = s.split(&amp;#34;+&amp;#34;)[0]; System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
-java.util.regex.PatternSyntaxException: Dangling meta character &amp;#39;+&amp;#39; near index 0 + ^ 分析 String 的split 方法接受的是一个正则表达式，&amp;quot;+&amp;quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\+” 就没问题了。
+let s = &amp;#34;31+&amp;#34;;let result = s.split(&amp;#39;+&amp;#39;)[0];console.log(result); // output 31 这样写是没问题的， 然后在Java中这么写，情况如下：
+String s = &amp;#34;31+&amp;#34;;String result = s.split(&amp;#34;+&amp;#34;)[0];System.out.println(result); 原本以为会输出 “31”， 但是结果是编译错误：
+java.util.regex.PatternSyntaxException: Dangling meta character &amp;#39;+&amp;#39; near index 0+^ 分析 String 的split 方法接受的是一个正则表达式，&amp;quot;+&amp;quot; 正好是正则的一个关键词，所以如果使用需要转义， 改成 “\+” 就没问题了。
 但是，既然会有编译提示，本人为什么还是碰到了报错呢？因为我吧 “+” 写在了一个常量里，
-private static String s = &amp;#34;+&amp;#34;; @org.junit.Test public void test5() { String s = &amp;#34;31+&amp;#34;; System.</description>
+private static String s = &amp;#34;+&amp;#34;;@org.junit.Testpublic void test5() {String s = &amp;#34;31+&amp;#34;;System.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="java和javascript-中的split">Java和JavaScript 中的split</h2>
 <p>我们都知道split是字符串分割的函数，平时使用频率并不低，本人在使用时候碰到一个情况：</p>
@@ -14144,7 +14389,7 @@ System.out.println(result);
 输入: cost = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1] 输出: 6 解释: 最低花费方式是从cost[0]开始，逐个经过那些1，跳过cost[3]，一共花费6
 分析 这道题和70. 爬楼梯 更进一步，是要选出最小花费的那条走法。
 我的思考是，首先选择走一步，还是走两步，每次选择时候就找出最小花费的那个，也是就有了如下代码：
-public static int minCostClimbingStairs(int[] cost) { int len = cost.length; if (len == 2) { return cost[0] &amp;lt;= cost[1] ?</description>
+public static int minCostClimbingStairs(int[] cost) {int len = cost.length;if (len == 2) {return cost[0] &amp;lt;= cost[1] ?</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="补1015号">补10.15号</h2>
 <h2 id="746-使用最小花费爬楼梯">746. 使用最小花费爬楼梯</h2>
@@ -14307,7 +14552,7 @@ innodb_buffer_pool_size = 14GB
 innodb_io_capacity 变量： 这个变量告诉MySQL它可以用多少操作系统IO，它受制于你的硬盘。例如，一个单个7200 RPM 驱动限制200 I/O 一个企业级SSD硬盘是 50000 I/O. 你可以通过你操作系统的命令行轻松发现IO值和设置变量为可用IO的90% ， 这样mysql将会使用太多的IO操作。
 innodb_io_capccity=21000
 query_cache_limit 和 query_cache_size 变量 MySQL的缓存也在内存里，然而我们不能把它当做一个缓存系统，每次你的应用写入一个数据库表，MySQL将会重置查询缓存为全部表。所以，如果你的应用有一个高比例负载，MySQL 缓存将会完全无用，在那种情况下，最好把这两个参数设置为0来节省管理MySQL缓存的开销，另外你可以用一些像Redis这样的管理缓存。
-query_cache_limit = 0 query_cache_size = 0 慢查询日志 慢查询日志将会展示哪个个查询花费比设置更长的时间，不需要猜测哪个查询慢。首先，你需要启用慢查询日志在你的配置文件。在Linux上，打开/etc/mysql/my.cnf 或者同样的在你系统里加入： </description>
+query_cache_limit = 0query_cache_size = 0 慢查询日志 慢查询日志将会展示哪个个查询花费比设置更长的时间，不需要猜测哪个查询慢。首先，你需要启用慢查询日志在你的配置文件。在Linux上，打开/etc/mysql/my.cnf 或者同样的在你系统里加入： </description>
             <content type="html"><![CDATA[<h2 id="arts---review">ARTS - Review</h2>
 <h2 id="mysql性能优化httpscodeburstiodatabase-performance-optimization-8d8407808b5b"><a href="https://codeburst.io/database-performance-optimization-8d8407808b5b">mysql性能优化</a></h2>
 <p>数据库性能优化最重要的事是选择正确的方式。你应该决定你的应用需要关系型或非关系型数据库。甚至里面的一个类型，你都会有好几个选择。在关系型数据库里，你可以选择Oracle， MySQL, SQL Server,和PostgreSQL. 另一方面，非关系型数据库例如MongoDB, Cassandra和CouchDB. 你可能希望我建议用读写性能快的非关系型数据库。然而，通过一些改进和调整，你可以把关系型数据推到超过它已知的限制。所以，在本文中，我将会介绍给你一些技巧来让你的MySQL数据库更快。如果你想知道为什么特别是MySQL, 那么答案是简单的，因为它免费，开源在PHP社区很流行Oracle 并没有广泛使用因为它很昂贵。其他的选择并没有像MySQL这么受欢迎。</p>
@@ -14353,8 +14598,8 @@ long_query_time = 1
             <guid>/posts/arts/week1015_tip/</guid>
             <description>ARTS - Tip MySQL 大分页问题 问题 我们知道在进行MySQL分页时候最常用 limit offset, size, 但是当数据量很大，达到千万级别，直接分页会很慢，所以需要进行优化。
 验证 我们进行测试：
-mysql&amp;gt; select count(*) from table ; +----------+ | count(*) | +----------+ | 16079918 | +----------+ 1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
-mysql&amp;gt; select id, user_name, mobile from table limit 1000, 10; --- 10 rows in set (0.00 sec) mysql&amp;gt; select id, user_name, mobile from table limit 100000, 10; --- 10 rows in set (0.</description>
+mysql&amp;gt; select count(*) from table ;+----------+| count(*) |+----------+| 16079918 |+----------+1 row in set (2.38 sec) 表里有一千六百万挑数据， 我们分别进行 千、十万、百万、千万 级别进行 测试
+mysql&amp;gt; select id, user_name, mobile from table limit 1000, 10;---10 rows in set (0.00 sec)mysql&amp;gt; select id, user_name, mobile from table limit 100000, 10;---10 rows in set (0.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="mysql-大分页问题">MySQL 大分页问题</h2>
 <h3 id="问题">问题</h3>
@@ -14418,7 +14663,7 @@ mysql&gt; select id, user_name, mobile from table limit 10000000, 10;
 easy_install pip pip install BeautifulSoup4 注意 如果在命令行执行失败，尝试加 sudo在每行前面
 基础 在我们调到代码之前，先理解下HTML的基础和一些爬虫规则。
 HTML 标签 如果你早已理解HTML标签，感到无压力请跳过这段。
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt; First Scraping &amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt; Hello World &amp;lt;/p&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/html&amp;gt; 这是基础的HTML网页句式。每个&amp;lt;tag&amp;gt;提供一个网页里的块。
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;h1&amp;gt; First Scraping &amp;lt;/h1&amp;gt;&amp;lt;p&amp;gt; Hello World &amp;lt;/p&amp;gt;&amp;lt;body&amp;gt;&amp;lt;/html&amp;gt; 这是基础的HTML网页句式。每个&amp;lt;tag&amp;gt;提供一个网页里的块。
 &amp;lt;!DOCTYPE html&amp;gt;: HTML文档必须以类型声明开始。 HTML文档包含在&amp;lt;html&amp;gt;和&amp;lt;/html&amp;gt;之间。 HTML的 meta 和 script 声明在&amp;lt;head&amp;gt;和&amp;lt;/head&amp;gt;之间 HTML文档显示的内容在&amp;lt;body&amp;gt;和 &amp;lt;/body&amp;gt;之间。 标题用 &amp;lt;h1&amp;gt;到&amp;lt;h6&amp;gt;标签定义。 段落用&amp;lt;p&amp;gt;标签定义。 其他有用的标签包括 &amp;lt;a&amp;gt; 用来做超链接， &amp;lt;table&amp;gt; 列表，&amp;lt;tr&amp;gt;列表行 &amp;lt;td&amp;gt;列表列。</description>
             <content type="html"><![CDATA[<h2 id="arts---review">ARTS - Review</h2>
 <h2 id="用python和beautifulsoup来抓取网站httpsmediumfreecodecamporghow-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe"><a href="https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe">用python和beautifulSoup来抓取网站</a></h2>
@@ -14579,8 +14824,8 @@ with open(‘index.csv’, ‘a’) as csv_file:
             <description>ARTS - Share 关于 ThreadPoolExecutor 方式创建线程 我们知道在使用多线程时候，使用线程池技术能够减少系统在创建、销毁线程时的开销，提高性能. 一般用Executors的四个方法：
 newCachedThreadPool newFixedThreadPool newScheduledThreadPool newSingleThreadExecutor Executors 方式 在创建固定数量的线程池时候是：
 1. newFixedThreadPool() ExecutorService exec = Executors.newFixedThreadPool() 我们查看源码就是：
-public static ExecutorService newFixedThreadPool(int nThreads) { return new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;()); } 返回创建了ThreadPoolExecutor
-public ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) { this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, Executors.defaultThreadFactory(), defaultHandler); } /** * Creates a new {@code ThreadPoolExecutor} with the given initial * parameters.</description>
+public static ExecutorService newFixedThreadPool(int nThreads) {return new ThreadPoolExecutor(nThreads, nThreads,0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue&amp;lt;Runnable&amp;gt;());} 返回创建了ThreadPoolExecutor
+public ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue&amp;lt;Runnable&amp;gt; workQueue) {this(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,Executors.defaultThreadFactory(), defaultHandler);}/*** Creates a new {@code ThreadPoolExecutor} with the given initial* parameters.</description>
             <content type="html"><![CDATA[<h2 id="arts---share">ARTS - Share</h2>
 <h2 id="关于-threadpoolexecutor-方式创建线程">关于 ThreadPoolExecutor 方式创建线程</h2>
 <p>我们知道在使用多线程时候，使用线程池技术能够减少系统在创建、销毁线程时的开销，提高性能.
@@ -14748,7 +14993,7 @@ public static ExecutorService newSingleThreadExecutor(ThreadFactory threadFactor
 输入: a = &amp;ldquo;1010&amp;rdquo;, b = &amp;ldquo;1011&amp;rdquo; 输出: &amp;ldquo;10101&amp;rdquo;
 分析 很容易想到，倒序遍历，取得两个数字相加，取得和后放入栈结构，最后取出，注意进位和最最高位进位问题
 代码如下：
-public static String addBinary(String a, String b) { if (a == null || a.length() == 0) { return b; } if (b == null || b.length() == 0) { return a; } int i = a.</description>
+public static String addBinary(String a, String b) {if (a == null || a.length() == 0) {return b;}if (b == null || b.length() == 0) {return a;}int i = a.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="67-二进制求和httpsleetcode-cncomproblemsadd-binarydescription"><a href="https://leetcode-cn.com/problems/add-binary/description/">67. 二进制求和</a></h2>
 <h3 id="题目">题目</h3>
@@ -14968,7 +15213,7 @@ public static String addBinary(String a, String b) { if (a == null || a.length()
             <guid>/posts/arts/week1012_tip/</guid>
             <description>ARTS - Tip 关于linux tomcat启动war工程的一个log4j报错 背景 在进行linux centos6.5部署war工程时候，报了一个错导致启动不起来，但是在开发时候在idea里完全没问题。
 问题现象 启动时候catalina.out报错，如下：
-09-Oct-2018 15:04:39.725 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access. java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.</description>
+09-Oct-2018 15:04:39.725 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="关于linux-tomcat启动war工程的一个log4j报错">关于linux tomcat启动war工程的一个log4j报错</h2>
 <h3 id="背景">背景</h3>
@@ -15036,7 +15281,7 @@ SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorSta
 输入: 4 输出: 2 示例 2:
 输入: 8 输出: 2 说明: 8 的平方根是 2.82842&amp;hellip;, 由于返回类型是整数，小数部分将被舍去。
 分析 这个是求开方的结果，很容易想到按顺序i找，如果存在 i 就去找 i*i &amp;lt;= x &amp;amp;&amp;amp; （i+1）*(i+1)&amp;gt;x的情况，这个i就是要的结果，于是代码就如下了；
-public int mySqrt(int x) { if (x &amp;lt;= 0) { return 0; } for (int i = 0; i &amp;lt; x; i++) { boolean flag = i*i &amp;lt;= x &amp;amp;&amp;amp; (i + 1) * (i + 1) &amp;gt; x; if (flag) { return i; } } return 0; } 然后提交后就失败了，因为存在 int 越界的情况，如果 i*i 大于 int最大值，那么就得不到正确的答案了，于是就把 int转为long型来处理：</description>
+public int mySqrt(int x) {if (x &amp;lt;= 0) {return 0;}for (int i = 0; i &amp;lt; x; i++) {boolean flag = i*i &amp;lt;= x &amp;amp;&amp;amp; (i + 1) * (i + 1) &amp;gt; x;if (flag) {return i;}}return 0;} 然后提交后就失败了，因为存在 int 越界的情况，如果 i*i 大于 int最大值，那么就得不到正确的答案了，于是就把 int转为long型来处理：</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="69-x-的平方根httpsleetcode-cncomproblemssqrtxdescription"><a href="https://leetcode-cn.com/problems/sqrtx/description/">69. x 的平方根</a></h2>
 <h3 id="题目">题目</h3>
@@ -15107,8 +15352,8 @@ public int mySqrt(int x) { if (x &amp;lt;= 0) { return 0; } for (int i = 0; i &a
             
             <guid>/posts/arts/week1013_tip/</guid>
             <description>ARTS - Tip MyBatis 的 if test=&amp;ldquo;param == &amp;lsquo;1&amp;rsquo;&amp;rdquo; 的问题 在项目开发中，发现了mybatis的一个问题，如下：
-&amp;lt;if test=&amp;#34;first == 1&amp;#34;&amp;gt; limit 1 &amp;lt;/if&amp;gt; &amp;lt;if test=&amp;#34;second == &amp;#39;2&amp;#39;&amp;#34;&amp;gt; limit 2 &amp;lt;/if&amp;gt; 如果第一个没问题，第二个 ==&amp;lsquo;2&amp;rsquo; 就不会执行，不管参数是integer,int,还是String, 第二个都不会执行，程序也不会报错，查了资料，mybatis 使用了ognl表达式，&amp;lsquo;2&amp;rsquo;会被解析成char， 在Java中char 和String 相比较就会不等。
-改进方法： 1. 增加toString &amp;lt;if test=&amp;#34;second == &amp;#39;2&amp;#39;.toString()&amp;#34;&amp;gt; limit 2 &amp;lt;/if&amp;gt; 2. 双引号 &amp;lt;if test=&amp;#39;second == &amp;#34;2&amp;#34;&amp;#39;&amp;gt; limit 2 &amp;lt;/if&amp;gt; </description>
+&amp;lt;if test=&amp;#34;first == 1&amp;#34;&amp;gt;limit 1&amp;lt;/if&amp;gt;&amp;lt;if test=&amp;#34;second == &amp;#39;2&amp;#39;&amp;#34;&amp;gt;limit 2&amp;lt;/if&amp;gt; 如果第一个没问题，第二个 ==&amp;lsquo;2&amp;rsquo; 就不会执行，不管参数是integer,int,还是String, 第二个都不会执行，程序也不会报错，查了资料，mybatis 使用了ognl表达式，&amp;lsquo;2&amp;rsquo;会被解析成char， 在Java中char 和String 相比较就会不等。
+改进方法： 1. 增加toString &amp;lt;if test=&amp;#34;second == &amp;#39;2&amp;#39;.toString()&amp;#34;&amp;gt;limit 2&amp;lt;/if&amp;gt; 2. 双引号 &amp;lt;if test=&amp;#39;second == &amp;#34;2&amp;#34;&amp;#39;&amp;gt;limit 2&amp;lt;/if&amp;gt; </description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="mybatis-的-if-testparam--1-的问题">MyBatis 的 if test=&ldquo;param == &lsquo;1&rsquo;&rdquo; 的问题</h2>
 <p>在项目开发中，发现了mybatis的一个问题，如下：</p>
@@ -15140,7 +15385,7 @@ public int mySqrt(int x) { if (x &amp;lt;= 0) { return 0; } for (int i = 0; i &a
             <description>ARTS - Review 为什么Java小伙对Node.js和JavaScript如此兴奋？（下）
 这是个循环。但不是用循环的写法，它不使用普通的循环结构。此外，错误和结果不会落入普通写法的循环里，但是会落入这种回调函数中。在ES2015/2016 特性加入Node.js之前，这是我们能做的极致了。
 在Node.js 10.x 中等价于：
-const fs = require(&amp;#39;fs&amp;#39;).promises; async function cat(filenmz) { for (var filenm of filenmz) { let data = await fs.readFile(filenm, &amp;#39;utf8&amp;#39;)l await new Promise((resolve, reject) =&amp;gt; { process.stdout.write(data, &amp;#39;utf8&amp;#39;, (err) =&amp;gt; { if (err) reject(err); else resolve(); }); }); } } cat(process.argv.slice(2)).catch(err =&amp;gt; { console.error(err.stack); }); 这个重写之前的例子，使用了async/await 方法。和异步结构相同，但是是用普通循环结构写的。错误和结果用自然方式报告。很容易读，容易编写，容易了解程序员的意图。
+const fs = require(&amp;#39;fs&amp;#39;).promises;async function cat(filenmz) {for (var filenm of filenmz) {let data = await fs.readFile(filenm, &amp;#39;utf8&amp;#39;)lawait new Promise((resolve, reject) =&amp;gt; {process.stdout.write(data, &amp;#39;utf8&amp;#39;, (err) =&amp;gt; {if (err) reject(err);else resolve();});});}}cat(process.argv.slice(2)).catch(err =&amp;gt; {console.error(err.stack);}); 这个重写之前的例子，使用了async/await 方法。和异步结构相同，但是是用普通循环结构写的。错误和结果用自然方式报告。很容易读，容易编写，容易了解程序员的意图。
 唯一的缺点是 process.stdout.write 不提供 承诺接口 所以不能在没有包装承诺时候不能清晰的使用异步方法。
 回调大坑问题并没有通过复杂书写解决。相反，语言范式的改变既解决了问题，也解决了临时方案造成的过度冗长。用 async 方法我们代码变得更优美。
 虽然开始是针对Node.js 的一个点，但是优秀的解决方案将他转回为Node.js和JavaScript的一个点。
@@ -15258,10 +15503,10 @@ WebAssembly是一个便携式规范对那些运行在JavaScript引擎的代码�
             
             <guid>/posts/arts/week1009_share/</guid>
             <description>ARTS - Share 关于ES6箭头函数的this 源于忽然兴起尝试微信小程序开发，在一个文本预上加了一个点击事件，尝试获取微信收货地址， 首先是在模板文件文本域加点击事件：
-&amp;lt;view class=&amp;#34;usermotto&amp;#34; bindtap=&amp;#39;clickMe&amp;#39;&amp;gt; &amp;lt;text class=&amp;#34;user-motto&amp;#34;&amp;gt;{{motto}}&amp;lt;/text&amp;gt; &amp;lt;/view&amp;gt; 然后在index.js里实现 clickMe 方法：
-clickMe: function () { wx.chooseAddress({ success: function(res) { this.setData({ motto: res.detailInfo }) } }) }, 发现控制台报错：
-thirdScriptError Cannot read property &amp;#39;setData&amp;#39; of null;at pages/index/index clickMe function;at api openAddress success callback function TypeError: Cannot read property &amp;#39;setData&amp;#39; of null at success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13) 、 根据报错说明，```&amp;lsquo;setData&amp;rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
-clickMe: function () { console.log(1, this) wx.</description>
+&amp;lt;view class=&amp;#34;usermotto&amp;#34; bindtap=&amp;#39;clickMe&amp;#39;&amp;gt;&amp;lt;text class=&amp;#34;user-motto&amp;#34;&amp;gt;{{motto}}&amp;lt;/text&amp;gt;&amp;lt;/view&amp;gt; 然后在index.js里实现 clickMe 方法：
+clickMe: function () {wx.chooseAddress({success: function(res) {this.setData({motto: res.detailInfo})}})}, 发现控制台报错：
+thirdScriptErrorCannot read property &amp;#39;setData&amp;#39; of null;at pages/index/index clickMe function;at api openAddress success callback functionTypeError: Cannot read property &amp;#39;setData&amp;#39; of nullat success (http://127.0.0.1:28587/appservice/pages/index/index.js:17:13)、 根据报错说明，```&amp;lsquo;setData&amp;rsquo; of null````， 调用 setData方法是null? this 是null？ 为了验证，就打出this
+clickMe: function () {console.log(1, this)wx.</description>
             <content type="html"><![CDATA[<h2 id="arts---share">ARTS - Share</h2>
 <h2 id="关于es6箭头函数的this">关于ES6箭头函数的this</h2>
 <p>源于忽然兴起尝试微信小程序开发，在一个文本预上加了一个点击事件，尝试获取微信收货地址，
@@ -15375,7 +15620,7 @@ Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter 
 解决方法一:把#{xxx}修改为 #{_parameter} 即可
 解决方法二:可以在方法中提前定义:@Param(value=&amp;ldquo;xxx&amp;rdquo;) String xxx
 虽然报错和我的一样，但是明显不是我这样的问题情形。于是又检查了一遍代码，发现了问题所在：
-INSERT INTO sys_log( id, type, title, create_by, create_date ) VALUES ( #{id}, #{type}, #{title}, #{createBy.id}, #{createDate} ) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
+INSERT INTO sys_log(id,type,title,create_by, create_date) VALUES (#{id},#{type},#{title}, #{createBy.id},#{createDate}) 居然是 #{createBy.id} 。 检查了下原来代码并没有CreateBy 对象且有属性是id, 所以觉得是原系统本来就有误。 处理就很简单了，删了id即可，代码正常运行。
 教训 参考别的系统可以，最好不要直接复制。 就算复制也需要批判的使用，毕竟不是久经考验的公共库 不要偷懒，多自己实现 </description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h3 id="关于mybatis-报错的一个反思">关于MyBatis 报错的一个反思</h3>
@@ -15430,8 +15675,8 @@ Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter 
 输入: [1,3,5,6], 5 输出: 2 示例 2:
 输入: [1,3,5,6], 2 输出: 1
 分析 这个题很容易想到遍历数组，找出最后一个比target小的元素，返回这个位置。代码如下：
-class Solution { public int searchInsert(int[] nums, int target) { if (nums == null) return 0; for (int i = 0; i &amp;lt; nums.length; i++) { if (nums[i] &amp;gt;= target) { return i; } } return nums.length; } } 改进 参考了答案后，知道查找这个位置时间复杂度是O(n), 我们可以优化查找过程，使用二分查找实现：
-public static int searchInsert2(int[] nums, int target) { if (nums == null || nums.</description>
+class Solution {public int searchInsert(int[] nums, int target) {if (nums == null) return 0;for (int i = 0; i &amp;lt; nums.length; i++) {if (nums[i] &amp;gt;= target) {return i;}}return nums.length;}} 改进 参考了答案后，知道查找这个位置时间复杂度是O(n), 我们可以优化查找过程，使用二分查找实现：
+public static int searchInsert2(int[] nums, int target) {if (nums == null || nums.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <p><a href="https://leetcode-cn.com/problems/search-insert-position/description/">35. 搜索插入位置</a></p>
 <p>给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。</p>
@@ -15622,7 +15867,7 @@ B. 坦诚说，我不知道你在做啥。</p>
             
             <guid>/posts/arts/week1010_share/</guid>
             <description>ARTS - Share 关于reduce 函数 举例 我们知道reduce() 方法是对数组中的每个元素(从左到右)应用一个函数，将其减少为单个值。 例子：
-const array1 = [1, 2, 4, 6]; const reducer = (acc, curr) =&amp;gt; acc + curr; console.log(array1.reduce(reducer)) // output 13 reduce ####语法：
+const array1 = [1, 2, 4, 6];const reducer = (acc, curr) =&amp;gt; acc + curr;console.log(array1.reduce(reducer))// output13reduce ####语法：
 arr.reduce(callback[, initialValue])
 ####参数： callback: 执行数组中每个值的函数，包含四个参数
 accumulator 累加器累加回调的返回值; 它是上一次调用回调时返回的累积值，或initialValue（如下所示）。
@@ -15704,7 +15949,7 @@ data.map(e =&gt; e.x).reduce((a,b)=&gt;a+b)
             <description>ARTS - Tip 关于 js 接收前端有序map 变无序的问题 在实际开发中，本人遇到了一个后台排序map，传给前端变无序的问题。于是开始测试这个问题。
 继续使用之前的一个例子 week6 share: Java8的分组与排序实践
 造数据 建一个 课程类Course, 分组获得map,再排序，写一个控制类方法：
-@RequestMapping(&amp;#34;/map&amp;#34;) @ResponseBody public Map&amp;lt;Integer, List&amp;lt;Course&amp;gt;&amp;gt; listMap() { Course eng = new Course(1001, &amp;#34;eng&amp;#34;, 80); Course chi = new Course(1001, &amp;#34;chi&amp;#34;, 75); Course chi2 = new Course(1002, &amp;#34;chi&amp;#34;, 77); Course eng3 = new Course(1003, &amp;#34;eng&amp;#34;, 105); Course chi3 = new Course(1003, &amp;#34;chi&amp;#34;, 110); List&amp;lt;Course&amp;gt; courseList = Lists.newArrayList(eng, chi, chi2, eng3, chi3); Map&amp;lt;Integer, List&amp;lt;Course&amp;gt;&amp;gt; map = courseList.</description>
+@RequestMapping(&amp;#34;/map&amp;#34;)@ResponseBodypublic Map&amp;lt;Integer, List&amp;lt;Course&amp;gt;&amp;gt; listMap() {Course eng = new Course(1001, &amp;#34;eng&amp;#34;, 80);Course chi = new Course(1001, &amp;#34;chi&amp;#34;, 75);Course chi2 = new Course(1002, &amp;#34;chi&amp;#34;, 77);Course eng3 = new Course(1003, &amp;#34;eng&amp;#34;, 105);Course chi3 = new Course(1003, &amp;#34;chi&amp;#34;, 110);List&amp;lt;Course&amp;gt; courseList = Lists.newArrayList(eng, chi, chi2, eng3, chi3);Map&amp;lt;Integer, List&amp;lt;Course&amp;gt;&amp;gt; map = courseList.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h3 id="关于-js-接收前端有序map-变无序的问题">关于 js 接收前端有序map 变无序的问题</h3>
 <p>在实际开发中，本人遇到了一个后台排序map，传给前端变无序的问题。于是开始测试这个问题。</p>
@@ -15813,7 +16058,7 @@ console.log(Object.entries(data));
 示例 2:
 输入: [4,3,2,1] 输出: [4,3,2,2] 解释: 输入数组表示数字 4321。
 分析 这其实就是考虑数字加1，高位进位的问题，代码如下：
-public int[] plusOne(int[] digits) { // 需要加1 int plus = 1; for (int i = digits.length - 1; i &amp;gt;= 0; i--) { int tmp = digits[i] + plus; if (tmp &amp;gt;= 10) { digits[i] = tmp % 10; plus = 1; } else { digits[i] = tmp; plus = 0; } } if (plus == 1) { // 需要处理 digits[0] = digits[0] % 10; int[] arr = new int[digits.</description>
+public int[] plusOne(int[] digits) {// 需要加1int plus = 1;for (int i = digits.length - 1; i &amp;gt;= 0; i--) {int tmp = digits[i] + plus;if (tmp &amp;gt;= 10) {digits[i] = tmp % 10;plus = 1;} else {digits[i] = tmp;plus = 0;}}if (plus == 1) {// 需要处理digits[0] = digits[0] % 10;int[] arr = new int[digits.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="66-加一httpsleetcode-cncomproblemsplus-onedescription"><a href="https://leetcode-cn.com/problems/plus-one/description/">66. 加一</a></h2>
 <h3 id="描述">描述</h3>
@@ -15942,7 +16187,7 @@ moment.tz(new Date(), &amp;#39;America/Los_Angeles&amp;#39;).format(&amp;#39;YYY
 函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。
 你不需要考虑数组中超出新长度后面的元素。
 分析 考虑用两个指示器， i,j ， 分别初始化为 0, 1， 如果 i,j 相等，就把 j 之后的元素都往前挪一位，最后一位 设置为数组第一位元素 -1 ，实现如下：
-public int removeDuplicates(int[] nums) { int i = 0, j = 1; int len = nums.</description>
+public int removeDuplicates(int[] nums) {int i = 0, j = 1;int len = nums.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="26-删除排序数组中的重复项httpsleetcode-cncomproblemsremove-duplicates-from-sorted-arraydescription"><a href="https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/">26. 删除排序数组中的重复项</a></h2>
 <p>给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。</p>
@@ -16084,10 +16329,10 @@ public int removeDuplicates(int[] nums) { int i = 0, j = 1; int len = nums.</des
             <guid>/posts/arts/week1007_share/</guid>
             <description>ARTS - Share 说说一次sql优化过程 很容易在网上找到sql优化要点，在这里记录一次本人经历的一个优化过程。
 在工作中需要统计一个信息形成报表，最开始的sql 是这样的：
-SELECT SUM(a + b - c) amount, CASE WHEN day &amp;gt;= 2 AND day &amp;lt;= 8 THEN &amp;#39;m1_1&amp;#39; WHEN day &amp;gt;= 9 AND day &amp;lt;= 20 THEN &amp;#39;m1_2&amp;#39; WHEN day &amp;gt;= 21 THEN &amp;#39;m1_3&amp;#39; ELSE &amp;#39;m1_0&amp;#39; END &amp;#39;day_type&amp;#39;, create_date FROM table a GROUP BY day_type, create_date HAVING create_date &amp;gt;= ? and create_date&amp;lt;= ? and day_type != &amp;#39;m1_0&amp;#39; 这个sql在我们库里执行了10秒，于是就需要优化。
+SELECT SUM(a + b - c) amount,CASEWHEN day &amp;gt;= 2 AND day &amp;lt;= 8 THEN &amp;#39;m1_1&amp;#39;WHEN day &amp;gt;= 9 AND day &amp;lt;= 20 THEN &amp;#39;m1_2&amp;#39;WHEN day &amp;gt;= 21 THEN &amp;#39;m1_3&amp;#39;ELSE &amp;#39;m1_0&amp;#39;END &amp;#39;day_type&amp;#39;, create_dateFROM table aGROUP BY day_type, create_dateHAVINGcreate_date &amp;gt;= ?and create_date&amp;lt;= ?and day_type != &amp;#39;m1_0&amp;#39; 这个sql在我们库里执行了10秒，于是就需要优化。
 首先这是个单表查询的分组函数，在进行全表扫描分组后，再对结果进行了过滤。很明显这个过程不对，应该对过滤后的结果再进行分组，这样大大减少了无用数据的查询。
 修改后是这样的：
-SELECT SUM(a + b - c) amount, CASE WHEN day &amp;gt;= 2 AND day &amp;lt;= 8 THEN &amp;#39;m1_1&amp;#39; WHEN day &amp;gt;= 9 AND day &amp;lt;= 20 THEN &amp;#39;m1_2&amp;#39; WHEN day &amp;gt;= 21 THEN &amp;#39;m1_3&amp;#39; ELSE &amp;#39;m1_0&amp;#39; END &amp;#39;day_type&amp;#39;, create_date FROM table a WHERE create_date &amp;gt;= ?</description>
+SELECT SUM(a + b - c) amount,CASEWHEN day &amp;gt;= 2 AND day &amp;lt;= 8 THEN &amp;#39;m1_1&amp;#39;WHEN day &amp;gt;= 9 AND day &amp;lt;= 20 THEN &amp;#39;m1_2&amp;#39;WHEN day &amp;gt;= 21 THEN &amp;#39;m1_3&amp;#39;ELSE &amp;#39;m1_0&amp;#39;END &amp;#39;day_type&amp;#39;, create_dateFROM table aWHERE create_date &amp;gt;= ?</description>
             <content type="html"><![CDATA[<h2 id="arts---share">ARTS - Share</h2>
 <h3 id="说说一次sql优化过程">说说一次sql优化过程</h3>
 <p>很容易在网上找到sql优化要点，在这里记录一次本人经历的一个优化过程。</p>
@@ -16159,9 +16404,9 @@ WHERE
             <guid>/posts/arts/week1007_tip/</guid>
             <description>ARTS - Tip 在启动项目时候，由于本地安装了mysql8, 所以有报错：
 Caused by: java.sql.SQLException: Unknown system variable &amp;#39;tx_isolation&amp;#39; 看数据库版本：
-Welcome to the MySQL monitor. Commands end with ; or \g. Your MySQL connection id is 124 Server version: 8.0.11 Homebrew 看是否有tx_isolotion
-mysql&amp;gt; show variables like &amp;#39;tx_isolation&amp;#39;; Empty set (0.00 sec) 因为在mysql8里把这个变量改成了 &amp;rsquo;transaction_isolation&#39;
-mysql&amp;gt; show variables like &amp;#39;transaction_isolation&amp;#39;; +-----------------------+-----------------+ | Variable_name | Value | +-----------------------+-----------------+ | transaction_isolation | REPEATABLE-READ | +-----------------------+-----------------+ 1 row in set (0.01 sec) 我们再看下mysql7的变量</description>
+Welcome to the MySQL monitor. Commands end with ; or \g.Your MySQL connection id is 124Server version: 8.0.11 Homebrew 看是否有tx_isolotion
+mysql&amp;gt; show variables like &amp;#39;tx_isolation&amp;#39;;Empty set (0.00 sec) 因为在mysql8里把这个变量改成了 &amp;rsquo;transaction_isolation&#39;
+mysql&amp;gt; show variables like &amp;#39;transaction_isolation&amp;#39;;+-----------------------+-----------------+| Variable_name | Value |+-----------------------+-----------------+| transaction_isolation | REPEATABLE-READ |+-----------------------+-----------------+1 row in set (0.01 sec) 我们再看下mysql7的变量</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <p>在启动项目时候，由于本地安装了mysql8, 所以有报错：</p>
 <pre tabindex="0"><code>Caused by: java.sql.SQLException: Unknown system variable &#39;tx_isolation&#39;
@@ -16233,7 +16478,7 @@ removed. Use <strong>transaction_isolation</strong> and <strong>transaction_read
 你不需要考虑数组中超出新长度后面的元素。
 分析 本题和 26. 删除排序数组中的重复项
 是类似的，只需要稍微修改就可以了， 指示器从0 开始，遍历从0开始，把不相等的挪到指示器位置，然后指示器加一。代码如下：
-public int removeElement(int[] nums, int val) { if (nums == null || nums.</description>
+public int removeElement(int[] nums, int val) {if (nums == null || nums.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <h2 id="27-移除元素httpsleetcode-cncomproblemsremove-elementdescription"><a href="https://leetcode-cn.com/problems/remove-element/description/">27. 移除元素</a></h2>
 <p>给定一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，返回移除后数组的新长度。</p>
@@ -16371,8 +16616,8 @@ async 库天才的简化异步执行序列。但是它使用需要一堆样板�
 有些系统需要csv格式的文件，所以就发现了这样一个框架.其实直接使用逗号分隔，数据换行也是可以的，框架带来了一定的便利性。
 我们先看Writer, 一般是Jdbc 数据库读数据转化成JavaBean ，然后生成csv文件。
 先定义一个客户bean
-public @Data @AllArgsConstructor @NoArgsConstructor class CustomerBean { private String no; private String name; private Date birthDate; private Boolean deleteFlag; private Integer age; private String email; } 然后使用 CsvBeanWriter 来写文件：
-private static void writeWithCsvBeanWriter() throws IOException { CustomerBean jack = new CustomerBean(&amp;#34;1&amp;#34;, &amp;#34;jack&amp;#34;, new Date(), true, 20, null); CustomerBean bob = new CustomerBean(&amp;#34;2&amp;#34;, &amp;#34;bob&amp;#34;, new Date(), false, 12, &amp;#34;123@gmail.</description>
+public @Data @AllArgsConstructor @NoArgsConstructor class CustomerBean {private String no;private String name;private Date birthDate;private Boolean deleteFlag;private Integer age;private String email;} 然后使用 CsvBeanWriter 来写文件：
+private static void writeWithCsvBeanWriter() throws IOException {CustomerBean jack = new CustomerBean(&amp;#34;1&amp;#34;, &amp;#34;jack&amp;#34;, new Date(), true, 20, null);CustomerBean bob = new CustomerBean(&amp;#34;2&amp;#34;, &amp;#34;bob&amp;#34;, new Date(), false, 12, &amp;#34;123@gmail.</description>
             <content type="html"><![CDATA[<h2 id="arts---share">ARTS - Share</h2>
 <h2 id="说说-super-csv">说说 super-csv</h2>
 <p>官网地址是 <a href="http://super-csv.github.io/">http://super-csv.github.io/</a></p>
@@ -16476,8 +16721,8 @@ context={lineNo=3, rowNo=3, columnNo=5, rowSource=[2, bob, Thu Aug 30 18:20:22 C
             
             <guid>/posts/arts/week1008_tip/</guid>
             <description>ARTS - Tip 数字的格式化 工作中有个需求，要把货币数字，改成逢千逗号分隔的格式，于是就总结下实现方式。
-1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672); DecimalFormat df = new DecimalFormat(&amp;#34;###,##0&amp;#34;); // 100,543,000 DecimalFormat df2 = new DecimalFormat(&amp;#34;###,##0.&amp;#34;); // 100,543,000. DecimalFormat df3 = new DecimalFormat(&amp;#34;###,##0.0&amp;#34;); //100,543,000.1 DecimalFormat df4 = new DecimalFormat(&amp;#34;###,##0.00&amp;#34;); // 100,543,000.13 DecimalFormat df5 = new DecimalFormat(&amp;#34;###,##0.000&amp;#34;); //100,543,000.127 DecimalFormat df6 = new DecimalFormat(&amp;#34;###,##0.0000&amp;#34;); //100,543,000.1267 由此可知，在小数规定位数后，会做四舍五入操作。
-2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化 System.out.println(f1.format(b1)); //￥100,543,000.13 NumberFormat f2 = NumberFormat.getNumberInstance(); System.out.println(f2.format(b1)); //100,543,000.127 System.out.println(f2.format(1123)); //1,123 System.out.println(f2.format(1123.1)); //1,123.</description>
+1. DecimalFormat BigDecimal b1 = BigDecimal.valueOf(100543000.12672);DecimalFormat df = new DecimalFormat(&amp;#34;###,##0&amp;#34;); // 100,543,000DecimalFormat df2 = new DecimalFormat(&amp;#34;###,##0.&amp;#34;); // 100,543,000.DecimalFormat df3 = new DecimalFormat(&amp;#34;###,##0.0&amp;#34;); //100,543,000.1DecimalFormat df4 = new DecimalFormat(&amp;#34;###,##0.00&amp;#34;); // 100,543,000.13DecimalFormat df5 = new DecimalFormat(&amp;#34;###,##0.000&amp;#34;); //100,543,000.127DecimalFormat df6 = new DecimalFormat(&amp;#34;###,##0.0000&amp;#34;); //100,543,000.1267由此可知，在小数规定位数后，会做四舍五入操作。
+2. NumberFormat NumberFormat f1 = NumberFormat.getCurrencyInstance(); // 货币格式化System.out.println(f1.format(b1)); //￥100,543,000.13NumberFormat f2 = NumberFormat.getNumberInstance();System.out.println(f2.format(b1)); //100,543,000.127System.out.println(f2.format(1123)); //1,123System.out.println(f2.format(1123.1)); //1,123.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="数字的格式化">数字的格式化</h2>
 <p>工作中有个需求，要把货币数字，改成逢千逗号分隔的格式，于是就总结下实现方式。</p>
@@ -16576,7 +16821,7 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回 -1。
 思路 本人用Java 实现， 直接使用 indexOf 函数就可实现，但是这道题考察的就是indexOf实现，所以写了一下实现过程. 我的思路是
 遍历haystack, 如果碰到和 needle 第一位的字符相等，就进入子循环，遍历needle字符串，看剩下的haystack 是否和needle相等。代码如下：
-public int strStr(String haystack, String needle) { if (haystack == null || needle == null) { return -1; } if (needle.length() == 0) { return 0; } int len1 = haystack.length(); int len2 = needle.length(); for (int i = 0; i &amp;lt; len1; i++) { if (haystack.</description>
+public int strStr(String haystack, String needle) {if (haystack == null || needle == null) {return -1;}if (needle.length() == 0) {return 0;}int len1 = haystack.length();int len2 = needle.length();for (int i = 0; i &amp;lt; len1; i++) {if (haystack.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <p><a href="https://leetcode-cn.com/problems/implement-strstr/description/">28. 实现strStr()</a></p>
 <p>实现 strStr() 函数。</p>
@@ -16766,7 +17011,7 @@ public int strStr4(String haystack, String needle) {
 有效字符串需满足：
 左括号必须用相同类型的右括号闭合。 左括号必须以正确的顺序闭合。 注意空字符串可被认为是有效字符串。
 思考 如果是程序代码中，很容易想到， 该字符是成对出现，排成一行后，就是偶数个， 对称的，可以用这个特性来比较。但是还有一种情况，是这样的： &amp;ldquo;()[]{}&amp;rdquo; ，这样的组合也是正确的，这时候就要有不同的判断逻辑，可以将事情分为这两类，参考答案后发现作者巧妙的使用栈这个数据结构，左边的负号入栈，右边的符号就出栈对比，完美的解决这个问题。以下是代码：
-public boolean isValid(String s) { if (s == null || s.length() == 0) { return true; } Stack&amp;lt;Character&amp;gt; stack = new Stack&amp;lt;&amp;gt;(); char[] chars = s.toCharArray(); for (char ch : chars) { if (ch == &amp;#39;(&amp;#39; || ch == &amp;#39;[&amp;#39; || ch == &amp;#39;{&amp;#39;) { stack.push(ch); } else if (ch == &amp;#39;)&amp;#39; || ch == &amp;#39;]&amp;#39; || ch == &amp;#39;}&amp;#39;) { if (stack.</description>
+public boolean isValid(String s) {if (s == null || s.length() == 0) {return true;}Stack&amp;lt;Character&amp;gt; stack = new Stack&amp;lt;&amp;gt;();char[] chars = s.toCharArray();for (char ch : chars) {if (ch == &amp;#39;(&amp;#39; || ch == &amp;#39;[&amp;#39; || ch == &amp;#39;{&amp;#39;) {stack.push(ch);} else if (ch == &amp;#39;)&amp;#39; || ch == &amp;#39;]&amp;#39; || ch == &amp;#39;}&amp;#39;) {if (stack.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <p><a href="https://leetcode-cn.com/problems/valid-parentheses/description/">20. 有效的括号</a></p>
 <p>给定一个只包括 &lsquo;(&rsquo;，&rsquo;)&rsquo;，&rsquo;{&rsquo;，&rsquo;}&rsquo;，&rsquo;[&rsquo;，&rsquo;]&rsquo; 的字符串，判断字符串是否有效。</p>
@@ -16919,7 +17164,7 @@ public boolean isValid(String s) {
 以下是UTC时间：
 协调世界时（英语：Coordinated Universal Time，法语：Temps Universel Coordonné，简称UTC）是最主要的世界时间标准，其以原子时秒长为基础，在时刻上尽量接近于格林尼治标准时间。中华民国采用CNS 7648的《资料元及交换格式–资讯交换–日期及时间的表示法》（与ISO 8601类似）称之为世界协调时间。中华人民共和国采用ISO 8601:2000的国家标准GB/T 7408-2005《数据元和交换格式 信息交换 日期和时间表示法》中亦称之为协调世界时。
 我们要获取时间：
-var now = new Date(); now; // Wed Jun 24 2015 19:49:22 GMT+0800 (CST) now.getFullYear(); // 2015, 年份 now.getMonth(); // 5, 月份，注意月份范围是0~11，5表示六月 now.getDate(); // 24, 表示24号 now.getDay(); // 3, 表示星期三 now.getHours(); // 19, 24小时制 now.getMinutes(); // 49, 分钟 now.getSeconds(); // 22, 秒 now.</description>
+var now = new Date();now; // Wed Jun 24 2015 19:49:22 GMT+0800 (CST)now.getFullYear(); // 2015, 年份now.getMonth(); // 5, 月份，注意月份范围是0~11，5表示六月now.getDate(); // 24, 表示24号now.getDay(); // 3, 表示星期三now.getHours(); // 19, 24小时制now.getMinutes(); // 49, 分钟now.getSeconds(); // 22, 秒now.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h2 id="javascript-date对象与时区">JavaScript Date对象与时区</h2>
 <h3 id="gmt-和-utc">GMT 和 UTC</h3>
@@ -16987,7 +17232,7 @@ var d = new Date(utctime + 3 * 3600 * 1000);
 示例：
 输入：1-&amp;gt;2-&amp;gt;4, 1-&amp;gt;3-&amp;gt;4 输出：1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4
 分析 两个ListNode ， 根据l1 、 l2 的val，小的给拼的ListNode.
-public ListNode mergeTwoLists(ListNode l1, ListNode l2) { ListNode head = null, tail = null; while (l1 != null &amp;amp;&amp;amp; l2 != null) { ListNode node = null; if (l1.val &amp;lt; l2.val) { node = l1; l1 = l1.next; } else { node = l2; l2 = l2.next; } if (head == null) { head = tail = node; } else { tail.</description>
+public ListNode mergeTwoLists(ListNode l1, ListNode l2) {ListNode head = null, tail = null;while (l1 != null &amp;amp;&amp;amp; l2 != null) {ListNode node = null;if (l1.val &amp;lt; l2.val) {node = l1;l1 = l1.next;} else {node = l2;l2 = l2.next;}if (head == null) {head = tail = node;} else {tail.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <p><a href="https://leetcode-cn.com/problems/merge-two-sorted-lists/description/">21. 合并两个有序链表</a></p>
 <p>将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。</p>
@@ -17103,8 +17348,8 @@ IBM 650 的约束生硬且迅速，今天的电脑约束更软常常自我约束
             
             <guid>/posts/arts/week1006_share/</guid>
             <description>ARTS - Share Java8的分组与排序实践 假设有一个课程类，Course， 里面包含学生ID userId， 学科名称name, 和成绩grade:
-public class Course { private Integer userId; private String name; private Integer grade; // setters and getters } 初始化一些数据
-Course eng = new Course(1, &amp;#34;eng&amp;#34;, 80); Course chi = new Course(1, &amp;#34;chi&amp;#34;, 75); Course chi2 = new Course(2, &amp;#34;chi&amp;#34;, 77); Course eng3 = new Course(3, &amp;#34;eng&amp;#34;, 105); Course chi3 = new Course(3, &amp;#34;chi&amp;#34;, 110); List&amp;lt;Course&amp;gt; courseList = Lists.newArrayList(eng, chi, chi2, eng3, chi3); 1.</description>
+public class Course {private Integer userId;private String name;private Integer grade;// setters and getters } 初始化一些数据
+Course eng = new Course(1, &amp;#34;eng&amp;#34;, 80);Course chi = new Course(1, &amp;#34;chi&amp;#34;, 75);Course chi2 = new Course(2, &amp;#34;chi&amp;#34;, 77);Course eng3 = new Course(3, &amp;#34;eng&amp;#34;, 105);Course chi3 = new Course(3, &amp;#34;chi&amp;#34;, 110);List&amp;lt;Course&amp;gt; courseList = Lists.newArrayList(eng, chi, chi2, eng3, chi3);1.</description>
             <content type="html"><![CDATA[<h2 id="arts---share">ARTS - Share</h2>
 <h2 id="java8的分组与排序实践">Java8的分组与排序实践</h2>
 <p>假设有一个课程类，Course， 里面包含学生ID userId， 学科名称name, 和成绩grade:</p>
@@ -17295,7 +17540,7 @@ c. Runtime Constant Pool 运行时常量池
             <description>ARTS - Algorthm 9. 回文数 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
 分析： 负数比如 -121， 从左到右是 -121, 从右到左是 121-， 所以不是回文数。 这道题算法和7.反转整数 类似，反转整数是取得每一位倒置输出，而这个是取得每一位倒置后和原值进行比较。
 代码如下：
-public boolean isPalindrome(int x) { if (x &amp;lt; 0) { return false; } int y = 0; int z = x; while(x != 0) { y = x % 10 + y * 10; x /= 10; } return z == y; } </description>
+public boolean isPalindrome(int x) {if (x &amp;lt; 0) {return false;}int y = 0;int z = x;while(x != 0) {y = x % 10 + y * 10;x /= 10;}return z == y;} </description>
             <content type="html"><![CDATA[<h2 id="arts---algorthm">ARTS - Algorthm</h2>
 <h3 id="9-回文数httpsleetcode-cncomproblemspalindrome-numberdescription"><a href="https://leetcode-cn.com/problems/palindrome-number/description/">9. 回文数</a></h3>
 <p>判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p>
@@ -17455,7 +17700,7 @@ public boolean isPalindrome(int x) { if (x &amp;lt; 0) { return false; } int y =
 输入: [&amp;ldquo;dog&amp;rdquo;,&amp;ldquo;racecar&amp;rdquo;,&amp;ldquo;car&amp;rdquo;] 输出: &amp;quot;&amp;rdquo; 解释: 输入不存在公共前缀。 说明:
 所有输入只包含小写字母 a-z 。
 分析 定义一个指针， 从第一个开始，遍历所有字符串是否相等，遇到不相等的就停止，取得指针经过的一段字符串。
-public String longestCommonPrefix(String[] strs) { if (strs.length == 0) { return &amp;#34;&amp;#34;; } if (strs.length == 1) { return strs[0]; } int point = -1; loop: for (int i = 0; i &amp;lt; strs[0].length(); i++) { boolean flag = true; for (int j = 0; j &amp;lt; strs.</description>
+public String longestCommonPrefix(String[] strs) {if (strs.length == 0) {return &amp;#34;&amp;#34;;}if (strs.length == 1) {return strs[0];}int point = -1;loop:for (int i = 0; i &amp;lt; strs[0].length(); i++) {boolean flag = true;for (int j = 0; j &amp;lt; strs.</description>
             <content type="html"><![CDATA[<h2 id="arts---algorithm">ARTS - Algorithm</h2>
 <p><a href="https://leetcode-cn.com/problems/longest-common-prefix/description/">14. 最长公共前缀</a></p>
 <p>编写一个函数来查找字符串数组中的最长公共前缀。</p>
@@ -17520,10 +17765,10 @@ public String longestCommonPrefix(String[] strs) {
 多点触控动画增长圆圆 (类似下雨) 下面就是我将会展示的怎么做这样一个视图。
 它包含：
 多点触控能力。 每个点击将会画一个园。 圆圈将会增长，颜色淡入，直到消失 制作自定义视图 1. 实现视图 首先你需要实现 View 类, 它是android 基本UI组件
-class RainDropView @JvmOverloads constructor( context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0, defStyleRes: Int = 0) : View(context, attrs, defStyleAttr, defStyleRes) Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
+class RainDropView @JvmOverloads constructor(context: Context,attrs: AttributeSet? = null,defStyleAttr: Int = 0,defStyleRes: Int = 0) :View(context, attrs, defStyleAttr, defStyleRes)Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
 了解跟多xml属性设置，参考我的另一个博客 kotlin自定义组件
 2. 定义 onMeasure 定义自己的视图的宽高，下面提供一个相对基础的模型。
-override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.onMeasure(widthMeasureSpec, heightMeasureSpec) val desiredWidth = suggestedMinimumWidth + paddingLeft + paddingRight val desiredHeight = suggestedMinimumHeight + paddingTop + paddingBottom setMeasuredDimension( resolveSize(desiredWidth, widthMeasureSpec), resolveSize(desiredHeight, heightMeasureSpec)) } 了解更多请参考自定义视图：onMeasure</description>
+override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {super.onMeasure(widthMeasureSpec, heightMeasureSpec)val desiredWidth = suggestedMinimumWidth + paddingLeft + paddingRightval desiredHeight = suggestedMinimumHeight + paddingTop + paddingBottomsetMeasuredDimension(resolveSize(desiredWidth, widthMeasureSpec),resolveSize(desiredHeight, heightMeasureSpec))} 了解更多请参考自定义视图：onMeasure</description>
             <content type="html"><![CDATA[<h2 id="arts---review">ARTS - Review</h2>
 <h2 id="kotlin-可触摸式自定义动画视图httpsmediumcomelyeprojectcustom-touchable-animated-view-in-kotlin-3ad599f85dbc"><a href="https://medium.com/@elye.project/custom-touchable-animated-view-in-kotlin-3ad599f85dbc">Kotlin 可触摸式自定义动画视图</a></h2>
 <p><img src="https://cdn-images-1.medium.com/max/1600/0*cboYNHmYwpWUQ75x.jpg" alt=""></p>
@@ -17655,9 +17900,9 @@ override fun onTouchEvent(event: MotionEvent): Boolean {
             <guid>/posts/arts/week1004_tip/</guid>
             <description>ARTS - Tip 1. ES6 中 let 和 var 最近写js, IDE 提示推荐使用 let 或const 代替 var 声明变量，于是就了解了下ES6的 let和 var的区别。
 关键词：
-let : 变量只能声明一次 var : 变量可以多次声明 var a = 5; var a = 3; let b = 2; let b = 4; console.console.log(a); console.console.log(b); 然后就报错了 Uncaught SyntaxError: Identifier &amp;lsquo;b&amp;rsquo; has already been declared at :1:1
+let : 变量只能声明一次 var : 变量可以多次声明 var a = 5;var a = 3;let b = 2;let b = 4; console.console.log(a);console.console.log(b); 然后就报错了 Uncaught SyntaxError: Identifier &amp;lsquo;b&amp;rsquo; has already been declared at :1:1
 于是，在方法里调用方法，var也会有不一样的：
-// var for(var i=0;i&amp;lt;5;i++){ setTimeout(function(){ console.log(&amp;#34;var：&amp;#34; + i); }) } // let for(let i=0;i&amp;lt;5;i++){ setTimeout(function(){ console.</description>
+// varfor(var i=0;i&amp;lt;5;i++){setTimeout(function(){console.log(&amp;#34;var：&amp;#34; + i);})}// letfor(let i=0;i&amp;lt;5;i++){setTimeout(function(){console.</description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h3 id="1-es6-中-let-和-var">1. ES6 中 let 和 var</h3>
 <p>最近写js, IDE 提示推荐使用 let 或const 代替 var 声明变量，于是就了解了下ES6的 let和 var的区别。</p>
@@ -17773,9 +18018,9 @@ About 20,000 students took the computer science tests in 2007, fewer than the to
 分析 我们要统计接口调用量，要把时区切换到北京时区。
 实现方式 使用java8 java.time包 实现最方便。
 代码：
-@Test public void test1() { ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&amp;#34;CTT&amp;#34;)); System.out.println(LocalDateTime.now(shanghaiZone)); ZoneId zoneId = ZoneId.systemDefault(); System.out.println(zoneId); LocalDateTime now = LocalDateTime.now(zoneId); System.out.println(now); } 打印结果：
-2018-07-14T15:53:24.818 Asia/Shanghai 2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
-public static final Map&amp;lt;String, String&amp;gt; SHORT_IDS; static { Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;&amp;gt;(64); map.put(&amp;#34;ACT&amp;#34;, &amp;#34;Australia/Darwin&amp;#34;); map.put(&amp;#34;AET&amp;#34;, &amp;#34;Australia/Sydney&amp;#34;); map.put(&amp;#34;AGT&amp;#34;, &amp;#34;America/Argentina/Buenos_Aires&amp;#34;); map.put(&amp;#34;ART&amp;#34;, &amp;#34;Africa/Cairo&amp;#34;); map.put(&amp;#34;AST&amp;#34;, &amp;#34;America/Anchorage&amp;#34;); map.put(&amp;#34;BET&amp;#34;, &amp;#34;America/Sao_Paulo&amp;#34;); map.put(&amp;#34;BST&amp;#34;, &amp;#34;Asia/Dhaka&amp;#34;); map.put(&amp;#34;CAT&amp;#34;, &amp;#34;Africa/Harare&amp;#34;); map.</description>
+@Testpublic void test1() {ZoneId shanghaiZone = ZoneId.of(ZoneId.SHORT_IDS.get(&amp;#34;CTT&amp;#34;));System.out.println(LocalDateTime.now(shanghaiZone));ZoneId zoneId = ZoneId.systemDefault();System.out.println(zoneId);LocalDateTime now = LocalDateTime.now(zoneId);System.out.println(now);}打印结果：
+2018-07-14T15:53:24.818Asia/Shanghai2018-07-14T15:53:24.822 备注 ZoneId 的SHORT_IDS 是该类缓存的时区代码，源码如下：
+public static final Map&amp;lt;String, String&amp;gt; SHORT_IDS;static {Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;&amp;gt;(64);map.put(&amp;#34;ACT&amp;#34;, &amp;#34;Australia/Darwin&amp;#34;);map.put(&amp;#34;AET&amp;#34;, &amp;#34;Australia/Sydney&amp;#34;);map.put(&amp;#34;AGT&amp;#34;, &amp;#34;America/Argentina/Buenos_Aires&amp;#34;);map.put(&amp;#34;ART&amp;#34;, &amp;#34;Africa/Cairo&amp;#34;);map.put(&amp;#34;AST&amp;#34;, &amp;#34;America/Anchorage&amp;#34;);map.put(&amp;#34;BET&amp;#34;, &amp;#34;America/Sao_Paulo&amp;#34;);map.put(&amp;#34;BST&amp;#34;, &amp;#34;Asia/Dhaka&amp;#34;);map.put(&amp;#34;CAT&amp;#34;, &amp;#34;Africa/Harare&amp;#34;);map.</description>
             <content type="html"><![CDATA[<h2 id="arts">ARTS</h2>
 <h3 id="tip">Tip</h3>
 <h3 id="场景与需求">场景与需求</h3>
@@ -17851,8 +18096,8 @@ Asia/Shanghai
 题目： 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 说明：
 你的算法应该具有线性时间复杂度。 你可以不使用额外空间来实现吗？
-class Solution { public int singleNumber(int[] nums) { int index = 0; for (int i = 0; i &amp;lt; nums.length; i++) { index = index ^ nums[i]; } return index; } } ###分析： 此题目主要考察位运算， 其中 异或 ^ 操作符与相同的数字异或为0， 0与任何数异或是它本身的特性。 如果没有考虑到这一点，实现方法就是嵌套遍历出所有重复的，然后找出不重复的那个，这种方式很差。代码如下，
-private static int singleNumber(int[] a) { List&amp;lt;Integer&amp;gt; list = Lists.newArrayListWithCapacity(a.length); int x = 0; for (int i = 0; i &amp;lt; a.</description>
+class Solution {public int singleNumber(int[] nums) {int index = 0;for (int i = 0; i &amp;lt; nums.length; i++) {index = index ^ nums[i];}return index;}} ###分析： 此题目主要考察位运算， 其中 异或 ^ 操作符与相同的数字异或为0， 0与任何数异或是它本身的特性。 如果没有考虑到这一点，实现方法就是嵌套遍历出所有重复的，然后找出不重复的那个，这种方式很差。代码如下，
+private static int singleNumber(int[] a) {List&amp;lt;Integer&amp;gt; list = Lists.newArrayListWithCapacity(a.length);int x = 0;for (int i = 0; i &amp;lt; a.</description>
             <content type="html"><![CDATA[<h2 id="arts">ARTS</h2>
 <h3 id="algorithm">Algorithm</h3>
 <p><a href="https://leetcode-cn.com/problems/single-number/description/">136. 只出现一次的数字</a></p>
@@ -17937,7 +18182,7 @@ private static int singleNumber(int[] a) { List&amp;lt;Integer&amp;gt; list = Li
             <guid>/posts/arts/week1002_algorithm/</guid>
             <description>Algorithm leecode 7. 翻转整数 给定一个 32 位有符号整数，将整数中的数字进行反转。
 分析 这道题把数字翻转，思路是使用模运算和直接除以10运算获得每一位数字，然后要考虑越界问题，比较笨的方式是转为字符数组，然后倒序排列后转为int，本人不才，使用了第二种。代码如下:
-public int reverse(int x) { if (x == Integer.MIN_VALUE) { return 0; } boolean positive = x &amp;lt; 0; if (positive) { x = -x; } String n = String.valueOf(x); char[] chars = n.toCharArray(); StringBuilder sb = new StringBuilder(); for (int len = chars.length, i = len - 1; i &amp;gt;= 0; i--) { sb.append(chars[i]); } String result = sb.toString(); try { if (positive) { return -Integer.</description>
+public int reverse(int x) {if (x == Integer.MIN_VALUE) {return 0;}boolean positive = x &amp;lt; 0;if (positive) {x = -x;}String n = String.valueOf(x);char[] chars = n.toCharArray();StringBuilder sb = new StringBuilder();for (int len = chars.length, i = len - 1; i &amp;gt;= 0; i--) {sb.append(chars[i]);}String result = sb.toString();try {if (positive) {return -Integer.</description>
             <content type="html"><![CDATA[<h2 id="algorithm">Algorithm</h2>
 <h3 id="leecode-7-翻转整数httpsleetcode-cncomproblemsreverse-integerdescription">leecode <a href="https://leetcode-cn.com/problems/reverse-integer/description/">7. 翻转整数</a></h3>
 <p>给定一个 32 位有符号整数，将整数中的数字进行反转。</p>
@@ -18089,8 +18334,8 @@ Concentrated in a few hands, big data is a threat to democracy. Social media com
             <guid>/posts/arts/week1002_tip/</guid>
             <description>ARTS - Tip ssh 登录配置 在登录远程服务器时候，很多是用ssh-key来验证的，每次要输入ip地址会比教麻烦，于是就产生了配置
 在 ~/.ssh/ 目录创建config文件，配置如下：
-Host www HostName 182.159.15.88 Port 50 User root IdentityFile ~/.ssh/id_rsa_2048 # git指定私钥 Host api HostName api.domain.com User git Port 22 IdentityFile ~/.ssh/git_id_rsa 这样登陆时候直接 ssh www 就可以了， 还有在不操作一段时间后会自动断开，需要再设置一个：
-Host * ServerAliveInterval 60 #表示没60秒去给服务端发起一次请求消息 </description>
+Host wwwHostName 182.159.15.88Port 50User rootIdentityFile ~/.ssh/id_rsa_2048# git指定私钥Host apiHostName api.domain.comUser gitPort 22IdentityFile ~/.ssh/git_id_rsa 这样登陆时候直接 ssh www 就可以了， 还有在不操作一段时间后会自动断开，需要再设置一个：
+Host *ServerAliveInterval 60#表示没60秒去给服务端发起一次请求消息 </description>
             <content type="html"><![CDATA[<h2 id="arts---tip">ARTS - Tip</h2>
 <h3 id="ssh-登录配置">ssh 登录配置</h3>
 <p>在登录远程服务器时候，很多是用ssh-key来验证的，每次要输入ip地址会比教麻烦，于是就产生了配置</p>

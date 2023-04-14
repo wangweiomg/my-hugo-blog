@@ -9,10 +9,10 @@
 多点触控动画增长圆圆 (类似下雨) 下面就是我将会展示的怎么做这样一个视图。
 它包含：
 多点触控能力。 每个点击将会画一个园。 圆圈将会增长，颜色淡入，直到消失 制作自定义视图 1. 实现视图 首先你需要实现 View 类, 它是android 基本UI组件
-class RainDropView @JvmOverloads constructor( context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0, defStyleRes: Int = 0) : View(context, attrs, defStyleAttr, defStyleRes) Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
+class RainDropView @JvmOverloads constructor(context: Context,attrs: AttributeSet? = null,defStyleAttr: Int = 0,defStyleRes: Int = 0) :View(context, attrs, defStyleAttr, defStyleRes)Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
 了解跟多xml属性设置，参考我的另一个博客 kotlin自定义组件
 2. 定义 onMeasure 定义自己的视图的宽高，下面提供一个相对基础的模型。
-override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.onMeasure(widthMeasureSpec, heightMeasureSpec) val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRight val desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottom setMeasuredDimension( resolveSize(desiredWidth, widthMeasureSpec), resolveSize(desiredHeight, heightMeasureSpec)) } 了解更多请参考自定义视图：onMeasure" />
+override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {super.onMeasure(widthMeasureSpec, heightMeasureSpec)val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRightval desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottomsetMeasuredDimension(resolveSize(desiredWidth, widthMeasureSpec),resolveSize(desiredHeight, heightMeasureSpec))} 了解更多请参考自定义视图：onMeasure" />
 <meta name="keywords" content=", arts" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -50,10 +50,10 @@ override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.o
 多点触控动画增长圆圆 (类似下雨) 下面就是我将会展示的怎么做这样一个视图。
 它包含：
 多点触控能力。 每个点击将会画一个园。 圆圈将会增长，颜色淡入，直到消失 制作自定义视图 1. 实现视图 首先你需要实现 View 类, 它是android 基本UI组件
-class RainDropView @JvmOverloads constructor( context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0, defStyleRes: Int = 0) : View(context, attrs, defStyleAttr, defStyleRes) Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
+class RainDropView @JvmOverloads constructor(context: Context,attrs: AttributeSet? = null,defStyleAttr: Int = 0,defStyleRes: Int = 0) :View(context, attrs, defStyleAttr, defStyleRes)Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
 了解跟多xml属性设置，参考我的另一个博客 kotlin自定义组件
 2. 定义 onMeasure 定义自己的视图的宽高，下面提供一个相对基础的模型。
-override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.onMeasure(widthMeasureSpec, heightMeasureSpec) val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRight val desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottom setMeasuredDimension( resolveSize(desiredWidth, widthMeasureSpec), resolveSize(desiredHeight, heightMeasureSpec)) } 了解更多请参考自定义视图：onMeasure"><meta itemprop="datePublished" content="2023-03-31T15:45:31+00:00" />
+override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {super.onMeasure(widthMeasureSpec, heightMeasureSpec)val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRightval desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottomsetMeasuredDimension(resolveSize(desiredWidth, widthMeasureSpec),resolveSize(desiredHeight, heightMeasureSpec))} 了解更多请参考自定义视图：onMeasure"><meta itemprop="datePublished" content="2023-03-31T15:45:31+00:00" />
 <meta itemprop="dateModified" content="2023-03-31T15:45:31+00:00" />
 <meta itemprop="wordCount" content="215"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="arts," />
@@ -65,10 +65,10 @@ override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.o
 多点触控动画增长圆圆 (类似下雨) 下面就是我将会展示的怎么做这样一个视图。
 它包含：
 多点触控能力。 每个点击将会画一个园。 圆圈将会增长，颜色淡入，直到消失 制作自定义视图 1. 实现视图 首先你需要实现 View 类, 它是android 基本UI组件
-class RainDropView @JvmOverloads constructor( context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0, defStyleRes: Int = 0) : View(context, attrs, defStyleAttr, defStyleRes) Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
+class RainDropView @JvmOverloads constructor(context: Context,attrs: AttributeSet? = null,defStyleAttr: Int = 0,defStyleRes: Int = 0) :View(context, attrs, defStyleAttr, defStyleRes)Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
 了解跟多xml属性设置，参考我的另一个博客 kotlin自定义组件
 2. 定义 onMeasure 定义自己的视图的宽高，下面提供一个相对基础的模型。
-override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.onMeasure(widthMeasureSpec, heightMeasureSpec) val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRight val desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottom setMeasuredDimension( resolveSize(desiredWidth, widthMeasureSpec), resolveSize(desiredHeight, heightMeasureSpec)) } 了解更多请参考自定义视图：onMeasure"/>
+override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {super.onMeasure(widthMeasureSpec, heightMeasureSpec)val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRightval desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottomsetMeasuredDimension(resolveSize(desiredWidth, widthMeasureSpec),resolveSize(desiredHeight, heightMeasureSpec))} 了解更多请参考自定义视图：onMeasure"/>
 
 
 
@@ -77,10 +77,10 @@ override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.o
 多点触控动画增长圆圆 (类似下雨) 下面就是我将会展示的怎么做这样一个视图。
 它包含：
 多点触控能力。 每个点击将会画一个园。 圆圈将会增长，颜色淡入，直到消失 制作自定义视图 1. 实现视图 首先你需要实现 View 类, 它是android 基本UI组件
-class RainDropView @JvmOverloads constructor( context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0, defStyleRes: Int = 0) : View(context, attrs, defStyleAttr, defStyleRes) Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
+class RainDropView @JvmOverloads constructor(context: Context,attrs: AttributeSet? = null,defStyleAttr: Int = 0,defStyleRes: Int = 0) :View(context, attrs, defStyleAttr, defStyleRes)Kotlin 好的部分是，你可以用默认构造器把所有构造器合并成一个。
 了解跟多xml属性设置，参考我的另一个博客 kotlin自定义组件
 2. 定义 onMeasure 定义自己的视图的宽高，下面提供一个相对基础的模型。
-override fun onMeasure( widthMeasureSpec: Int, heightMeasureSpec: Int) { super.onMeasure(widthMeasureSpec, heightMeasureSpec) val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRight val desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottom setMeasuredDimension( resolveSize(desiredWidth, widthMeasureSpec), resolveSize(desiredHeight, heightMeasureSpec)) } 了解更多请参考自定义视图：onMeasure" />
+override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {super.onMeasure(widthMeasureSpec, heightMeasureSpec)val desiredWidth = suggestedMinimumWidth &#43; paddingLeft &#43; paddingRightval desiredHeight = suggestedMinimumHeight &#43; paddingTop &#43; paddingBottomsetMeasuredDimension(resolveSize(desiredWidth, widthMeasureSpec),resolveSize(desiredHeight, heightMeasureSpec))} 了解更多请参考自定义视图：onMeasure" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/arts/week1004_review/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-31T15:45:31+00:00" />
@@ -302,7 +302,7 @@ override fun onTouchEvent(event: MotionEvent): Boolean {
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2023-03-31 15:45
+          2023-03-31 23:45
         
 
          

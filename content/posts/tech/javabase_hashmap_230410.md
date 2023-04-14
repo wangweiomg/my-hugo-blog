@@ -202,7 +202,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
         if ((tab = table) == null || (n = tab.length) == 0)
             n = (tab = resize()).length;
 	// 这时候就要找到桶的位置， 算法就是 (n-1) & hash  ？？？ 
-	// 如果值为空， 就新建一个node
+	// 如果值为空，也就是桶的位置没有值， 就新建一个node 放进去
         if ((p = tab[i = (n - 1) & hash]) == null)
             tab[i] = newNode(hash, key, value, null);
         else { // 否则，桶的位置不为空，就遍历链表或红黑树
@@ -212,7 +212,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
             if (p.hash == hash &&
                 ((k = p.key) == key || (key != null && key.equals(k))))
                 e = p;
-	    // 如果 p 是一个TreeNode结构，就去遍历红黑树
+	    // 如果 p 是一个TreeNode结构，就去遍历红黑树，返回e
             else if (p instanceof TreeNode)
                 e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
             else {
@@ -233,6 +233,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
                     p = e;
                 }
             }
+   	    // 存在key映射， 就把value赋值给e的value, 然后调用 afterNodeAccess(e)
             if (e != null) { // existing mapping for key
                 V oldValue = e.value;
                 if (!onlyIfAbsent || oldValue == null)
