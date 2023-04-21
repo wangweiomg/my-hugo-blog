@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-04-15T00:54:44+08:00</lastmod>
+    <lastmod>2023-04-20T10:46:05+08:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2023-04-15T00:54:44+08:00</lastmod>
+    <lastmod>2023-04-20T10:46:05+08:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2023-04-15T00:54:44+08:00</lastmod>
+    <lastmod>2023-04-20T10:46:05+08:00</lastmod>
+  </url><url>
+    <loc>/tags/untagged/</loc>
+    <lastmod>2023-04-20T10:46:05+08:00</lastmod>
+  </url><url>
+    <loc>/posts/inbox/learn_method_230420/</loc>
+    <lastmod>2023-04-20T10:46:05+08:00</lastmod>
   </url><url>
     <loc>/posts/inbox/interview_prepare_230415/</loc>
     <lastmod>2023-04-15T00:54:44+08:00</lastmod>
@@ -610,9 +616,6 @@
   </url><url>
     <loc>/posts/arts/week1002_tip/</loc>
     <lastmod>2023-03-31T15:45:30+00:00</lastmod>
-  </url><url>
-    <loc>/tags/untagged/</loc>
-    <lastmod>2023-03-31T14:05:03+00:00</lastmod>
   </url><url>
     <loc>/posts/inbox/migrate_blog_from_github/</loc>
     <lastmod>2023-03-31T14:05:03+00:00</lastmod>

@@ -10,12 +10,14 @@ tags:
 ---
 ## Java面试中常问的问题
 
-* springboot是如何实现自动装配的？ 扫描 meta_info
-* redis 为什么快？ 分布式锁为何要结合 lua脚本来实现？redis分布式锁会有什么问题
-* redis 如果系统错误释放锁 和 业务执行超时释放锁，会如何？
-* redis 常用数据结构
-* kafka消息队列为何要引入组？解决了什么问题 broker, group 来说
-* 分布式事务如何保证一致性。
-* mysql ABC 索引，实际查询只用到了AB， 没用到C，是什么情况? B是范围查询
-* Java HashMap 两次put 相同key与相同hashcode的区别。
-* 服务发现是怎么做的
+1. Java HashMap 两次put会发生什么
+2. springboot的starter是如何实现自动装配的？
+3. redis为什么快？
+4. redis常用的数据结构是什么，
+5. redis如何实现分布式锁，
+6. redis实现分布式锁有什么问题
+7. redis如果系统错误释放锁和业务执行超时释放锁，会发生什么？
+8. 分布式事务如何保证一致性
+9. 服务发现是怎么回事
+10. kafka消息队列为何要引入组？解决了什么问题
+11. mysql ABC索引， 实际用到了AB，没用到C，是什么情况会发生？

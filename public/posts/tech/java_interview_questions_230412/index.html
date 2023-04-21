@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Java面试中常问的问题 springboot是如何实现自动装配的？ 扫描 meta_info redis 为什么快？ 分布式锁为何要结合 lua脚本来实现？redis分布式锁会有什么问题 redis 如果系统错误释放锁 和 业务执行超时释放锁，会如何？ redis 常用数据结构 kafka消息队列为何要引入组？解决了什么问题 broker, group 来说 分布式事务如何保证一致性。 mysql ABC 索引，实际查询只用到了AB， 没用到C，是什么情况? B是范围查询 Java HashMap 两次put 相同key与相同hashcode的区别。 服务发现是怎么做的 " />
+<meta name="description" content="Java面试中常问的问题 Java HashMap 两次put会发生什么 springboot的starter是如何实现自动装配的？ redis为什么快？ redis常用的数据结构是什么， redis如何实现分布式锁， redis实现分布式锁有什么问题 redis如果系统错误释放锁和业务执行超时释放锁，会发生什么？ 分布式事务如何保证一致性 服务发现是怎么回事 kafka消息队列为何要引入组？解决了什么问题 mysql ABC索引， 实际用到了AB，没用到C，是什么情况会发生？ " />
 <meta name="keywords" content=", Java, 面试" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -39,20 +39,20 @@
 
 
 <meta itemprop="name" content="Java面试中常问的问题">
-<meta itemprop="description" content="Java面试中常问的问题 springboot是如何实现自动装配的？ 扫描 meta_info redis 为什么快？ 分布式锁为何要结合 lua脚本来实现？redis分布式锁会有什么问题 redis 如果系统错误释放锁 和 业务执行超时释放锁，会如何？ redis 常用数据结构 kafka消息队列为何要引入组？解决了什么问题 broker, group 来说 分布式事务如何保证一致性。 mysql ABC 索引，实际查询只用到了AB， 没用到C，是什么情况? B是范围查询 Java HashMap 两次put 相同key与相同hashcode的区别。 服务发现是怎么做的 "><meta itemprop="datePublished" content="2023-04-12T03:37:21+00:00" />
+<meta itemprop="description" content="Java面试中常问的问题 Java HashMap 两次put会发生什么 springboot的starter是如何实现自动装配的？ redis为什么快？ redis常用的数据结构是什么， redis如何实现分布式锁， redis实现分布式锁有什么问题 redis如果系统错误释放锁和业务执行超时释放锁，会发生什么？ 分布式事务如何保证一致性 服务发现是怎么回事 kafka消息队列为何要引入组？解决了什么问题 mysql ABC索引， 实际用到了AB，没用到C，是什么情况会发生？ "><meta itemprop="datePublished" content="2023-04-12T03:37:21+00:00" />
 <meta itemprop="dateModified" content="2023-04-12T03:37:21+00:00" />
-<meta itemprop="wordCount" content="29"><meta itemprop="image" content="/"/>
+<meta itemprop="wordCount" content="16"><meta itemprop="image" content="/"/>
 <meta itemprop="keywords" content="Java,面试," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/"/>
 
 <meta name="twitter:title" content="Java面试中常问的问题"/>
-<meta name="twitter:description" content="Java面试中常问的问题 springboot是如何实现自动装配的？ 扫描 meta_info redis 为什么快？ 分布式锁为何要结合 lua脚本来实现？redis分布式锁会有什么问题 redis 如果系统错误释放锁 和 业务执行超时释放锁，会如何？ redis 常用数据结构 kafka消息队列为何要引入组？解决了什么问题 broker, group 来说 分布式事务如何保证一致性。 mysql ABC 索引，实际查询只用到了AB， 没用到C，是什么情况? B是范围查询 Java HashMap 两次put 相同key与相同hashcode的区别。 服务发现是怎么做的 "/>
+<meta name="twitter:description" content="Java面试中常问的问题 Java HashMap 两次put会发生什么 springboot的starter是如何实现自动装配的？ redis为什么快？ redis常用的数据结构是什么， redis如何实现分布式锁， redis实现分布式锁有什么问题 redis如果系统错误释放锁和业务执行超时释放锁，会发生什么？ 分布式事务如何保证一致性 服务发现是怎么回事 kafka消息队列为何要引入组？解决了什么问题 mysql ABC索引， 实际用到了AB，没用到C，是什么情况会发生？ "/>
 
 
 
     <meta property="og:title" content="Java面试中常问的问题" />
-<meta property="og:description" content="Java面试中常问的问题 springboot是如何实现自动装配的？ 扫描 meta_info redis 为什么快？ 分布式锁为何要结合 lua脚本来实现？redis分布式锁会有什么问题 redis 如果系统错误释放锁 和 业务执行超时释放锁，会如何？ redis 常用数据结构 kafka消息队列为何要引入组？解决了什么问题 broker, group 来说 分布式事务如何保证一致性。 mysql ABC 索引，实际查询只用到了AB， 没用到C，是什么情况? B是范围查询 Java HashMap 两次put 相同key与相同hashcode的区别。 服务发现是怎么做的 " />
+<meta property="og:description" content="Java面试中常问的问题 Java HashMap 两次put会发生什么 springboot的starter是如何实现自动装配的？ redis为什么快？ redis常用的数据结构是什么， redis如何实现分布式锁， redis实现分布式锁有什么问题 redis如果系统错误释放锁和业务执行超时释放锁，会发生什么？ 分布式事务如何保证一致性 服务发现是怎么回事 kafka消息队列为何要引入组？解决了什么问题 mysql ABC索引， 实际用到了AB，没用到C，是什么情况会发生？ " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/tech/java_interview_questions_230412/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-04-12T03:37:21+00:00" />
@@ -153,17 +153,19 @@
 
       <div class="post-content">
         <h2 id="java面试中常问的问题">Java面试中常问的问题</h2>
-<ul>
-<li>springboot是如何实现自动装配的？ 扫描 meta_info</li>
-<li>redis 为什么快？ 分布式锁为何要结合 lua脚本来实现？redis分布式锁会有什么问题</li>
-<li>redis 如果系统错误释放锁 和 业务执行超时释放锁，会如何？</li>
-<li>redis 常用数据结构</li>
-<li>kafka消息队列为何要引入组？解决了什么问题 broker, group 来说</li>
-<li>分布式事务如何保证一致性。</li>
-<li>mysql ABC 索引，实际查询只用到了AB， 没用到C，是什么情况? B是范围查询</li>
-<li>Java HashMap 两次put 相同key与相同hashcode的区别。</li>
-<li>服务发现是怎么做的</li>
-</ul>
+<ol>
+<li>Java HashMap 两次put会发生什么</li>
+<li>springboot的starter是如何实现自动装配的？</li>
+<li>redis为什么快？</li>
+<li>redis常用的数据结构是什么，</li>
+<li>redis如何实现分布式锁，</li>
+<li>redis实现分布式锁有什么问题</li>
+<li>redis如果系统错误释放锁和业务执行超时释放锁，会发生什么？</li>
+<li>分布式事务如何保证一致性</li>
+<li>服务发现是怎么回事</li>
+<li>kafka消息队列为何要引入组？解决了什么问题</li>
+<li>mysql ABC索引， 实际用到了AB，没用到C，是什么情况会发生？</li>
+</ol>
 
       </div>
     </article>
@@ -190,7 +192,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        29 Words
+        16 Words
       </p>
 
       <p>
