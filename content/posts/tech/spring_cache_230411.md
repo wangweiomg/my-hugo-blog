@@ -24,7 +24,7 @@ tags:
 spring三级缓存，是spring框架用于解决单例作用域Bean的循环依赖问题的一种机制。
 
 1. Singleton Objects Cache 单例对象缓存： 这个缓存存储已经完全初始化的单例Bean. 这个阶段，所有依赖已经注入，所有生命周期方法已经执行完毕。当一个bean被请求时，spring首先会从这个缓存中获取Bean。
-2. Early Singleton Objects Cache 早起打你了对象缓存：这个缓存存储已经实例化，但未完全初始化的Bean。相比 Singleton Objects Cache,  它的依赖注入和生命周期方法并没完成。 当Singleton Objects Cache中找不到Bean时候，会去这里找Bean， 以解决循环依赖。需要注意的是，如果是构造函数的注入，那么实例化阶段就要注入，此时有循环依赖是无法解决的。
+2. Early Singleton Objects Cache 早期单例对象缓存：这个缓存存储已经实例化，但未完全初始化的Bean。相比 Singleton Objects Cache,  它的依赖注入和生命周期方法并没完成。 当Singleton Objects Cache中找不到Bean时候，会去这里找Bean， 以解决循环依赖。需要注意的是，如果是构造函数的注入，那么实例化阶段就要注入，此时有循环依赖是无法解决的。
 3. Singleton Factories Cache 单例工厂缓存。这个缓存存储了创建bean的工厂对象。当在Early Singleton Objects Cache 也知道不到Bean， spring会尝试从这个缓存中获取工厂对象创建一个提前暴露的Bean实例。这个实例被放入到 Early Singleton Objects Cache 中， 以解决循环依赖的问题。
 
 根据以上介绍我们知道，一级缓存存的是满状态的Bean， 二级缓存存的是构建好，但没初始化话好的Bean，三级缓存存的是单例工厂缓存。 无论何种方式，要装配都要先有实例才能依据实例来进行装配，所以如果是构造函数注入的循环依赖，spring三级缓存是无法解决的。

@@ -29,25 +29,25 @@ tags:
 > 各个 Java 版本的默认垃圾收集器（GC）如下：
 >
 > 1. Java 8：
->    默认的垃圾收集器是 Parallel GC。它在年轻代（Young Generation）使用 Parallel Scavenge，而在老年代（Old Generation）使用 Parallel Old GC。
+>      默认的垃圾收集器是 Parallel GC。它在年轻代（Young Generation）使用 Parallel Scavenge，而在老年代（Old Generation）使用 Parallel Old GC。
 > 2. Java 9：
->    在 Java 9 中，默认的垃圾收集器仍然是 Parallel GC。
+>      在 Java 9 中，默认的垃圾收集器仍然是 Parallel GC。
 > 3. Java 10：
->    Java 10 也继续使用 Parallel GC 作为默认垃圾收集器。
+>      Java 10 也继续使用 Parallel GC 作为默认垃圾收集器。
 > 4. Java 11：
->    默认的垃圾收集器仍然是 Parallel GC。然而，从 Java 11 开始，ZGC 可作为实验性垃圾收集器使用。
+>      默认的垃圾收集器仍然是 Parallel GC。然而，从 Java 11 开始，ZGC 可作为实验性垃圾收集器使用。
 > 5. Java 12：
->    Java 12 同样使用 Parallel GC 作为默认垃圾收集器。此版本引入了实验性的 Shenandoah GC，但不是默认选项。
+>      Java 12 同样使用 Parallel GC 作为默认垃圾收集器。此版本引入了实验性的 Shenandoah GC，但不是默认选项。
 > 6. Java 13：
->    默认的垃圾收集器在 Java 13 中保持不变，仍然是 Parallel GC。
+>      默认的垃圾收集器在 Java 13 中保持不变，仍然是 Parallel GC。
 > 7. Java 14：
->    Java 14 同样使用 Parallel GC 作为默认垃圾收集器。此外，这个版本中 ZGC 从实验性垃圾收集器升级为生产就绪状态。
+>      Java 14 同样使用 Parallel GC 作为默认垃圾收集器。此外，这个版本中 ZGC 从实验性垃圾收集器升级为生产就绪状态。
 > 8. Java 15：
->    Java 15 保持使用 Parallel GC 作为默认垃圾收集器。
+>      Java 15 保持使用 Parallel GC 作为默认垃圾收集器。
 > 9. Java 16：
->    Java 16 中默认的垃圾收集器依然是 Parallel GC。同时，G1 GC 和 ZGC 作为可选的生产就绪垃圾收集器。
+>      Java 16 中默认的垃圾收集器依然是 Parallel GC。同时，G1 GC 和 ZGC 作为可选的生产就绪垃圾收集器。
 > 10. Java 17：
->     在 Java 17（长期支持版本，LTS）中，默认垃圾收集器仍然是 Parallel GC。G1 GC、ZGC 和 Shenandoah GC 作为可选的生产就绪垃圾收集器。
+>        在 Java 17（长期支持版本，LTS）中，默认垃圾收集器仍然是 Parallel GC。G1 GC、ZGC 和 Shenandoah GC 作为可选的生产就绪垃圾收集器。
 >
 > 请注意，虽然默认的垃圾收集器在各个版本中保持不变，但根据您的应用程序需求，您可以选择其他垃圾收集器，如 G1 GC、ZGC 或 Shenandoah GC。要更改垃圾收集器，只需在启动 Java 应用程序时设置适当的 JVM 参数。
 
